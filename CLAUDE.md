@@ -63,3 +63,44 @@ Workbook `pokemon_mundi_localization.xlsx`, 8 idiomas (EN, ES, ES-LA, JA, DE, FR
 - `CanvasLayer` → añadir a root con `call_deferred`.
 - Rect size → setear por código, no `anchors_preset`.
 - Corutinas (`stop_music`) → siempre `await`.
+
+---
+
+## Estado actual (handoff — actualizado 2026-06-17)
+
+Proyecto movido a `Documents\GitHub\Pokemon_Mundi` (versionado en git). Flujo completo **intro → creación → mundo → menús** implementado y funcionando.
+
+### Intro / presentación (`Scripts/Scenes/intro/Presentation.gd`)
+- Notas → saludo de la **Profesora Yaniska Aranguren** ("Profesora Pikachu", **NO Oak**) → creación de personaje → mapa del mundo → objetivo → despedida → `Scenes/world/PlayerRoom.tscn`.
+- Sprite profesora `Prof_Aranguren_main.png`: frame 0 = con pokébola, frame 1 = sin ella. Tras el mapa "saca a Pikachu" (destello + cambio de frame; falta sprite real de Pikachu para que aparezca).
+- `Scripts/UI/DialogueBox.gd`: typewriter a velocidad constante según `game_options.text_speed`; consume `ui_accept` (no se filtra al mundo). `ChoiceBox.gd`: caja de opciones anclada a la esquina sup-izq del textbox, selección por flecha + color (texto no se mueve).
+- `PlayerCreationPanel.gd` y `WorldMapDisplay.gd` se construyen **por código** (sus `.tscn` eran stubs vacíos — patrón común aquí).
+
+### Resaltado de regiones (mapa de la presentación)
+- `WorldMapDisplay.gd` resalta cada región (caja pulsante `RegionHighlight.gd`) leyendo `data/region_areas.json`; `Presentation.gd` reubica el textbox para no taparla.
+- **PENDIENTE**: definir las cajas de las 12 regiones con `Scenes/debug/RegionMapper.tscn` (F6: arrastrar cajas, **S** guarda JSON → copiar a `data/region_areas.json`). Hoy están en cero. Regiones: Kanto, Johto, Hoenn, Sinnoh, Unova, Kalos, Alola, Galar, Paldea, Almia, Oblivia, Fiore.
+
+### Mundo (`Scripts/Scenes/world/PlayerRoom.gd`)
+- Cuarto **placeholder** por código (suelo, paredes con colisión, cámara que sigue al jugador con zoom 3, cartel interactuable). Falta el mundo/mapas reales.
+- `Player.gd`: movimiento por casillas con colisión; una zancada (medio ciclo de animación) por paso, alternando pie.
+
+### Menú de campo (`Scripts/UI/GameMenu.gd`, instanciado por PlayerRoom)
+- Barra **horizontal de iconos** arriba, sin marco, oscurecido tenue: Mapa · Mochila · Pokédex · Equipo · Personaje · Otros (nav izq/der; Esc abre/cierra). Iconos placeholder en `Scripts/UI/MenuIcon.gd`. "Otros" = Guardar / Opciones / Salir al título.
+
+### Sprites de Pokémon
+- **Hojas regulares 2 col × 7 fil, frame 80px**. Filas (2 frames c/u): `battle_enemy`, `battle_ally`, `menu`, `walk_up`, `walk_left`, `walk_down`, `walk_right`.
+- Nombre: `{dex:0001}_{genero M/F/U}[_{region}].png` (región vacía = base; **formas regionales = sprite propio**, no shader).
+- Carga: `Scripts/Util/PokemonSprite.gd` (`class_name PokemonSprite`; arma AnimatedSprite2D+SpriteFrames, resuelve archivo con fallbacks de género/región). Ya hay `Assets/Sprites/pokemon/0001_U.png` (Bulbasaur, 160×560). Preview: `Scenes/debug/PokemonPreview.tscn` (F6).
+- **Shiny / recolores**: `Assets/Shaders/palette_swap.gdshader` + `Scripts/Util/PaletteSwap.gd` (color-key, filtro nearest). El normal sale del PNG; el shader **solo** para shiny y ciertos recolores. La paleta normal se auto-extrae del sprite (colores únicos por luminancia); la shiny = mismos N colores en el mismo orden, recoloreados. **PENDIENTE**: herramienta `@tool` para definir shinies a JSON.
+
+### Gotchas importantes
+- **Editar `.gd` por fuera de Godot** puede dejar la caché vieja ejecutándose (errores `@onready` de nodos inexistentes) → **Proyecto → Recargar Proyecto Actual**.
+- Cada escena llama `ScreenFade.fade_in()` en su `_ready` (el que cambia de escena hace `fade_out` y deja la pantalla en negro).
+- `min()/max()/abs()` devuelven Variant → no usar con `:=` (usar tipo explícito o `minf/maxf/absf`).
+- Estilo UI: frame NinePatch `Assets/Sprites/Frames/frame_1.png`; acento teal `Color(0.05, 0.42, 0.42)`. Ventana fija 1280×720, filtro nearest global.
+
+### Próximos pasos sugeridos
+1. Definir las cajas de regiones con `RegionMapper` (deja visual la presentación).
+2. Herramienta `@tool` para shinies + meter más sprites de Pokémon.
+3. **Sistema Pokémon / party** (clase `Pokemon` sigue comentada en `Game.gd`/`GameModel.gd`) → desbloquea Equipo, Pokédex real y combate.
+4. Mundo real (PlayerRoom es placeholder); restaurar `last_position` al cargar partida.
