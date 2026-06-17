@@ -1,0 +1,903 @@
+keys,en,es,es_MX,ja,de,fr,it,pt
+POUND,Pound,Látigo,Látigo,はたく,Klaps,Écras'Face,Sberla,Soco
+KARATE_CHOP,Karate Chop,Golpe Kárate,Golpe Kárate,からてチョップ,Karateschlag,Tranche,Karatechop,Golpe de Caratê
+DOUBLE_SLAP,Double Slap,Doble Bofetón,Doble Bofetón,たたきつける,Doppelklaps,Gifle,Schiaffi,Duplo Tapa
+COMET_PUNCH,Comet Punch,Puño Cometa,Puño Cometa,れんぞくパンチ,Kometenpunch,Poing-Comète,Pugno Cometa,Soco Cometa
+MEGA_PUNCH,Mega Punch,Megapuño,Megapuño,メガトンパンチ,Megapunch,Méga-Poing,Megapugno,Megasoco
+PAY_DAY,Pay Day,Día de Pago,Día de Pago,ネコにこばん,Zahltag,Jackpot,Paghetta,Dia de Pagamento
+FIRE_PUNCH,Fire Punch,Puño Fuego,Puño Fuego,ほのおのパンチ,Feuerpunch,Poing de Feu,Pugnofuoco,Soco de Fogo
+ICE_PUNCH,Ice Punch,Puño Hielo,Puño Hielo,れいとうパンチ,Eispunch,Poing de Glace,Pugnoghiaccio,Soco de Gelo
+THUNDER_PUNCH,Thunder Punch,Puño Trueno,Puño Trueno,かみなりパンチ,Donnerpunch,Poing-Éclair,Pugnotuono,Soco Trovão
+SCRATCH,Scratch,Arañazo,Arañazo,ひっかく,Kratzer,Griffe,Graffio,Arranhão
+VISE_GRIP,Vise Grip,Apretón,Apretón,はさむ,Kneifzange,Pince,Pinza,Tenaz
+GUILLOTINE,Guillotine,Guillotina,Guillotina,ハサミギロチン,Guillotine,Guillotine,Ghigliottina,Guilhotina
+RAZOR_WIND,Razor Wind,Viento Cortante,Viento Cortante,かまいたち,Klingenwind,Vent Tranchant,Vento Lama,Vento Cortante
+SWORDS_DANCE,Swords Dance,Danza Espada,Danza Espada,つるぎのまい,Schwerttanz,Danse-Lames,Danza Spade,Dança das Espadas
+CUT,Cut,Corte,Corte,いあいぎり,Zerschneider,Coupe,Taglio,Corte
+GUST,Gust,Ráfaga,Ráfaga,かぜおこし,Windstoß,Bourrasque,Refolo,Rajada
+WING_ATTACK,Wing Attack,Ataque Ala,Ataque Ala,つばさでうつ,Flügelangriff,Attrape,Ala d'Acciaio,Ataque de Asa
+WHIRLWIND,Whirlwind,Torbellino,Torbellino,ふきとばし,Wirbelwind,Tourbillon,Turbine,Redemoinho
+FLY,Fly,Vuelo,Vuelo,そらをとぶ,Fliegen,Vol,Volo,Voar
+BIND,Bind,Constricción,Constricción,しめつける,Einschnüren,Ligotage,Costrizione,Constricção
+SLAM,Slam,Golpe,Golpe,たたきつける,Schmettern,Frappe,Botta,Pancada
+VINE_WHIP,Vine Whip,Látigo Cepa,Látigo Cepa,つるのムチ,Rankenhieb,Fouet Lianes,Frusta Erbosa,Chicote de Trepadeira
+STOMP,Stomp,Pisotón,Pisotón,ふみつけ,Stampfer,Piétisage,Calpestio,Pisão
+DOUBLE_KICK,Double Kick,Doble Patada,Doble Patada,にどげり,Doppelkick,Double-Pied,Doppiocalcio,Duplo Chute
+MEGA_KICK,Mega Kick,Megapatada,Megapatada,メガトンキック,Megatritt,Méga-Pied,Megacalcio,Megachute
+JUMP_KICK,Jump Kick,Salto Patada,Salto Patada,とびげり,Sprungkick,Saut de Pied,Saltocalcio,Salto Chute
+ROLLING_KICK,Rolling Kick,Patada Giro,Patada Giro,まわしげり,Drehtritt,Pied-Roue,Calciogiro,Chute Giratório
+SAND_ATTACK,Sand Attack,Ataque Arena,Ataque Arena,すなかけ,Sandangriff,Jet de Sable,Sabbia Spray,Ataque de Areia
+HEADBUTT,Headbutt,Cabezazo,Cabezazo,ずつき,Kopfstoß,Tête de Mort,Testata,Cabeçada
+HORN_ATTACK,Horn Attack,Ataque Cuerno,Ataque Cuerno,つのでつく,Hornangriff,Koud'Korne,Attacco Corno,Ataque de Chifre
+FURY_ATTACK,Fury Attack,Furia,Furia,みだれづき,Furienschlag,Furie,Furia,Fúria
+HORN_DRILL,Horn Drill,Taladrador,Taladrador,つのドリル,Hornbohrer,Kornkraft,Trapanacorno,Perfurador
+TACKLE,Tackle,Placaje,Placaje,たいあたり,Tackle,Charge,Carica,Investida
+BODY_SLAM,Body Slam,Golpe Cuerpo,Golpe Cuerpo,のしかかり,Körperwurf,Plaquage,Body Slam,Golpe Corporal
+WRAP,Wrap,Constricción,Constricción,まきつく,Einwickler,Enroulement,Avvolgimento,Enrolamento
+TAKE_DOWN,Take Down,Derribo,Derribo,とっしん,Ramme,Bélier,Abbattimento,Derrubada
+THRASH,Thrash,Pataleta,Pataleta,あばれる,Stampede,Jackpot,Furore,Alvoroço
+DOUBLE_EDGE,Double-Edge,Doble Filo,Doble Filo,すてみタックル,Kehrseite,Damoclès,Doppio Spigolo,Golpe Duplo
+TAIL_WHIP,Tail Whip,Látigo Cola,Látigo Cola,しっぽをふる,Schwanzfeger,Fouet Queue,Colpo Coda,Chicote Caudal
+POISON_STING,Poison Sting,Picadura,Picadura,どくばり,Giftstachel,Dard-Venin,Pungiveleno,Ferrão Venenoso
+TWINEEDLE,Twineedle,Doble Aguijón,Doble Aguijón,どくばりキャノン,Doppelstachel,Dard-Poison,Doppiopungiglione,Duplo Ferrão
+PIN_MISSILE,Pin Missile,Lanzadera,Lanzadera,ミサイルばり,Nadelrakete,Acupression,Pinzamissile,Míssil de Agulhas
+LEER,Leer,Intimidación,Intimidación,にらみつける,Drohblick,Rugissement,Occhiataccia,Intimidação
+BITE,Bite,Mordisco,Mordisco,かみつく,Biss,Morsure,Morso,Mordida
+GROWL,Growl,Gruñido,Gruñido,なきごえ,Knurren,Grognement,Mugolio,Rugido
+ROAR,Roar,Rugido,Rugido,ほえる,Brüllen,Rugissement,Ruggito,Berro
+SING,Sing,Canto,Canto,うたう,Gesang,Berceuse,Canto,Canto
+SUPERSONIC,Supersonic,Ultrasido,Ultrasido,ちょうおんぱ,Ultraschall,Ultrason,Ultrasuono,Ultrassônico
+SONIC_BOOM,Sonic Boom,Explosión Sónica,Explosión Sónica,ソニックブーム,Schallwelle,Boom Sonique,Boomsonico,Explosão Sônica
+DISABLE,Disable,Anulación,Anulación,かなしばり,Blockade,Bâillon,Blocco,Desabilitar
+ACID,Acid,Ácido,Ácido,ようかいえき,Säure,Acide,Acido,Ácido
+EMBER,Ember,Ascuas,Ascuas,ひのこ,Glut,Flammèche,Fiammata,Brasa
+FLAMETHROWER,Flamethrower,Lanzallamas,Lanzallamas,かえんほうしゃ,Flammenwerfer,Lance-Flammes,Lanciafiamme,Lança-Chamas
+MIST,Mist,Niebla,Niebla,しろいきり,Nebel,Brume,Nebbia,Névoa
+WATER_GUN,Water Gun,Pistola Agua,Pistola Agua,みずでっぽう,Wasserkanone,Pistolet à O,Pistolacqua,Pistola d'Água
+HYDRO_PUMP,Hydro Pump,Hidrobomba,Hidrobomba,ハイドロポンプ,Hydropumpe,Hydrocanon,Idropompa,Hidrobomba
+SURF,Surf,Surf,Surf,なみのり,Surfer,Surf,Surf,Surfe
+ICE_BEAM,Ice Beam,Rayo Hielo,Rayo Hielo,れいとうビーム,Eisstrahl,Laser Glace,Raggio Ghiaccio,Raio de Gelo
+BLIZZARD,Blizzard,Ventisca,Ventisca,ふぶき,Blizzard,Blizzard,Blizzard,Nevasca
+PSYBEAM,Psybeam,Psicorrayo,Psicorrayo,サイケこうせん,Psystrahl,Psyko,Psicoraggi,Raio Psíquico
+BUBBLE_BEAM,Bubble Beam,Burbuja,Burbuja,バブルこうせん,Bubbelstrahl,Pistolet Bulle,Getto Bolla,Raio de Bolhas
+AURORA_BEAM,Aurora Beam,Rayo Aurora,Rayo Aurora,オーロラビーム,Aurorastrahl,Laser Aurore,Raggio Aurora,Raio Aurora
+HYPER_BEAM,Hyper Beam,Hiperrayo,Hiperrayo,はかいこうせん,Hyperstrahl,Ultralaser,Ultraraggio,Hiperrayo
+PECK,Peck,Picotazo,Picotazo,つつく,Pikser,Picpic,Beccata,Bicada
+DRILL_PECK,Drill Peck,Pico Taladro,Pico Taladro,ドリルくちばし,Bohrschnabel,Picpic Vrille,Beccataladro,Bico Perfurador
+SUBMISSION,Submission,Sumisión,Sumisión,じごくぐるま,Unterwerfung,Soumission,Sottomissione,Submissão
+LOW_KICK,Low Kick,Patada Baja,Patada Baja,けたぐり,Fußfeger,Balayage,Calciobasso,Chute Baixo
+COUNTER,Counter,Contraataque,Contraataque,カウンター,Konter,Riposte,Contrattacco,Contra-Ataque
+SEISMIC_TOSS,Seismic Toss,Lanzamiento,Lanzamiento,ちきゅうなげ,Seismischer Wurf,Jet Tellurique,Lancio Sismico,Arremesso Sísmico
+STRENGTH,Strength,Fuerza,Fuerza,かいりき,Stärke,Force,Forza,Força
+ABSORB,Absorb,Absorber,Absorber,すいとる,Absorber,Vampigraine,Assorbimento,Absorver
+MEGA_DRAIN,Mega Drain,Megaagotar,Megaagotar,メガドレイン,Megasauger,Méga-Sangsue,Megaprosciuga,Megadrenagem
+LEECH_SEED,Leech Seed,Drenadoras,Drenadoras,やどりぎのタネ,Egelsamen,Vampigraine,Parassiseme,Semente Sanguessuga
+GROWTH,Growth,Desarrollo,Desarrollo,せいちょう,Wachstum,Croissance,Crescita,Crescimento
+RAZOR_LEAF,Razor Leaf,Hoja Afilada,Hoja Afilada,はっぱカッター,Klingblatt,Tranche-Herbe,Foglielama,Folha Afiada
+SOLAR_BEAM,Solar Beam,Rayo Solar,Rayo Solar,ソーラービーム,Solarstrahl,Laser Solaire,Raggio Solare,Raio Solar
+POISON_POWDER,Poison Powder,Polvo Veneno,Polvo Veneno,どくのこな,Giftstaub,Poudre Toxik,Polvere Tossica,Pó Venenoso
+STUN_SPORE,Stun Spore,Paralizador,Paralizador,しびれごな,Betäubungspuder,Para-Spore,Paralipolvere,Esporo Paralisante
+SLEEP_POWDER,Sleep Powder,Somnífero,Somnífero,ねむりごな,Schlafpuder,Poudre Dodo,Sonnifero,Pó Sonífero
+PETAL_DANCE,Petal Dance,Danza Pétalo,Danza Pétalo,はなびらのまい,Blütentanz,Danse-Fleurs,Danza Petali,Dança das Pétalas
+STRING_SHOT,String Shot,Disparo Demora,Disparo Demora,いとをはく,Fadenschuss,Sécrétion,Sparifilo,Tiro de Fio
+DRAGON_RAGE,Dragon Rage,Ira Dragón,Ira Dragón,りゅうのいかり,Drachenzorn,Draco-Rage,Furia del Drago,Fúria do Dragão
+FIRE_SPIN,Fire Spin,Giro Fuego,Giro Fuego,ほのおのうず,Feuerwirbel,Tourbifeu,Trottofuoco,Redemoinho de Fogo
+THUNDER_SHOCK,Thunder Shock,Impactrueno,Impactrueno,でんきショック,Donnerschock,Éclair,Scossaelettrica,Choque Elétrico
+THUNDERBOLT,Thunderbolt,Rayo,Rayo,10まんボルト,Blitz,Tonnerre,Fulmine,Relâmpago
+THUNDER_WAVE,Thunder Wave,Onda Trueno,Onda Trueno,でんじは,Donnerblitz,Cage-Éclair,Ondatuono,Onda de Trovão
+THUNDER,Thunder,Trueno,Trueno,かみなり,Donner,Fatal-Foudre,Tuono,Trovão
+ROCK_THROW,Rock Throw,Lanzarrocas,Lanzarrocas,いわおとし,Steinwurf,Jet-Pierres,Lanciarocce,Lança-Pedras
+EARTHQUAKE,Earthquake,Terremoto,Terremoto,じしん,Erdbeben,Séisme,Terremoto,Terremoto
+FISSURE,Fissure,Fisura,Fisura,じわれ,Erdspalte,Fissure,Fessura,Fissura
+DIG,Dig,Excavar,Excavar,あなをほる,Graben,Tunnel,Scavo,Escavar
+TOXIC,Toxic,Tóxico,Tóxico,どくどく,Toxin,Toxik,Tossico,Tóxico
+CONFUSION,Confusion,Confusión,Confusión,ねんりき,Konfusion,Choc Mental,Confusione,Confusão
+PSYCHIC,Psychic,Psíquico,Psíquico,サイコキネシス,Psychokinese,Psyko,Psichico,Psíquico
+HYPNOSIS,Hypnosis,Hipnosis,Hipnosis,さいみんじゅつ,Hypnose,Hypnose,Ipnosi,Hipnose
+MEDITATE,Meditate,Meditación,Meditación,ヨガのポーズ,Meditation,Méditation,Meditazione,Meditação
+AGILITY,Agility,Agilidad,Agilidad,こうそくいどう,Agilität,Hâte,Agilità,Agilidade
+QUICK_ATTACK,Quick Attack,Ataque Rápido,Ataque Rápido,でんこうせっか,Blitzangriff,Vive-Attaque,Attacco Rapido,Ataque Rápido
+RAGE,Rage,Rabia,Rabia,いかり,Raserei,Colère,Rabbia,Raiva
+TELEPORT,Teleport,Teletransporte,Teletransporte,テレポート,Teleport,Téléport,Teletrasporto,Teletransporte
+NIGHT_SHADE,Night Shade,Sombra Noche,Sombra Noche,ナイトヘッド,Nachtschatten,Ombre Nuit,Ombra Notte,Sombra Noturna
+MIMIC,Mimic,Mímica,Mímica,ものまね,Mimik,Mimic,Mimica,Mímica
+SCREECH,Screech,Chirrido,Chirrido,いやなおと,Kreischen,Cri,Stridio,Chiado
+DOUBLE_TEAM,Double Team,Doble Equipo,Doble Equipo,かげぶんしん,Doppelgänger,Clonage,Doppioteam,Equipe Dupla
+RECOVER,Recover,Recuperación,Recuperación,じこさいせい,Regeneration,Soin,Recupero,Recuperação
+HARDEN,Harden,Fortaleza,Fortaleza,かたくなる,Abhärten,Armure,Indurimento,Endurecimento
+MINIMIZE,Minimize,Minimizar,Minimizar,ちいさくなる,Minimieren,Lilliput,Miniaturizza,Minimizar
+SMOKESCREEN,Smokescreen,Pantalla de Humo,Pantalla de Humo,けむりまく,Rauchschleier,Rideau,Cortinafumo,Cortina de Fumaça
+CONFUSE_RAY,Confuse Ray,Rayo Confuso,Rayo Confuso,あやしいひかり,Irrwisch,Onde Folie,Raggio Confuso,Raio Confuso
+WITHDRAW,Withdraw,Refugio,Refugio,からにこもる,Schutzschild,Claquoir,Ritiro,Recuar
+DEFENSE_CURL,Defense Curl,Rizo Defensa,Rizo Defensa,まるくなる,Abroller,Coupe-Vent,Arricciatura,Enrolar Defesa
+BARRIER,Barrier,Barrera,Barrera,バリアー,Barriere,Barrière,Barriera,Barreira
+LIGHT_SCREEN,Light Screen,Pantalla de Luz,Pantalla de Luz,ひかりのかべ,Lichtschutz,Écran Lumière,Schermoluce,Tela de Luz
+HAZE,Haze,Neblina,Neblina,くろいきり,Dunstschleier,Purée,Foschia,Névoa
+REFLECT,Reflect,Reflejo,Reflejo,リフレクター,Reflektor,Miroir,Riflesso,Reflexo
+FOCUS_ENERGY,Focus Energy,Concentración,Concentración,きあいだめ,Fokus-Energie,Jackpot,Concentrazione,Foco de Energia
+BIDE,Bide,Aguante,Aguante,がまん,Beiß-Biss,Patience,Resistenza,Resistir
+METRONOME,Metronome,Metrónomo,Metrónomo,ゆびをふる,Metronom,Métronome,Metronomo,Metrônomo
+MIRROR_MOVE,Mirror Move,Movimiento Espejo,Movimiento Espejo,オウムがえし,Spiegelzug,Mimique,Mossa Speculare,Movimento Espelho
+SELF_DESTRUCT,Self-Destruct,Autodestrucción,Autodestrucción,じばく,Selbstzerstörer,Autodestruction,Autodistruzione,Autodestruição
+EGG_BOMB,Egg Bomb,Bomba Huevo,Bomba Huevo,タマゴばくだん,Eierbombe,Bombe-Oeuf,Uovobomba,Bomba de Ovo
+LICK,Lick,Lametazo,Lametazo,したでなめる,Belecker,Léchage,Leccata,Lambida
+SMOG,Smog,Polución,Polución,スモッグ,Smog,Smog,Smog,Smog
+SLUDGE,Sludge,Residuos,Residuos,ヘドロこうげき,Schlamm,Gadoue,Melma,Lodo
+BONE_CLUB,Bone Club,Maza Ósea,Maza Ósea,ホネこんぼう,Knochenkeule,Osmerang,Clava d'Osso,Clava Óssea
+FIRE_BLAST,Fire Blast,Llamarada,Llamarada,だいもんじ,Feuerblast,Lance-Soleil,Fiammata,Labareda
+WATERFALL,Waterfall,Cascada,Cascada,たきのぼり,Wasserfall,Cascade,Cascata,Cachoeira
+CLAMP,Clamp,Concha,Concha,シェルアーム,Klemmer,Claquoir,Guscio,Concha
+SWIFT,Swift,Rapidez,Rapidez,スピードスター,Rasanz,Météores,Rapido,Veloz
+SKULL_BASH,Skull Bash,Cabeza de Hierro,Cabeza de Hierro,ロケットずつき,Schädelwumme,Glaciateur,Testataduro,Cabeçada de Ferro
+SPIKE_CANNON,Spike Cannon,Cañón de Púas,Cañón de Púas,とげキャノン,Stachelkanone,Canon Pointe,Cannone Spuntoni,Canhão de Espinhos
+CONSTRICT,Constrict,Constricción,Constricción,しめつける,Abschnüren,Ligature,Costrizione,Constricção
+AMNESIA,Amnesia,Amnesia,Amnesia,わすれる,Amnesie,Amnésie,Amnesia,Amnésia
+KINESIS,Kinesis,Cinesia,Cinesia,テレキネシス,Kinese,Kinésie,Cinesi,Cinesia
+SOFT_BOILED,Soft-Boiled,Suavizado,Suavizado,タマゴうみ,Weichkocher,Coquelicot,Uomomorbido,Ovinho
+HIGH_JUMP_KICK,High Jump Kick,Salto Patada Alta,Salto Patada Alta,とびひざげり,Hochsprungkick,Saut de Pied Haut,Saltocalcioalto,Chute Salto Alto
+GLARE,Glare,Mirada Feroz,Mirada Feroz,へびにらみ,Schlangenblick,Œil du Serpent,Sguardo Feroce,Olhar Feroz
+DREAM_EATER,Dream Eater,Comesueños,Comesueños,ゆめくい,Traumfresser,Mangeur de Rêves,Mangiosogni,Comedor de Sonhos
+POISON_GAS,Poison Gas,Gas Venenoso,Gas Venenoso,どくガス,Giftgas,Gaz Toxik,Gas Velenoso,Gás Venenoso
+BARRAGE,Barrage,Paliza,Paliza,たまなげ,Bombardierung,Bastos,Raffica,Rajada
+LEECH_LIFE,Leech Life,Chupa Vida,Chupa Vida,きゅうけつ,Sauger,Vampirisme,Succhiavita,Suga-Vida
+LOVELY_KISS,Lovely Kiss,Dulce Beso,Dulce Beso,あくまのキッス,Süßes Küsschen,Bisou Doux,Bacio Dolce,Beijo Adorável
+SKY_ATTACK,Sky Attack,Ataque Aéreo,Ataque Aéreo,ゴッドバード,Himmelsangriff,Frappe Atlas,Attacco Aereo,Ataque Aéreo
+TRANSFORM,Transform,Transformación,Transformación,へんしん,Transformation,Transformation,Trasformazione,Transformação
+BUBBLE,Bubble,Burbuja,Burbuja,あわ,Blase,Bulle,Bolla,Bolha
+DIZZY_PUNCH,Dizzy Punch,Puño Mareo,Puño Mareo,めまいパンチ,Taumelpunch,Poing Éclair,Pugno Stordente,Soco Tonto
+SPORE,Spore,Espora,Espora,キノコのほうし,Spore,Spore,Spora,Esporo
+FLASH,Flash,Flash,Flash,フラッシュ,Blitz,Éclair,Flash,Flash
+PSYWAVE,Psywave,Psicoonda,Psicoonda,サイコウェーブ,Psywelle,Onde Mentale,Psicoonda,Psicoonda
+SPLASH,Splash,Salpicadura,Salpicadura,はねる,Platscher,Trempette,Schizzo,Chapinhar
+ACID_ARMOR,Acid Armor,Armadura Ácida,Armadura Ácida,とける,Säurepanzer,Armure Acide,Armatura Acida,Armadura Ácida
+CRABHAMMER,Crabhammer,Puño Cangrejo,Puño Cangrejo,クラブハンマー,Krabbenhammer,Marteau Crabe,Martello Granchio,Martelo Caranguejo
+EXPLOSION,Explosion,Explosión,Explosión,だいばくはつ,Explosion,Explosion,Esplosione,Explosão
+FURY_SWIPES,Fury Swipes,Arañazo Furia,Arañazo Furia,みだれひっかき,Furienkratzer,Griffes Furie,Artigli Furiosi,Arranhas Furiosas
+BONEMERANG,Bonemerang,Bumerán Óseo,Bumerán Óseo,ホネブーメラン,Knochenrang,Osmerang,Ossumerang,Osso Bumerangue
+REST,Rest,Descanso,Descanso,ねむる,Erholung,Repos,Riposo,Descanso
+ROCK_SLIDE,Rock Slide,Avalancha,Avalancha,いわなだれ,Felssturm,Éboulement,Frana,Avalanche de Pedras
+HYPER_FANG,Hyper Fang,Hiper Colmillo,Hiper Colmillo,ひっさつまえば,Hyperfang,Hyper Croc,Iperzanna,Hiperpresa
+SHARPEN,Sharpen,Afilar,Afilar,かくばる,Schärfen,Affûtage,Affilatura,Afiar
+CONVERSION,Conversion,Conversión,Conversión,テクスチャー,Konversion,Conversion,Conversione,Conversão
+TRI_ATTACK,Tri Attack,Triataque,Triataque,トライアタック,Tri-Angriff,Triplattaque,Triattacco,Triataque
+SUPER_FANG,Super Fang,Superdiente,Superdiente,ちょうおんぱ,Superfang,Grincement,Superzanna,Superpresa
+SLASH,Slash,Cuchillada,Cuchillada,きりさく,Slash,Tranche,Fendente,Golpe Cortante
+SUBSTITUTE,Substitute,Sustituto,Sustituto,みがわり,Stellvertreter,Paratonnerres,Sostituto,Substituto
+STRUGGLE,Struggle,Forcejeo,Forcejeo,わるあがき,Aufbäumen,Lutte,Lotta,Luta
+SKETCH,Sketch,Bosquejo,Bosquejo,スケッチ,Skizze,Esquisse,Abbozzo,Esboço
+TRIPLE_KICK,Triple Kick,Triple Patada,Triple Patada,トリプルキック,Dreifachkick,Triple Pied,Triplocalcio,Chute Triplo
+THIEF,Thief,Ladrón,Ladrón,ゆびをふる,Dieb,Jackpot,Ladro,Ladrão
+SPIDER_WEB,Spider Web,Tela Araña,Tela Araña,くものす,Spinnennetz,Toile Araignée,Ragnatela,Teia de Aranha
+MIND_READER,Mind Reader,Telépata,Telépata,こころのめ,Gedankenleser,Détection,Telepatia,Leitor Mental
+NIGHTMARE,Nightmare,Pesadilla,Pesadilla,あくむ,Albtraum,Cauchemar,Incubo,Pesadelo
+FLAME_WHEEL,Flame Wheel,Rueda Fuego,Rueda Fuego,ひのこ,Flammenrad,Roulade Feu,Ruotafuoco,Roda de Fogo
+SNORE,Snore,Ronquido,Ronquido,いびき,Schnarchen,Ronflement,Russare,Ronco
+CURSE,Curse,Maldición,Maldición,のろい,Fluch,Malédiction,Maledizione,Maldição
+FLAIL,Flail,Coletazo,Coletazo,じたばた,Fuchtler,Trépied,Scalciata,Debater-se
+CONVERSION_2,Conversion 2,Conversión 2,Conversión 2,テクスチャー2,Konversion 2,Conversion 2,Conversione 2,Conversão 2
+AEROBLAST,Aeroblast,Aeroblast,Aeroblast,エアロブラスト,Aeroblast,Aéroblast,Aeroblast,Aeroblast
+COTTON_SPORE,Cotton Spore,Espora Algodón,Espora Algodón,わたほうし,Wollflocke,Spore Coton,Spora Cotone,Esporo de Algodão
+REVERSAL,Reversal,Inversión,Inversión,きしかいせい,Umkehrung,Renversement,Inversione,Inversão
+SPITE,Spite,Rencor,Rencor,いやがらせ,Gehässigkeit,Rancune,Dispetto,Rancor
+POWDER_SNOW,Powder Snow,Nieve Polvo,Nieve Polvo,こなゆき,Pudererschnee,Poudreuse,Nevischio,Neve em Pó
+PROTECT,Protect,Protección,Protección,まもる,Schutzschild,Abri,Protezione,Proteção
+MACH_PUNCH,Mach Punch,Puño Certero,Puño Certero,マッハパンチ,Machpunch,Mach Poing,Pugno Mach,Soco Mach
+SCARY_FACE,Scary Face,Cara Susto,Cara Susto,こわいかお,Gruselblick,Trouille,Faccia Paura,Cara Assustadora
+FEINT_ATTACK,Feint Attack,Golpe Bajo,Golpe Bajo,ふいうち,Täuschungsangriff,Attrape,Finta,Ataque Fingido
+SWEET_KISS,Sweet Kiss,Beso Dulce,Beso Dulce,あまえる,Süßes Küsschen,Bisou Doux,Bacio Dolce,Beijo Doce
+BELLY_DRUM,Belly Drum,Tambor,Tambor,はらだいこ,Bauchtrommel,Tambour,Tambureggio,Tambor
+SLUDGE_BOMB,Sludge Bomb,Bomba Lodo,Bomba Lodo,ヘドロばくだん,Matschbombe,Bombe Boue,Bomba Melma,Bomba de Lodo
+MUD_SLAP,Mud-Slap,Barro,Barro,どろかけ,Lehmklatscher,Éclabouss. Boue,Schizzo Fango,Tapa de Lama
+OCTAZOOKA,Octazooka,Octocañón,Octocañón,タコでっぽう,Oktokanone,Octazooka,Ottocannone,Octocanhão
+SPIKES,Spikes,Trampa Rocas,Trampa Rocas,まきびし,Stachler,Pics,Aculei,Espinhos
+ZAP_CANNON,Zap Cannon,Cañón Eléctrico,Cañón Eléctrico,でんじほう,Blitzkanone,Canon Foudre,Cannone Elettrico,Canhão Elétrico
+FORESIGHT,Foresight,Anticipo,Anticipo,みやぶる,Vorahnung,Prescience,Intuizione,Presciência
+DESTINY_BOND,Destiny Bond,Lazo Destino,Lazo Destino,みちづれ,Schicksalsband,Lien du Destin,Laccio Fatale,Laço do Destino
+PERISH_SONG,Perish Song,Canto Mortal,Canto Mortal,ほろびのうた,Todeslied,Requiem,Canto Morente,Canto Mortal
+ICY_WIND,Icy Wind,Viento Hielo,Viento Hielo,こごえるかぜ,Eiswind,Vent Glace,Vento Gelido,Vento Gelado
+DETECT,Detect,Detección,Detección,みきり,Detektion,Détection,Detezione,Detecção
+BONE_RUSH,Bone Rush,Hueso Furia,Hueso Furia,ホネラッシュ,Knochensturm,Osmerang,Ossofuria,Fúria de Ossos
+LOCK_ON,Lock-On,Puntería,Puntería,ロックオン,Einschuss,Verrouillage,Mira Fissa,Mira Fixa
+OUTRAGE,Outrage,Enfado,Enfado,げきりん,Tobsucht,Colère,Collera,Fúria
+SANDSTORM,Sandstorm,Tormenta Arena,Tormenta Arena,すなあらし,Sandsturm,Tempête de Sable,Tempesta Sabbia,Tempestade de Areia
+GIGA_DRAIN,Giga Drain,Gigaagotar,Gigaagotar,ギガドレイン,Gigasauger,Giga-Sangsue,Gigaprosciuga,Gigadrenagem
+ENDURE,Endure,Aguantar,Aguantar,こらえる,Ausdauer,Endurance,Resistenza,Aguentar
+CHARM,Charm,Encanto,Encanto,メロメロ,Bezirzen,Charme,Fascino,Charme
+ROLLOUT,Rollout,Rueda,Rueda,ころがる,Rollout,Jackpot,Rotolata,Rolar
+FALSE_SWIPE,False Swipe,Golpe Falso,Golpe Falso,みねうち,Scheinschlag,Jackpot,Finto,Golpe Falso
+SWAGGER,Swagger,Bravuconería,Bravuconería,いばる,Angeber,Jackpot,Smargiasso,Arrogância
+MILK_DRINK,Milk Drink,Bebeleche,Bebeleche,ミルクのみ,Milchtrinken,Jackpot,Bevilatte,Beber Leite
+SPARK,Spark,Chispa,Chispa,スパーク,Funken,Jackpot,Scintilla,Faísca
+FURY_CUTTER,Fury Cutter,Cuchilla Furia,Cuchilla Furia,れんぞくぎり,Furienschneider,Jackpot,Furia Tagliente,Cortador Furioso
+STEEL_WING,Steel Wing,Ala de Acero,Ala de Acero,はがねのつばさ,Stahlflügel,Jackpot,Ala d'Acciaio,Asa de Aço
+MEAN_LOOK,Mean Look,Mal de Ojo,Mal de Ojo,くろいまなざし,Böser Blick,Jackpot,Malocchio,Mau-Olhado
+ATTRACT,Attract,Atracción,Atracción,メロメロ,Anziehung,Jackpot,Attrazione,Atração
+SLEEP_TALK,Sleep Talk,Sonámbulo,Sonámbulo,ねごと,Schlafrede,Jackpot,Parlasonnno,Falar Dormindo
+HEAL_BELL,Heal Bell,Campana Cura,Campana Cura,いやしのすず,Heilglocke,Jackpot,Campanacura,Sino Cura
+RETURN,Return,Retribución,Retribución,おんがえし,Rückgabe,Jackpot,Ritorno,Retribuição
+PRESENT,Present,Regalo,Regalo,プレゼント,Geschenk,Jackpot,Regalo,Presente
+FRUSTRATION,Frustration,Frustración,Frustración,やつあたり,Frust,Jackpot,Frustrazione,Frustração
+SAFEGUARD,Safeguard,Velo Sagrado,Velo Sagrado,しんぴのまもり,Schutzschild,Jackpot,Velo Sacro,Véu Sagrado
+PAIN_SPLIT,Pain Split,Divide Dolor,Divide Dolor,なやみのたね,Schmerzteiler,Jackpot,Condividi Dolore,Dividir Dor
+SACRED_FIRE,Sacred Fire,Fuego Sagrado,Fuego Sagrado,せいなるほのお,Heiliges Feuer,Jackpot,Fuoco Sacro,Fogo Sagrado
+MAGNITUDE,Magnitude,Magnitud,Magnitud,マグニチュード,Magnitude,Jackpot,Magnitudo,Magnitude
+DYNAMIC_PUNCH,Dynamic Punch,Puño Dinámico,Puño Dinámico,ばくれつパンチ,Dynamikpunch,Jackpot,Pugno Dinamico,Soco Dinâmico
+MEGAHORN,Megahorn,Megacuerno,Megacuerno,メガホーン,Megahorn,Jackpot,Megacorno,Megachifre
+DRAGON_BREATH,Dragon Breath,Aliento Dragón,Aliento Dragón,りゅうのいぶき,Drachenodem,Jackpot,Soffio Drago,Sopro do Dragão
+BATON_PASS,Baton Pass,Relevo,Relevo,バトンタッチ,Stafette,Jackpot,Testimone,Revezamento
+ENCORE,Encore,Bis,Bis,アンコール,Zugabe,Jackpot,Bis,Bis
+PURSUIT,Pursuit,Persecución,Persecución,おいうち,Verfolgung,Jackpot,Inseguimento,Perseguição
+RAPID_SPIN,Rapid Spin,Giro Rápido,Giro Rápido,こうそくスピン,Turbodrall,Jackpot,Rotazione Rapida,Giro Rápido
+SWEET_SCENT,Sweet Scent,Aroma Dulce,Aroma Dulce,あまいかおり,Süßduft,Jackpot,Profumo Dolce,Aroma Doce
+IRON_TAIL,Iron Tail,Cola Férrea,Cola Férrea,アイアンテール,Eisenschweif,Jackpot,Coda di Ferro,Cauda de Ferro
+METAL_CLAW,Metal Claw,Garra Metal,Garra Metal,メタルクロー,Metallklaue,Jackpot,Artiglio Metal,Garra Metálica
+VITAL_THROW,Vital Throw,Lanzamiento,Lanzamiento,きしかいせい,Vitalwurf,Jackpot,Lancio Vitale,Arremesso Vital
+MORNING_SUN,Morning Sun,Amanecer,Amanecer,あさのひざし,Morgensonne,Jackpot,Sole del Mattino,Sol da Manhã
+SYNTHESIS,Synthesis,Síntesis,Síntesis,こうごうせい,Synthese,Jackpot,Sintesi,Síntese
+MOONLIGHT,Moonlight,Luz Lunar,Luz Lunar,つきのひかり,Mondlicht,Jackpot,Chiarore Lunare,Luar
+HIDDEN_POWER,Hidden Power,Poder Oculto,Poder Oculto,めざめるパワー,Hiddenpow,Jackpot,Forza Nascosta,Poder Oculto
+CROSS_CHOP,Cross Chop,Golpe Bis,Golpe Bis,クロスチョップ,Kreuzchop,Jackpot,Doppio Taglio,Duplo Golpe
+TWISTER,Twister,Torbellino,Torbellino,たつまき,Wirbelwind,Jackpot,Turbine,Tornado
+RAIN_DANCE,Rain Dance,Danza Lluvia,Danza Lluvia,あまごい,Regentanz,Danse Pluie,Danza Pioggia,Dança da Chuva
+SUNNY_DAY,Sunny Day,Día Soleado,Día Soleado,にほんばれ,Sonnentag,Zénith,Giorno Sole,Dia Ensolarado
+CRUNCH,Crunch,Triturar,Triturar,かみくだく,Knirscher,Jackpot,Stritola,Triturar
+MIRROR_COAT,Mirror Coat,Espejo,Espejo,ミラーコート,Spiegelcoat,Jackpot,Specchio,Espelho
+PSYCH_UP,Psych Up,Psicoterapia,Psicoterapia,きあいだめ,Aufputschen,Jackpot,Psicoterapia,Automotivação
+EXTREME_SPEED,Extreme Speed,Velocidad Extrema,Velocidad Extrema,しんそく,Extremtempo,Jackpot,Velocità Estrema,Velocidade Extrema
+ANCIENT_POWER,Ancient Power,Poder Ancestral,Poder Ancestral,げんしのちから,Urkraft,Jackpot,Forza Antica,Força Ancestral
+SHADOW_BALL,Shadow Ball,Bola Sombra,Bola Sombra,シャドーボール,Schattenball,Jackpot,Palla Ombra,Bola Sombria
+FUTURE_SIGHT,Future Sight,Visión Futura,Visión Futura,みらいよち,Zukunft,Jackpot,Visione Futura,Visão Futura
+ROCK_SMASH,Rock Smash,Romperroca,Romperroca,いわくだき,Felsspalter,Jackpot,Spaccaroccia,Quebra-Pedra
+WHIRLPOOL,Whirlpool,Remolino,Remolino,うずしお,Strudel,Jackpot,Gorgo,Redemoinho
+BEAT_UP,Beat Up,Paliza,Paliza,ふくろだたき,Überfall,Jackpot,Pestata,Surra
+FAKE_OUT,Fake Out,Finta,Finta,ねこだまし,Vorspiegelung,Jackpot,Finta,Fintar
+UPROAR,Uproar,Alboroto,Alboroto,さわぐ,Krawall,Jackpot,Chiasso,Alvoroço
+STOCKPILE,Stockpile,Reserva,Reserva,たくわえる,Einlagern,Jackpot,Riserva,Reserva
+SPIT_UP,Spit Up,Escupir,Escupir,はきだす,Ausspucken,Jackpot,Sputare,Cuspir
+SWALLOW,Swallow,Tragar,Tragar,のみこむ,Schlucken,Jackpot,Inghiottire,Engolir
+HEAT_WAVE,Heat Wave,Ola de Calor,Ola de Calor,ねっぷう,Hitzewelle,Jackpot,Onda di Calore,Onda de Calor
+HAIL,Hail,Granizo,Granizo,あられ,Hagel,Grêle,Grandine,Granizo
+TORMENT,Torment,Tormento,Tormento,いちゃもん,Tortur,Tourmente,Tormento,Tormento
+FLATTER,Flatter,Halago,Halago,おだてる,Schmeichelei,Jackpot,Adulazione,Adulação
+WILL_O_WISP,Will-O-Wisp,Fuego Fatuo,Fuego Fatuo,おにび,Irrlicht,Jackpot,Fuocherello,Fogo-Fátuo
+MEMENTO,Memento,Mementos,Mementos,みかづきのまい,Andenken,Jackpot,Memento,Memento
+FACADE,Facade,Fachada,Fachada,からげんき,Fassade,Jackpot,Facciata,Fachada
+FOCUS_PUNCH,Focus Punch,Puño Certero,Puño Certero,きあいパンチ,Fokustreffer,Jackpot,Pugno Focale,Soco Focado
+SMELLING_SALTS,Smelling Salts,Sales,Sales,きつけ,Riechsalz,Jackpot,Sali,Sais Aromáticos
+FOLLOW_ME,Follow Me,Sígueme,Sígueme,このゆびとまれ,Folge mir,Jackpot,Seguimi,Siga-me
+NATURE_POWER,Nature Power,Poder Natural,Poder Natural,しぜんのちから,Naturkraft,Jackpot,Forza Natura,Força Natural
+CHARGE,Charge,Carga,Carga,じゅうでん,Laden,Jackpot,Carica,Carga
+TAUNT,Taunt,Mofa,Mofa,ちょうはつ,Spott,Jackpot,Provocazione,Provocação
+HELPING_HAND,Helping Hand,Mano Amiga,Mano Amiga,てだすけ,Helfende Hand,Jackpot,Mano d'Aiuto,Mão Amiga
+TRICK,Trick,Truco,Truco,トリック,Trick,Truc,Truco,Truque
+ROLE_PLAY,Role Play,Juego de Rol,Juego de Rol,なりきり,Rollenspiel,Jackpot,Gioco di Ruolo,Jogo de Papel
+WISH,Wish,Deseo,Deseo,ねがいごと,Wunsch,Vœu,Desiderio,Desejo
+ASSIST,Assist,Auxilio,Auxilio,ネコのて,Assistenz,Jackpot,Aiuto,Auxílio
+INGRAIN,Ingrain,Arraigo,Arraigo,ねをはる,Verwurzeln,Jackpot,Radici,Enraizar
+SUPERPOWER,Superpower,Fuerza Bruta,Fuerza Bruta,ばかぢから,Supermacht,Jackpot,Superforzaforza,Super Força
+MAGIC_COAT,Magic Coat,Escudo Mágico,Escudo Mágico,マジックコート,Magiemantel,Jackpot,Mantello Magico,Manto Mágico
+RECYCLE,Recycle,Reciclar,Reciclar,リサイクル,Recycling,Jackpot,Riciclo,Reciclar
+REVENGE,Revenge,Venganza,Venganza,リベンジ,Revanche,Revanche,Vendetta,Vingança
+BRICK_BREAK,Brick Break,Rompe Pantalla,Rompe Pantalla,かわらわり,Ziegelbrecher,Jackpot,Rompi Barriera,Quebra-Tela
+YAWN,Yawn,Bostezo,Bostezo,あくび,Gähnen,Jackpot,Sbadiglio,Bocejo
+KNOCK_OFF,Knock Off,Golpe Bajo,Golpe Bajo,はたきおとす,Abwurf,Jackpot,Colpo Basso,Derrubar
+ENDEAVOR,Endeavor,Sacrificio,Sacrificio,がむしゃら,Bemühung,Jackpot,Sacrificio,Empenho
+ERUPTION,Eruption,Erupción,Erupción,ふんか,Eruption,Jackpot,Eruzione,Erupção
+SKILL_SWAP,Skill Swap,Intercambio,Intercambio,スキルスワップ,Talentswap,Jackpot,Scambio Abilità,Troca de Habilidade
+IMPRISON,Imprison,Encarcelar,Encarcelar,とおせんぼ,Einsperren,Jackpot,Imprigionare,Aprisionar
+REFRESH,Refresh,Refresco,Refresco,リフレッシュ,Auffrischen,Jackpot,Rinfresco,Refrescar
+GRUDGE,Grudge,Rencor,Rencor,おんねん,Groll,Jackpot,Rancore,Rancor
+SNATCH,Snatch,Robo,Robo,きりばらい,Entreißen,Jackpot,Furto,Roubo
+SECRET_POWER,Secret Power,Poder Secreto,Poder Secreto,ひみつのちから,Geheimkraft,Jackpot,Forza Segreta,Força Secreta
+DIVE,Dive,Buceo,Buceo,ダイビング,Tauchen,Jackpot,Immersione,Mergulho
+ARM_THRUST,Arm Thrust,Empuje,Empuje,とっしん,Armschub,Jackpot,Spinta,Empurrão
+CAMOUFLAGE,Camouflage,Camuflaje,Camuflaje,カモフラージュ,Tarnung,Jackpot,Mimetismo,Camuflagem
+TAIL_GLOW,Tail Glow,Cola Brillo,Cola Brillo,ほたるび,Schweifleuchten,Jackpot,Coda Splendente,Brilho da Cauda
+LUSTER_PURGE,Luster Purge,Destello,Destello,ラスターカノン,Lüsterpurge,Jackpot,Purga Lucente,Purga Brilhante
+MIST_BALL,Mist Ball,Bola Niebla,Bola Niebla,ミストボール,Nebelball,Jackpot,Sfera Nebbia,Bola de Névoa
+FEATHER_DANCE,Feather Dance,Danza Pluma,Danza Pluma,はねダンス,Federtanz,Jackpot,Danza Piume,Dança das Penas
+TEETER_DANCE,Teeter Dance,Danza Tambaleo,Danza Tambaleo,ころころころがる,Torkelttanz,Jackpot,Danza Barcollante,Dança Bambolê
+BLAZE_KICK,Blaze Kick,Patada Ígnea,Patada Ígnea,ブレイズキック,Feuertritt,Jackpot,Calcio Ardente,Chute Brasa
+MUD_SPORT,Mud Sport,Baño de Barro,Baño de Barro,どろあそび,Schlammsport,Jackpot,Sport Fango,Esporte no Lama
+ICE_BALL,Ice Ball,Bola de Nieve,Bola de Nieve,こおりのまり,Eisball,Jackpot,Palla di Ghiaccio,Bola de Gelo
+NEEDLE_ARM,Needle Arm,Brazo Aguja,Brazo Aguja,ニードルアーム,Nadelarm,Jackpot,Braccio Ago,Braço Agulha
+SLACK_OFF,Slack Off,Holgazanear,Holgazanear,なまける,Faulenzen,Jackpot,Poltrire,Preguiçar
+HYPER_VOICE,Hyper Voice,Vozarrón,Vozarrón,ハイパーボイス,Überstimme,Jackpot,Ipervoce,Hipervoz
+POISON_FANG,Poison Fang,Colmillo Venenoso,Colmillo Venenoso,どくどくのきば,Giftzahn,Jackpot,Zanna Veleno,Presa Venenosa
+CRUSH_CLAW,Crush Claw,Garra Brutal,Garra Brutal,ブレイククロー,Brechklaue,Jackpot,Artiglio Distruttivo,Garra Brutal
+BLAST_BURN,Blast Burn,Llamarada Final,Llamarada Final,ブラストバーン,Feuersturm,Jackpot,Vampata Finale,Explosão Final
+HYDRO_CANNON,Hydro Cannon,Hidrocañón,Hidrocañón,ハイドロカノン,Hydrokanone,Jackpot,Idrocannone,Hidrocanhão
+METEOR_MASH,Meteor Mash,Golpe Meteoro,Golpe Meteoro,コメットパンチ,Meteorhieb,Jackpot,Pugno Meteora,Soco Meteoro
+ASTONISH,Astonish,Asombro,Asombro,おどろかす,Bestürzen,Jackpot,Stupore,Assombro
+WEATHER_BALL,Weather Ball,Bola Clima,Bola Clima,ウェザーボール,Wetterball,Jackpot,Palla Meteo,Bola Climática
+AROMATHERAPY,Aromatherapy,Aromaterapia,Aromaterapia,アロマセラピー,Aromatherapie,Jackpot,Aromaterapia,Aromaterapia
+FAKE_TEARS,Fake Tears,Falsas Lágrimas,Falsas Lágrimas,うそなき,Krokodilstränen,Jackpot,Lacrime False,Lágrimas Falsas
+AIR_CUTTER,Air Cutter,Cortaviento,Cortaviento,エアカッター,Luftschneider,Jackpot,Tagliavento,Corta-Vento
+OVERHEAT,Overheat,Sofoco,Sofoco,オーバーヒート,Überhitzung,Jackpot,Surriscaldamento,Superaquecimento
+ODOR_SLEUTH,Odor Sleuth,Rastreo,Rastreo,においさがし,Geruchssinn,Jackpot,Fiuto,Rastreio
+ROCK_TOMB,Rock Tomb,Tumba Rocas,Tumba Rocas,いわおとし,Felsgrab,Jackpot,Tomba di Rocce,Tumba de Pedras
+SILVER_WIND,Silver Wind,Viento Plateado,Viento Plateado,ぎんいろかぜ,Silberwind,Jackpot,Vento d'Argento,Vento Prateado
+METAL_SOUND,Metal Sound,Sonido Metal,Sonido Metal,メタルサウンド,Metallgeräusch,Jackpot,Suono Metallico,Som Metálico
+GRASS_WHISTLE,Grass Whistle,Hierba Silbato,Hierba Silbato,くさぶえ,Graspfeife,Jackpot,Fischio d'Erba,Apito de Erva
+TICKLE,Tickle,Cosquillas,Cosquillas,くすぐる,Kitzeln,Jackpot,Solletico,Cócegas
+COSMIC_POWER,Cosmic Power,Poder Cósmico,Poder Cósmico,コスモパワー,Kosmoskraft,Jackpot,Potere Cosmico,Poder Cósmico
+WATER_SPOUT,Water Spout,Surtidor,Surtidor,しおふき,Wasserspeier,Jackpot,Getto d'Acqua,Jato de Água
+SIGNAL_BEAM,Signal Beam,Rayo Señal,Rayo Señal,シグナルビーム,Signalstrahl,Jackpot,Raggio Segnale,Raio Sinal
+SHADOW_PUNCH,Shadow Punch,Puño Sombra,Puño Sombra,シャドーパンチ,Schattenfaust,Jackpot,Pugno Ombra,Soco Sombrio
+EXTRASENSORY,Extrasensory,Extrasensorial,Extrasensorial,しんりょく,Extrasinn,Jackpot,Extrasensoriale,Extrassensorial
+SKY_UPPERCUT,Sky Uppercut,Uppercut Aéreo,Uppercut Aéreo,スカイアッパー,Himmelsaufwärtshaken,Jackpot,Uppercut Aereo,Uppercut Aéreo
+SAND_TOMB,Sand Tomb,Trampa Arena,Trampa Arena,すなじごく,Sandgrab,Jackpot,Tomba di Sabbia,Tumba de Areia
+SHEER_COLD,Sheer Cold,Ventisca,Ventisca,ぜったいれいど,Absoluter Nullpunkt,Jackpot,Freddo Assoluto,Frio Absoluto
+MUDDY_WATER,Muddy Water,Agua Lodosa,Agua Lodosa,だくりゅう,Schlammwasser,Jackpot,Acqua Fangosa,Água Lamacenta
+BULLET_SEED,Bullet Seed,Semilladora,Semilladora,タネマシンガン,Kugelsamen,Jackpot,Semi Pallottola,Sementes-Bala
+AERIAL_ACE,Aerial Ace,Acróbata,Acróbata,つばめがえし,Luftschnitt,Jackpot,Acrobazia Aerea,Acrobacia Aérea
+ICICLE_SPEAR,Icicle Spear,Carámbano,Carámbano,つらら ばり,Eisspeerspitze,Jackpot,Lancia Ghiacciolo,Lança de Gelo
+IRON_DEFENSE,Iron Defense,Defensa Férrea,Defensa Férrea,てっぺき,Eisenabwehr,Jackpot,Difesa Ferrea,Defesa de Ferro
+BLOCK,Block,Bloqueo,Bloqueo,ふさぐ,Blockieren,Jackpot,Blocco,Bloqueio
+HOWL,Howl,Aullido,Aullido,ほえる,Heulen,Jackpot,Ululato,Uivo
+DRAGON_CLAW,Dragon Claw,Garra Dragón,Garra Dragón,ドラゴンクロー,Drachenklaue,Jackpot,Artiglio Drago,Garra do Dragão
+FRENZY_PLANT,Frenzy Plant,Furia Vegetal,Furia Vegetal,ソーラービーム,Rasendolch,Jackpot,Frenesia Vegetale,Fúria Vegetal
+BULK_UP,Bulk Up,Corpulencia,Corpulencia,ビルドアップ,Muskelaufbau,Jackpot,Pienezza,Enrijecer
+BOUNCE,Bounce,Rebote,Rebote,とびはねる,Abpraller,Jackpot,Rimbalzo,Ricochete
+MUD_SHOT,Mud Shot,Lodazal,Lodazal,どろばくだん,Schlammschuss,Jackpot,Pallafango,Tiro de Lama
+POISON_TAIL,Poison Tail,Cola Veneno,Cola Veneno,どくのしっぽ,Giftschwanz,Jackpot,Coda Velenosa,Cauda Venenosa
+COVET,Covet,Codicia,Codicia,ほしがる,Begehren,Jackpot,Bramosia,Cobiça
+VOLT_TACKLE,Volt Tackle,Voltio Cruel,Voltio Cruel,ボルテッカー,Voltangriff,Jackpot,Voltarrembaggio,Voltagem Cruel
+MAGICAL_LEAF,Magical Leaf,Hoja Mágica,Hoja Mágica,マジカルリーフ,Magieblatt,Jackpot,Foglia Magica,Folha Mágica
+WATER_SPORT,Water Sport,Baño,Baño,みずあそび,Wassersport,Jackpot,Sport Acquatico,Esporte Aquático
+CALM_MIND,Calm Mind,Meditación,Meditación,めいそう,Innere Ruhe,Jackpot,Mente Serena,Mente Calma
+LEAF_BLADE,Leaf Blade,Hoja Aguda,Hoja Aguda,リーフブレード,Blattklinge,Jackpot,Lama Foglia,Lâmina de Folha
+DRAGON_DANCE,Dragon Dance,Danza Dragón,Danza Dragón,りゅうのまい,Drachentanz,Jackpot,Danza del Drago,Dança do Dragão
+ROCK_BLAST,Rock Blast,Pedrada,Pedrada,いわなだれ,Felsbeschuss,Jackpot,Esplosione Rocce,Explosão de Pedras
+SHOCK_WAVE,Shock Wave,Onda de Choque,Onda de Choque,でんきショック,Schockwelle,Onde de Choc,Onda d'Urto,Onda de Choque
+WATER_PULSE,Water Pulse,Pulso Agua,Pulso Agua,みずのはどう,Wasserpuls,Hydrojet,Impulso Acqua,Pulso d'Água
+DOOM_DESIRE,Doom Desire,Deseo Condena,Deseo Condena,はめつのねがい,Unheilwunsch,Vœu Damnant,Desiderio Fatale,Desejo da Ruína
+PSYCHO_BOOST,Psycho Boost,Psicoataque,Psicoataque,サイコブースト,Psychoboost,Élan Psy,Psicoimpulso,Psicoimpulso
+ROOST,Roost,Descanso,Descanso,はねやすめ,Rasten,Repos,Riposo,Pouso
+GRAVITY,Gravity,Gravedad,Gravedad,じゅうりょく,Gravitation,Gravité,Gravità,Gravidade
+MIRACLE_EYE,Miracle Eye,Ojo Milagro,Ojo Milagro,ミラクルアイ,Wundersicht,Œil Miracle,Occhio Miracolo,Olho Milagroso
+WAKE_UP_SLAP,Wake-Up Slap,Bofetón Espabilar,Bofetón Espabilar,おこしびんた,Wachklatsche,Gifle Réveil,Schiaffo Sveglia,Tapa Acorda
+HAMMER_ARM,Hammer Arm,Brazo Martillo,Brazo Martillo,ハンマーアーム,Hammerarm,Bras Marteau,Braccio Martello,Braço Martelo
+GYRO_BALL,Gyro Ball,Bola Giro,Bola Giro,ジャイロボール,Gyroball,Gyroballe,Pallagyro,Bola Giratória
+HEALING_WISH,Healing Wish,Deseo Curativo,Deseo Curativo,いやしのねがい,Heilwunsch,Vœu Soin,Desiderio Curativo,Desejo Curativo
+BRINE,Brine,Agua Salada,Agua Salada,しおみず,Salzwasser,Saumure,Salamoia,Salmoura
+NATURAL_GIFT,Natural Gift,Don Natural,Don Natural,しぜんのめぐみ,Naturgeschenk,Don Naturel,Dono Naturale,Dom Natural
+FEINT,Feint,Treta,Treta,フェイント,Finte,Feinte,Finta,Ardil
+PLUCK,Pluck,Picoteo,Picoteo,ついばむ,Aufpicken,Picorer,Beccuzzata,Bicar
+TAILWIND,Tailwind,Viento Cola,Viento Cola,おいかぜ,Rückenwind,Vent Arrière,Vento di Coda,Vento de Cauda
+ACUPRESSURE,Acupressure,Acupresión,Acupresión,つぼをつく,Akupressur,Acupression,Agopressione,Acupressão
+METAL_BURST,Metal Burst,Explosión Metálica,Explosión Metálica,メタルバースト,Metallausbruch,Éclat Métal,Esplosione Metallica,Explosão Metálica
+U_TURN,U-turn,Ida y Vuelta,Ida y Vuelta,とんぼがえり,Kehrtwende,Demi-Tour,Andata e Ritorno,Ida e Volta
+CLOSE_COMBAT,Close Combat,Combate,Combate,インファイト,Nahkampf,Close Combat,Corpo a Corpo,Combate Próximo
+PAYBACK,Payback,Represalia,Represalia,しっぺがえし,Revanche,Représailles,Rappresaglia,Represália
+ASSURANCE,Assurance,Seguridad,Seguridad,ダメおし,Gewissheit,Assurance,Sicurezza,Garantia
+EMBARGO,Embargo,Embargo,Embargo,さしおさえ,Embargo,Embargo,Embargo,Embargo
+FLING,Fling,Lanzamiento,Lanzamiento,なげつける,Wurf,Lancer,Lancio,Arremesso
+PSYCHO_SHIFT,Psycho Shift,Transmisión,Transmisión,サイコシフト,Psychotransfer,Psycho-Transfert,Psicotrasferimento,Transmissão Psíquica
+TRUMP_CARD,Trump Card,Carta del As,Carta del As,トランプカード,Trumpfkarte,Atout,Carta Trump,Carta Trunfo
+HEAL_BLOCK,Heal Block,Bloqueo Cura,Bloqueo Cura,かいふくふうじ,Heilsperre,Blocage Soin,Blocco Cura,Bloqueio Cura
+WRING_OUT,Wring Out,Escurrir,Escurrir,しぼりとる,Auswringen,Essorage,Strizzare,Espremer
+POWER_TRICK,Power Trick,Truco Potencia,Truco Potencia,パワートリック,Krafttrick,Truc Puissance,Trucco Potenza,Truque de Poder
+GASTRO_ACID,Gastro Acid,Ácido Gástrico,Ácido Gástrico,いかりのまえば,Magensäure,Acide Gastrique,Acido Gastrico,Ácido Gástrico
+LUCKY_CHANT,Lucky Chant,Canto Suerte,Canto Suerte,おまじない,Glückszauber,Chant Chance,Canto Fortuna,Canto da Sorte
+ME_FIRST,Me First,Primero Yo,Primero Yo,さきどり,Ich Zuerst,Moi d'abord,Prima Io,Eu Primeiro
+COPYCAT,Copycat,Imitación,Imitación,まねっこ,Nachahmer,Imitation,Imitazione,Imitação
+POWER_SWAP,Power Swap,Intercambio Poder,Intercambio Poder,パワーシェア,Krafttausch,Échange Puissance,Scambio Potere,Troca de Poder
+GUARD_SWAP,Guard Swap,Intercambio Guardia,Intercambio Guardia,ガードシェア,Abwehrtausch,Échange Garde,Scambio Guardia,Troca de Guarda
+PUNISHMENT,Punishment,Castigo,Castigo,こらえる,Strafe,Châtiment,Punizione,Castigo
+LAST_RESORT,Last Resort,Último Recurso,Último Recurso,すてみ,Letzter Ausweg,Dernier Recours,Ultima Risorsa,Último Recurso
+WORRY_SEED,Worry Seed,Semilla Preocupa,Semilla Preocupa,しんぱいのたね,Sorgensamen,Graine Souci,Seme Preoccupazione,Semente da Preocupação
+SUCKER_PUNCH,Sucker Punch,Golpe Bajo,Golpe Bajo,ふいうち,Fiesling,Jackpot,Colpo Basso,Golpe Traiçoeiro
+TOXIC_SPIKES,Toxic Spikes,Pinchos Tóxicos,Pinchos Tóxicos,どくびし,Giftstachler,Pics Toxik,Aculei Tossici,Espinhos Tóxicos
+HEART_SWAP,Heart Swap,Intercambio Corazón,Intercambio Corazón,ハートスワップ,Herzentausch,Échange Cœur,Scambio Cuore,Troca de Coração
+AQUA_RING,Aqua Ring,Anillo de Agua,Anillo de Agua,アクアリング,Aquaring,Anneau Aqua,Anello Acqua,Anel de Água
+MAGNET_RISE,Magnet Rise,Levitación Magnética,Levitación Magnética,でんじふゆう,Magnetlevitation,Lévitation Magnétique,Levitazione Magnetica,Levitação Magnética
+FLARE_BLITZ,Flare Blitz,Golpe Calor,Golpe Calor,フレアドライブ,Nitrolader,Blizzard,Fiammata Massima,Golpe de Chamas
+FORCE_PALM,Force Palm,Palma Fuerza,Palma Fuerza,かりうち,Kraftpalme,Paume Force,Palmo Forza,Palma da Força
+AURA_SPHERE,Aura Sphere,Esfera Aural,Esfera Aural,はどうだん,Aurasphäre,Sphère Aura,Sfera Aura,Esfera de Aura
+ROCK_POLISH,Rock Polish,Pulimento,Pulimento,がんせきポリッシュ,Felspolitur,Jackpot,Lucidatura Rocce,Polimento
+POISON_JAB,Poison Jab,Pinchazo,Pinchazo,どくづき,Giftstich,Jackpot,Puntura Veleno,Picada Venenosa
+DARK_PULSE,Dark Pulse,Pulso Umbrío,Pulso Umbrío,あくのはどう,Schattenpuls,Jackpot,Impulso Oscuro,Pulso Sombrio
+NIGHT_SLASH,Night Slash,Tajo Nocturno,Tajo Nocturno,つじぎり,Nachtschnitt,Jackpot,Fendente Notturno,Corte Noturno
+AQUA_TAIL,Aqua Tail,Cola Aqua,Cola Aqua,アクアテール,Aquaschwanz,Queue Aqua,Coda Acqua,Cauda Aqua
+SEED_BOMB,Seed Bomb,Bombardeo Semilla,Bombardeo Semilla,タネばくだん,Samenbombe,Jackpot,Bomba Seme,Bomba de Sementes
+AIR_SLASH,Air Slash,Tajo Aéreo,Tajo Aéreo,エアスラッシュ,Luftschnitt,Tranche Air,Fendente Aereo,Corte Aéreo
+X_SCISSOR,X-Scissor,Tijera X,Tijera X,シザークロス,X-Schere,Jackpot,Forbici X,Tesoura X
+BUG_BUZZ,Bug Buzz,Zumbido,Zumbido,むしのさざめき,Käfersummen,Jackpot,Ronzio Insetto,Zumbido
+DRAGON_PULSE,Dragon Pulse,Pulso Dragón,Pulso Dragón,りゅうのはどう,Drachenpuls,Jackpot,Impulso Drago,Pulso do Dragão
+DRAGON_RUSH,Dragon Rush,Carga Dragón,Carga Dragón,げきりん,Drachenangriff,Jackpot,Assalto Drago,Carga do Dragão
+POWER_GEM,Power Gem,Gema Poder,Gema Poder,パワージェム,Kraftjuwel,Jackpot,Gemma Potere,Gema de Poder
+DRAIN_PUNCH,Drain Punch,Puño Drenaje,Puño Drenaje,きゅうけつパンチ,Saugerpunch,Jackpot,Pugno Drenante,Soco Drenante
+VACUUM_WAVE,Vacuum Wave,Onda Vacío,Onda Vacío,しんくうは,Vakuumwelle,Jackpot,Onda del Vuoto,Onda de Vácuo
+FOCUS_BLAST,Focus Blast,Onda Certera,Onda Certera,きあいだま,Fokustreffer,Jackpot,Esplosione Focale,Onda Certeira
+ENERGY_BALL,Energy Ball,Bola de Energía,Bola de Energía,エナジーボール,Energieball,Jackpot,Sfera Energia,Bola de Energia
+BRAVE_BIRD,Brave Bird,Pájaro Osado,Pájaro Osado,ブレイブバード,Tollkühner Vogel,Jackpot,Uccello Audace,Pássaro Corajoso
+EARTH_POWER,Earth Power,Poder Tierra,Poder Tierra,だいちのちから,Erdkraft,Jackpot,Potere della Terra,Força da Terra
+SWITCHEROO,Switcheroo,Cambalache,Cambalache,トリック,Tauschspiel,Jackpot,Scambio,Cambaleo
+GIGA_IMPACT,Giga Impact,Giga Impacto,Giga Impacto,ギガインパクト,Gigaeinschlag,Jackpot,Giga Impatto,Giga Impacto
+NASTY_PLOT,Nasty Plot,Maquinación,Maquinación,わるだくみ,Übler Trick,Jackpot,Macchinazione,Maquinação
+BULLET_PUNCH,Bullet Punch,Puño Bala,Puño Bala,バレットパンチ,Kugelschlag,Jackpot,Pugno Proiettile,Soco-Bala
+AVALANCHE,Avalanche,Alud,Alud,なだれ,Lawine,Avalanche,Valanga,Avalanche
+ICE_SHARD,Ice Shard,Carámbano,Carámbano,こおりのつぶて,Eissplitter,Jackpot,Frammento di Ghiaccio,Fragmento de Gelo
+SHADOW_CLAW,Shadow Claw,Garra Umbría,Garra Umbría,シャドークロー,Schattenklaue,Jackpot,Artiglio Ombra,Garra Sombria
+THUNDER_FANG,Thunder Fang,Colmillo Rayo,Colmillo Rayo,かみなりのキバ,Donnerzahn,Jackpot,Zanna del Tuono,Presa do Trovão
+ICE_FANG,Ice Fang,Colmillo Hielo,Colmillo Hielo,こおりのキバ,Eiszahn,Jackpot,Zanna di Ghiaccio,Presa de Gelo
+FIRE_FANG,Fire Fang,Colmillo Ígneo,Colmillo Ígneo,ほのおのキバ,Feuerzahn,Jackpot,Zanna di Fuoco,Presa de Fogo
+SHADOW_SNEAK,Shadow Sneak,Sombra Furtiva,Sombra Furtiva,かげうち,Schattenschleicher,Jackpot,Ombra Furtiva,Sombra Furtiva
+MUD_BOMB,Mud Bomb,Bomba de Barro,Bomba de Barro,どろばくだん,Schlammfombombe,Jackpot,Bomba di Fango,Bomba de Lama
+PSYCHO_CUT,Psycho Cut,Psico Corte,Psico Corte,サイコカッター,Psychoschnitt,Jackpot,Psico Taglio,Psico Corte
+ZEN_HEADBUTT,Zen Headbutt,Zen Cabezazo,Zen Cabezazo,しねんのずつき,Zen-Kopfstoß,Jackpot,Zen Testata,Zen Cabeçada
+MIRROR_SHOT,Mirror Shot,Espejo Disparo,Espejo Disparo,フラッシュキャノン,Spiegeltreffer,Jackpot,Raggio Specchio,Tiro Espelho
+FLASH_CANNON,Flash Cannon,Cañón Destello,Cañón Destello,ラスターカノン,Blitzkanone,Jackpot,Cannone Lampo,Canhão Flash
+ROCK_CLIMB,Rock Climb,Escalada,Escalada,ロッククライム,Felsklettern,Escalade,Arrampicata,Escalada
+DEFOG,Defog,Quitar Niebla,Quitar Niebla,きりばらい,Nebel lichten,Anti-Brume,Rimuovi Nebbia,Dissipar Névoa
+TRICK_ROOM,Trick Room,Sala de Trucos,Sala de Trucos,トリックルーム,Trickraum,Salle Inversée,Stanza dei Trucchi,Sala de Truques
+DRACO_METEOR,Draco Meteor,Draco Meteoro,Draco Meteoro,りゅうせいぐん,Drachenmeteor,Draco-Météore,Draco Meteora,Draco Meteoro
+DISCHARGE,Discharge,Descarga,Descarga,ほうでん,Entladung,Déflagration,Scarica,Descarga
+LAVA_PLUME,Lava Plume,Erupción,Erupción,かえんだん,Lavaschwall,Déflagration Lave,Getto di Lava,Pluma de Lava
+LEAF_STORM,Leaf Storm,Tormenta Floral,Tormenta Floral,リーフストーム,Blättersturm,Tempête Verte,Tempesta Verde,Tempestade de Folhas
+POWER_WHIP,Power Whip,Látigo Potente,Látigo Potente,パワーウィップ,Kraftpeitsche,Fouet Puissance,Frusta Potente,Chicote Poderoso
+ROCK_WRECKER,Rock Wrecker,Destructor,Destructor,ロックブラスト,Felsbrecher,Jackpot,Distruttore,Destruidor
+CROSS_POISON,Cross Poison,Corte Veneno,Corte Veneno,クロスポイズン,Kreuzgift,Croix Poison,Taglio Veleno,Veneno Cruzado
+GUNK_SHOT,Gunk Shot,Bomba Lodo,Bomba Lodo,ヘドロウェーブ,Dreckschuss,Jackpot,Sparo di Melma,Tiro de Lixo
+IRON_HEAD,Iron Head,Cabeza de Hierro,Cabeza de Hierro,アイアンヘッド,Eisenkopf,Tête de Fer,Testa di Ferro,Cabeça de Ferro
+MAGNET_BOMB,Magnet Bomb,Bomba Magnética,Bomba Magnética,じきだん,Magnetbombe,Bombe Magnétique,Bomba Magnetica,Bomba Magnética
+STONE_EDGE,Stone Edge,Canto Afilado,Canto Afilado,ストーンエッジ,Steinkante,Jackpot,Bordo di Pietra,Borda Pedregosa
+CAPTIVATE,Captivate,Seducción,Seducción,ゆうわく,Verführen,Jackpot,Seduzione,Sedução
+STEALTH_ROCK,Stealth Rock,Trampa Rocas,Trampa Rocas,ステルスロック,Tarnfelsen,Roc Furtif,Roccia Nascosta,Pedra Furtiva
+GRASS_KNOT,Grass Knot,Hierba Lazo,Hierba Lazo,くさむすび,Grasknoten,Nœud Herbe,Nodo d'Erba,Nó de Erva
+CHATTER,Chatter,Parloteo,Parloteo,おしゃべり,Parlando,Jacasserie,Ciance,Tagarelar
+JUDGMENT,Judgment,Juicio,Juicio,さばきのつぶて,Urteil,Jugement,Giudizio,Julgamento
+BUG_BITE,Bug Bite,Picadura,Picadura,むしくい,Käferbiss,Jackpot,Morso Insetto,Picada
+CHARGE_BEAM,Charge Beam,Rayo Carga,Rayo Carga,チャージビーム,Ladestrahl,Jackpot,Raggio Carica,Raio de Carga
+WOOD_HAMMER,Wood Hammer,Leñazo,Leñazo,ウッドハンマー,Holzhammer,Jackpot,Martello Legno,Martelo de Madeira
+AQUA_JET,Aqua Jet,Aqua Jet,Aqua Jet,アクアジェット,Aquajet,Jackpot,Aqua Jet,Jato Aquático
+ATTACK_ORDER,Attack Order,Orden Ataque,Orden Ataque,こうげきしれい,Angriffsbefehl,Ordre Attaque,Ordine Attacco,Ordem de Ataque
+DEFEND_ORDER,Defend Order,Orden Defensa,Orden Defensa,ぼうぎょしれい,Verteidigungsbefehl,Ordre Défense,Ordine Difesa,Ordem de Defesa
+HEAL_ORDER,Heal Order,Orden Cura,Orden Cura,かいふくしれい,Heilbefehl,Ordre Soin,Ordine Cura,Ordem de Cura
+HEAD_SMASH,Head Smash,Golpe Cabeza,Golpe Cabeza,ずつき,Kopfcrash,Jackpot,Colpo Testa,Cabeçada Esmagadora
+DOUBLE_HIT,Double Hit,Doble Golpe,Doble Golpe,ダブルヒット,Doppeltreffer,Double Frappe,Doppio Colpo,Duplo Golpe
+ROAR_OF_TIME,Roar of Time,Rugido Temporal,Rugido Temporal,ときのほうこう,Zeitsbrüllen,Rugissement du Temps,Ruggito del Tempo,Rugido do Tempo
+SPACIAL_REND,Spacial Rend,Corte Espacial,Corte Espacial,あしゅらとつげき,Raumschlitz,Déchirure Spatiale,Strappo Spaziale,Rasgo Espacial
+LUNAR_DANCE,Lunar Dance,Danza Lunar,Danza Lunar,みかづきのまい,Mondtanz,Danse Lunaire,Danza Lunare,Dança Lunar
+CRUSH_GRIP,Crush Grip,Agarre Aplastante,Agarre Aplastante,きしかいせい,Quetschgriff,Jackpot,Presa Schiacciante,Aperto Esmagador
+MAGMA_STORM,Magma Storm,Tormenta Magmática,Tormenta Magmática,マグマストーム,Magmasturm,Tempête Magma,Tempesta Magmatica,Tempestade de Magma
+DARK_VOID,Dark Void,Vacío Oscuro,Vacío Oscuro,ダークホール,Dunkles Loch,Gouffre Sombre,Vuoto Oscuro,Vazio Sombrio
+SEED_FLARE,Seed Flare,Estallido Semilla,Estallido Semilla,シードフレア,Samenexplosion,Éclat de Graine,Esplosione Seme,Explosão de Semente
+OMINOUS_WIND,Ominous Wind,Viento Aciago,Viento Aciago,たたりめ,Unheilswind,Vent Mauvais,Vento Infausto,Vento Sinistro
+SHADOW_FORCE,Shadow Force,Fuerza Sombría,Fuerza Sombría,シャドーダイブ,Schattenmacht,Force Ombre,Forza Oscura,Força Sombria
+HONE_CLAWS,Hone Claws,Afilar Garras,Afilar Garras,つめをとぐ,Klauen schärfen,Jackpot,Affilare Artigli,Afiar Garras
+WIDE_GUARD,Wide Guard,Guardia Amplia,Guardia Amplia,ワイドガード,Breitschutz,Jackpot,Guardia Ampia,Guarda Ampla
+GUARD_SPLIT,Guard Split,Dividir Guardia,Dividir Guardia,ガードシェア,Abwehrteilung,Jackpot,Dividi Guardia,Dividir Guarda
+POWER_SPLIT,Power Split,Dividir Poder,Dividir Poder,パワーシェア,Kraftteilung,Jackpot,Dividi Potere,Dividir Poder
+WONDER_ROOM,Wonder Room,Sala Maravilla,Sala Maravilla,ワンダールーム,Wunderraum,Salle Mystère,Stanza Meraviglia,Sala das Maravilhas
+PSYSHOCK,Psyshock,Psicoimpacto,Psicoimpacto,サイコショック,Psychoschock,Choc Mental,Psicoshock,Psicochoque
+VENOSHOCK,Venoshock,Venoshock,Venoshock,ベノムショック,Gifthieb,Venochoc,Venoshock,Venochoque
+AUTOTOMIZE,Autotomize,Autotomía,Autotomía,オートトマイズ,Autotomie,Autotomie,Autotomia,Autotomia
+RAGE_POWDER,Rage Powder,Polvo Rabia,Polvo Rabia,いかりのこな,Wutpulver,Poudre Rage,Polvere di Rabbia,Pó da Raiva
+TELEKINESIS,Telekinesis,Telequinesis,Telequinesis,テレキネシス,Telekinese,Télékinésie,Telecinesi,Telecinese
+MAGIC_ROOM,Magic Room,Sala Mágica,Sala Mágica,マジックルーム,Zauberraum,Salle Magique,Stanza Magica,Sala Mágica
+SMACK_DOWN,Smack Down,Pedrada,Pedrada,うちおとす,Niederwerfen,Jackpot,Abbattipietre,Pancada do Chão
+STORM_THROW,Storm Throw,Lanzamiento Tormenta,Lanzamiento Tormenta,ストームスロー,Sturmwurf,Jackpot,Lancio Tempesta,Arremesso da Tempestade
+FLAME_BURST,Flame Burst,Explosión Ígnea,Explosión Ígnea,かえんだん,Flammenausbruch,Jackpot,Esplosione di Fiamme,Explosão de Chamas
+SLUDGE_WAVE,Sludge Wave,Ola de Fango,Ola de Fango,ヘドロウェーブ,Schlammschwali,Jackpot,Onda di Melma,Onda de Lama
+QUIVER_DANCE,Quiver Dance,Danza Aleteo,Danza Aleteo,ちょうのまい,Schmetteringstanz,Danse Papillon,Danza delle Ali,Dança das Asas
+HEAVY_SLAM,Heavy Slam,Golpe Cuerpo Pesado,Golpe Cuerpo Pesado,ヘビーボンバー,Wuchthieb,Jackpot,Corpo Pesante,Impacto Pesado
+SYNCHRONOISE,Synchronoise,Sincrorruido,Sincrorruido,シンクロノイズ,Synchronlärm,Synchronobrut,Sincronoise,Sincrorrúdo
+ELECTRO_BALL,Electro Ball,Electrobola,Electrobola,エレクトロボール,Elektroball,Électroball,Electroball,Eletrobola
+SOAK,Soak,Empape,Empape,みずびたし,Einweichen,Jackpot,Inzuppare,Encharcar
+FLAME_CHARGE,Flame Charge,Carga Ígnea,Carga Ígnea,フレームチャージ,Feuersturm,Jackpot,Carica Infuocata,Carga de Chamas
+COIL,Coil,Enrosque,Enrosque,とぐろをまく,Aufwickeln,Jackpot,Avvitare,Enroscar
+LOW_SWEEP,Low Sweep,Patada Baja,Patada Baja,ローキック,Fußkehre,Jackpot,Calcio Basso,Rasteira
+ACID_SPRAY,Acid Spray,Rocío Ácido,Rocío Ácido,アシッドボム,Säurespray,Jackpot,Spray Acido,Spray Ácido
+FOUL_PLAY,Foul Play,Juego Sucio,Juego Sucio,イカサマ,Foulspiel,Jackpot,Gioco Sporco,Jogo Sujo
+SIMPLE_BEAM,Simple Beam,Rayo Simple,Rayo Simple,シンプルビーム,Einfachstrahl,Jackpot,Raggio Semplice,Raio Simples
+ENTRAINMENT,Entrainment,Arrastre,Arrastre,なかまづくり,Mitreißen,Entraînement,Coinvolgimento,Arrasto
+AFTER_YOU,After You,Después de Ti,Después de Ti,おさきにどうぞ,Nach Ihnen,Après Vous,Prima Tu,Depois de Você
+ROUND,Round,Ronda,Ronda,おんがくたい,Runde,Tour de Chant,Giro,Ronda
+ECHOED_VOICE,Echoed Voice,Eco Voz,Eco Voz,エコーボイス,Echostimme,Écho,Voce d'Eco,Voz de Eco
+CHIP_AWAY,Chip Away,Desgastar,Desgastar,がむしゃら,Abnutzen,Jackpot,Logorare,Desgastar
+CLEAR_SMOG,Clear Smog,Smog Claro,Smog Claro,クリアスモッグ,Reinrauch,Smog Clair,Smog Chiaro,Smog Claro
+STORED_POWER,Stored Power,Poder Reservado,Poder Reservado,のたうちまわる,Gespeicherte Kraft,Force Stockée,Potere Accumulato,Poder Reservado
+QUICK_GUARD,Quick Guard,Guardia Rápida,Guardia Rápida,ファストガード,Blitzschutz,Jackpot,Guardia Rapida,Guarda Rápida
+ALLY_SWITCH,Ally Switch,Cambio Aliado,Cambio Aliado,サイドチェンジ,Verbündeter Wechsel,Jackpot,Cambio Alleato,Troca de Aliado
+SCALD,Scald,Escaldar,Escaldar,ねっとう,Verbrühen,Jackpot,Scottare,Escaldar
+SHELL_SMASH,Shell Smash,Rompe Caparazón,Rompe Caparazón,からをやぶる,Panzerbrecher,Jackpot,Rompi Guscio,Quebrar Concha
+HEAL_PULSE,Heal Pulse,Pulso Cura,Pulso Cura,いやしのはどう,Heilpuls,Jackpot,Impulso Cura,Pulso Cura
+HEX,Hex,Maleficio,Maleficio,たたりめ,Fluch,Mauvais Œil,Maleficio,Malefício
+SKY_DROP,Sky Drop,Caída Libre,Caída Libre,フリーフォール,Freier Fall,Jackpot,Caduta Libera,Queda Livre
+SHIFT_GEAR,Shift Gear,Cambio de Marcha,Cambio de Marcha,ギアチェンジ,Gangwechsel,Jackpot,Cambio Marcia,Mudar de Marcha
+CIRCLE_THROW,Circle Throw,Placaje Circular,Placaje Circular,ともえなげ,Kreisauswurf,Jackpot,Lancio Circolare,Arremesso Circular
+INCINERATE,Incinerate,Incineración,Incineración,やきつくす,Verbrennen,Jackpot,Incenerimento,Incineração
+QUASH,Quash,Suprimir,Suprimir,あとだし,Unterdrücken,Réprimer,Sopprimere,Suprimir
+ACROBATICS,Acrobatics,Acrobacia,Acrobacia,アクロバット,Akrobatik,Acrobatie,Acrobazia,Acrobacia
+REFLECT_TYPE,Reflect Type,Reflejo Tipo,Reflejo Tipo,タイプチェンジ,Typreflex,Reflet Type,Riflette Tipo,Reflete Tipo
+RETALIATE,Retaliate,Represalia,Represalia,かたきうち,Vergeltung,Représailles,Rivincita,Represália
+FINAL_GAMBIT,Final Gambit,Último Sacrificio,Último Sacrificio,すてみタックル,Letzter Einsatz,Sacrifice Final,Sacrificio Finale,Sacrifício Final
+BESTOW,Bestow,Obsequio,Obsequio,プレゼント,Schenkung,Cadeau,Dono,Obséquio
+INFERNO,Inferno,Infierno,Infierno,かえんほうしゃ,Inferno,Enfer,Inferno,Inferno
+WATER_PLEDGE,Water Pledge,Promesa Agua,Promesa Agua,みずのちかい,Wasserversprechen,Serment Eau,Promessa Acqua,Promessa Água
+FIRE_PLEDGE,Fire Pledge,Promesa Fuego,Promesa Fuego,ほのおのちかい,Feuerversprechen,Serment Feu,Promessa Fuoco,Promessa Fogo
+GRASS_PLEDGE,Grass Pledge,Promesa Planta,Promesa Planta,くさのちかい,Pflanzenversprechen,Serment Plante,Promessa Erba,Promessa Planta
+VOLT_SWITCH,Volt Switch,Relevo Voltio,Relevo Voltio,ボルトチェンジ,Voltswitch,Volt-Relais,Volt-Relé,Troca Voltaica
+STRUGGLE_BUG,Struggle Bug,Lucha Bicho,Lucha Bicho,むしのていこう,Käferkampf,Lutte Insecte,Lotta Insetto,Luta Inseto
+BULLDOZE,Bulldoze,Bulldozer,Bulldozer,じならし,Planieren,Jackpot,Bulldozer,Bulldozer
+FROST_BREATH,Frost Breath,Vaho Gélido,Vaho Gélido,こごえるかぜ,Frosthauch,Souffle Glacé,Alito Gelido,Bafo Gelado
+DRAGON_TAIL,Dragon Tail,Cola Dragón,Cola Dragón,ドラゴンテール,Drachenschweif,Queue du Dragon,Coda del Drago,Cauda do Dragão
+WORK_UP,Work Up,Esfuerzo,Esfuerzo,ふるいたてる,Aufmuntern,Travail Acharné,Impegnarsi,Esforçar
+ELECTROWEB,Electroweb,Electrorred,Electrorred,エレキネット,Elektronetz,Électoile,Elettrorete,Elétrorrede
+WILD_CHARGE,Wild Charge,Carga Salvaje,Carga Salvaje,ワイルドボルト,Wildladung,Jackpot,Carica Selvaggia,Carga Selvagem
+DRILL_RUN,Drill Run,Taladradora,Taladradora,ドリルライナー,Bohrgang,Forage,Trapanata,Perfuração
+DUAL_CHOP,Dual Chop,Doble Corte,Doble Corte,にどうち,Doppelchop,Double Coup,Doppio Taglio,Duplo Corte
+HEART_STAMP,Heart Stamp,Sello Corazón,Sello Corazón,ハートスタンプ,Herzstempel,Tampon Cœur,Timbro Cuore,Selo do Coração
+HORN_LEECH,Horn Leech,Cuerno Drenaje,Cuerno Drenaje,メガドレイン,Hornsauger,Corne Drainante,Corno Drenante,Chifre Drenante
+SACRED_SWORD,Sacred Sword,Espada Sagrada,Espada Sagrada,せいなるつるぎ,Heiliges Schwert,Épée Sacrée,Spada Sacra,Espada Sagrada
+RAZOR_SHELL,Razor Shell,Concha Filo,Concha Filo,シェルブレード,Muschelklinge,Jackpot,Conchiglia Tagliente,Concha Afiada
+HEAT_CRASH,Heat Crash,Cuerpo Ardiente,Cuerpo Ardiente,ヒートスタンプ,Hitzesturz,Jackpot,Schianto Caldo,Impacto Ardente
+LEAF_TORNADO,Leaf Tornado,Tornado Floral,Tornado Floral,リーフトルネード,Blättertornado,Tornade Verte,Tornado di Foglie,Tornado de Folhas
+STEAMROLLER,Steamroller,Apisonadora,Apisonadora,まるめる,Dampfwalze,Jackpot,Compressore,Compactadora
+COTTON_GUARD,Cotton Guard,Guardia Algodón,Guardia Algodón,コットンガード,Wollschutz,Coton Défense,Guardia di Cotone,Guarda de Algodão
+NIGHT_DAZE,Night Daze,Confusión Nocturna,Confusión Nocturna,ナイトバースト,Nachtdunst,Jackpot,Nebbia Notturna,Névoa Noturna
+PSYSTRIKE,Psystrike,Psicogolpe,Psicogolpe,サイコブレイク,Psychostich,Jackpot,Psicocolpo,Psicogolpe
+TAIL_SLAP,Tail Slap,Coletazo,Coletazo,しっぽタッチ,Schwanzklaps,Gifle Queue,Schiaffo Coda,Chicotada da Cauda
+HURRICANE,Hurricane,Vendaval,Vendaval,ぼうふう,Orkan,Ouragan,Uragano,Furacão
+HEAD_CHARGE,Head Charge,Placaje Cabeza,Placaje Cabeza,すてみヘッドバット,Kopfangriff,Charge Tête,Carica Testa,Carga de Cabeça
+GEAR_GRIND,Gear Grind,Muela Engranaje,Muela Engranaje,ギアソーサー,Getriebeschliff,Jackpot,Mola Ingranaggio,Mola de Engrenagem
+SEARING_SHOT,Searing Shot,Disparo Abrasador,Disparo Abrasador,ねっぷうだん,Sengschuss,Tir Brûlant,Sparo Bruciante,Disparo Escaldante
+TECHNO_BLAST,Techno Blast,Tecno Shock,Tecno Shock,テクノバスター,Techno-Explosión,Techno-Choc,Tecno Esplosione,Tecno Explosão
+RELIC_SONG,Relic Song,Canto Ancestral,Canto Ancestral,いにしえのうた,Reliklied,Chant Antique,Canto Antico,Canto Ancestral
+SECRET_SWORD,Secret Sword,Espada Misteriosa,Espada Misteriosa,きあいのタスキ,Geheimes Schwert,Épée Mystère,Spada Misteriosa,Espada Misteriosa
+GLACIATE,Glaciate,Ventisca,Ventisca,こごえるかぜ,Vereisen,Glaciation,Glaciazione,Glaciação
+BOLT_STRIKE,Bolt Strike,Descarga Brutal,Descarga Brutal,クロスサンダー,Blitzschlag,Coup Foudre,Colpo Fulmine,Descarga Brutal
+BLUE_FLARE,Blue Flare,Llamarada Azul,Llamarada Azul,クロスフレイム,Blaue Flamme,Flamme Bleue,Fiamma Blu,Chama Azul
+FIERY_DANCE,Fiery Dance,Danza Ígnea,Danza Ígnea,ほのおのまい,Feuertanz,Danse du Feu,Danza del Fuoco,Dança de Fogo
+FREEZE_SHOCK,Freeze Shock,Choque Gélido,Choque Gélido,フリーズボルト,Gefrierblitz,Choc Glacé,Choc Gelato,Choque Gélido
+ICE_BURN,Ice Burn,Quemadura Gélida,Quemadura Gélida,コールドフレア,Eisverbrennung,Brûlure Glacée,Bruciatura Gelida,Queimadura Gélida
+SNARL,Snarl,Gruñido,Gruñido,バークアウト,Knurren,Grognement,Ringhio,Rosnar
+ICICLE_CRASH,Icicle Crash,Carámbano,Carámbano,つららおとし,Eiszapfensturz,Jackpot,Caduta Ghiacciolo,Queda de Gelo
+V_CREATE,V-create,V-Crear,V-Crear,Vジェネレート,V-Erschaffen,V-Création,V-Creare,V-Criar
+FUSION_FLARE,Fusion Flare,Fusión Llameante,Fusión Llameante,フュージョンフレア,Fusionsflamme,Fusion Flamme,Fusione Fiamma,Fusão Chameante
+FUSION_BOLT,Fusion Bolt,Fusión Eléctrica,Fusión Eléctrica,フュージョンボルト,Fusionsblitz,Fusion Éclair,Fusione Fulmine,Fusão Elétrica
+FLYING_PRESS,Flying Press,Plancha Voladora,Plancha Voladora,フライングプレス,Flugpresse,Presse Volante,Pressa Volante,Pressão Voadora
+MAT_BLOCK,Mat Block,Bloqueo con Tatami,Bloqueo con Tatami,たたみがえし,Mattenschutz,Blocage Tatami,Blocco Tatami,Bloco de Tatame
+BELCH,Belch,Eructo,Eructo,げっぷ,Rülpsen,Renvoi,Rutto,Arroto
+ROTOTILLER,Rototiller,Rotocultivador,Rotocultivador,たがやす,Bodenbearbeitung,Motoculteur,Rotocoltivatore,Rotocultivador
+STICKY_WEB,Sticky Web,Red Viscosa,Red Viscosa,ねばねばネット,Klebenetz,Toile Gluante,Ragnatela Appiccicosa,Teia Pegajosa
+FELL_STINGER,Fell Stinger,Aguijón Mortal,Aguijón Mortal,とどめのはり,Todesschwingen,Dard Fatal,Pungiglione Fatale,Ferrão Fatal
+PHANTOM_FORCE,Phantom Force,Fuerza Fantasma,Fuerza Fantasma,ゴーストダイブ,Phantomkraft,Force Fantôme,Forza Fantasma,Força Fantasma
+TRICK_OR_TREAT,Trick-or-Treat,Truco o Trato,Truco o Trato,トリックオアトリート,Süßes oder Saures,Bonbon ou Bâton,Dolcetto o Scherzetto,Doce ou Travessura
+NOBLE_ROAR,Noble Roar,Rugido Noble,Rugido Noble,おたけび,Edles Brüllen,Noble Rugissement,Ruggito Nobile,Rugido Nobre
+ION_DELUGE,Ion Deluge,Lluvia Iónica,Lluvia Iónica,プラズマシャワー,Ionenregen,Pluie Ionique,Pioggia Ionica,Chuva Iônica
+PARABOLIC_CHARGE,Parabolic Charge,Carga Parabólica,Carga Parabólica,パラボラチャージ,Parabolladung,Charge Parabolique,Carica Parabolica,Carga Parabólica
+FOREST_S_CURSE,Forest's Curse,Maldición del Bosque,Maldición del Bosque,もりののろい,Waldfluch,Malédiction Forêt,Maledizione della Foresta,Maldição da Floresta
+PETAL_BLIZZARD,Petal Blizzard,Tormenta de Pétalos,Tormenta de Pétalos,はなふぶき,Blütensturm,Blizzard Pétales,Bufera di Petali,Nevasca de Pétalas
+FREEZE_DRY,Freeze-Dry,Liofilización,Liofilización,フリーズドライ,Gefriertrocknen,Lyophilisation,Liofilizzazione,Liofilização
+DISARMING_VOICE,Disarming Voice,Voz Cautivadora,Voz Cautivadora,チャームボイス,Entwaffnende Stimme,Voix Désarmante,Voce Affascinante,Voz Encantadora
+PARTING_SHOT,Parting Shot,Golpe Despedida,Golpe Despedida,すてゼリフ,Abschiedsschuss,Tir Adieu,Colpo d'Addio,Golpe de Despedida
+TOPSY_TURVY,Topsy-Turvy,Dale la Vuelta,Dale la Vuelta,とんぼがえり,Auf den Kopf stellen,Sens Dessus Dessous,Capovolgimento,Virar de Cabeça para Baixo
+DRAINING_KISS,Draining Kiss,Beso Drenaje,Beso Drenaje,ドレインキッス,Saugerkuss,Jackpot,Bacio Drenante,Beijo Drenante
+CRAFTY_SHIELD,Crafty Shield,Escudo Astuto,Escudo Astuto,マジカルシャイン,Listiger Schild,Bouclier Rusé,Scudo Astuto,Escudo Astuto
+FLOWER_SHIELD,Flower Shield,Escudo Floral,Escudo Floral,フラワーシールド,Blumenschild,Bouclier Fleur,Scudo Floreale,Escudo Floral
+GRASSY_TERRAIN,Grassy Terrain,Campo de Hierba,Campo de Hierba,グラスフィールド,Grasterrain,Terrain Herbu,Terreno Erboso,Terreno Herboso
+MISTY_TERRAIN,Misty Terrain,Campo de Niebla,Campo de Niebla,ミストフィールド,Nebelterrain,Terrain Brumeux,Terreno Nebbioso,Terreno Nebuloso
+ELECTRIFY,Electrify,Electrificar,Electrificar,でんきにかえる,Elektrifizieren,Électrifier,Elettrificare,Eletrificar
+PLAY_ROUGH,Play Rough,Juego Brusco,Juego Brusco,じゃれつく,Rau spielen,Jackpot,Gioco Brusco,Jogo Brusco
+FAIRY_WIND,Fairy Wind,Viento Feérico,Viento Feérico,ようせいのかぜ,Feenwind,Vent Féérique,Vento Fatato,Vento Fada
+MOONBLAST,Moonblast,Luz Lunar,Luz Lunar,ムーンフォース,Mondknall,Éclat Lune,Blast Lunare,Explosão Lunar
+BOOMBURST,Boomburst,Estallido,Estallido,ブレイクバスター,Knallplosion,Éclat Sonore,Strepito,Explosão Sonora
+FAIRY_LOCK,Fairy Lock,Bloqueo Feérico,Bloqueo Feérico,フェアリーロック,Feensperre,Verrou Fée,Blocco Fatato,Bloqueio Fada
+KING_S_SHIELD,King's Shield,Escudo Real,Escudo Real,キングシールド,Königsschild,Bouclier Royal,Scudo del Re,Escudo Real
+PLAY_NICE,Play Nice,Ser Amable,Ser Amable,てをつなぐ,Nett spielen,Faire Ami,Giocare Gentile,Ser Gentil
+CONFIDE,Confide,Confidencia,Confidencia,ないしょばなし,Anvertrauen,Confidence,Confidenza,Confidência
+DIAMOND_STORM,Diamond Storm,Tormenta de Diamantes,Tormenta de Diamantes,ダイヤストーム,Diamantsturm,Tempête de Diamants,Tempesta di Diamanti,Tempestade de Diamantes
+STEAM_ERUPTION,Steam Eruption,Erupción de Vapor,Erupción de Vapor,スチームバースト,Dampferuption,Éruption Vapeur,Eruzione di Vapore,Erupção de Vapor
+HYPERSPACE_HOLE,Hyperspace Hole,Agujero Hiperespacio,Agujero Hiperespacio,ハイパースペース,Hyperraumloch,Trou Hyperespace,Buco Iperspazio,Buraco Hiperespaço
+WATER_SHURIKEN,Water Shuriken,Shuriken de Agua,Shuriken de Agua,みずしゅりけん,Wassershuriken,Shuriken d'Eau,Shuriken d'Acqua,Shuriken de Água
+MYSTICAL_FIRE,Mystical Fire,Fuego Místico,Fuego Místico,マジカルフレイム,Mystisches Feuer,Feu Mystique,Fuoco Mistico,Fogo Místico
+SPIKY_SHIELD,Spiky Shield,Escudo Pincho,Escudo Pincho,トーチカ,Stachelschild,Bouclier Piquant,Scudo Spinoso,Escudo Espinhoso
+AROMATIC_MIST,Aromatic Mist,Niebla Aromática,Niebla Aromática,アロマミスト,Aromaschleier,Brume Aromatique,Nebbia Aromatica,Névoa Aromática
+EERIE_IMPULSE,Eerie Impulse,Impulso Inquietante,Impulso Inquietante,でんじふゆう,Unheimlicher Impuls,Impulsion Inquiétante,Impulso Inquietante,Impulso Inquietante
+VENOM_DRENCH,Venom Drench,Ducha Venenosa,Ducha Venenosa,どくびしサポート,Giftdusche,Trempage Venin,Doccia Velenosa,Ducha Venenosa
+POWDER,Powder,Polvo,Polvo,かふんだんご,Pulver,Poudre,Polvere,Pó
+GEOMANCY,Geomancy,Geomancia,Geomancia,ジオコントロール,Geomantie,Géomancie,Geomanzia,Geomancia
+MAGNETIC_FLUX,Magnetic Flux,Flujo Magnético,Flujo Magnético,じりょくせい,Magnetfluss,Flux Magnétique,Flusso Magnetico,Fluxo Magnético
+HAPPY_HOUR,Happy Hour,Hora Feliz,Hora Feliz,ハッピータイム,Glücksstunde,Heure du Bonheur,Ora Felice,Hora Feliz
+ELECTRIC_TERRAIN,Electric Terrain,Campo Eléctrico,Campo Eléctrico,エレキフィールド,Elektroterrain,Terrain Électrique,Terreno Elettrico,Terreno Elétrico
+DAZZLING_GLEAM,Dazzling Gleam,Destello,Destello,マジカルシャイン,Glitzerfunken,Jackpot,Bagliore Abbagliante,Brilho Deslumbrante
+CELEBRATE,Celebrate,Celebración,Celebración,おめでとう,Feiern,Célébration,Celebrazione,Celebração
+HOLD_HANDS,Hold Hands,Cogerse las Manos,Cogerse las Manos,てをつなぐ,Händchen halten,Se Tenir la Main,Tenersi per Mano,Dar as Mãos
+BABY_DOLL_EYES,Baby-Doll Eyes,Ojos de Muñeca,Ojos de Muñeca,ベビードール,Puppenaugen,Yeux Trognons,Occhi di Bambola,Olhos de Boneca
+NUZZLE,Nuzzle,Morreo,Morreo,ほっぺすりすり,Stupsen,Jackpot,Sfregamento,Aconchego
+HOLD_BACK,Hold Back,Contener,Contener,てかげん,Zurückhalten,Se Retenir,Trattenere,Conter
+INFESTATION,Infestation,Infestación,Infestación,まとわりつく,Befall,Infestation,Infestazione,Infestação
+POWER_UP_PUNCH,Power-Up Punch,Puño Incremento,Puño Incremento,パワーアップパンチ,Aufladeschlag,Coup Turbo,Pugno Potenziato,Soco Incremento
+OBLIVION_WING,Oblivion Wing,Ala del Olvido,Ala del Olvido,めつぼうのひかり,Vergessen-Flügel,Aile de l'Oubli,Ala dell'Oblio,Asa do Esquecimento
+THOUSAND_ARROWS,Thousand Arrows,Mil Flechas,Mil Flechas,ランドフォース,Tausend Pfeile,Mille Flèches,Mille Frecce,Mil Flechas
+THOUSAND_WAVES,Thousand Waves,Mil Olas,Mil Olas,ランドウェーブ,Tausend Wellen,Mille Vagues,Mille Onde,Mil Ondas
+LAND_S_WRATH,Land's Wrath,Ira del Suelo,Ira del Suelo,だいちのいかり,Erdzorn,Courroux Terrestre,Ira della Terra,Ira da Terra
+LIGHT_OF_RUIN,Light of Ruin,Luz de la Ruina,Luz de la Ruina,はめつのひかり,Vernichtungslicht,Lumière des Ruines,Luce della Rovina,Luz da Ruína
+ORIGIN_PULSE,Origin Pulse,Pulso Primigenio,Pulso Primigenio,こんげんのはどう,Ursprungspuls,Pulsation Originelle,Impulso Primordiale,Pulso da Origem
+PRECIPICE_BLADES,Precipice Blades,Cuchillas Abismales,Cuchillas Abismales,こんげんのやいば,Abgrundklingen,Lames du Précipice,Lame del Precipizio,Lâminas do Precipício
+DRAGON_ASCENT,Dragon Ascent,Ascenso Dragón,Ascenso Dragón,りゅうせいぐん,Drachenanstieg,Ascension du Dragon,Ascensione del Drago,Ascensão do Dragão
+HYPERSPACE_FURY,Hyperspace Fury,Furia Hiperespacio,Furia Hiperespacio,ハイパースペースフュリー,Hyperraumfurie,Furie Hyperespace,Furia dell'Iperspazio,Fúria do Hiperespaço
+BREAKNECK_BLITZ,Breakneck Blitz,Embestida Bestial,Embestida Bestial,超絶ギガインパクト,Halsbrecher-Blitz,Charge Foudroyante,Blitz Sfrenato,Blitz Desenfreado
+ALL_OUT_PUMMELING,All-Out Pummeling,Paliza Total,Paliza Total,フルフォースブロー,Vollkampfhieb,Rossée Totale,Pestata Totale,Surra Total
+SUPERSONIC_SKYSTRIKE,Supersonic Skystrike,Ataque Aéreo Ultrasónico,Ataque Aéreo Ultrasónico,超音速スカイアタック,Überschallluftangriff,Frappe Céleste Ultrasonique,Attacco Aereo Ultrasonico,Ataque Aéreo Ultrassônico
+ACID_DOWNPOUR,Acid Downpour,Lluvia Ácida,Lluvia Ácida,ヘドロのうず,Säureregen,Pluie Acide,Pioggia Acida,Chuva Ácida
+TECTONIC_RAGE,Tectonic Rage,Rabia Tectónica,Rabia Tectónica,地響き大爆発,Tektonische Wut,Rage Tectonique,Rabbia Tettonica,Raiva Tectônica
+CONTINENTAL_CRUSH,Continental Crush,Aplastamiento Continental,Aplastamiento Continental,大陸クラッシュ,Kontinentaler Quetscher,Écrasement Continental,Schiacciamento Continentale,Esmagamento Continental
+SAVAGE_SPIN_OUT,Savage Spin-Out,Giro Salvaje,Giro Salvaje,エクストラスピン,Wilder Drall,Toupie Sauvage,Giro Selvaggio,Giro Selvagem
+NEVER_ENDING_NIGHTMARE,Never-Ending Nightmare,Pesadilla Sin Fin,Pesadilla Sin Fin,永遠の悪夢,Endloser Albtraum,Cauchemar Sans Fin,Incubo Senza Fine,Pesadelo Sem Fim
+CORKSCREW_CRASH,Corkscrew Crash,Impacto en Tirabuzón,Impacto en Tirabuzón,コークスクリュー爆撃,Korkenzieherabsturz,Crash en Tire-bouchon,Schianto a Cavatappi,Impacto em Saca-rolhas
+INFERNO_OVERDRIVE,Inferno Overdrive,Infierno Total,Infierno Total,灼熱の大爆発,Infernoüberlastung,Enfer en Surchauffe,Inferno Totale,Inferno Total
+HYDRO_VORTEX,Hydro Vortex,Vórtice Hídrico,Vórtice Hídrico,ハイドロ大渦,Hydrowirbel,Vortex Hydro,Vortice Idrico,Vórtice Hídrico
+BLOOM_DOOM,Bloom Doom,Floración Fatal,Floración Fatal,フルブルームの大爆発,Blütenuntergang,Floraison Fatale,Fioritura Fatale,Florescimento Fatal
+GIGAVOLT_HAVOC,Gigavolt Havoc,Caos Gigavoltio,Caos Gigavoltio,ギガボルト・ハボック,Gigavolt-Chaos,Havoc Gigavolt,Caos Gigavolt,Caos Gigavolt
+SHATTERED_PSYCHE,Shattered Psyche,Mente Destrozada,Mente Destrozada,サイコブレイク・サイケ,Zertrümmerter Geist,Psyché Brisée,Psiche Distrutta,Psique Despedaçada
+SUBZERO_SLAMMER,Subzero Slammer,Martillo Gélido,Martillo Gélido,ブリザードスラム,Frosthammer,Marteau Glacial,Martello Subzero,Martelo Subzero
+DEVASTATING_DRAKE,Devastating Drake,Dragón Devastador,Dragón Devastador,ドラゴンバースト,Verheerender Drache,Drake Dévastateur,Drago Devastante,Dragão Devastador
+BLACK_HOLE_ECLIPSE,Black Hole Eclipse,Eclipse del Agujero Negro,Eclipse del Agujero Negro,ブラックホールイクリプス,Schwarzes-Loch-Eklipse,Éclipse du Trou Noir,Eclissi del Buco Nero,Eclipse do Buraco Negro
+TWINKLE_TACKLE,Twinkle Tackle,Carga Centelleante,Carga Centelleante,トゥインクルタックル,Funkelattacke,Charge Étincelante,Carica Scintillante,Carga Cintilante
+CATASTROPIKA,Catastropika,Catastropika,Catastropika,カタストロフィカ,Katastrophika,Catastropika,Catastropika,Catastropika
+SHORE_UP,Shore Up,Reforzar,Reforzar,すなあつめ,Auffüllen,Consolidation,Rinforzare,Reforçar
+FIRST_IMPRESSION,First Impression,Primera Impresión,Primera Impresión,バチンのみ,Erster Eindruck,Première Impression,Prima Impressione,Primeira Impressão
+BANEFUL_BUNKER,Baneful Bunker,Búnker Perjudicial,Búnker Perjudicial,まきびし,Schädlicher Bunker,Bunker Néfaste,Bunker Nocivo,Bunker Prejudicial
+SPIRIT_SHACKLE,Spirit Shackle,Cadena del Alma,Cadena del Alma,かげぬい,Geistfessel,Chaîne de l'Âme,Catena dello Spirito,Corrente da Alma
+DARKEST_LARIAT,Darkest Lariat,Lariat Oscuro,Lariat Oscuro,DDラリアット,Düsterster Lasso,Lariat des Ténèbres,Lariat Oscuro,Lariat Sombrio
+SPARKLING_ARIA,Sparkling Aria,Aria Chispeante,Aria Chispeante,うたかたのアリア,Funkelnde Arie,Aria Étincelante,Aria Scintillante,Ária Cintilante
+ICE_HAMMER,Ice Hammer,Martillo de Hielo,Martillo de Hielo,こおりのハンマー,Eishammer,Marteau de Glace,Martello di Ghiaccio,Martelo de Gelo
+FLORAL_HEALING,Floral Healing,Curación Floral,Curación Floral,フラワーヒール,Blütenheilung,Guérison Florale,Guarigione Floreale,Cura Floral
+HIGH_HORSEPOWER,High Horsepower,Gran Fuerza,Gran Fuerza,ハイホースパワー,Großes Pferd,Grande Puissance,Grande Forza,Grande Força
+STRENGTH_SAP,Strength Sap,Robar Fuerza,Robar Fuerza,ちからをすいとる,Kraftsauger,Sève de Force,Sottrai Forza,Roubar Força
+SOLAR_BLADE,Solar Blade,Hoja Solar,Hoja Solar,ソーラーブレード,Solarschwert,Lame Solaire,Lama Solare,Lâmina Solar
+LEAFAGE,Leafage,Hojazos,Hojazos,このはのやいば,Blätter,Feuillage,Fogliame,Folhagem
+SPOTLIGHT,Spotlight,Foco de Atención,Foco de Atención,スポットライト,Scheinwerfer,Pleins Feux,Riflettore,Holofote
+TOXIC_THREAD,Toxic Thread,Hilo Tóxico,Hilo Tóxico,どくのいと,Giftnetz,Fil Toxique,Filo Tossico,Fio Tóxico
+LASER_FOCUS,Laser Focus,Concentración,Concentración,ロックオン,Laserfokus,Focus Laser,Concentrazione Laser,Foco Laser
+GEAR_UP,Gear Up,Subir Marcha,Subir Marcha,ギアチェンジ,Hochschalten,Monter en Régime,Aumentare Marcia,Aumentar Marcha
+THROAT_CHOP,Throat Chop,Golpe Garganta,Golpe Garganta,じごくぐるま,Kehlenhieb,Tranche-Gorge,Colpo alla Gola,Golpe na Garganta
+POLLEN_PUFF,Pollen Puff,Pelota Polen,Pelota Polen,かふんだんご,Pollenball,Bulle de Pollen,Palla di Polline,Bolha de Pólen
+ANCHOR_SHOT,Anchor Shot,Disparo Ancla,Disparo Ancla,アンカーショット,Ankerschuss,Tir d'Ancre,Tiro d'Ancora,Tiro da Âncora
+PSYCHIC_TERRAIN,Psychic Terrain,Campo Psíquico,Campo Psíquico,サイコフィールド,Psychoterrain,Terrain Psychique,Terreno Psichico,Terreno Psíquico
+LUNGE,Lunge,Embestida,Embestida,とびかかる,Angriffsstoß,Assaut,Balzo,Emboscada
+FIRE_LASH,Fire Lash,Látigo Ígneo,Látigo Ígneo,ほのおのムチ,Feuergeißel,Flamme-Fouet,Frusta di Fuoco,Chicote de Fogo
+POWER_TRIP,Power Trip,Prepotencia,Prepotencia,ちからをすいとる,Krafttrip,Surpuissance,Prepotenza,Prepotência
+BURN_UP,Burn Up,Quemar,Quemar,だいもんじ,Verbrennen,Flammes Vives,Bruciare,Queimar
+SPEED_SWAP,Speed Swap,Intercambio Velocidad,Intercambio Velocidad,スピードスワップ,Tempowechsel,Échange Vitesse,Scambio Velocità,Troca de Velocidade
+SMART_STRIKE,Smart Strike,Golpe Certero,Golpe Certero,スマートホーン,Schlaues Treffen,Coup Précis,Colpo Preciso,Golpe Certeiro
+PURIFY,Purify,Purificar,Purificar,きよめのしお,Reinigen,Purification,Purificare,Purificar
+REVELATION_DANCE,Revelation Dance,Danza Revelación,Danza Revelación,めざめるダンス,Offenbarungstanz,Danse de Révélation,Danza della Rivelazione,Dança da Revelação
+CORE_ENFORCER,Core Enforcer,Anulador,Anulador,コアパニッシャー,Kernverwalter,Briseur de Noyau,Applicatore Nucleo,Anulador de Núcleo
+TROP_KICK,Trop Kick,Patada Tropical,Patada Tropical,トロピカルキック,Tropentritt,Coup Tropical,Calcio Tropicale,Chute Tropical
+INSTRUCT,Instruct,Instruir,Instruir,いのちがけ,Anweisen,Instruire,Istruire,Instruir
+BEAK_BLAST,Beak Blast,Picotazo Ardiente,Picotazo Ardiente,くちばしキャノン,Schnabelblast,Explosion de Bec,Esplosione del Becco,Explosão do Bico
+CLANGING_SCALES,Clanging Scales,Escamas Ruidosas,Escamas Ruidosas,りんしょう,Klingende Schuppen,Écailles Retentissantes,Scaglie Clangore,Escamas Retumbantes
+DRAGON_HAMMER,Dragon Hammer,Martillo Dragón,Martillo Dragón,ドラゴンハンマー,Drachenhammer,Marteau Dragon,Martello del Drago,Martelo do Dragão
+BRUTAL_SWING,Brutal Swing,Golpe Brutal,Golpe Brutal,ともえなげ,Brutaler Schwung,Balancement Brutal,Oscillazione Brutale,Balanço Brutal
+AURORA_VEIL,Aurora Veil,Velo Aurora,Velo Aurora,オーロラベール,Auroraschleier,Voile Aurore,Velo Aurora,Véu Aurora
+SINISTER_ARROW_RAID,Sinister Arrow Raid,Lluvia de Flechas Siniestra,Lluvia de Flechas Siniestra,シャドーアローズストライク,Sinistrer Pfeilsturm,Pluie de Flèches Sinistres,Pioggia di Frecce Sinistre,Chuva de Flechas Sinistras
+MALICIOUS_MOONSAULT,Malicious Moonsault,Moonsault Maligno,Moonsault Maligno,ハイパーダーククラッシャー,Bösartiger Moonsault,Lune Malveillante,Moonsault Maligno,Moonsault Maligno
+OCEANIC_OPERETTA,Oceanic Operetta,Opereta Oceánica,Opereta Oceánica,オーシャンソングレクイエム,Ozeanische Operette,Opérette Océanique,Operetta Oceanica,Opereta Oceânica
+GUARDIAN_OF_ALOLA,Guardian of Alola,Guardián de Alola,Guardián de Alola,ガーディアンオブアローラ,Hüter von Alola,Gardien d'Alola,Guardiano di Alola,Guardião de Alola
+SOUL_STEALING_7_STAR_STRIKE,Soul-Stealing 7-Star Strike,Golpe de las 7 Estrellas,Golpe de las 7 Estrellas,ソウルスティーリング7スターストライク,Seelenstehler-7-Sterne-Schlag,Frappe des 7 Étoiles,Colpo delle 7 Stelle,Golpe das 7 Estrelas
+STOKED_SPARKSURFER,Stoked Sparksurfer,Rayo Surfeador,Rayo Surfeador,10まんボルトサーフ,Elektrosurfer,Surf d'Étincelles,Surfista di Scintille,Surfista Elétrico
+PULVERIZING_PANCAKE,Pulverizing Pancake,Aplastamiento Total,Aplastamiento Total,ごっつんこZ,Vernichtender Pfannkuchen,Crêpe Dévastatrice,Pancake Devastante,Panqueca Devastadora
+EXTREME_EVOBOOST,Extreme Evoboost,Megadesarrollo,Megadesarrollo,さいごのちから,Extremer Evoboost,Méga-Évolution,Mega Evoboost,Megaevolução
+GENESIS_SUPERNOVA,Genesis Supernova,Génesis Supernova,Génesis Supernova,オリジンズスーパーノヴァ,Geneis-Supernova,Genèse Supernova,Genesi Supernova,Gênesis Supernova
+SHELL_TRAP,Shell Trap,Trampa Concha,Trampa Concha,シェルトラップ,Schalenfalle,Piège-Coquille,Trappola del Guscio,Armadilha da Concha
+FLEUR_CANNON,Fleur Cannon,Cañón Floral,Cañón Floral,フルールカノン,Blütenkanone,Canon Fleur,Cannone Floreale,Canhão Floral
+PSYCHIC_FANGS,Psychic Fangs,Colmillos Psíquicos,Colmillos Psíquicos,エスパーファング,Psyzähne,Crocs Psy,Zanne Psichiche,Presas Psíquicas
+STOMPING_TANTRUM,Stomping Tantrum,Pataleta Furiosa,Pataleta Furiosa,やけくそ,Stampfende Wut,Colère Frappante,Crisi di Rabbia,Birra Furiosa
+SHADOW_BONE,Shadow Bone,Hueso Sombra,Hueso Sombra,ポルターガイスト,Schattenknochen,Os-Ombre,Osso Ombra,Osso Sombrio
+ACCELEROCK,Accelerock,Rocazo,Rocazo,ロックブラスト,Steinrennen,Jackpot,Rocciata,Pedrada Rápida
+LIQUIDATION,Liquidation,Liquidación,Liquidación,サイコファング,Liquidation,Liquidation,Liquidazione,Liquidação
+PRISMATIC_LASER,Prismatic Laser,Láser Prismático,Láser Prismático,プリズムレーザー,Prismalaser,Laser Prismatique,Laser Prismatico,Laser Prismático
+SPECTRAL_THIEF,Spectral Thief,Ladrón Espectral,Ladrón Espectral,スペクタースティール,Spektraldieb,Voleur Spectral,Ladro Spettrale,Ladrão Espectral
+SUNSTEEL_STRIKE,Sunsteel Strike,Impacto Solar,Impacto Solar,サンスチールストライク,Sonnenstahlschlag,Frappe Solaire,Colpo Solare,Golpe Solar
+MOONGEIST_BEAM,Moongeist Beam,Rayo Lunala,Rayo Lunala,ムーンライトブラスター,Mondgeiststrahl,Rayon de Lune,Raggio Lunare,Raio Lunar
+TEARFUL_LOOK,Tearful Look,Mirada Llorosa,Mirada Llorosa,うるうるめ,Tränenreicher Blick,Regard Larmoyant,Sguardo Piagnucoloso,Olhar Lacrimejante
+ZING_ZAP,Zing Zap,Calambrazo,Calambrazo,カミナリのいしつき,Funkenblitz,Jackpot,Zampata Elettrica,Choque Elétrico
+NATURE_S_MADNESS,Nature's Madness,Ira Naturaleza,Ira Naturaleza,しぜんのいかり,Naturwahn,Folie Naturelle,Follia della Natura,Fúria da Natureza
+MULTI_ATTACK,Multi-Attack,Multiataque,Multiataque,テクスチャー,Multiangriff,Multi-Attaque,Multiattacco,Multiataque
+10_000_000_VOLT_THUNDERBOLT,"10,000,000 Volt Thunderbolt",Rayo de 10.000.000 V,Rayo de 10.000.000 V,10000000ボルトサンダーボルト,10.000.000 Volt Blitz,Tonnerre 10 000 000 V,Fulmine da 10.000.000 V,Raio de 10.000.000 V
+MIND_BLOWN,Mind Blown,Explosión Mental,Explosión Mental,ファイナルダイブクラッシュ,Verblüfft,Tête Chercheuse,Esplosione Mentale,Explosão Mental
+PLASMA_FISTS,Plasma Fists,Puños de Plasma,Puños de Plasma,プラズマフィスト,Plasmafäuste,Poings Plasma,Pugni al Plasma,Punhos de Plasma
+PHOTON_GEYSER,Photon Geyser,Géiser Fotón,Géiser Fotón,フォトンゲイザー,Fotonen-Geysir,Geyser Photon,Geyser di Fotoni,Géiser Fóton
+LIGHT_THAT_BURNS_THE_SKY,Light That Burns the Sky,Luz que Quema el Cielo,Luz que Quema el Cielo,テンペストオブメテオ,"Licht, das den Himmel verbrennt",Lumière Brûlant le Ciel,Luce che Brucia il Cielo,Luz que Queima o Céu
+SEARING_SUNRAZE_SMASH,Searing Sunraze Smash,Impacto Solar Abrasador,Impacto Solar Abrasador,サンシャインスマッシャー,Sengender Sonnenbrecher,Smasher Solaire Brûlant,Schianto Solare Bruciante,Impacto Solar Escaldante
+MENACING_MOONRAZE_MAELSTROM,Menacing Moonraze Maelstrom,Maelstrom Lunar Amenazante,Maelstrom Lunar Amenazante,ムーンライトブラスター,Bedrohlicher Mondtrommler,Maelström Lunaire Menaçant,Maelstrom Lunare Minaccioso,Maelstrom Lunar Ameaçador
+LET_S_SNUGGLE_FOREVER,Let's Snuggle Forever,Abrazo Eterno,Abrazo Eterno,ベロベルトZ,Kuscheln für immer,Câlin Éternel,Abbraccio Eterno,Abraço Eterno
+SPLINTERED_STORMSHARDS,Splintered Stormshards,Tempestad Fragmentada,Tempestad Fragmentada,ロックブレイクエッジ,Gesplitterte Sturmscherben,Tempête Éclats,Tempesta Frantumata,Tempestade Fragmentada
+CLANGOROUS_SOULBLAZE,Clangorous Soulblaze,Fuego del Alma Clamoroso,Fuego del Alma Clamoroso,クランゴラスソウルブレイズ,Klangreiche Seelenglut,Âme Flamboyante Retentissante,Anima Clangore Infuocato,Alma Retumbante
+ZIPPY_ZAP,Zippy Zap,Rayo Rápido,Rayo Rápido,じゅうでんZ,Flitzzap,Zapzap,Zapzap,Raio Veloz
+SPLISHY_SPLASH,Splishy Splash,Salpicadura Chispeante,Salpicadura Chispeante,バブルびりびり,Plätscherzap,Plip Plap,Schizzoelettrico,Salpico Elétrico
+FLOATY_FALL,Floaty Fall,Caída Flotante,Caída Flotante,ふんわりフォール,Schwebe-Sturz,Chute Flottante,Caduta Fluttuante,Queda Flutuante
+PIKA_PAPOW,Pika Papow,Papow de Pikachu,Papow de Pikachu,ピカピカだいすき,Pika Papow,Pika Papow,Pika Papow,Pika Papow
+BOUNCY_BUBBLE,Bouncy Bubble,Burbuja Rebo,Burbuja Rebo,バブルぼよよん,Hüpfblase,Bulle Rebondie,Bolla Rimbalzante,Bolha Saltitante
+BUZZY_BUZZ,Buzzy Buzz,Zumbido Eléctrico,Zumbido Eléctrico,びりびりちくちく,Summsummbuzz,Bourdonnement Électrique,Ronzio Elettrico,Zumbido Elétrico
+SIZZLY_SLIDE,Sizzly Slide,Deslizamiento Ardiente,Deslizamiento Ardiente,ほのおサーフ,Brutzelsurfer,Glissade Brûlante,Scivolata Bruciante,Deslize Ardente
+GLITZY_GLOW,Glitzy Glow,Brillo Deslumbrante,Brillo Deslumbrante,きらきらこうせん,Funkelglühen,Éclat Éblouissant,Bagliore Scintillante,Brilho Cintilante
+BADDY_BAD,Baddy Bad,Maldad Oscura,Maldad Oscura,ブラックホールイクリプス,Übler Schurke,Vilaine Ombre,Cattivo Oscuro,Maldade Sombria
+SAPPY_SEED,Sappy Seed,Semilla Savia,Semilla Savia,グラスフィールドの種,Saftsamen,Graine Sève,Seme Linfa,Semente de Seiva
+FREEZY_FROST,Freezy Frost,Escarcha Gélida,Escarcha Gélida,つるつるこおり,Frostig-Frost,Givre Glacial,Gelo Glaciale,Geada Gelada
+SPARKLY_SWIRL,Sparkly Swirl,Espiral Brillante,Espiral Brillante,まいまいフェアリー,Funkelwirbel,Tourbillon Étincelant,Spirale Scintillante,Espiral Cintilante
+VEEVEE_VOLLEY,Veevee Volley,Volea de Eevee,Volea de Eevee,イーブイのはどう,Evoli-Volley,Volée d'Evoli,Palleggio di Eevee,Voleio de Eevee
+DOUBLE_IRON_BASH,Double Iron Bash,Doble Golpe Férreo,Doble Golpe Férreo,ダブルアイアンバッシュ,Doppeleisentreffer,Double Frappe de Fer,Doppio Colpo di Ferro,Duplo Golpe de Ferro
+MAX_GUARD,Max Guard,Max Guardia,Max Guardia,Gマックスガード,Max-Schutz,Max-Garde,Max Guardia,Max Guarda
+DYNAMAX_CANNON,Dynamax Cannon,Cañón Dynamax,Cañón Dynamax,ダイマックスほう,Dynamax-Kanone,Canon Dynamax,Cannone Dynamax,Canhão Dynamax
+SNIPE_SHOT,Snipe Shot,Disparo Preciso,Disparo Preciso,スナイプショット,Präzisionsschuss,Tir de Précision,Tiro di Precisione,Tiro Preciso
+JAW_LOCK,Jaw Lock,Cerrojo Mandíbula,Cerrojo Mandíbula,かみつきのかぎしっぽ,Kiefersperre,Verrou Mâchoire,Blocca Mandibola,Trava Mandíbula
+STUFF_CHEEKS,Stuff Cheeks,Llenar Mejillas,Llenar Mejillas,ほおぶくろをふくらます,Backen füllen,Gonfler les Joues,Gonfiare le Guance,Encher as Bochechas
+NO_RETREAT,No Retreat,Sin Retirada,Sin Retirada,のびのびおうえん,Kein Rückzug,Sans Retraite,Nessuna Ritirata,Sem Recuo
+TAR_SHOT,Tar Shot,Disparo Alquitrán,Disparo Alquitrán,タールショット,Teergeschoss,Tir de Goudron,Tiro di Catrame,Tiro de Alcatrão
+MAGIC_POWDER,Magic Powder,Polvo Mágico,Polvo Mágico,マジカルパウダー,Zauberpulver,Poudre Magique,Polvere Magica,Pó Mágico
+DRAGON_DARTS,Dragon Darts,Dardos Dragón,Dardos Dragón,ドラゴンアロー,Drachenpfeile,Fléchettes Dragon,Dardi del Drago,Dardos do Dragão
+TEATIME,Teatime,Hora del Té,Hora del Té,おちゃかい,Teezeit,L'Heure du Thé,Ora del Tè,Hora do Chá
+OCTOLOCK,Octolock,Octobloqueo,Octobloqueo,オクタンほう,Oktosperre,Octoverrouillage,Ottoblocco,Octobloqueio
+BOLT_BEAK,Bolt Beak,Pico Rayo,Pico Rayo,でんげきくちばし,Blitzschnabel,Bec Éclair,Becco Fulmine,Bico Raio
+FISHIOUS_REND,Fishious Rend,Desgarro Pez,Desgarro Pez,えぐるいば,Fischzerreißen,Déchirure Féroce,Lacerazione Feroce,Rasgão Feroz
+COURT_CHANGE,Court Change,Cambio de Campo,Cambio de Campo,コートチェンジ,Feldwechsel,Changement de Court,Cambio Campo,Troca de Campo
+MAX_FLARE,Max Flare,Max Llama,Max Llama,Gマックスキョダイかえん,Max-Flamme,Max-Flamme,Max Fiamma,Max Chama
+MAX_FLUTTERBY,Max Flutterby,Max Aleteo,Max Aleteo,Gマックスキョダいむし,Max-Flügelschlag,Max-Aile,Max Battito,Max Asa
+MAX_LIGHTNING,Max Lightning,Max Rayo,Max Rayo,Gマックスキョダいらいげき,Max-Blitz,Max-Éclair,Max Fulmine,Max Raio
+MAX_STRIKE,Max Strike,Max Golpe,Max Golpe,Gマックスキョダいぶんなぐり,Max-Schlag,Max-Frappe,Max Colpo,Max Golpe
+MAX_KNUCKLE,Max Knuckle,Max Puño,Max Puño,Gマックスキョダいこぶし,Max-Knöchel,Max-Poing,Max Pugno,Max Soco
+MAX_PHANTASM,Max Phantasm,Max Fantasma,Max Fantasma,Gマックスキョダいれいせん,Max-Phantom,Max-Fantôme,Max Fantasma,Max Fantasma
+MAX_HAILSTORM,Max Hailstorm,Max Granizo,Max Granizo,Gマックスキョダいゆきだるま,Max-Hagelsturm,Max-Grêle,Max Grandine,Max Granizo
+MAX_OOZE,Max Ooze,Max Fango,Max Fango,Gマックスキョダいどく,Max-Ooze,Max-Gadoue,Max Melma,Max Lama
+MAX_GEYSER,Max Geyser,Max Géiser,Max Géiser,Gマックスキョダいみず,Max-Geysir,Max-Geyser,Max Geyser,Max Géiser
+MAX_AIRSTREAM,Max Airstream,Max Vendaval,Max Vendaval,Gマックスキョダいひこう,Max-Luftstrom,Max-Courant d'Air,Max Vento,Max Vendaval
+MAX_STARFALL,Max Starfall,Max Lluvia Estelar,Max Lluvia Estelar,Gマックスキョダいフェアリー,Max-Sternfall,Max-Étoile,Max Pioggia Stellare,Max Chuva Estelar
+MAX_WYRMWIND,Max Wyrmwind,Max Viento Wyrm,Max Viento Wyrm,Gマックスキョダいドラゴン,Max-Wyrmsturm,Max-Vent du Drake,Max Vento Wyrm,Max Vento do Wyrm
+MAX_MINDSTORM,Max Mindstorm,Max Tormenta Mental,Max Tormenta Mental,Gマックスキョダいサイコ,Max-Geistessturm,Max-Tempête Mentale,Max Tempesta Mentale,Max Tempestade Mental
+MAX_ROCKFALL,Max Rockfall,Max Avalancha,Max Avalancha,Gマックスキョダいいわ,Max-Steinsturz,Max-Éboulis,Max Frana,Max Avalanche
+MAX_QUAKE,Max Quake,Max Terremoto,Max Terremoto,Gマックスキョダいじしん,Max-Beben,Max-Séisme,Max Terremoto,Max Terremoto
+MAX_DARKNESS,Max Darkness,Max Oscuridad,Max Oscuridad,Gマックスキョダいあく,Max-Dunkelheit,Max-Ténèbres,Max Oscurità,Max Escuridão
+MAX_OVERGROWTH,Max Overgrowth,Max Hierba,Max Hierba,Gマックスキョダいくさ,Max-Üppigkeit,Max-Herbe,Max Erba,Max Erva
+MAX_STEELSPIKE,Max Steelspike,Max Picos Acero,Max Picos Acero,Gマックスキョダいはがね,Max-Stahlspitze,Max-Pointe Acier,Max Spike Acciaio,Max Espinhos de Aço
+CLANGOROUS_SOUL,Clangorous Soul,Alma Clamorosa,Alma Clamorosa,クランゴラスソウル,Klangreiche Seele,Âme Retentissante,Anima Clangore,Alma Retumbante
+BODY_PRESS,Body Press,Plancha,Plancha,ボディプレス,Körperpresse,Plaquage,Corpo a Pressione,Prensa Corporal
+DECORATE,Decorate,Decorar,Decorar,デコレーション,Dekorieren,Décorer,Decorare,Decorar
+DRUM_BEATING,Drum Beating,Redoble,Redoble,たいこのまち,Trommelwirbel,Roulement de Tambour,Rullante,Rufar de Tambor
+SNAP_TRAP,Snap Trap,Trampa Caza,Trampa Caza,かみつきトラップ,Schnappfalle,Piège Mâchoire,Trappola a Scatto,Armadilha
+PYRO_BALL,Pyro Ball,Bola de Fuego,Bola de Fuego,かえんだん,Feuerball,Boule Pyro,Palla di Fuoco,Bola de Fogo
+BEHEMOTH_BLADE,Behemoth Blade,Espada Behemot,Espada Behemot,ダイオウドウアタック,Behemothklinge,Lame Béhémoth,Lama del Behemoth,Espada do Behemoth
+BEHEMOTH_BASH,Behemoth Bash,Escudo Behemot,Escudo Behemot,ダイオウドウシールド,Behemothprall,Bouclier Béhémoth,Scudo del Behemoth,Escudo do Behemoth
+AURA_WHEEL,Aura Wheel,Rueda de Aura,Rueda de Aura,オーラぐるま,Aurarad,Roue de l'Aura,Ruota dell'Aura,Roda de Aura
+BREAKING_SWIPE,Breaking Swipe,Golpe Destructivo,Golpe Destructivo,ブレイクスワイプ,Trümmertreff,Balayage Dévastateur,Colpo Distruttivo,Golpe Destrutivo
+BRANCH_POKE,Branch Poke,Golpe Rama,Golpe Rama,えだうち,Zweigstich,Coup de Branche,Colpo di Ramo,Golpe do Galho
+OVERDRIVE,Overdrive,Overdrive,Overdrive,オーバードライブ,Overdrive,Overdrive,Overdrive,Overdrive
+APPLE_ACID,Apple Acid,Ácido Manzana,Ácido Manzana,アップルアシッド,Apfelsäure,Acide de Pomme,Acido di Mela,Ácido de Maçã
+GRAV_APPLE,Grav Apple,Manzana Gravitatoria,Manzana Gravitatoria,グラビティアップル,Gravitationsapfel,Pomme de Gravité,Mela della Gravità,Maçã Gravitacional
+SPIRIT_BREAK,Spirit Break,Rompe Espíritu,Rompe Espíritu,スピリットブレイク,Geistbrecher,Brise-Âme,Rompi Spirito,Quebra Espírito
+STRANGE_STEAM,Strange Steam,Vapor Extraño,Vapor Extraño,ふしぎなじょうき,Seltsamer Dampf,Vapeur Étrange,Vapore Strano,Vapor Estranho
+LIFE_DEW,Life Dew,Rocío Vital,Rocío Vital,みずしぶき,Lebenstaupfen,Rosée de Vie,Rugiada Vitale,Orvalho Vital
+OBSTRUCT,Obstruct,Obstruir,Obstruir,じゃまする,Behindern,Obstruer,Ostruire,Obstruir
+FALSE_SURRENDER,False Surrender,Rendición Falsa,Rendición Falsa,いかさまなひれ伏し,Falsche Kapitulation,Fausse Reddition,Falsa Resa,Falsa Rendição
+METEOR_ASSAULT,Meteor Assault,Asalto Meteoro,Asalto Meteoro,いっしんげきのやり,Meteorangriff,Assaut Météore,Assalto Meteora,Assalto Meteoro
+ETERNABEAM,Eternabeam,Rayo Eterno,Rayo Eterno,エターナルビーム,Eternastrahl,Rayon Éternel,Raggio Eterno,Raio Eterno
+STEEL_BEAM,Steel Beam,Rayo de Acero,Rayo de Acero,スチールビーム,Stahlstrahl,Rayon d'Acier,Raggio d'Acciaio,Raio de Aço
+EXPANDING_FORCE,Expanding Force,Fuerza Expansiva,Fuerza Expansiva,ワイドフォース,Ausbreitungskraft,Force Expansive,Forza Espansiva,Força Expansiva
+STEEL_ROLLER,Steel Roller,Rodillo de Acero,Rodillo de Acero,スチールローラー,Stahlwalze,Rouleau d'Acier,Rullo d'Acciaio,Rolo de Aço
+SCALE_SHOT,Scale Shot,Disparo Escama,Disparo Escama,うろこショット,Schuppenschuss,Tir d'Écaille,Tiro di Scaglie,Tiro de Escama
+METEOR_BEAM,Meteor Beam,Rayo Meteoro,Rayo Meteoro,メテオビーム,Meteorstrahl,Rayon Météore,Raggio Meteora,Raio Meteoro
+SHELL_SIDE_ARM,Shell Side Arm,Brazo Concha,Brazo Concha,シェルサイドアーム,Muschelarmkanone,Bras Coquille,Braccio Conchiglia,Braço Concha
+MISTY_EXPLOSION,Misty Explosion,Explosión Mística,Explosión Mística,ミストフィールドばくはつ,Nebelexplosion,Explosion Brumeuse,Esplosione Nebbiosa,Explosão Nebulosa
+GRASSY_GLIDE,Grassy Glide,Deslizamiento Herboso,Deslizamiento Herboso,グラスすべり,Grassgleiten,Glissade Herbeuse,Scivolata Erbosa,Deslize Herboso
+RISING_VOLTAGE,Rising Voltage,Voltaje en Aumento,Voltaje en Aumento,ライジングボルテッカー,Steigungsspannung,Tension Montante,Voltaggio Crescente,Voltagem Crescente
+TERRAIN_PULSE,Terrain Pulse,Pulso de Terreno,Pulso de Terreno,テレインパルス,Terrainpuls,Pulsation de Terrain,Impulso del Terreno,Pulso de Terreno
+SKITTER_SMACK,Skitter Smack,Golpe Furtivo,Golpe Furtivo,スキッタースマック,Schlüpftreffer,Smack Furtif,Colpo Furtivo,Golpe Furtivo
+BURNING_JEALOUSY,Burning Jealousy,Celos Ardientes,Celos Ardientes,バーニングジェラシー,Brennende Eifersucht,Jalousie Ardente,Gelosia Ardente,Ciúme Ardente
+LASH_OUT,Lash Out,Arremeter,Arremeter,やつあたり,Ausrasten,Décharger,Sfogare,Descarregar
+POLTERGEIST,Poltergeist,Poltergeist,Poltergeist,ポルターガイスト,Poltergeist,Poltergeist,Poltergeist,Poltergeist
+CORROSIVE_GAS,Corrosive Gas,Gas Corrosivo,Gas Corrosivo,ようかいえき,Ätzgas,Gaz Corrosif,Gas Corrosivo,Gás Corrosivo
+COACHING,Coaching,Entrenamiento,Entrenamiento,コーチング,Coaching,Coaching,Allenamento,Treinamento
+FLIP_TURN,Flip Turn,Vuelta Rápida,Vuelta Rápida,おんがえし,Wendesprung,Virage Rapide,Inversione Rapida,Virada Rápida
+TRIPLE_AXEL,Triple Axel,Triple Axel,Triple Axel,トリプルアクセル,Dreifachaxel,Triple Axel,Triplo Axel,Triplo Axel
+DUAL_WINGBEAT,Dual Wingbeat,Doble Aletazo,Doble Aletazo,ダブルウイング,Doppelflügelschlag,Double Battement d'Aile,Doppio Battito d'Ala,Duplo Batimento de Asa
+SCORCHING_SANDS,Scorching Sands,Arenas Ardientes,Arenas Ardientes,ねっさのだいち,Glühende Sande,Sables Brûlants,Sabbie Roventi,Areias Escaldantes
+JUNGLE_HEALING,Jungle Healing,Curación Jungla,Curación Jungla,みどりのまきば,Dschungelheilung,Guérison Jungle,Cura della Giungla,Cura da Selva
+WICKED_BLOW,Wicked Blow,Golpe Malévolo,Golpe Malévolo,あんこくきょうだ,Teuflischer Schlag,Coup Pernicieux,Colpo Malvagio,Golpe Malévolo
+SURGING_STRIKES,Surging Strikes,Golpes Torrenciales,Golpes Torrenciales,みずしゅりけん3れんだ,Strudelnde Schläge,Frappes Déferlantes,Colpi Torrenziali,Golpes Torrenciais
+THUNDER_CAGE,Thunder Cage,Jaula de Truenos,Jaula de Truenos,サンダーケージ,Donnerkäfig,Cage Tonnerre,Gabbia dei Tuoni,Gaiola do Trovão
+DRAGON_ENERGY,Dragon Energy,Energía Dragón,Energía Dragón,ドラゴンエナジー,Drachenkraft,Énergie Dragon,Energia Drago,Energia do Dragão
+FREEZING_GLARE,Freezing Glare,Mirada Gélida,Mirada Gélida,フリーズスターレット,Eisiger Blick,Regard Glacial,Sguardo Gelido,Olhar Gélido
+FIERY_WRATH,Fiery Wrath,Ira Abrasadora,Ira Abrasadora,ファイアーラース,Feuriger Zorn,Colère Ardente,Ira Ardente,Ira Ardente
+THUNDEROUS_KICK,Thunderous Kick,Patada Atronadora,Patada Atronadora,サンダーキック,Donnertritt,Coup de Tonnerre,Calcio Tonante,Chute Trovejante
+GLACIAL_LANCE,Glacial Lance,Lanza Glacial,Lanza Glacial,グレイシアランス,Gletscherlanze,Lance Glaciale,Lancia Glaciale,Lança Glacial
+ASTRAL_BARRAGE,Astral Barrage,Lluvia Astral,Lluvia Astral,アストラルバラージュ,Astralbarrage,Barrage Astral,Barrage Astrale,Barrage Astral
+EERIE_SPELL,Eerie Spell,Conjuro Inquietante,Conjuro Inquietante,あやしいじゅもん,Unheimlicher Zauber,Sort Inquiétant,Incantesimo Inquietante,Feitiço Inquietante
+DIRE_CLAW,Dire Claw,Garra Siniestra,Garra Siniestra,ダークネスクロー,Düstere Klaue,Griffe Sinistre,Artiglio Sinistro,Garra Sinistra
+PSYSHIELD_BASH,Psyshield Bash,Escudo Psíquico,Escudo Psíquico,サイコシールドバッシュ,Psyschild-Bash,Bouclier Psy,Scudo Psichico,Escudo Psíquico
+POWER_SHIFT,Power Shift,Cambio de Poder,Cambio de Poder,パワーシフト,Kraftwechsel,Changement de Puissance,Cambio di Potere,Troca de Poder
+STONE_AXE,Stone Axe,Hacha de Piedra,Hacha de Piedra,ストーンアックス,Steinaxt,Hache de Pierre,Ascia di Pietra,Machado de Pedra
+SPRINGTIDE_STORM,Springtide Storm,Tormenta Primaveral,Tormenta Primaveral,スプリングタイドストーム,Frühlingssturm,Tempête Printanière,Tempesta Primaverile,Tempestade Primaveril
+MYSTICAL_POWER,Mystical Power,Poder Místico,Poder Místico,ミスティカルパワー,Mystische Kraft,Puissance Mystique,Potere Mistico,Poder Místico
+RAGING_FURY,Raging Fury,Rabia Furiosa,Rabia Furiosa,おいかぜ,Rasende Wut,Fureur Déchaînée,Furia Scatenata,Fúria Enraivecida
+WAVE_CRASH,Wave Crash,Impacto de Ola,Impacto de Ola,ウェーブクラッシュ,Wellencrash,Vague Déferlante,Impatto d'Onda,Impacto de Onda
+CHLOROBLAST,Chloroblast,Cloroblast,Cloroblast,クロロブラスト,Chloroblast,Chloroblast,Cloroblast,Cloroblast
+MOUNTAIN_GALE,Mountain Gale,Vendaval de Montaña,Vendaval de Montaña,マウンテンゲイル,Bergsturm,Vent de Montagne,Bufera di Montagna,Vendaval da Montanha
+VICTORY_DANCE,Victory Dance,Danza Victoria,Danza Victoria,ビクトリーダンス,Siegestanz,Danse de la Victoire,Danza della Vittoria,Dança da Vitória
+HEADLONG_RUSH,Headlong Rush,Embestida Precipitada,Embestida Precipitada,ヘッドロングラッシュ,Kopfüber-Rush,Ruée Tête Baissée,Corsa Precipitosa,Investida Precipitada
+BARB_BARRAGE,Barb Barrage,Lluvia de Espinas,Lluvia de Espinas,バーブバラージュ,Stachelbarrage,Barrage d'Épines,Barrage di Spine,Barrage de Espinhos
+ESPER_WING,Esper Wing,Ala Esper,Ala Esper,エスパーウィング,Esperflügel,Aile Esper,Ala Esper,Asa Esper
+BITTER_MALICE,Bitter Malice,Malicia Amarga,Malicia Amarga,ビターマリス,Bittere Bosheit,Malice Amère,Malizia Amara,Malícia Amarga
+SHELTER,Shelter,Refugio,Refugio,シェルター,Schutzraum,Abri,Rifugio,Abrigo
+TRIPLE_ARROWS,Triple Arrows,Triple Flecha,Triple Flecha,トリプルアロー,Dreifachpfeil,Triple Flèche,Tripla Freccia,Tripla Flecha
+INFERNAL_PARADE,Infernal Parade,Desfile Infernal,Desfile Infernal,インフェルノパレード,Höllischer Umzug,Défilé Infernal,Parata Infernale,Desfile Infernal
+CEASELESS_EDGE,Ceaseless Edge,Filo Incesante,Filo Incesante,セレブレイティングエッジ,Rastlose Klinge,Tranchant Perpétuel,Filo Incessante,Fio Incessante
+BLEAKWIND_STORM,Bleakwind Storm,Tormenta Glacial,Tormenta Glacial,さむいへや,Ödsturm,Tempête Désolée,Tempesta Desolata,Tempestade Desolada
+WILDBOLT_STORM,Wildbolt Storm,Tormenta Eléctrica,Tormenta Eléctrica,らいめいのあらし,Wildblitzsturm,Orage Sauvage,Tempesta Fulminea,Tempestade Elétrica
+SANDSEAR_STORM,Sandsear Storm,Tormenta Ardiente,Tormenta Ardiente,ねっさのあらし,Sandsengsturm,Tempête Brûlante,Tempesta di Sabbia Ardente,Tempestade Ardente
+LUNAR_BLESSING,Lunar Blessing,Bendición Lunar,Bendición Lunar,みかづきのいのり,Mondsegen,Bénédiction Lunaire,Benedizione Lunare,Bênção Lunar
+TAKE_HEART,Take Heart,Cobrar Ánimo,Cobrar Ánimo,こころのめ,Mut fassen,Prendre Courage,Prendere Coraggio,Ganhar Coragem
+TERA_BLAST,Tera Blast,Tera Explosión,Tera Explosión,テラバースト,Terasprung,Téra-Explosion,Tera Esplosione,Tera Explosão
+SILK_TRAP,Silk Trap,Trampa de Seda,Trampa de Seda,シルクトラップ,Seidenfalle,Piège de Soie,Trappola di Seta,Armadilha de Seda
+AXE_KICK,Axe Kick,Patada Hacha,Patada Hacha,アックスキック,Axttritt,Coup de Hache,Calcio Ascia,Chute Machado
+LAST_RESPECTS,Last Respects,Últimos Respetos,Últimos Respetos,はかいのはどう,Letzte Achtung,Derniers Hommages,Ultimi Rispetti,Últimas Homenagens
+LUMINA_CRASH,Lumina Crash,Lumina Crash,Lumina Crash,ルミナクラッシュ,Luminacrash,Lumina Crash,Lumina Crash,Lumina Crash
+ORDER_UP,Order Up,¡Al Ataque!,¡Al Ataque!,オーダーアップ,Angriff vor,À l'Attaque,All'Attacco,Ao Ataque
+JET_PUNCH,Jet Punch,Puño Jet,Puño Jet,ジェットパンチ,Jetschlag,Poing Jet,Pugno Jet,Soco Jato
+SPICY_EXTRACT,Spicy Extract,Extracto Picante,Extracto Picante,スパイシーエキス,Scharfer Extrakt,Extrait Piquant,Estratto Piccante,Extrato Picante
+SPIN_OUT,Spin Out,Giro Extremo,Giro Extremo,スピンアウト,Überschlag,Toupie Extrême,Giro Estremo,Giro Extremo
+POPULATION_BOMB,Population Bomb,Bomba de Población,Bomba de Población,ねずみざん,Populationsbombe,Bombe de Population,Bomba di Popolazione,Bomba de População
+ICE_SPINNER,Ice Spinner,Trompo de Hielo,Trompo de Hielo,アイススピナー,Eiskreisel,Toupie de Glace,Trottola di Ghiaccio,Pião de Gelo
+GLAIVE_RUSH,Glaive Rush,Embestida con Guadaña,Embestida con Guadaña,グレイブラッシュ,Gleve-Angriff,Ruée de Cimeterre,Assalto con Falcione,Investida com Glaive
+REVIVAL_BLESSING,Revival Blessing,Bendición Revivir,Bendición Revivir,いのちのしずく,Wiederbelebungssegen,Bénédiction de Résurrection,Benedizione della Resurrezione,Bênção da Revitalização
+SALT_CURE,Salt Cure,Cura con Sal,Cura con Sal,しおせき,Salzkur,Soin au Sel,Cura con Sale,Cura com Sal
+TRIPLE_DIVE,Triple Dive,Triple Buceo,Triple Buceo,トリプルダイブ,Dreifachtauchen,Triple Plongeon,Triplo Tuffo,Triplo Mergulho
+MORTAL_SPIN,Mortal Spin,Giro Mortal,Giro Mortal,モータルスピン,Todesspin,Spin Mortel,Giro Mortale,Giro Mortal
+DOODLE,Doodle,Garabato,Garabato,スケッチ,Kritzeln,Gribouillage,Scarabocchio,Rabisco
+FILLET_AWAY,Fillet Away,Sacrificar,Sacrificar,フィレットアウェイ,Opfern,Sacrifier,Sacrificare,Sacrificar
+KOWTOW_CLEAVE,Kowtow Cleave,Corte Reverencial,Corte Reverencial,こうべをたれる,Ehrfurchtsschnitt,Coupe Révérencielle,Taglio Reverenziale,Corte Reverencial
+FLOWER_TRICK,Flower Trick,Truco Floral,Truco Floral,フラワートリック,Blumentrick,Tour Floral,Trucco Floreale,Truque Floral
+TORCH_SONG,Torch Song,Canción de Antorcha,Canción de Antorcha,かえんのうた,Fackellied,Chanson de Torche,Canzone della Torcia,Canção da Tocha
+AQUA_STEP,Aqua Step,Paso Aqua,Paso Aqua,アクアステップ,Aquaschritt,Pas Aqua,Passo Acqua,Passo Aqua
+RAGING_BULL,Raging Bull,Toro Furioso,Toro Furioso,レイジングブル,Rasender Bulle,Taureau Rageur,Toro Furioso,Touro Furioso
+MAKE_IT_RAIN,Make It Rain,Lluvia de Monedas,Lluvia de Monedas,コインシャワー,Geldregen,Pluie de Monnaie,Pioggia di Monete,Chuva de Moedas
+PSYBLADE,Psyblade,Psicoespada,Psicoespada,サイコブレード,Psyklinge,Psycho-Lame,Psicospada,Psicoespada
+HYDRO_STEAM,Hydro Steam,Vapor de Agua,Vapor de Agua,ハイドロスチーム,Wasserdampf,Vapeur d'Eau,Vapore Idrico,Vapor d'Água
+RUINATION,Ruination,Ruina,Ruina,わざわいのかけら,Vernichtung,Ruination,Rovina,Ruinação
+COLLISION_COURSE,Collision Course,Ruta de Colisión,Ruta de Colisión,コリジョンコース,Kollisionskurs,Cap de Collision,Rotta di Collisione,Rota de Colisão
+ELECTRO_DRIFT,Electro Drift,Derrape Eléctrico,Derrape Eléctrico,エレクトロドリフト,Elektrodrift,Dérapage Électrique,Deriva Elettrica,Derrapagem Elétrica
+SHED_TAIL,Shed Tail,Mudar Cola,Mudar Cola,しっぽきり,Schweifhäutung,Mue de Queue,Muta della Coda,Trocar de Cauda
+CHILLY_RECEPTION,Chilly Reception,Frío Recibimiento,Frío Recibimiento,さむいダジャレ,Kühler Empfang,Accueil Glacial,Accoglienza Fredda,Recepção Fria
+TIDY_UP,Tidy Up,Ordenar,Ordenar,かたづける,Aufräumen,Ranger,Riordinare,Organizar
+SNOWSCAPE,Snowscape,Paisaje Nevado,Paisaje Nevado,ゆきげしき,Schneelandschaft,Paysage Enneigé,Paesaggio Innevato,Paisagem Nevada
+POUNCE,Pounce,Abalanzarse,Abalanzarse,とびかかる,Niedersprung,Bondir,Balzare,Saltar
+TRAILBLAZE,Trailblaze,Abrir Camino,Abrir Camino,さきがけ,Wegbereiten,Ouvrir la Voie,Aprire la Strada,Abrir Caminho
+CHILLING_WATER,Chilling Water,Agua Fría,Agua Fría,しみずのみず,Eiswasser,Eau Glacée,Acqua Fredda,Água Gelada
+HYPER_DRILL,Hyper Drill,Hiper Taladro,Hiper Taladro,ハイパードリル,Hyperbohrer,Hyper-Foret,Iper Trapano,Hiper Broca
+TWIN_BEAM,Twin Beam,Doble Rayo,Doble Rayo,ツインビーム,Zwillingsstrahl,Double Rayon,Doppio Raggio,Raio Duplo
+RAGE_FIST,Rage Fist,Puño Rabia,Puño Rabia,ふんどのこぶし,Zornfaust,Poing de Rage,Pugno della Rabbia,Soco da Raiva
+ARMOR_CANNON,Armor Cannon,Cañón de Armadura,Cañón de Armadura,アーマーキャノン,Rüstungskanone,Canon de l'Armure,Cannone dell'Armatura,Canhão da Armadura
+BITTER_BLADE,Bitter Blade,Espada Amarga,Espada Amarga,にがやいば,Bittere Klinge,Lame Amère,Lama Amara,Espada Amarga
+DOUBLE_SHOCK,Double Shock,Doble Descarga,Doble Descarga,ダブルショック,Doppelschock,Double Choc,Doppia Scossa,Dupla Descarga
+GIGATON_HAMMER,Gigaton Hammer,Martillo Gigatón,Martillo Gigatón,ギガトンハンマー,Gigatonhammer,Marteau Gigaton,Martello Gigaton,Martelo Gigaton
+COMEUPPANCE,Comeuppance,Merecido Castigo,Merecido Castigo,むくいのしっぺがえし,Gerechte Strafe,Châtiment Mérité,Punizione Meritata,Castigo Merecido
+AQUA_CUTTER,Aqua Cutter,Cortador Aqua,Cortador Aqua,アクアカッター,Aquaschnitt,Trancheur Aqua,Tagliacqua,Cortador Aqua
+BLAZING_TORQUE,Blazing Torque,Torsión Ardiente,Torsión Ardiente,ファイアートルク,Feuertorque,Couple Ardent,Coppia Ardente,Torque Ardente
+WICKED_TORQUE,Wicked Torque,Torsión Malvada,Torsión Malvada,ダークトルク,Böses Torque,Couple Sinistre,Coppia Malvagia,Torque Malvado
+NOXIOUS_TORQUE,Noxious Torque,Torsión Venenosa,Torsión Venenosa,ポイズントルク,Gifttorque,Couple Venimeux,Coppia Tossica,Torque Venenoso
+COMBAT_TORQUE,Combat Torque,Torsión de Combate,Torsión de Combate,ファイティングトルク,Kampftorque,Couple de Combat,Coppia da Combattimento,Torque de Combate
+MAGICAL_TORQUE,Magical Torque,Torsión Mágica,Torsión Mágica,フェアリートルク,Magisches Torque,Couple Magique,Coppia Magica,Torque Mágico
+BLOOD_MOON,Blood Moon,Luna de Sangre,Luna de Sangre,ブラッドムーン,Blutmond,Lune de Sang,Luna di Sangue,Lua de Sangue
+MATCHA_GOTCHA,Matcha Gotcha,¡Matcha al Poder!,¡Matcha al Poder!,まっちゃごっちゃ,Matcha-Treffer,Matcha Attrape,Matcha Preso,Matcha Pego
+SYRUP_BOMB,Syrup Bomb,Bomba de Sirope,Bomba de Sirope,シロップばくだん,Sirupbombe,Bombe de Sirop,Bomba di Sciroppo,Bomba de Xarope
+IVY_CUDGEL,Ivy Cudgel,Garrote de Hiedra,Garrote de Hiedra,アイビーこんぼう,Efeukeule,Gourdin de Lierre,Bastone d'Edera,Cacete de Hera
+ELECTRO_SHOT,Electro Shot,Disparo Eléctrico,Disparo Eléctrico,エレクトロショット,Elektroschuss,Tir Électrique,Tiro Elettrico,Tiro Elétrico
+TERA_STARSTORM,Tera Starstorm,Lluvia Estelar Tera,Lluvia Estelar Tera,テラスタースター,Tera-Sternsturm,Tempête Tera,Tempesta Stellare Tera,Chuva Estelar Tera
+FICKLE_BEAM,Fickle Beam,Rayo Caprichoso,Rayo Caprichoso,きまぐれビーム,Launischer Strahl,Rayon Capricieux,Raggio Capriccioso,Raio Caprichoso
+BURNING_BULWARK,Burning Bulwark,Bastión Ardiente,Bastión Ardiente,バーニングバルワーク,Feuerbollwerk,Rempart Ardent,Baluardo Ardente,Baluarte Ardente
+THUNDERCLAP,Thunderclap,Chasquido de Trueno,Chasquido de Trueno,さきがけ,Donnerschlag,Claquement de Tonnerre,Schiocco del Tuono,Estalo do Trovão
+MIGHTY_CLEAVE,Mighty Cleave,Gran Tajo,Gran Tajo,マイティストライク,Mächtiger Spalt,Grand Tranchant,Grande Taglio,Grande Fenda
+TACHYON_CUTTER,Tachyon Cutter,Cortador de Taquiones,Cortador de Taquiones,タキオンカッター,Tachyonenschnitt,Trancheur de Tachyons,Tagliatachioni,Cortador de Táquions
+HARD_PRESS,Hard Press,Presión Extrema,Presión Extrema,ハードプレス,Hartpresse,Pression Extrême,Pressione Estrema,Pressão Extrema
+DRAGON_CHEER,Dragon Cheer,Apoyo Dragón,Apoyo Dragón,ドラゴンおうえん,Drachenanfeuerung,Encouragement Dragon,Tifo del Drago,Apoio do Dragão
+ALLURING_VOICE,Alluring Voice,Voz Seductora,Voz Seductora,みわくのこえ,Verführerische Stimme,Voix Séduisante,Voce Seducente,Voz Sedutora
+TEMPER_FLARE,Temper Flare,Llama del Temperamento,Llama del Temperamento,テンパーフレア,Wutflamme,Flamme de Colère,Fiamma del Temperamento,Chama do Temperamento
+SUPERCELL_SLAM,Supercell Slam,Súper Golpe Eléctrico,Súper Golpe Eléctrico,スーパーセルスラム,Superzellencrash,Coup Supercellulaire,Schianto Supercellulare,Super Golpe Elétrico
+PSYCHIC_NOISE,Psychic Noise,Ruido Psíquico,Ruido Psíquico,サイコノイズ,Psycholärm,Bruit Psychique,Rumore Psichico,Ruído Psíquico
+UPPER_HAND,Upper Hand,Ventaja,Ventaja,せんせい,Oberhand,Avantage,Vantaggio,Vantagem
+MALIGNANT_CHAIN,Malignant Chain,Cadena Maligna,Cadena Maligna,どくのくさり,Bösartige Kette,Chaîne Maligne,Catena Maligna,Corrente Maligna
+NIHIL_LIGHT,Nihil Light,Luz de la Nada,Luz de la Nada,ニヒルライト,Nihillicht,Lumière du Néant,Luce del Nulla,Luz do Nada

@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://cpqfrk6en67g3"]
+
+[ext_resource type="Script" uid="uid://dc38k5snkpx3v" path="res://Scripts/SlotSelectorPanel.gd" id="1_yxvgw"]
+[ext_resource type="Texture2D" uid="uid://mj6jcq8tefy2" path="res://Assets/Sprites/Frames/frame_2.png" id="2_xeo05"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xww4h"]
+texture = ExtResource("2_xeo05")
+texture_margin_left = 6.0955544
+texture_margin_top = 7.0604234
+texture_margin_right = 5.105678
+texture_margin_bottom = 7.1234627
+region_rect = Rect2(2, 2, 20, 20)
+
+[node name="SlotSelectorPanel" type="Control" unique_id=418520146]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yxvgw")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1500167921]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -450.0
+offset_top = -300.0
+offset_right = 450.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_xww4h")
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=1100456865]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer" unique_id=1518737316]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=424706865]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=922631792]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1542894040]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="GridContainer" type="GridContainer" parent="PanelContainer/MarginContainer/VBoxContainer/ScrollContainer" unique_id=769022634]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 8
+columns = 3
+
+[node name="HSeparator2" type="HSeparator" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1650139365]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=2081392360]
+layout_mode = 2
+alignment = 2
+
+[node name="ActionButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer" unique_id=670738395]
+layout_mode = 2
+
+[node name="RenameButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1862729348]
+layout_mode = 2
+
+[node name="DeleteButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1866473633]
+layout_mode = 2
+
+[node name="BackButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/HBoxContainer" unique_id=2042215095]
+layout_mode = 2
+
+[node name="ErrorLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1691512810]
+visible = false
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+horizontal_alignment = 1
+vertical_alignment = 1

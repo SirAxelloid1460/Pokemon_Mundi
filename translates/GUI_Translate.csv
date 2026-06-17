@@ -1,0 +1,39 @@
+keys,en,es,es_MX,ja,de,fr,it,pt
+NEWGAME,New Game,Nueva partida,Nueva partida,はじめから,Neues Spiel,Nouvelle partie,Nuova partita,Novo jogo
+CONTINUE,Continue,Continuar,Continuar,つづきから,Fortsetzen,Continuer,Continua,Continuar
+LOADGAME,Load Game,Cargar partida,Cargar partida,データをよむ,Spiel laden,Charger partie,Carica partita,Carregar jogo
+OPTIONS,Options,Opciones,Opciones,オプション,Optionen,Options,Opzioni,Opções
+EXITGAME,Exit Game,Salir del juego,Salir del juego,ゲームをやめる,Spiel beenden,Quitter le jeu,Esci dal gioco,Sair do jogo
+OPT_APPLY,Apply,Aplicar,Aplicar,てきよう,Übernehmen,Appliquer,Applica,Aplicar
+OPT_CANCEL,Cancel,Cancelar,Cancelar,キャンセル,Abbrechen,Annuler,Annulla,Cancelar
+OPT_RESET,Reset,Restablecer,Restablecer,リセット,Zurücksetzen,Réinitialiser,Ripristina,Redefinir
+OPT_RESET_CONFIRM,Reset all settings to default?,¿Restablecer todos los ajustes?,¿Restablecer todos los ajustes?,すべての設定をリセットしますか？,Alle Einstellungen zurücksetzen?,Réinitialiser tous les paramètres?,Ripristinare tutte le impostazioni?,Redefinir todas as configurações?
+OPT_RESET_YES,"Yes, reset","Sí, restablecer","Sí, restablecer",はい、リセット,"Ja, zurücksetzen","Oui, réinitialiser","Sì, ripristina","Sim, redefinir"
+OPT_RESET_NO,"No, keep","No, conservar","No, conservar",いいえ、このまま,"Nein, behalten","Non, conserver","No, mantieni","Não, manter"
+OPT_TAB_AUDIO,Audio,Audio,Audio,おと,Audio,Audio,Audio,Áudio
+OPT_TAB_VIDEO,Video,Vídeo,Video,えいぞう,Video,Vidéo,Video,Vídeo
+OPT_TAB_GAMEPLAY,Gameplay,Jugabilidad,Jugabilidad,ゲームプレイ,Spieloptionen,Gameplay,Gameplay,Jogabilidade
+OPT_TAB_INTERFACE,Interface,Interfaz,Interfaz,インターフェース,Benutzeroberfläche,Interface,Interfaccia,Interface
+OPT_TAB_CONTROLS,Controls,Controles,Controles,そうさ,Steuerung,Commandes,Controlli,Controles
+OPT_WINDOWED,Windowed,Ventana,Ventana,ウィンドウ,Fenstermodus,Fenêtré,Finestra,Janela
+OPT_FULLSCREEN,Fullscreen,Pantalla completa,Pantalla completa,フルスクリーン,Vollbild,Plein écran,Schermo intero,Tela cheia
+OPT_BORDERLESS,Borderless,Sin bordes,Sin bordes,ボーダーレス,Randlos,Sans bordure,Senza bordi,Sem bordas
+OPT_UNASSIGNED,Unassigned,Sin asignar,Sin asignar,わりあてなし,Nicht belegt,Non assigné,Non assegnato,Não atribuído
+OPT_PRESS_KEY,Press a key...,Pulsa una tecla...,Presiona una tecla...,キーをおしてください...,Taste drücken...,Appuyez sur une touche...,Premi un tasto...,Pressione uma tecla...
+SAVE_NEW_SLOT,New Save,Nueva ranura,Nueva ranura,あたらしくはじめる,Neuer Speicherplatz,Nouvelle sauvegarde,Nuovo salvataggio,Novo arquivo
+SAVE_EMPTY,Empty,Vacío,Vacío,データなし,Leer,Vide,Vuoto,Vazio
+SAVE_UNKNOWN_LOCATION,Unknown location,Ubicación desconocida,Ubicación desconocida,ばしょふめい,Unbekannter Ort,Emplacement inconnu,Posizione sconosciuta,Local desconhecido
+SAVE_BACK,Back,Volver,Volver,もどる,Zurück,Retour,Indietro,Voltar
+SAVE_RENAME,Rename,Renombrar,Renombrar,なまえをかえる,Umbenennen,Renommer,Rinomina,Renomear
+SAVE_RENAME_TITLE,Rename save,Renombrar partida,Renombrar partida,データのなまえをかえる,Speicherstand umbenennen,Renommer la sauvegarde,Rinomina salvataggio,Renomear arquivo
+SAVE_DELETE,Delete,Eliminar,Eliminar,けす,Löschen,Supprimer,Elimina,Excluir
+SAVE_DELETE_TITLE,Delete save,Eliminar partida,Eliminar partida,データをけす,Speicherstand löschen,Supprimer la sauvegarde,Elimina salvataggio,Excluir arquivo
+SAVE_DELETE_CONFIRM,This cannot be undone. Delete?,Esto no se puede deshacer. ¿Eliminar?,Esto no se puede deshacer. ¿Eliminar?,このそうさはもとにもどせません。けしますか？,Dies kann nicht rückgängig gemacht werden. Löschen?,Ceci ne peut pas être annulé. Supprimer?,Questa azione non può essere annullata. Eliminare?,Esta ação não pode ser desfeita. Excluir?
+SAVE_DELETE_YES,"Yes, delete","Sí, eliminar","Sí, eliminar",はい、けす,"Ja, löschen","Oui, supprimer","Sì, elimina","Sim, excluir"
+SAVE_DELETE_NO,"No, keep","No, conservar","No, conservar",いいえ、のこす,"Nein, behalten","Non, conserver","No, mantieni","Não, manter"
+SAVE_SELECT_SLOT_NEW,Select a slot for your new save,Elige una ranura para tu nueva partida,Elige una ranura para tu nueva partida,あたらしいデータのばしょをえらんでください,Wähle einen Slot für deinen neuen Spielstand,Choisissez un emplacement pour votre nouvelle sauvegarde,Scegli uno slot per il nuovo salvataggio,Escolha um slot para seu novo arquivo
+SAVE_CREATE,Create save,Crear partida,Crear partida,データをつくる,Speicherstand anlegen,Créer sauvegarde,Crea salvataggio,Criar arquivo
+SAVE_SELECT_SLOT_LOAD,Select a save to load,Elige una partida para cargar,Elige una partida para cargar,よみこむデータをえらんでください,Wähle einen Spielstand zum Laden,Choisissez une sauvegarde à charger,Scegli un salvataggio da caricare,Escolha um arquivo para carregar
+SAVE_LOAD,Load,Cargar,Cargar,よみこむ,Laden,Charger,Carica,Carregar
+SAVE_LOAD_ERROR,Error loading save,Error al cargar la partida,Error al cargar la partida,データのよみこみにしっぱいしました,Fehler beim Laden,Erreur de chargement,Errore nel caricamento,Erro ao carregar arquivo
+SAVE_NO_SAVES,No saves found,No hay partidas guardadas,No hay partidas guardadas,データがありません,Keine Spielstände,Aucune sauvegarde,Nessun salvataggio,Nenhum arquivo encontrado

@@ -1,0 +1,254 @@
+{
+  "1": {
+	"BallID": 1,
+	"Icon": 0,
+	"Name": "POKEBALL",
+	"Description": "POKEBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 200
+  },
+  "2": {
+	"BallID": 2,
+	"Icon": 1,
+	"Name": "GREATBALL",
+	"Description": "GREATBALL_DESC",
+	"Rate": 1.5,
+	"FlatBonus": 0,
+	"Price": 600
+  },
+  "3": {
+	"BallID": 3,
+	"Icon": 2,
+	"Name": "ULTRABALL",
+	"Description": "ULTRABALL_DESC",
+	"Rate": 2,
+	"FlatBonus": 0,
+	"Price": 1000
+  },
+  "4": {
+	"BallID": 4,
+	"Icon": 3,
+	"Name": "MASTERBALL",
+	"Description": "MASTERBALL_DESC",
+	"Rate": 10000000,
+	"FlatBonus": 0,
+	"Price": 0
+  },
+  "5": {
+	"BallID": 5,
+	"Icon": 4,
+	"Name": "SAFARIBALL",
+	"Description": "SAFARIBALL_DESC",
+	"Rate": 0.01,
+	"FlatBonus": 0,
+	"Price": 0
+  },
+  "6": {
+	"BallID": 6,
+	"Icon": 5,
+	"Name": "FASTBALL",
+	"Description": "FASTBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 0
+  },
+  "7": {
+	"BallID": 7,
+	"Icon": 6,
+	"Name": "LEVELBALL",
+	"Description": "LEVELBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 0
+  },
+  "8": {
+	"BallID": 8,
+	"Icon": 7,
+	"Name": "LUREBALL",
+	"Description": "LUREBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 0
+  },
+  "9": {
+	"BallID": 9,
+	"Icon": 8,
+	"Name": "HEAVYBALL",
+	"Description": "HEAVYBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": -20,
+	"Price": 0
+  },
+  "10": {
+	"BallID": 10,
+	"Icon": 9,
+	"Name": "LOVEBALL",
+	"Description": "LOVEBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 0
+  },
+  "11": {
+	"BallID": 11,
+	"Icon": 10,
+	"Name": "FRIENDBALL",
+	"Description": "FRIENDBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 0
+  },
+  "12": {
+	"BallID": 12,
+	"Icon": 11,
+	"Name": "MOONBALL",
+	"Description": "MOONBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 0
+  },
+  "13": {
+	"BallID": 13,
+	"Icon": 12,
+	"Name": "SPORTBALL",
+	"Description": "SPORTBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 0
+  },
+  "14": {
+	"BallID": 14,
+	"Icon": 13,
+	"Name": "NETBALL",
+	"Description": "NETBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 1000
+  },
+  "15": {
+	"BallID": 15,
+	"Icon": 14,
+	"Name": "DIVEBALL",
+	"Description": "DIVEBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 1000
+  },
+  "16": {
+	"BallID": 16,
+	"Icon": 15,
+	"Name": "NESTBALL",
+	"Description": "NESTBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 1000
+  },
+  "17": {
+	"BallID": 17,
+	"Icon": 16,
+	"Name": "REPEATBALL",
+	"Description": "REPEATBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 1000
+  },
+  "18": {
+	"BallID": 18,
+	"Icon": 17,
+	"Name": "TIMERBALL",
+	"Description": "TIMERBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 1000
+  },
+  "19": {
+	"BallID": 19,
+	"Icon": 18,
+	"Name": "LUXURYBALL",
+	"Description": "LUXURYBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 1500
+  },
+  "20": {
+	"BallID": 20,
+	"Icon": 19,
+	"Name": "PREMIEREBALL",
+	"Description": "PREMIEREBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 300
+  },
+  "21": {
+	"BallID": 21,
+	"Icon": 20,
+	"Name": "DUSKBALL",
+	"Description": "DUSKBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 1000
+  },
+  "22": {
+	"BallID": 22,
+	"Icon": 21,
+	"Name": "HEALBALL",
+	"Description": "HEALBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 300
+  },
+  "23": {
+	"BallID": 23,
+	"Icon": 22,
+	"Name": "QUICKBALL",
+	"Description": "QUICKBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 1000
+  },
+  "24": {
+	"BallID": 24,
+	"Icon": 23,
+	"Name": "CHERISHBALL",
+	"Description": "CHERISHBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 0
+  },
+  "25": {
+	"BallID": 25,
+	"Icon": 24,
+	"Name": "PARKBALL",
+	"Description": "PARKBALL_DESC",
+	"Rate": 0.01,
+	"FlatBonus": 0,
+	"Price": 0
+  },
+  "26": {
+	"BallID": 26,
+	"Icon": 25,
+	"Name": "DREAMBALL",
+	"Description": "DREAMBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 0
+  },
+  "27": {
+	"BallID": 27,
+	"Icon": 26,
+	"Name": "BEASTBALL",
+	"Description": "BEASTBALL_DESC",
+	"Rate": 0.1,
+	"FlatBonus": 0,
+	"Price": 1000
+  },
+  "28": {
+	"BallID": 28,
+	"Icon": 27,
+	"Name": "STRANGEBALL",
+	"Description": "STRANGEBALL_DESC",
+	"Rate": 1,
+	"FlatBonus": 0,
+	"Price": 0
+  }
+}

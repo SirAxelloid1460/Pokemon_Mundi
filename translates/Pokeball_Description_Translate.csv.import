@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://0vxfp5k5gn0r"
+
+[deps]
+
+files=["res://translates/Pokeball_Description_Translate.en.translation", "res://translates/Pokeball_Description_Translate.es.translation", "res://translates/Pokeball_Description_Translate.es_MX.translation", "res://translates/Pokeball_Description_Translate.ja.translation", "res://translates/Pokeball_Description_Translate.de.translation", "res://translates/Pokeball_Description_Translate.fr.translation", "res://translates/Pokeball_Description_Translate.it.translation", "res://translates/Pokeball_Description_Translate.pt.translation"]
+
+source_file="res://translates/Pokeball_Description_Translate.csv"
+dest_files=["res://translates/Pokeball_Description_Translate.en.translation", "res://translates/Pokeball_Description_Translate.es.translation", "res://translates/Pokeball_Description_Translate.es_MX.translation", "res://translates/Pokeball_Description_Translate.ja.translation", "res://translates/Pokeball_Description_Translate.de.translation", "res://translates/Pokeball_Description_Translate.fr.translation", "res://translates/Pokeball_Description_Translate.it.translation", "res://translates/Pokeball_Description_Translate.pt.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

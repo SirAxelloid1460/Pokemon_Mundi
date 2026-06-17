@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://d2okmjd63iofw"]
+
+[ext_resource type="Script" uid="uid://ukb8rbncpuk8" path="res://Scripts/SaveSlotCard.gd" id="1_k8nk2"]
+[ext_resource type="Theme" uid="uid://bckcnshetrvgj" path="res://Assets/Themes/SaveSlotCard.tres" id="1_ysu3s"]
+
+[node name="SaveSlotCard" type="PanelContainer" unique_id=688228889]
+custom_minimum_size = Vector2(284, 126)
+offset_right = 150.0
+offset_bottom = 126.0
+theme = ExtResource("1_ysu3s")
+theme_type_variation = &"PanelContainer"
+script = ExtResource("1_k8nk2")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=819394479]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1754596551]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="SlotName" type="Label" parent="MarginContainer/VBoxContainer" unique_id=1083308469]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "\"Maximiliano — Centro Pokémon Ciudad Trigal\""
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer" unique_id=695128920]
+layout_mode = 2
+
+[node name="InfoContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=142347858]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="PlayerSprite" type="TextureRect" parent="MarginContainer/VBoxContainer/InfoContainer" unique_id=1663344348]
+custom_minimum_size = Vector2(48, 64)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="DataContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/InfoContainer" unique_id=1911035699]
+layout_mode = 2
+alignment = 1
+
+[node name="PlayerName" type="Label" parent="MarginContainer/VBoxContainer/InfoContainer/DataContainer" unique_id=260181960]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Ash"
+
+[node name="PlayTime" type="Label" parent="MarginContainer/VBoxContainer/InfoContainer/DataContainer" unique_id=160974580]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "02:01"
+
+[node name="Location" type="Label" parent="MarginContainer/VBoxContainer/InfoContainer/DataContainer" unique_id=832805375]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Pueblo Paleta"
+
+[node name="EmptyLabel" type="Label" parent="MarginContainer/VBoxContainer" unique_id=178456172]
+visible = false
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0.5211406, 0.5211406, 0.5211405, 1)
+theme_override_font_sizes/font_size = 24
+text = "Empty Slot"
+horizontal_alignment = 1
+vertical_alignment = 1

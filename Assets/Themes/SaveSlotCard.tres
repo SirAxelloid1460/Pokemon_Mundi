@@ -1,0 +1,17 @@
+[gd_resource type="Theme" format=3 uid="uid://bckcnshetrvgj"]
+
+[ext_resource type="Texture2D" uid="uid://dpvmtffhv576l" path="res://Assets/Sprites/Frames/frame_16.png" id="1_xymow"]
+[ext_resource type="StyleBox" uid="uid://c71qh2egvedwd" path="res://Assets/Themes/SaveSlotCardEmpty.tres" id="2_kmpcv"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_l512v"]
+texture = ExtResource("1_xymow")
+texture_margin_left = 7.0
+texture_margin_top = 7.0
+texture_margin_right = 7.0
+texture_margin_bottom = 7.0
+region_rect = Rect2(1, 1, 22, 22)
+
+[resource]
+PanelContainer/styles/hover_panel = SubResource("StyleBoxTexture_l512v")
+PanelContainer/styles/panel = ExtResource("2_kmpcv")
+PanelContainer/styles/selected_panel = SubResource("StyleBoxTexture_l512v")

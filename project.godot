@@ -1,0 +1,53 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
+[application]
+
+config/name="Pokemon Mundi"
+config/version="0.0.1"
+run/main_scene="uid://c36jruyqd8ifj"
+config/features=PackedStringArray("4.6", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+ScreenFade="*uid://cn5d2ldqaqv43"
+Game="*res://Scripts/Autoloads/Game.gd"
+SaveManager="*res://Scripts/Autoloads/SaveManager.gd"
+AudioManager="*res://Scripts/Autoloads/AudioManager.gd"
+LocalizationManager="*uid://chcrgyti8qhs2"
+ThemeManager="*uid://dvkhdlugp1ism"
+StaticDataManagement="*res://Scripts/Autoloads/StaticDataManagement.gd"
+MovesList="*res://Scripts/Autoloads/Lists/MovesList.gd"
+PokeballList="*res://Scripts/Autoloads/Lists/PokeballList.gd"
+TypesList="*res://Scripts/Autoloads/Lists/TypesList.gd"
+StatusList="*res://Scripts/Autoloads/Lists/StatusList.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/resizable=false
+
+[gui]
+
+theme/custom_font="uid://omnxjcpum3od"
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://translates/GUI_Translate.de.translation", "res://translates/GUI_Translate.en.translation", "res://translates/GUI_Translate.es.translation", "res://translates/GUI_Translate.es_MX.translation", "res://translates/GUI_Translate.fr.translation", "res://translates/GUI_Translate.ja.translation", "res://translates/GUI_Translate.it.translation", "res://translates/GUI_Translate.pt.translation", "res://translates/Moves_Description_Translate.de.translation", "res://translates/Moves_Description_Translate.en.translation", "res://translates/Moves_Description_Translate.es.translation", "res://translates/Moves_Description_Translate.es_MX.translation", "res://translates/Moves_Description_Translate.fr.translation", "res://translates/Moves_Description_Translate.it.translation", "res://translates/Moves_Description_Translate.ja.translation", "res://translates/Moves_Description_Translate.pt.translation", "res://translates/Moves_Translate.de.translation", "res://translates/Moves_Translate.en.translation", "res://translates/Moves_Translate.es.translation", "res://translates/Moves_Translate.es_MX.translation", "res://translates/Moves_Translate.fr.translation", "res://translates/Moves_Translate.it.translation", "res://translates/Moves_Translate.ja.translation", "res://translates/Moves_Translate.pt.translation", "res://translates/Pokeball_Description_Translate.de.translation", "res://translates/Pokeball_Description_Translate.en.translation", "res://translates/Pokeball_Description_Translate.es.translation", "res://translates/Pokeball_Description_Translate.es_MX.translation", "res://translates/Pokeball_Description_Translate.fr.translation", "res://translates/Pokeball_Description_Translate.it.translation", "res://translates/Pokeball_Description_Translate.ja.translation", "res://translates/Pokeball_Description_Translate.pt.translation", "res://translates/Pokeball_Translate.de.translation", "res://translates/Pokeball_Translate.en.translation", "res://translates/Pokeball_Translate.es.translation", "res://translates/Pokeball_Translate.es_MX.translation", "res://translates/Pokeball_Translate.fr.translation", "res://translates/Pokeball_Translate.it.translation", "res://translates/Pokeball_Translate.ja.translation", "res://translates/Pokeball_Translate.pt.translation", "res://translates/Status_Translate.de.translation", "res://translates/Status_Translate.en.translation", "res://translates/Status_Translate.es.translation", "res://translates/Status_Translate.es_MX.translation", "res://translates/Status_Translate.fr.translation", "res://translates/Status_Translate.it.translation", "res://translates/Status_Translate.ja.translation", "res://translates/Status_Translate.pt.translation")
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

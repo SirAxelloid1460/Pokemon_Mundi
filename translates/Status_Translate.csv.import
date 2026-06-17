@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://75jk610hqebu"
+
+[deps]
+
+files=["res://translates/Status_Translate.en.translation", "res://translates/Status_Translate.es.translation", "res://translates/Status_Translate.es_MX.translation", "res://translates/Status_Translate.ja.translation", "res://translates/Status_Translate.de.translation", "res://translates/Status_Translate.fr.translation", "res://translates/Status_Translate.it.translation", "res://translates/Status_Translate.pt.translation"]
+
+source_file="res://translates/Status_Translate.csv"
+dest_files=["res://translates/Status_Translate.en.translation", "res://translates/Status_Translate.es.translation", "res://translates/Status_Translate.es_MX.translation", "res://translates/Status_Translate.ja.translation", "res://translates/Status_Translate.de.translation", "res://translates/Status_Translate.fr.translation", "res://translates/Status_Translate.it.translation", "res://translates/Status_Translate.pt.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

@@ -1,0 +1,70 @@
+keys,en,es,es_MX,ja,de,fr,it,pt
+FAINTED,Fainted,Debilitado,Debilitado,ひんし,Besiegt,K.O.,Fuori combattimento,Nocauteado
+BURNED,Burned,Quemado,Quemado,やけど,Verbrennung,Brûlure,Scottatura,Queimadura
+FROZEN,Frozen,Congelado,Congelado,こおり,Eingefroren,Gelé,Congelato,Congelado
+PARALYZED,Paralyzed,Paralizado,Paralizado,まひ,Paralyse,Paralysie,Paralisi,Paralisia
+POISONED,Poisoned,Envenenado,Envenenado,どく,Vergiftet,Empoisonné,Avvelenato,Envenenado
+BADLY_POISONED,Badly Poisoned,Gravemente envenenado,Gravemente envenenado,もうどく,Stark vergiftet,Empoisonnement grave,Avvelenamento grave,Gravemente envenenado
+ASLEEP,Asleep,Dormido,Dormido,ねむり,Schlaf,Endormi,Addormentato,Adormecido
+ABILITY_CHANGE,Ability Change,Cambio de habilidad,Cambio de habilidad,とくせいへんか,Fähigkeitwechsel,Changement de talent,Cambio abilità,Mudança de habilidade
+ABILITY_SUPRESSION,Ability Suppression,Supresión de habilidad,Supresión de habilidad,とくせいむこう,Fähigkeitsunterdrückung,Suppression de talent,Soppressione abilità,Supressão de habilidade
+TYPE_CHANGE,Type Change,Cambio de tipo,Cambio de tipo,タイプへんか,Typwechsel,Changement de type,Cambio di tipo,Mudança de tipo
+MIMIC,Mimic,Imitar,Imitar,ものまね,Mimikry,Imitation,Mimetismo,Mimetismo
+SUBSTITUTE,Substitute,Sustituto,Sustituto,みがわり,Puppe,Paravent,Sostituto,Substituto
+ILLUSION,Illusion,Ilusión,Ilusión,イリュージョン,Illusion,Illusion,Illusione,Ilusão
+BOUND,Bound,Atrapado,Atrapado,しめつけ,Eingewickelt,Enroulé,Avvolto,Envolto
+CURSE,Curse,Maldición,Maldición,のろい,Fluch,Malédiction,Maledizione,Maldição
+PERISH_SONG,Perish Song,Canto mortal,Canto mortal,ほろびのうた,Totenlied,Chant du destin,Canto fatale,Canto da perdição
+SEEDED,Seeded,Drenadoras,Drenadoras,やどりぎのたね,Egelsamen,Vampigraine,Parassiseme,Semente parasita
+SALT_CURE,Salt Cure,Sal curativa,Sal curativa,しおづけ,Salzkur,Saumure,Cura salina,Cura salina
+MIMIC,Mimic,Imitar,Imitar,ものまね,Mimikry,Imitation,Mimetismo,Mimetismo
+AUTOMATIZED,Automatized,Automatizado,Automatizado,オートマ化,Automatisiert,Automatisé,Automatizzato,Automatizado
+IDENTIFIED,Identified,Identificado,Identificado,みやぶられた,Identifiziert,Identifié,Identificato,Identificado
+MINIMIZED,Minimized,Minimizado,Minimizado,ちいさくなる,Minimiert,Minimisé,Minimizzato,Minimizado
+TAR_SHOT,Tar Shot,Brea explosiva,Brea explosiva,タールショット,Teergeschoss,Goudron,Colpo di catrame,Tiro de alcatrão
+GROUNDED,Grounded,En tierra,En tierra,グラウンド状態,Geerdet,Ancré au sol,A terra,Aterrado
+MAGNETIC_LEVITATION,Magnetic Levitation,Levitación magnética,Levitación magnética,じきふゆう,Magnetlevitation,Lévitation magnétique,Levitazione magnetica,Levitação magnética
+TELEKINESIS,Telekinesis,Telequinesis,Telequinesis,テレキネシス,Telekinese,Télékinésie,Telecinesi,Telecinese
+AQUA_RING,Aqua Ring,Anillo acuático,Anillo acuático,アクアリング,Aquaring,Anneau d'eau,Anello acqua,Anel aquático
+ROOTING,Rooting,Arraigado,Arraigado,ねをはる,Verwurzelt,Enraciné,Radicato,Enraizado
+LASER_FOCUS,Laser Focus,Enfoque láser,Enfoque láser,レーザーフォーカス,Laserfokus,Focalisation laser,Messa a fuoco laser,Foco a laser
+TAKING_AIM,Taking Aim,Apuntando,Apuntando,ねらいをさだめる,Zielerfassung,En joue,In mira,Mirando
+DROWSY,Drowsy,Somnoliento,Somnoliento,ねむけ,Schläfrig,Somnolent,Assonnato,Sonolento
+CHARGED,Charged,Cargado,Cargado,じゅうでん,Aufgeladen,Chargé,Caricato,Carregado
+STOCKPILE,Stockpile,Reserva,Reserva,たくわえる,Sammeln,Stockage,Scorta,Acúmulo
+DEFENSE_CURL,Defense Curl,Rizo defensa,Rizo defensa,まるくなる,Igel,Jackpot,Difensivizzazione,Enrolar defesa
+CANT_ESCAPE,Can't Escape,Sin escapatoria,Sin escapatoria,にげられない,Kein Entkommen,Pas d'évasion,Nessuna fuga,Sem escapatória
+NO_RETREAT,No Retreat,Sin retirada,Sin retirada,のびしろ,Kein Rückzug,Sans recul,Senza ritirata,Sem recuo
+OCTOLOCK,Octolock,Pulpo bloqueo,Pulpo bloqueo,タコがため,Okto-Sperre,Octoblocus,Ottoblocco,Octobloqueio
+DISABLE,Disable,Inhabilitar,Inhabilitar,かなしばり,Bann,Entrave,Blocco,Desabilitar
+EMBARGO,Embargo,Embargo,Embargo,さしおさえ,Embargo,Embargo,Embargo,Embargo
+HEAL_BLOCK,Heal Block,Bloqueo cura,Bloqueo cura,かいふくふうじ,Heilsperre,Blocage soin,Blocco cura,Bloqueio de cura
+IMPRISONED,Imprisoned,Aprisionado,Aprisionado,とじこめる,Eingesperrt,Prisonnier,Imprigionato,Aprisionado
+TAUNT,Taunt,Mofa,Mofa,ちょうはつ,Spott,Provoc,Provocazione,Provocação
+THROAT_CHOP,Throat Chop,Corte de garganta,Corte de garganta,のどスプレー,Kehlhieb,Tranche-gorge,Colpo alla gola,Golpe na garganta
+TORMENT,Torment,Tormento,Tormento,いちゃもん,Peinigung,Tourmente,Tormento,Tormento
+CONFUSION,Confusion,Confusión,Confusión,こんらん,Verwirrung,Confusion,Confusione,Confusão
+INFATUATION,Infatuation,Enamoramiento,Enamoramiento,メロメロ,Verliebtheit,Amoureux,Infatuazione,Encantamento
+GETTING_PUMPED,Getting Pumped,Motivado,Motivado,やるき,Aufgedreht,Gonflé à bloc,Pompato,Animado
+GUARD_SPLIT,Guard Split,División defensiva,División defensiva,ガードシェア,Schutzaufteilung,Partage garde,Divisione difesa,Divisão defensiva
+POWER_SPLIT,Power Split,División ofensiva,División ofensiva,パワーシェア,Kraftaufteilung,Partage force,Divisione potere,Divisão ofensiva
+SPEED_SWAP,Speed Swap,Intercambio de velocidad,Intercambio de velocidad,スピードスワップ,Geschwindigkeitstausch,Échange vitesse,Scambio velocità,Troca de velocidade
+POWER_TRICK,Power Trick,Truco de poder,Truco de poder,パワートリック,Krafttrick,Tour de force,Trucco potere,Truque de poder
+CHOICE_LOCK,Choice Lock,Bloqueo de elección,Bloqueo de elección,こだわり,Auswahlsperre,Verrouillage choix,Blocco scelta,Bloqueio de escolha
+RAMPAGE,Rampage,Arrebato,Arrebato,こうげきじょうたい,Amoklauf,Déchaînement,Furia,Fúria
+ROLLING,Rolling,Rodada,Rodada,ころがる,Rollend,En roulade,In rotolamento,Rolando
+MAKING_UPROAR,Making an Uproar,Alboroto,Alboroto,さわぐ,Lärm machen,En train de crier,Fracasso,Alvoroço
+BIDE,Bide,Aguante,Aguante,がまん,Ausdauer,Patience,Pazienza,Aguento
+RECHARGE,Recharge,Recargando,Recargando,はんどう,Aufladen,Recharge,Ricarica,Recarregando
+CHARGING_TURN,Charging Turn,Turno de carga,Turno de carga,じゅんびターン,Aufladerunde,Tour de charge,Turno di carica,Turno de carga
+FLINCH,Flinch,Retroceso,Retroceso,ひるみ,Rückschrecken,Tressaillement,Balzo,Recuo
+BRACING,Bracing,Resistiendo,Resistiendo,こらえる,Standhaft,Résistance,Resistenza,Resistindo
+CENTER_OF_ATTENTION,Center of Attention,Centro de atención,Centro de atención,ちゅうもく,Blickfang,Centre d'attention,Centro dell'attenzione,Centro das atenções
+MAGIC_COAT,Magic Coat,Manto mágico,Manto mágico,マジックコート,Magiemantel,Cape magique,Manto magico,Manto mágico
+PROTECTION,Protection,Protección,Protección,まもる,Schutz,Protection,Protezione,Proteção
+SEMI_INVULNERABLE,Semi-Invulnerable,Semivulnerable,Semivulnerable,はんぶんむてき,Halb unverwundbar,Semi-invulnérable,Semi-invulnerabile,Semi-invulnerável
+DYNAMAX,Dynamax,Dinamax,Dinamax,ダイマックス,Dynamax,Dynamax,Dynamax,Dinamax
+MEGA_EVOLVED,Mega Evolved,Megaevolucionado,Megaevolucionado,メガシンカ,Mega-Entwickelt,Méga-évolué,Megaevoluto,Mega-evoluído
+GIGAMAX,Gigantamax,Gigantamax,Gigantamax,キョダイマックス,Gigadynamax,Gigamax,Gigamax,Gigantamax
+TERA_STELLARIZED,Terastallized,Terastalizado,Terastalizado,テラスタル,Terakristallisiert,Téracristallisé,Teracristallizzato,Teracristalizado
+MYSTERIOUS_BARRIER,Mysterious Barrier,Barrera misteriosa,Barrera misteriosa,ふしぎなバリア,Mysteriöse Barriere,Barrière mystérieuse,Barriera misteriosa,Barreira misteriosa

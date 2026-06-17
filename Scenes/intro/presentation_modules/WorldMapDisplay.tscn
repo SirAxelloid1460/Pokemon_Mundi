@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://21jyqdmtwu50"]
+
+[ext_resource type="Script" uid="uid://b0xtfrdop5m5h" path="res://Scripts/Scenes/intro/presentation_modules/WorldMapDisplay.gd" id="1_x5ujl"]
+
+[node name="WorldMapDisplay" type="Node2D" unique_id=1970060234]
+position = Vector2(0, 0)
+script = ExtResource("1_x5ujl")

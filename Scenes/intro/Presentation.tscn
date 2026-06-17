@@ -1,0 +1,114 @@
+[gd_scene format=3 uid="uid://2qw50yk8hanf"]
+
+[ext_resource type="Script" uid="uid://yapmbcxnkiob" path="res://Scripts/Scenes/intro/Presentation.gd" id="1_emh70"]
+[ext_resource type="PackedScene" uid="uid://bg0ppl4xv2q08" path="res://Scenes/ui/TextBox.tscn" id="2_hdwnq"]
+[ext_resource type="Texture2D" uid="uid://8blowyajrps2" path="res://Assets/Sprites/Presentation/Presentation_notes.png" id="3_ag2xf"]
+[ext_resource type="Texture2D" uid="uid://dphr08pojhhsj" path="res://Assets/Sprites/Presentation/Presentation_bg.png" id="3_kcclx"]
+[ext_resource type="Texture2D" uid="uid://d6ahl6kysv1w" path="res://Assets/Sprites/npc/Prof_Aranguren_main.png" id="4_ag2xf"]
+
+[node name="Presentation" type="Control" unique_id=186729892]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_emh70")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=2019493913]
+position = Vector2(640.00006, 359.99997)
+scale = Vector2(1.7777778, 1.4999999)
+texture = ExtResource("3_kcclx")
+
+[node name="InitialNotesPanel" type="PanelContainer" parent="." unique_id=1227473853]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PresentationNotes" type="Sprite2D" parent="InitialNotesPanel" unique_id=1388455204]
+position = Vector2(640.00006, 360)
+scale = Vector2(1.7777778, 1.4999999)
+texture = ExtResource("3_ag2xf")
+
+[node name="MarginContainer" type="MarginContainer" parent="InitialNotesPanel" unique_id=1386154807]
+layout_mode = 2
+theme_override_constants/margin_left = 56
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 56
+theme_override_constants/margin_bottom = 24
+
+[node name="VBoxContainer" type="VBoxContainer" parent="InitialNotesPanel/MarginContainer" unique_id=457450084]
+layout_mode = 2
+theme_override_constants/separation = 80
+
+[node name="TitleLabel" type="Label" parent="InitialNotesPanel/MarginContainer/VBoxContainer" unique_id=746555808]
+layout_mode = 2
+theme_override_font_sizes/font_size = 64
+text = "NOTAS DEL DESARROLLADOR"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="NotesText" type="RichTextLabel" parent="InitialNotesPanel/MarginContainer/VBoxContainer" unique_id=290159595]
+custom_minimum_size = Vector2(600, 0)
+layout_mode = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 56
+bbcode_enabled = true
+text = "WELCOME TO POKEMON-MUNDI, YOU'RE ABOUT TO ENTER A WORLD FULL OF CHALLENGES, LOTS OF REGIONS TO EXPLORE AND DIFFERENT GOALS TO ACHIEVE. WHICH ONE WILL YOU CHOOSE? 
+WILL YOU BE THE GREATEST OF TRAINERS, EARN ALL BADGES
+AND WIN ALL COMPETITIONS??
+WILL YOU BE A PROFESSOR RESEARCHING INSTEAD OF FIGHTING??
+OR WILL YOU BECOME A RANGER AND LOOK FOR A MORE 
+PROFOUND CONNECTION WITH YOUR FELLOW POKEMONS??"
+fit_content = true
+scroll_active = false
+horizontal_alignment = 1
+
+[node name="ProfArangurenMain" type="Sprite2D" parent="." unique_id=694961956]
+visible = false
+position = Vector2(640, 360)
+scale = Vector2(3, 3)
+texture = ExtResource("4_ag2xf")
+hframes = 2
+frame = 1
+
+[node name="ContentContainer" type="Control" parent="." unique_id=783506167]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Textbox" parent="." unique_id=1164868815 instance=ExtResource("2_hdwnq")]
+visible = false
+layout_mode = 0
+offset_left = 279.0
+offset_top = 521.0
+offset_right = 999.0
+offset_bottom = 641.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=410296504]
+
+[node name="ContinueButton" type="Button" parent="." unique_id=1177316166]
+layout_mode = 0
+offset_left = 1097.0
+offset_top = 634.0
+offset_right = 1224.0
+offset_bottom = 696.0
+size_flags_horizontal = 8
+size_flags_vertical = 8
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.04273983, 0.39937133, 0.39981583, 1)
+theme_override_colors/font_hover_color = Color(0.043137256, 0.4, 0.4, 1)
+theme_override_constants/h_separation = 8
+theme_override_font_sizes/font_size = 48
+action_mode = 0
+text = "CONTINUE"
+flat = true
+autowrap_trim_flags = 0
+
+[connection signal="pressed" from="ContinueButton" to="." method="_on_initial_notes_confirmed"]

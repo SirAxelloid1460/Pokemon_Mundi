@@ -1,0 +1,44 @@
+Heartlessdragon 	-- Interior and Exterior Spritesheets Pokemon Emerald
+
+Redblueyellow		-- Pokeballs Gen1 to Gen5 animation
+
+DarrylBD99 + WolfPP	-- Gen2 Pokeballs and Beast ball animation
+
+Nx-Kun	+ previous	-- Pokeball Icons Gen1 to Gen5
+
+poppyworks		-- Silver Font
+
+Red-eX(Omega-Lukasz L.)	-- Gyms, edited by SirAxelloid1460
+TheLuiz
+LuiztheDarkMaster
+
+ChaoticCherryCake	-- Tilesets
+Kyle-Dove
+Heavy-Metal-Lover
+WesleyFG
+Dewitty
+Zetavares852
+XDinky
+Newtiteuf
+Alucus
+Erma96
+Hydrargirium
+Poison-Master
+Thedeadheroalistair
+Shutwig
+Asdsimone
+Xxdevil
+Steinnaples
+Hek-el-grande
+sylver1984
+NikNak93
+TeaAddiction
+Cuddlesthefatcat
+Magiscarf
+Gigatom
+The-Red-eX
+Morlock-Liam
+
+EternalLight		-- Menu Frames
+Dragoon			-- Textbox Frames
+Redzago			-- Presentation Background and Screens
