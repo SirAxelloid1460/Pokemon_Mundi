@@ -352,12 +352,9 @@ func _map_text() -> String:
 
 func _trainer_text() -> String:
 	var g = "Chica" if Game.player_gender == "girl" else "Chico"
-	var objectives = {"trainer": "Entrenador", "ranger": "Ranger", "professor": "Investigador"}
-	var obj = objectives.get(Game.get_player_objective(), "Entrenador")
 	return "[b]PERSONAJE[/b]\n\n" + \
 		"Nombre: %s\n" % Game.player_name + \
 		"Género: %s\n" % g + \
-		"Objetivo: %s\n" % obj + \
 		"Dinero: %d\n" % Game.money + \
 		"Medallas: %d\n" % Game.badges + \
 		"Pokédex: %d capturados\n" % Game.pokedex_caught.size() + \
