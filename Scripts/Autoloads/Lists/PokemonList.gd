@@ -62,6 +62,19 @@ func get_by_name(pokemon_name: String) -> Pokemon:
 		get_list()
 	return _cache_by_name.get(pokemon_name.to_lower(), null)
 
+func get_by_region(region_key: String) -> Array[Pokemon]:
+	#Pokémon presentes en una Pokédex regional, ordenados por su número regional.
+	if not _cache_loaded:
+		get_list()
+	if region_key == "national":
+		return _cache
+	var result: Array[Pokemon] = []
+	for p in _cache:
+		if p.regional_dex.has(region_key):
+			result.append(p)
+	result.sort_custom(func(a, b): return int(a.regional_dex[region_key]) < int(b.regional_dex[region_key]))
+	return result
+
 func get_evolutions(pokemon_id: int) -> Array[Pokemon]:
 	#Devuelve los Pokémon a los que evoluciona el dado.
 	var result: Array[Pokemon] = []

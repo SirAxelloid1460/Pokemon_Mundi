@@ -30,6 +30,7 @@ func from_dict(d: Dictionary) -> void:
 	evolution_chain = int(d.get("EvolutionChain", 0))
 	evolve_from = int(d.get("EvolveFrom", 0))
 	evolve_to = d.get("EvolveTo", [])
+	regional_dex = d.get("Dex", {})
 
 	# Específicos de Mundi (placeholder hasta definir reglas de tier/stats)
 	tier = str(d.get("Tier", ""))
@@ -140,6 +141,7 @@ var roar: String
 var evolution_chain: int
 var evolve_from: int
 var evolve_to: Array
+var regional_dex: Dictionary  # {region_key: regional_number}
 
 var caught: bool
 var terastellarized: bool
