@@ -31,6 +31,7 @@ func from_dict(d: Dictionary) -> void:
 	evolve_from = int(d.get("EvolveFrom", 0))
 	evolve_to = d.get("EvolveTo", [])
 	regional_dex = d.get("Dex", {})
+	forms = d.get("Forms", [])
 
 	# Específicos de Mundi (placeholder hasta definir reglas de tier/stats)
 	tier = str(d.get("Tier", ""))
@@ -142,6 +143,21 @@ var evolution_chain: int
 var evolve_from: int
 var evolve_to: Array
 var regional_dex: Dictionary  # {region_key: regional_number}
+var forms: Array              # [{id, slug, category, region, label, type1, type2, battle_only}]
+
+# Forma base (la variedad por defecto de la especie).
+func base_form() -> Dictionary:
+	for f in forms:
+		if f.get("category", "") == "base":
+			return f
+	return forms[0] if not forms.is_empty() else {}
+
+# Primera forma regional de una región concreta (alola/galar/hisui/paldea), o {} si no tiene.
+func regional_form(region: String) -> Dictionary:
+	for f in forms:
+		if f.get("region", "") == region:
+			return f
+	return {}
 
 var caught: bool
 var terastellarized: bool

@@ -50,6 +50,7 @@ var _category_name: String = "Nacional"
 var _selected: int = 0
 var _top: int = 0
 var _reveal_all: bool = false
+var _form_index: int = 0   # forma mostrada en el detalle (selector de la Nacional)
 
 # Vista CATEGORÍAS
 var _cat_index: int = 0
@@ -70,6 +71,7 @@ var _sprite: PokemonSprite
 var _sprite_placeholder: Label
 var _num_lbl: Label
 var _name_lbl: Label
+var _form_lbl: Label
 var _types_box: HBoxContainer
 var _species_lbl: Label
 var _phys_lbl: Label
@@ -251,24 +253,31 @@ func _build_list():
 	_list_root.add_child(_num_lbl)
 
 	_name_lbl = Label.new()
-	_name_lbl.position = Vector2(DETAIL_X, 144)
-	_name_lbl.add_theme_font_size_override("font_size", 44)
+	_name_lbl.position = Vector2(DETAIL_X, 142)
+	_name_lbl.add_theme_font_size_override("font_size", 42)
 	_name_lbl.add_theme_color_override("font_color", INK)
 	_list_root.add_child(_name_lbl)
 
+	_form_lbl = Label.new()
+	_form_lbl.position = Vector2(DETAIL_X, 192)
+	_form_lbl.size = Vector2(440, 28)
+	_form_lbl.add_theme_font_size_override("font_size", 21)
+	_form_lbl.add_theme_color_override("font_color", ACCENT)
+	_list_root.add_child(_form_lbl)
+
 	_types_box = HBoxContainer.new()
 	_types_box.add_theme_constant_override("separation", 10)
-	_types_box.position = Vector2(DETAIL_X, 206)
+	_types_box.position = Vector2(DETAIL_X, 226)
 	_list_root.add_child(_types_box)
 
 	_species_lbl = Label.new()
-	_species_lbl.position = Vector2(DETAIL_X, 256)
+	_species_lbl.position = Vector2(DETAIL_X, 268)
 	_species_lbl.add_theme_font_size_override("font_size", 24)
 	_species_lbl.add_theme_color_override("font_color", ACCENT)
 	_list_root.add_child(_species_lbl)
 
 	_phys_lbl = Label.new()
-	_phys_lbl.position = Vector2(DETAIL_X, 292)
+	_phys_lbl.position = Vector2(DETAIL_X, 302)
 	_phys_lbl.add_theme_font_size_override("font_size", 22)
 	_phys_lbl.add_theme_color_override("font_color", INK)
 	_list_root.add_child(_phys_lbl)
@@ -298,7 +307,7 @@ func _build_list():
 	_list_root.add_child(_sprite_placeholder)
 
 	var hint := Label.new()
-	hint.text = "↑↓ mover   ←→ página   D revelar   ESC categorías"
+	hint.text = "↑↓ mover   ←→ página   Z/X formas   D revelar   ESC categorías"
 	hint.position = Vector2(70, 648)
 	hint.add_theme_font_size_override("font_size", 18)
 	hint.add_theme_color_override("font_color", DIM_INK)
@@ -314,6 +323,7 @@ func _open_category(cat: Dictionary):
 		_list.append({"p": p, "num": num})
 	_selected = 0
 	_top = 0
+	_form_index = 0
 	_view = View.LIST
 	_cat_root.visible = false
 	_list_root.visible = true
@@ -336,6 +346,10 @@ func _input_list(event: InputEvent):
 	elif event is InputEventKey and event.pressed and event.keycode == KEY_D:
 		_reveal_all = not _reveal_all
 		_refresh_list_view()
+	elif event is InputEventKey and event.pressed and event.keycode == KEY_X:
+		_cycle_form(1)
+	elif event is InputEventKey and event.pressed and event.keycode == KEY_Z:
+		_cycle_form(-1)
 
 func _move_selection(delta: int):
 	var n := _list.size()
@@ -350,8 +364,32 @@ func _move_selection(delta: int):
 	elif _selected >= _top + VISIBLE_ROWS:
 		_top = _selected - VISIBLE_ROWS + 1
 	_top = clampi(_top, 0, maxi(0, n - VISIBLE_ROWS))
+	_form_index = 0
 	AudioManager.play_sfx("menu_move")
 	_refresh_list_view()
+
+# Lista de formas a mostrar en la categoría actual para una especie.
+# Nacional: todas. Región con formas regionales (alola/galar/paldea): solo la regional
+# si existe (si no, la base). Resto de regiones: solo la base.
+func _display_forms(p: Pokemon) -> Array:
+	if p.forms.is_empty():
+		return []
+	if _category_key == "national":
+		return p.forms
+	var rf := p.regional_form(_category_key)
+	if not rf.is_empty():
+		return [rf]
+	return [p.base_form()]
+
+func _cycle_form(delta: int):
+	if _view != View.LIST or _list.is_empty():
+		return
+	var forms := _display_forms(_list[_selected].p)
+	if forms.size() <= 1:
+		return
+	_form_index = (_form_index + delta + forms.size()) % forms.size()
+	AudioManager.play_sfx("menu_move")
+	_refresh_detail()
 
 func _refresh_list_view():
 	_refresh_stats()
@@ -411,6 +449,7 @@ func _refresh_detail():
 	if not seen:
 		_name_lbl.text = "----------"
 		_name_lbl.add_theme_color_override("font_color", DIM_INK)
+		_form_lbl.text = ""
 		_species_lbl.text = ""
 		_phys_lbl.text = ""
 		_desc_lbl.text = ""
@@ -419,29 +458,52 @@ func _refresh_detail():
 		_sprite_placeholder.visible = true
 		return
 
+	# Forma actual a mostrar (regional fija, o la elegida con Z/X en la Nacional)
+	var forms := _display_forms(p)
+	_form_index = clampi(_form_index, 0, maxi(0, forms.size() - 1))
+	var form: Dictionary = forms[_form_index] if not forms.is_empty() else {}
+	var t1: String = form.get("type1", p.type1)
+	var t2: String = form.get("type2", p.type2)
+
 	_name_lbl.text = p.name
 	_name_lbl.add_theme_color_override("font_color", INK)
+	_form_lbl.text = _form_caption(form, forms.size())
 	_species_lbl.text = p.species
 	_phys_lbl.text = "Altura  %.1f m      Peso  %.1f kg" % [p.height, p.weight]
 	_desc_lbl.text = p.description
 
-	_add_type_chip(p.type1)
-	if p.type2 != "":
-		_add_type_chip(p.type2)
+	_add_type_chip(t1)
+	if t2 != "":
+		_add_type_chip(t2)
 
-	var path := PokemonSprite.resolve_path(p.pokeID, "U", "")
+	var region: String = form.get("region", "")
+	var path := PokemonSprite.resolve_path(p.pokeID, "U", region)
 	if path != "":
 		_sprite.visible = true
 		_sprite_placeholder.visible = false
-		_sprite.load_pokemon(p.pokeID, "U", "", "menu")
+		_sprite.load_pokemon(p.pokeID, "U", region, "menu")
 	else:
 		_sprite.visible = false
 		_sprite_placeholder.text = "?"
 		_sprite_placeholder.visible = true
 
+func _form_caption(form: Dictionary, total: int) -> String:
+	if form.is_empty():
+		return ""
+	var label: String = form.get("label", "")
+	# En la Nacional, si hay varias formas, mostrar el selector "Forma i/N"
+	if _category_key == "national" and total > 1:
+		var form_name := label if label != "" else "Base"
+		return "Forma %d/%d  ·  %s" % [_form_index + 1, total, form_name]
+	# En secciones regionales, solo la etiqueta de la forma (si no es base)
+	if form.get("category", "") != "base" and label != "":
+		return label
+	return ""
+
 func _clear_detail():
 	_num_lbl.text = ""
 	_name_lbl.text = ""
+	_form_lbl.text = ""
 	_species_lbl.text = ""
 	_phys_lbl.text = ""
 	_desc_lbl.text = ""
