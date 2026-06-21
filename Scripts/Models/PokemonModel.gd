@@ -36,6 +36,7 @@ func from_dict(d: Dictionary) -> void:
 	# Específicos de Mundi (placeholder hasta definir reglas de tier/stats)
 	tier = str(d.get("Tier", ""))
 	level_cap = int(d.get("LevelCap", 0))
+	base_stats = d.get("BaseStats", [])
 	HP_max = int(d.get("HP_max", 0))
 	Attack_max = int(d.get("Attack_max", 0))
 	Defense_max = int(d.get("Defense_max", 0))
@@ -113,6 +114,7 @@ var currentStatus: String
 # Específicos de Pokémon Mundi
 var tier: String
 var level_cap: int
+var base_stats: Array  # [hp, atk, def, spa, spd, spe] base reales (para recalcular)
 
 var HP_max: int
 var Attack_max: int
