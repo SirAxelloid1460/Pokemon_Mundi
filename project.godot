@@ -33,6 +33,7 @@ MovesList="*res://Scripts/Autoloads/Lists/MovesList.gd"
 PokeballList="*res://Scripts/Autoloads/Lists/PokeballList.gd"
 TypesList="*res://Scripts/Autoloads/Lists/TypesList.gd"
 StatusList="*res://Scripts/Autoloads/Lists/StatusList.gd"
+PokemonList="*res://Scripts/Autoloads/Lists/PokemonList.gd"
 
 [display]
 

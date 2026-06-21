@@ -38,15 +38,12 @@ enum PresentationState {
 	PLAYER_INFO,            # Nombre, género, apariencia
 	WORLD_PRESENTATION,     # Mapa del mundo y explicación
 	WORLD_OUTRO,            # Discurso del profesor tras el mapa
-	PLAYER_OBJECTIVE,       # Elegir objetivo (Trainer/Ranger/Profesor)
-	OBJECTIVE_CONFIRMATION, # Confirmar elección y ver limitaciones
 	FAREWELL,              # Despedida del profesor
 	FINISHED               # Completado
 }
 
 var current_state = PresentationState.INITIAL_NOTES
 var current_module = null
-var _objective_panel = null
 
 # ============================================
 # DATOS DEL JUGADOR
@@ -63,7 +60,6 @@ var player_data = {
 	"pants":      0,
 	"shoes":      0,
 	"gloves":     0,   # 0 = sin guantes
-	"objective": ""  # "trainer", "ranger", "professor"
 }
 
 # ============================================
@@ -73,6 +69,7 @@ var player_data = {
 var world_dialogue_sequence = [
 	{"text": "Este vasto mundo está dividido en múltiples regiones.", "region": ""},
 	{"text": "La región de KANTO, donde todo comenzó.", "region": "Kanto"},
+	{"text": "El ARCHIPIÉLAGO NARANJA, islas tropicales de mar abierto.", "region": "Naranja"},
 	{"text": "JOHTO, tierra de tradiciones antiguas.", "region": "Johto"},
 	{"text": "HOENN, con sus vastos océanos y volcanes.", "region": "Hoenn"},
 	{"text": "SINNOH, hogar de leyendas ancestrales.", "region": "Sinnoh"},
@@ -312,14 +309,17 @@ func finish_world_presentation():
 
 	textbox.show_dialogue([
 		"¡Como este pequeño Pikachu!",
-		"Algunas personas luchan con ellos como entrenadores.",
-		"Otras los cuidan y se conectan con ellos como Rangers.",
-		"Y otras los estudian para conocerlos mejor, rellenando la Pokédex.",
-		"Pero... ¡casi lo olvidaba!",
-		"Hay una pregunta muy importante que debo hacerte...",
+		"En este mundo, cada persona elige libremente su propio camino.",
+		"Algunos luchan junto a ellos como entrenadores y retan a los gimnasios.",
+		"Otros los cuidan y se conectan como Rangers, en misiones y rescates.",
+		"Hay quienes brillan en los concursos, o se dedican a rellenar la Pokédex.",
+		"Incluso podrías fundar tu propio gimnasio... o tomar el mando de uno ya existente.",
+		"Y, aunque no debería decirlo... algunos eligen la senda del crimen, como el Team Rocket.",
+		"Pero esa decisión no me corresponde a mí.",
+		"Serás tú, " + player_data.name + ", quien decida en qué dedicarse.",
 	])
 	await textbox.dialogue_finished
-	ask_player_objective()
+	show_farewell()
 
 func _reveal_pikachu():
 	#Destello en la zona de la pokébola; a la vez cambia al sprite sin bola y suelta a Pikachu.
@@ -380,207 +380,28 @@ func _spawn_pikachu(pos: Vector2):
 	pt.tween_property(pika, "scale", Vector2(3, 3), 0.4)
 
 # ============================================
-# 5. OBJETIVO DEL JUGADOR
-# ============================================
-
-func ask_player_objective():
-	current_state = PresentationState.PLAYER_OBJECTIVE
- 
-	textbox.show_text_with_options(
-		"Dime, " + player_data.name + ", ¿cuál es tu objetivo en este mundo?",
-		[
-			"Ser el mejor entrenador Pokémon",
-			"Convertirme en un Ranger legendario",
-			"Completar la Pokédex como experto"
-		]
-	)
- 
-func _on_objective_selected(index: int):
-	match index:
-		0: player_data.objective = "trainer"
-		1: player_data.objective = "ranger"
-		2: player_data.objective = "professor"
-	show_objective_explanation()
- 
-func show_objective_explanation():
-	var explanation = ""
-	var title = ""
-	var objective = ""
-	var details = []
- 
-	match player_data.objective:
-		"trainer":
-			explanation = "¡Un entrenador! El camino clásico de los combates Pokémon."
-			title = "ENTRENADOR"
-			objective = "Conviértete en el Campeón Mundial"
-			details = [
-				"Capturas Pokémon con Pokéballs",
-				"Combates en gimnasios y torneos",
-				"Entrenas a tu equipo sin límites",
-			]
-		"ranger":
-			explanation = "¡Un Ranger! Conectarás con los Pokémon de forma única."
-			title = "RANGER"
-			objective = "Conviértete en un Ranger legendario"
-			details = [
-				"No usas Pokéballs, sino el Capturador Ranger",
-				"Los Pokémon te ayudan temporalmente",
-				"Enfoque en misiones y rescates",
-				"Más exploración que combate",
-			]
-		"professor":
-			explanation = "¡Un experto investigador! Completarás la Pokédex."
-			title = "INVESTIGADOR"
-			objective = "Completa y corrige toda la Pokédex"
-			details = [
-				"Énfasis en investigación y documentación",
-				"Recompensas por descubrimientos",
-				"Combates opcionales",
-				"Herramientas de investigación especiales",
-			]
- 
-	_show_objective_panel(title, objective, details)
-	textbox.show_single_text(explanation)
-	await textbox.dialogue_finished
-	confirm_objective()
- 
-func confirm_objective():
-	current_state = PresentationState.OBJECTIVE_CONFIRMATION
- 
-	var objective_name = ""
-	match player_data.objective:
-		"trainer":  objective_name = "Entrenador Pokémon"
-		"ranger":   objective_name = "Ranger Pokémon"
-		"professor": objective_name = "Profesor Pokémon"
- 
-	textbox.show_text_with_options(
-		"Entonces, ¿quieres ser un " + objective_name + "?",
-		["Sí, estoy seguro", "No, déjame elegir de nuevo"]
-	)
- 
-func _on_objective_confirmation(index: int):
-	_hide_objective_panel()
-	if index == 0:
-		show_farewell()
-	else:
-		textbox.show_single_text("Está bien, piénsalo bien.")
-		await textbox.dialogue_finished
-		ask_player_objective()
-
-func _show_objective_panel(title: String, objective: String, details: Array):
-	#Panel anclado a la derecha: nombre, objetivo principal y lista de características.
-	_hide_objective_panel()
-	var panel := PanelContainer.new()
-	panel.add_theme_stylebox_override("panel", _panel_stylebox())
-	content_container.add_child(panel)
-
-	var margin := MarginContainer.new()
-	for s in ["margin_left", "margin_right", "margin_top", "margin_bottom"]:
-		margin.add_theme_constant_override(s, 20)
-	panel.add_child(margin)
-
-	var vbox := VBoxContainer.new()
-	vbox.add_theme_constant_override("separation", 8)
-	margin.add_child(vbox)
-
-	# Nombre del estilo de juego
-	var title_lbl := Label.new()
-	title_lbl.text = title
-	title_lbl.add_theme_font_size_override("font_size", 34)
-	title_lbl.add_theme_color_override("font_color", Color(0.05, 0.42, 0.42))
-	vbox.add_child(title_lbl)
-
-	# Ancho ajustado al texto (capado para no salir de pantalla ni solapar las opciones)
-	var font := title_lbl.get_theme_font("font")
-	var content_w := font.get_string_size(title, HORIZONTAL_ALIGNMENT_LEFT, -1, 34).x
-	content_w = max(content_w, font.get_string_size(objective, HORIZONTAL_ALIGNMENT_LEFT, -1, 28).x)
-	for d in details:
-		content_w = max(content_w, font.get_string_size("• " + str(d), HORIZONTAL_ALIGNMENT_LEFT, -1, 26).x)
-	content_w = min(content_w, 520.0)
-
-	# Objetivo principal, justo debajo del nombre
-	var obj_lbl := Label.new()
-	obj_lbl.text = objective
-	obj_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	obj_lbl.custom_minimum_size = Vector2(content_w, 0)
-	obj_lbl.add_theme_font_size_override("font_size", 28)
-	obj_lbl.add_theme_color_override("font_color", Color(0, 0, 0))
-	vbox.add_child(obj_lbl)
-
-	# Subtítulo de la lista
-	var caract_lbl := Label.new()
-	caract_lbl.text = "Características:"
-	caract_lbl.add_theme_font_size_override("font_size", 22)
-	caract_lbl.add_theme_color_override("font_color", Color(0.05, 0.42, 0.42))
-	vbox.add_child(caract_lbl)
-
-	# Lista de características
-	for d in details:
-		var l := Label.new()
-		l.text = "• " + str(d)
-		l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-		l.custom_minimum_size = Vector2(content_w, 0)
-		l.add_theme_font_size_override("font_size", 26)
-		l.add_theme_color_override("font_color", Color(0, 0, 0))
-		vbox.add_child(l)
-
-	panel.modulate.a = 0.0
-	_objective_panel = panel
-	# Posicionar anclado a la derecha una vez calculado el tamaño real
-	await get_tree().process_frame
-	await get_tree().process_frame
-	if not is_instance_valid(panel):
-		return
-	panel.reset_size()
-	var py = max(24.0, (521.0 - panel.size.y) * 0.5)   # centrado vertical sobre el textbox
-	panel.global_position = Vector2(1250.0 - panel.size.x, py)
-	var t = create_tween()
-	t.tween_property(panel, "modulate:a", 1.0, 0.3)
-
-func _hide_objective_panel():
-	if _objective_panel and is_instance_valid(_objective_panel):
-		_objective_panel.queue_free()
-	_objective_panel = null
-
-func _panel_stylebox() -> StyleBox:
-	#Mismo frame NinePatch que el ChoiceBox, para mantener el estilo de los demás containers.
-	var sb := StyleBoxTexture.new()
-	sb.texture = load("res://Assets/Sprites/Frames/frame_1.png")
-	sb.texture_margin_left = 6
-	sb.texture_margin_top = 6
-	sb.texture_margin_right = 6
-	sb.texture_margin_bottom = 6
-	sb.set_content_margin_all(8)
-	return sb
-
-# ============================================
-# 6. DESPEDIDA
+# 5. DESPEDIDA
 # ============================================
 
 func show_farewell():
 	current_state = PresentationState.FAREWELL
- 
-	var objective_name = ""
-	match player_data.objective:
-		"trainer":   objective_name = "entrenador"
-		"ranger":    objective_name = "Ranger"
-		"professor": objective_name = "investigador"
- 
+
 	textbox.show_dialogue([
-		"¡Perfecto, " + player_data.name + "!",
-		"Tu aventura como " + objective_name + " está por comenzar.",
+		"¡Muy bien, " + player_data.name + "!",
+		"Tu aventura está a punto de comenzar.",
 		"Un mundo de sueños y aventuras con POKÉMON te espera.",
+		"El camino que sigas... dependerá solo de ti.",
 		"Recuerda: el vínculo con tus Pokémon es lo más importante.",
 		"¡Adelante, y mucha suerte!"
 	])
 
 # ============================================
-# 7. FINALIZACIÓN
+# 6. FINALIZACIÓN
 # ============================================
 
 func finish_presentation():
 	current_state = PresentationState.FINISHED
- 
+
 	Game.player_name   = player_data.name
 	Game.player_gender = player_data.gender
 	Game.player_appearance = {
@@ -593,8 +414,7 @@ func finish_presentation():
 		"shoes":      player_data.shoes,
 		"gloves":     player_data.gloves,
 	}
-	Game.set_event_flag("player_objective", player_data.objective)
- 
+
 	emit_signal("presentation_complete")
 	Game.GameData.active_scene = "res://Scenes/world/PlayerRoom.tscn"
 	await ScreenFade.fade_out()
@@ -624,12 +444,6 @@ func _on_option_selected(index: int):
 			else:
 				# Volver a abrir el panel para editar
 				show_player_creation()
- 
-		PresentationState.PLAYER_OBJECTIVE:
-			_on_objective_selected(index)
- 
-		PresentationState.OBJECTIVE_CONFIRMATION:
-			_on_objective_confirmation(index)
 
 # ============================================
 # UTILIDADES

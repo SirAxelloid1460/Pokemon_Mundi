@@ -145,9 +145,7 @@ func is_pokemon_caught(pokemon_id: int) -> bool:
 
 func get_pokedex_completion() -> float:
 	#Retorna el porcentaje de completitud de la Pokédex.
-	var total_pokemon = 151
-	# DESCOMENTAR cuando tengas Pokemons:
-	# var total_pokemon = Pokemons.size()
+	var total_pokemon = PokemonList.get_total_count()
 	if total_pokemon == 0:
 		return 0.0
 	return (float(pokedex_caught.size()) / float(total_pokemon)) * 100.0
