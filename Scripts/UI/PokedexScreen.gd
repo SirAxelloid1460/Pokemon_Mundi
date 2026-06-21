@@ -25,7 +25,6 @@ const SPRITE_POS := Vector2(1080, 250)
 const REPEAT_DELAY := 0.32   # retardo antes de empezar a repetir
 const REPEAT_RATE := 0.05    # intervalo entre pasos mientras se mantiene
 const LIST_RECT := Rect2(62, 120, 508, 504)    # área de la lista (VISIBLE_ROWS*ROW_H)
-const CAT_RECT := Rect2(74, 148, 560, 476)     # área del menú de categorías
 
 # Categorías: Nacional + las regiones del juego (Ranger Fiore/Almia/Oblivia ya con datos + Decolore)
 const CATEGORIES := [
@@ -45,6 +44,14 @@ const CATEGORIES := [
 	{"key": "fiore",    "name": "Fiore"},
 	{"key": "decolore", "name": "Decolore"},
 ]
+
+# key de categoría → nombre de región en data/region_areas.json (las que viven en el mapa)
+const KEY_TO_AREA := {
+	"kanto": "Kanto", "naranja": "Naranja", "johto": "Johto", "hoenn": "Hoenn",
+	"sinnoh": "Sinnoh", "unova": "Unova", "kalos": "Kalos", "alola": "Alola",
+	"galar": "Galar", "paldea": "Paldea", "almia": "Almia", "oblivia": "Oblivia",
+	"fiore": "Fiore",
+}
 
 enum View { CATEGORIES, LIST }
 
@@ -67,8 +74,12 @@ var _cat_counts: Dictionary = {}
 
 # --- Nodos ---
 var _cat_root: Control
-var _cat_rows: Array = []
 var _cat_cursor: ColorRect
+var _col_rows: Dictionary = {}      # key -> Label (fila de la columna lateral)
+var _map_hi: Dictionary = {}        # key -> ColorRect (zona clicable sobre el mapa)
+var _map_lbl: Dictionary = {}       # key -> Label (nombre sobre el mapa)
+var _area_screen: Dictionary = {}   # key -> Rect2 en coordenadas de pantalla
+var _cat_pulse: float = 0.0
 
 var _list_root: Control
 var _rows: Array = []
@@ -145,40 +156,132 @@ func _build_categories():
 	_cat_root.size = VIEWPORT
 	add_child(_cat_root)
 
-	var sub := Label.new()
-	sub.text = "Elige una categoría"
-	sub.position = Vector2(70, 110)
-	sub.add_theme_font_size_override("font_size", 24)
-	sub.add_theme_color_override("font_color", DIM_INK)
-	_cat_root.add_child(sub)
-
-	_cat_cursor = ColorRect.new()
-	_cat_cursor.color = Color(ACCENT.r, ACCENT.g, ACCENT.b, 0.18)
-	_cat_cursor.size = Vector2(560, 32)
-	_cat_root.add_child(_cat_cursor)
-
-	# Precomputar conteos por categoría
+	# Conteos por categoría
 	for c in CATEGORIES:
 		if c.key == "national":
 			_cat_counts[c.key] = PokemonList.get_total_count()
 		else:
 			_cat_counts[c.key] = PokemonList.get_by_region(c.key).size()
 
-	var y := 148.0
-	for i in range(CATEGORIES.size()):
+	var areas := _load_region_areas()
+
+	# Fondo oscuro del área del mapa + mapa mundi con filtro de pantalla digital
+	var mrect := Rect2(64, 104, 928, 560)
+	var dark := ColorRect.new()
+	dark.color = Color(0.04, 0.05, 0.08)
+	dark.position = mrect.position
+	dark.size = mrect.size
+	_cat_root.add_child(dark)
+
+	var tex: Texture2D = _load_map_texture()
+	var map_origin := mrect.position
+	var map_scale := 1.0
+	if tex:
+		var ts := tex.get_size()
+		map_scale = minf(mrect.size.x / ts.x, mrect.size.y / ts.y)
+		var draw := ts * map_scale
+		map_origin = mrect.position + (mrect.size - draw) * 0.5
+		var spr := Sprite2D.new()
+		spr.texture = tex
+		spr.centered = false
+		spr.position = map_origin
+		spr.scale = Vector2(map_scale, map_scale)
+		spr.material = _make_screen_material()
+		_cat_root.add_child(spr)
+
+	# Hotspots de las regiones que tengan caja definida (>0) en region_areas.json
+	for c in CATEGORIES:
+		var ak: String = KEY_TO_AREA.get(c.key, "")
+		if ak == "" or not areas.has(ak):
+			continue
+		var box: Rect2 = areas[ak]
+		if box.size.x <= 0.0 or box.size.y <= 0.0:
+			continue
+		var sr := Rect2(map_origin + box.position * map_scale, box.size * map_scale)
+		_area_screen[c.key] = sr
+		var hi := ColorRect.new()
+		hi.color = Color(ACCENT.r, ACCENT.g, ACCENT.b, 0.16)
+		hi.position = sr.position
+		hi.size = sr.size
+		_cat_root.add_child(hi)
+		_map_hi[c.key] = hi
+		var ml := Label.new()
+		ml.text = c.name
+		ml.position = sr.position + Vector2(4, 2)
+		ml.add_theme_font_size_override("font_size", 16)
+		ml.add_theme_color_override("font_color", PAPER)
+		_cat_root.add_child(ml)
+		_map_lbl[c.key] = ml
+
+	# Columna lateral: Nacional, Decolore y cualquier región aún sin caja en el mapa
+	_cat_cursor = ColorRect.new()
+	_cat_cursor.color = Color(ACCENT.r, ACCENT.g, ACCENT.b, 0.20)
+	_cat_cursor.size = Vector2(208, 28)
+	_cat_root.add_child(_cat_cursor)
+
+	var y := 116.0
+	for c in CATEGORIES:
+		if _area_screen.has(c.key):
+			continue
 		var row := Label.new()
-		row.position = Vector2(80, y + i * 32)
-		row.size = Vector2(540, 32)
-		row.add_theme_font_size_override("font_size", 24)
+		row.position = Vector2(1016, y)
+		row.size = Vector2(192, 28)
+		row.add_theme_font_size_override("font_size", 22)
 		_cat_root.add_child(row)
-		_cat_rows.append(row)
+		_col_rows[c.key] = row
+		y += 30.0
 
 	var hint := Label.new()
-	hint.text = "↑↓ elegir   Enter abrir   ESC salir"
-	hint.position = Vector2(70, 648)
+	hint.text = "↑↓ / ratón elegir   Enter / clic abrir   ESC salir"
+	hint.position = Vector2(70, 664)
 	hint.add_theme_font_size_override("font_size", 18)
 	hint.add_theme_color_override("font_color", DIM_INK)
 	_cat_root.add_child(hint)
+
+func _load_region_areas() -> Dictionary:
+	var out := {}
+	var path := "res://data/region_areas.json"
+	if not FileAccess.file_exists(path):
+		return out
+	var f := FileAccess.open(path, FileAccess.READ)
+	if f == null:
+		return out
+	var data = JSON.parse_string(f.get_as_text())
+	f.close()
+	if typeof(data) != TYPE_DICTIONARY:
+		return out
+	for rn in data:
+		var r = data[rn]
+		if r is Dictionary:
+			out[rn] = Rect2(float(r.get("x", 0)), float(r.get("y", 0)), float(r.get("w", 0)), float(r.get("h", 0)))
+	return out
+
+func _load_map_texture() -> Texture2D:
+	for p in ["res://Assets/Mapas_Regionales/pokemon_world_2.png", "res://Assets/Mapas_Regionales/Pokemon World.webp"]:
+		if ResourceLoader.exists(p):
+			return load(p)
+	return null
+
+func _make_screen_material() -> ShaderMaterial:
+	var m := ShaderMaterial.new()
+	m.shader = load("res://Assets/Shaders/pokedex_screen.gdshader")
+	return m
+
+func _cat_at_point(p: Vector2) -> String:
+	for k in _area_screen:
+		if (_area_screen[k] as Rect2).has_point(p):
+			return k
+	for k in _col_rows:
+		var row: Label = _col_rows[k]
+		if Rect2(1008, row.position.y - 1, 208, 28).has_point(p):
+			return k
+	return ""
+
+func _index_of_key(key: String) -> int:
+	for i in range(CATEGORIES.size()):
+		if CATEGORIES[i].key == key:
+			return i
+	return 0
 
 func _show_categories():
 	_view = View.CATEGORIES
@@ -189,21 +292,42 @@ func _show_categories():
 	_refresh_categories()
 
 func _refresh_categories():
-	for i in range(_cat_rows.size()):
-		var c = CATEGORIES[i]
-		var lbl: Label = _cat_rows[i]
+	var sel_key: String = CATEGORIES[_cat_index].key
+	# Filas de la columna lateral
+	for c in CATEGORIES:
+		if not _col_rows.has(c.key):
+			continue
+		var lbl: Label = _col_rows[c.key]
 		var count: int = _cat_counts.get(c.key, 0)
-		var is_sel := i == _cat_index
-		if count > 0:
-			lbl.text = "%-12s %d" % [c.name, count]
-			lbl.add_theme_color_override("font_color", ACCENT if is_sel else INK)
-		else:
-			lbl.text = "%-12s — próximamente" % c.name
-			lbl.add_theme_color_override("font_color", ACCENT if is_sel else DIM_INK)
-	_cat_cursor.position = Vector2(74, 148 + _cat_index * 32 - 1)
+		var on := c.key == sel_key
+		lbl.text = ("%-10s %d" % [c.name, count]) if count > 0 else ("%-10s —" % c.name)
+		lbl.add_theme_color_override("font_color", ACCENT if on else (INK if count > 0 else DIM_INK))
+	# Cursor de columna (solo si el seleccionado vive en la columna)
+	if _col_rows.has(sel_key):
+		_cat_cursor.visible = true
+		_cat_cursor.position = Vector2(1008, (_col_rows[sel_key] as Label).position.y - 1)
+	else:
+		_cat_cursor.visible = false
+	# Resaltado base de los hotspots no seleccionados (el seleccionado pulsa en _process)
+	for k in _map_hi:
+		if k != sel_key:
+			(_map_hi[k] as ColorRect).color = Color(ACCENT.r, ACCENT.g, ACCENT.b, 0.16)
 
 func _input_categories(event: InputEvent):
 	# ↑/↓ se gestionan en _process (auto-repetición al mantener pulsado)
+	if event is InputEventMouseMotion:
+		var k := _cat_at_point(event.position)
+		if k != "" and k != CATEGORIES[_cat_index].key:
+			_cat_index = _index_of_key(k)
+			AudioManager.play_sfx("menu_move")
+			_refresh_categories()
+		return
+	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
+		var k2 := _cat_at_point(event.position)
+		if k2 != "":
+			_cat_index = _index_of_key(k2)
+			_open_category(CATEGORIES[_cat_index])
+		return
 	if event.is_action_pressed("ui_cancel"):
 		_close()
 	elif event.is_action_pressed("ui_accept"):
@@ -522,6 +646,12 @@ func _clear_detail():
 
 # Auto-scroll continuo: mientras se mantenga ↑/↓, repetir el paso tras un retardo inicial.
 func _process(delta: float):
+	if _view == View.CATEGORIES:
+		_cat_pulse += delta
+		var sk: String = CATEGORIES[_cat_index].key
+		if _map_hi.has(sk):
+			var a: float = 0.30 + 0.18 * sin(_cat_pulse * 6.0)
+			(_map_hi[sk] as ColorRect).color = Color(ACCENT.r, ACCENT.g, ACCENT.b, a)
 	var dir := 0
 	if Input.is_action_pressed("ui_down"):
 		dir += 1
@@ -579,7 +709,7 @@ func _handle_wheel(event: InputEvent) -> bool:
 	if _view == View.LIST and LIST_RECT.has_point(event.position):
 		_move_selection(step)
 		return true
-	if _view == View.CATEGORIES and CAT_RECT.has_point(event.position):
+	if _view == View.CATEGORIES:
 		_move_cat(step)
 		return true
 	return false
