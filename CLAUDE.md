@@ -2,6 +2,10 @@
 
 RPG fan-made tipo Pokémon con elementos de Ranger. Motor **Godot 4 / GDScript**. Desarrollador único (Axel).
 
+## Flujo de trabajo Git (preferencia del usuario)
+**No crear pull requests.** Commit y push **directos a `main`** de una sola vez. Confirmado por Axel (proyecto de un solo desarrollador).
+
+
 ## Estructura del repo real (Godot)
 ```
 res://Scripts/      # todos los .gd
