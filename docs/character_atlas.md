@@ -12,13 +12,13 @@ atlas/{anim}/{dir}/{parte}[/lado]/1.png
   lado  = left/right (down,up) · upper/lower (sideways) · sin lado (chest, hair, head)
 ```
 
-## Layout de frames (analizado)
+## Layout de frames (confirmado)
 - **Frame = 32×36 px** (ancho 32 confirmado: 96/3, 224/7, 192/6, 160/5; 32/1).
-- **idle**: 1 fila. Partes móviles = 3 frames (96 px), estáticas (chest/hair) = 1 frame (32 px).
-- **walk/run**: las partes **móviles** son una **rejilla** de N columnas × **3 filas** (alto 108 = 3×36);
-  las **estáticas** (chest/hair) son N columnas × 1 fila (alto 36).
-  - walk: down/up = 224 px (7 col) · sideways = 192 px (6 col)
-  - run:  down/up = 192 px (6 col) · sideways = 160 px (5 col)
+- **COLUMNAS = frames de animación · FILAS = variantes** (todas las partes comparten el nº de
+  columnas dentro de un grupo, así que nunca desincronizan; cada parte usa una fila/variante).
+  - idle: 3 col (3 frames). walk: 7 col (down/up) · 6 col (sideways). run: 6 col · 5 col.
+  - Partes móviles traen 3 filas (variantes); chest/hair traen 1.
+- `CharacterCompositor.variant` / `set_variant()` elige la fila; `CharacterPreview` la cicla con Enter.
 
 ## Implementación
 - `Scripts/Util/CharacterCompositor.gd` (`class_name CharacterCompositor`): descubre las capas de la
@@ -27,9 +27,8 @@ atlas/{anim}/{dir}/{parte}[/lado]/1.png
 - `Scenes/debug/CharacterPreview.tscn` (F6): previsualiza · ←/→ animación · ↑/↓ orientación.
 
 ## Pendiente / por confirmar con el autor de los assets
-1. **Las 3 filas de walk/run** (partes móviles): ¿son 3 frames extra que se leen row-major
-   (→ walk = 21 frames y las estáticas 7, que desincronizan), o cada **columna** es el frame y las
-   filas son otra cosa (capas/variación vertical)? `CharacterCompositor.USE_ALL_ROWS` lo alterna.
+1. **Qué representa cada variante (fila)** y cómo se mapea a la personalización
+   (skin_tone / hair_color / ropa). Hoy `variant` es global; quizá deba ser por parte.
 2. **Orden z definitivo** y, en `sideways`, **z por lado** (brazo/pierna lejano —upper— detrás del
    torso y el cercano —lower— delante). Hoy el orden es plano por parte.
 3. **Anclaje vertical** de partes con distinto alto al componer.

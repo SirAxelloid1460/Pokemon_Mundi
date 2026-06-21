@@ -33,7 +33,7 @@ func _apply():
 	_char.set_pose(ANIMS[_ai], FACINGS[_fi])
 	# set_pose ajusta scale.x para el flip; reescalamos manteniendo el zoom
 	_char.scale = Vector2(8 * signf(_char.scale.x), 8)
-	_label.text = "anim: %s    facing: %s   (←/→ anim · ↑/↓ orientación)" % [ANIMS[_ai], FACINGS[_fi]]
+	_label.text = "anim: %s   facing: %s   variante: %d   (←/→ anim · ↑/↓ orient. · Enter variante)" % [ANIMS[_ai], FACINGS[_fi], _char.variant]
 
 func _unhandled_input(event):
 	if event.is_action_pressed("ui_right"):
@@ -44,3 +44,5 @@ func _unhandled_input(event):
 		_fi = (_fi + 1) % FACINGS.size(); _apply()
 	elif event.is_action_pressed("ui_up"):
 		_fi = (_fi - 1 + FACINGS.size()) % FACINGS.size(); _apply()
+	elif event.is_action_pressed("ui_accept"):
+		_char.set_variant(_char.variant + 1); _apply()

@@ -9,19 +9,19 @@ extends Node2D
 #     dir   = down | up | sideways      (left/right = sideways con flip horizontal)
 #     parte = head, hair, chest, arms, hands, legs, feet
 #     lado  = left/right (down,up)  |  upper/lower (sideways)  |  (sin lado: chest, hair, head)
-#   Cada PNG es una tira/rejilla de frames de 32x36 (idle=1 fila, walk/run=varias columnas).
+#   Cada PNG es una rejilla de 32x36: COLUMNAS = frames de animación, FILAS = variantes
+#   (las partes móviles traen varias variantes; chest/hair traen 1). 'variant' elige la fila.
 #
 # WIP / por confirmar con el autor de los assets:
-#   - En walk/run las partes móviles son rejilla (N columnas x 3 filas) y las estáticas N x 1.
-#     USE_ALL_ROWS controla si se leen todas las celdas (row-major) o sólo la fila 0.
 #   - Orden z definitivo y, en 'sideways', el z por lado (brazo lejano detrás del torso,
 #     cercano delante) — hoy el orden es plano por parte.
 #   - Recolor de piel/pelo (palette_swap) y variantes de ropa: aún no (sólo capas base).
 
 const ATLAS := "res://Assets/Sprites/MainCharacter/atlas"
 const FRAME := Vector2i(32, 36)        # tamaño de frame (ancho confirmado = 32)
-const USE_ALL_ROWS := true             # true: rejilla completa row-major; false: sólo fila 0
 const DEFAULT_FPS := 8.0
+
+var variant: int = 0                   # fila a usar (variante) en partes con varias filas
 
 # Orden z (atrás → adelante) por dirección.
 const Z_ORDER := {
@@ -91,22 +91,22 @@ func _make_layer(png_path: String) -> AnimatedSprite2D:
 	spr.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
 	return spr
 
-# Corta una tira/rejilla en celdas de FRAME (row-major).
+# Corta una rejilla: columnas = frames, fila = la variante elegida.
 func _slice(tex: Texture2D) -> Array:
-	var w := int(tex.get_width())
-	var h := int(tex.get_height())
-	var cols := maxi(1, w / FRAME.x)
-	var rows := maxi(1, h / FRAME.y)
-	if not USE_ALL_ROWS:
-		rows = 1
+	var cols := maxi(1, int(tex.get_width()) / FRAME.x)    # columnas = frames
+	var rows := maxi(1, int(tex.get_height()) / FRAME.y)   # filas = variantes
+	var row := clampi(variant, 0, rows - 1)
 	var out: Array = []
-	for r in range(rows):
-		for c in range(cols):
-			var at := AtlasTexture.new()
-			at.atlas = tex
-			at.region = Rect2(c * FRAME.x, r * FRAME.y, FRAME.x, FRAME.y)
-			out.append(at)
+	for c in range(cols):
+		var at := AtlasTexture.new()
+		at.atlas = tex
+		at.region = Rect2(c * FRAME.x, row * FRAME.y, FRAME.x, FRAME.y)
+		out.append(at)
 	return out
+
+func set_variant(v: int) -> void:
+	variant = v
+	_rebuild()
 
 func play() -> void:
 	for l in _layers:
