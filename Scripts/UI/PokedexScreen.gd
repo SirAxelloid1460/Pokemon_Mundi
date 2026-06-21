@@ -25,6 +25,7 @@ const SPRITE_POS := Vector2(1080, 250)
 const CATEGORIES := [
 	{"key": "national", "name": "Nacional"},
 	{"key": "kanto",    "name": "Kanto"},
+	{"key": "naranja",  "name": "A. Naranja"},
 	{"key": "johto",    "name": "Johto"},
 	{"key": "hoenn",    "name": "Hoenn"},
 	{"key": "sinnoh",   "name": "Sinnoh"},
@@ -142,7 +143,7 @@ func _build_categories():
 
 	_cat_cursor = ColorRect.new()
 	_cat_cursor.color = Color(ACCENT.r, ACCENT.g, ACCENT.b, 0.18)
-	_cat_cursor.size = Vector2(560, 36)
+	_cat_cursor.size = Vector2(560, 34)
 	_cat_root.add_child(_cat_cursor)
 
 	# Precomputar conteos por categoría
@@ -152,12 +153,12 @@ func _build_categories():
 		else:
 			_cat_counts[c.key] = PokemonList.get_by_region(c.key).size()
 
-	var y := 150.0
+	var y := 148.0
 	for i in range(CATEGORIES.size()):
 		var row := Label.new()
-		row.position = Vector2(80, y + i * 36)
-		row.size = Vector2(540, 34)
-		row.add_theme_font_size_override("font_size", 25)
+		row.position = Vector2(80, y + i * 34)
+		row.size = Vector2(540, 32)
+		row.add_theme_font_size_override("font_size", 24)
 		_cat_root.add_child(row)
 		_cat_rows.append(row)
 
@@ -188,7 +189,7 @@ func _refresh_categories():
 		else:
 			lbl.text = "%-12s — próximamente" % c.name
 			lbl.add_theme_color_override("font_color", ACCENT if is_sel else DIM_INK)
-	_cat_cursor.position = Vector2(74, 150 + _cat_index * 36 - 1)
+	_cat_cursor.position = Vector2(74, 148 + _cat_index * 34 - 1)
 
 func _input_categories(event: InputEvent):
 	if event.is_action_pressed("ui_cancel"):

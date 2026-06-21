@@ -69,6 +69,7 @@ var player_data = {
 var world_dialogue_sequence = [
 	{"text": "Este vasto mundo está dividido en múltiples regiones.", "region": ""},
 	{"text": "La región de KANTO, donde todo comenzó.", "region": "Kanto"},
+	{"text": "El ARCHIPIÉLAGO NARANJA, islas tropicales de mar abierto.", "region": "Naranja"},
 	{"text": "JOHTO, tierra de tradiciones antiguas.", "region": "Johto"},
 	{"text": "HOENN, con sus vastos océanos y volcanes.", "region": "Hoenn"},
 	{"text": "SINNOH, hogar de leyendas ancestrales.", "region": "Sinnoh"},
