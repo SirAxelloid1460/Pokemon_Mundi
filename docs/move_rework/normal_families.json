@@ -1,0 +1,383 @@
+[
+  {
+    "family": "Ascuas",
+    "type": "normal",
+    "members_count": 3,
+    "pp_base": 24,
+    "pp_max": 40,
+    "members": [
+      {
+        "slug": "ember",
+        "name_es": "Ascuas",
+        "power": 40,
+        "cost": 1,
+        "uses_base": 24,
+        "uses_max": 40
+      },
+      {
+        "slug": "flamethrower",
+        "name_es": "Lanzallamas",
+        "power": 90,
+        "cost": 2,
+        "uses_base": 12,
+        "uses_max": 20
+      },
+      {
+        "slug": "fire-blast",
+        "name_es": "Llamarada",
+        "power": 190,
+        "cost": 4,
+        "uses_base": 6,
+        "uses_max": 10
+      }
+    ]
+  },
+  {
+    "family": "Absorber",
+    "type": "normal",
+    "members_count": 3,
+    "pp_base": 24,
+    "pp_max": 40,
+    "members": [
+      {
+        "slug": "absorb",
+        "name_es": "Absorber",
+        "power": 20,
+        "cost": 1,
+        "uses_base": 24,
+        "uses_max": 40
+      },
+      {
+        "slug": "mega-drain",
+        "name_es": "Megaagotar",
+        "power": 50,
+        "cost": 2,
+        "uses_base": 12,
+        "uses_max": 20
+      },
+      {
+        "slug": "giga-drain",
+        "name_es": "Gigadrenado",
+        "power": 110,
+        "cost": 4,
+        "uses_base": 6,
+        "uses_max": 10
+      }
+    ]
+  },
+  {
+    "family": "Impactrueno",
+    "type": "normal",
+    "members_count": 3,
+    "pp_base": 28,
+    "pp_max": 48,
+    "members": [
+      {
+        "slug": "thunder-shock",
+        "name_es": "Impactrueno",
+        "power": 40,
+        "cost": 1,
+        "uses_base": 28,
+        "uses_max": 48
+      },
+      {
+        "slug": "thunderbolt",
+        "name_es": "Rayo",
+        "power": 90,
+        "cost": 2,
+        "uses_base": 14,
+        "uses_max": 24
+      },
+      {
+        "slug": "thunder",
+        "name_es": "Trueno",
+        "power": 190,
+        "cost": 4,
+        "uses_base": 7,
+        "uses_max": 12
+      }
+    ]
+  },
+  {
+    "family": "Nieve Polvo",
+    "type": "normal",
+    "members_count": 3,
+    "pp_base": 24,
+    "pp_max": 40,
+    "members": [
+      {
+        "slug": "powder-snow",
+        "name_es": "Nieve Polvo",
+        "power": 40,
+        "cost": 1,
+        "uses_base": 24,
+        "uses_max": 40
+      },
+      {
+        "slug": "ice-beam",
+        "name_es": "Rayo Hielo",
+        "power": 90,
+        "cost": 2,
+        "uses_base": 12,
+        "uses_max": 20
+      },
+      {
+        "slug": "blizzard",
+        "name_es": "Ventisca",
+        "power": 190,
+        "cost": 4,
+        "uses_base": 6,
+        "uses_max": 10
+      }
+    ]
+  },
+  {
+    "family": "Picotazo Veneno",
+    "type": "normal",
+    "members_count": 3,
+    "pp_base": 36,
+    "pp_max": 56,
+    "members": [
+      {
+        "slug": "poison-sting",
+        "name_es": "Picotazo Veneno",
+        "power": 15,
+        "cost": 1,
+        "uses_base": 36,
+        "uses_max": 56
+      },
+      {
+        "slug": "sludge",
+        "name_es": "Residuos",
+        "power": 40,
+        "cost": 2,
+        "uses_base": 18,
+        "uses_max": 28
+      },
+      {
+        "slug": "sludge-bomb",
+        "name_es": "Bomba Lodo",
+        "power": 90,
+        "cost": 4,
+        "uses_base": 9,
+        "uses_max": 14
+      }
+    ]
+  },
+  {
+    "family": "Tornado",
+    "type": "normal",
+    "members_count": 3,
+    "pp_base": 36,
+    "pp_max": 56,
+    "members": [
+      {
+        "slug": "gust",
+        "name_es": "Tornado",
+        "power": 40,
+        "cost": 1,
+        "uses_base": 36,
+        "uses_max": 56
+      },
+      {
+        "slug": "air-cutter",
+        "name_es": "Aire Afilado",
+        "power": 90,
+        "cost": 2,
+        "uses_base": 18,
+        "uses_max": 28
+      },
+      {
+        "slug": "air-slash",
+        "name_es": "Tajo Aéreo",
+        "power": 190,
+        "cost": 4,
+        "uses_base": 9,
+        "uses_max": 14
+      }
+    ]
+  },
+  {
+    "family": "Lanzarrocas",
+    "type": "normal",
+    "members_count": 3,
+    "pp_base": 16,
+    "pp_max": 24,
+    "members": [
+      {
+        "slug": "rock-throw",
+        "name_es": "Lanzarrocas",
+        "power": 50,
+        "cost": 1,
+        "uses_base": 16,
+        "uses_max": 24
+      },
+      {
+        "slug": "rock-slide",
+        "name_es": "Avalancha",
+        "power": 110,
+        "cost": 2,
+        "uses_base": 8,
+        "uses_max": 12
+      },
+      {
+        "slug": "stone-edge",
+        "name_es": "Roca Afilada",
+        "power": 230,
+        "cost": 4,
+        "uses_base": 4,
+        "uses_max": 6
+      }
+    ]
+  },
+  {
+    "family": "Pistola Agua",
+    "type": "normal",
+    "members_count": 2,
+    "pp_base": 24,
+    "pp_max": 40,
+    "members": [
+      {
+        "slug": "water-gun",
+        "name_es": "Pistola Agua",
+        "power": 40,
+        "cost": 1,
+        "uses_base": 24,
+        "uses_max": 40
+      },
+      {
+        "slug": "hydro-pump",
+        "name_es": "Hidrobomba",
+        "power": 190,
+        "cost": 4,
+        "uses_base": 6,
+        "uses_max": 10
+      }
+    ]
+  },
+  {
+    "family": "Burbuja",
+    "type": "normal",
+    "members_count": 2,
+    "pp_base": 28,
+    "pp_max": 48,
+    "members": [
+      {
+        "slug": "bubble",
+        "name_es": "Burbuja",
+        "power": 40,
+        "cost": 1,
+        "uses_base": 28,
+        "uses_max": 48
+      },
+      {
+        "slug": "bubble-beam",
+        "name_es": "Rayo Burbuja",
+        "power": 90,
+        "cost": 2,
+        "uses_base": 14,
+        "uses_max": 24
+      }
+    ]
+  },
+  {
+    "family": "Hoja Afilada",
+    "type": "normal",
+    "members_count": 2,
+    "pp_base": 24,
+    "pp_max": 40,
+    "members": [
+      {
+        "slug": "razor-leaf",
+        "name_es": "Hoja Afilada",
+        "power": 55,
+        "cost": 1,
+        "uses_base": 24,
+        "uses_max": 40
+      },
+      {
+        "slug": "leaf-blade",
+        "name_es": "Hoja Aguda",
+        "power": 120,
+        "cost": 2,
+        "uses_base": 12,
+        "uses_max": 20
+      }
+    ]
+  },
+  {
+    "family": "Confusión",
+    "type": "normal",
+    "members_count": 2,
+    "pp_base": 24,
+    "pp_max": 40,
+    "members": [
+      {
+        "slug": "confusion",
+        "name_es": "Confusión",
+        "power": 50,
+        "cost": 1,
+        "uses_base": 24,
+        "uses_max": 40
+      },
+      {
+        "slug": "psybeam",
+        "name_es": "Psicorrayo",
+        "power": 110,
+        "cost": 2,
+        "uses_base": 12,
+        "uses_max": 20
+      }
+    ]
+  },
+  {
+    "family": "Picotazo",
+    "type": "normal",
+    "members_count": 2,
+    "pp_base": 36,
+    "pp_max": 56,
+    "members": [
+      {
+        "slug": "peck",
+        "name_es": "Picotazo",
+        "power": 35,
+        "cost": 1,
+        "uses_base": 36,
+        "uses_max": 56
+      },
+      {
+        "slug": "drill-peck",
+        "name_es": "Pico Taladro",
+        "power": 80,
+        "cost": 2,
+        "uses_base": 18,
+        "uses_max": 28
+      }
+    ]
+  },
+  {
+    "family": "Látigo Cepa",
+    "type": "normal",
+    "members_count": 2,
+    "pp_base": 24,
+    "pp_max": 42,
+    "members": [
+      {
+        "slug": "vine-whip",
+        "name_es": "Látigo Cepa",
+        "power": 45,
+        "cost": 1,
+        "uses_base": 24,
+        "uses_max": 42
+      },
+      {
+        "slug": "power-whip",
+        "name_es": "Latigazo",
+        "power": 150,
+        "cost": 3,
+        "uses_base": 8,
+        "uses_max": 14
+      }
+    ]
+  }
+]

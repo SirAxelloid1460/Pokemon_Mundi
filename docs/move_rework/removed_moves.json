@@ -1,0 +1,305 @@
+{
+  "removed_count": 60,
+  "removed_outright": [
+    {
+      "slug": "bide",
+      "name_es": "Venganza"
+    },
+    {
+      "slug": "conversion",
+      "name_es": "Conversión"
+    },
+    {
+      "slug": "conversion-2",
+      "name_es": "Conversión2"
+    },
+    {
+      "slug": "embargo",
+      "name_es": "Embargo"
+    },
+    {
+      "slug": "flower-shield",
+      "name_es": "Defensa Floral"
+    },
+    {
+      "slug": "rototiller",
+      "name_es": "Fertilizante"
+    },
+    {
+      "slug": "foresight",
+      "name_es": "Profecía"
+    },
+    {
+      "slug": "odor-sleuth",
+      "name_es": "Rastreo"
+    },
+    {
+      "slug": "miracle-eye",
+      "name_es": "Gran Ojo"
+    },
+    {
+      "slug": "heal-block",
+      "name_es": "Anticura"
+    },
+    {
+      "slug": "ion-deluge",
+      "name_es": "Cortina Plasma"
+    },
+    {
+      "slug": "laser-focus",
+      "name_es": "Aguzar"
+    },
+    {
+      "slug": "punishment",
+      "name_es": "Castigo"
+    },
+    {
+      "slug": "spotlight",
+      "name_es": "Foco"
+    },
+    {
+      "slug": "venom-drench",
+      "name_es": "Trampa Venenosa"
+    },
+    {
+      "slug": "wring-out",
+      "name_es": "Estrujón"
+    },
+    {
+      "slug": "aromatherapy",
+      "name_es": "Aromaterapia"
+    },
+    {
+      "slug": "autotomize",
+      "name_es": "Aligerar"
+    },
+    {
+      "slug": "chip-away",
+      "name_es": "Guardia Baja"
+    },
+    {
+      "slug": "smelling-salts",
+      "name_es": "Estímulo"
+    },
+    {
+      "slug": "clamp",
+      "name_es": "Tenaza"
+    },
+    {
+      "slug": "feint-attack",
+      "name_es": "Finta"
+    },
+    {
+      "slug": "heal-order",
+      "name_es": "Auxilio"
+    },
+    {
+      "slug": "attack-order",
+      "name_es": "Al Ataque"
+    },
+    {
+      "slug": "defend-order",
+      "name_es": "A Defender"
+    },
+    {
+      "slug": "magnitude",
+      "name_es": "Magnitud"
+    },
+    {
+      "slug": "me-first",
+      "name_es": "Yo Primero"
+    },
+    {
+      "slug": "mirror-move",
+      "name_es": "Espejo"
+    },
+    {
+      "slug": "mind-reader",
+      "name_es": "Telépata"
+    },
+    {
+      "slug": "lock-on",
+      "name_es": "Fijar Blanco"
+    },
+    {
+      "slug": "bestow",
+      "name_es": "Ofrenda"
+    },
+    {
+      "slug": "dual-chop",
+      "name_es": "Golpe Bis"
+    },
+    {
+      "slug": "grass-whistle",
+      "name_es": "Silbato"
+    },
+    {
+      "slug": "mud-sport",
+      "name_es": "Chapoteo Lodo"
+    },
+    {
+      "slug": "water-sport",
+      "name_es": "Hidrochorro"
+    },
+    {
+      "slug": "submission",
+      "name_es": "Sumisión"
+    },
+    {
+      "slug": "ice-ball",
+      "name_es": "Bola Hielo"
+    },
+    {
+      "slug": "mat-block",
+      "name_es": "Escudo Tatami"
+    },
+    {
+      "slug": "spider-web",
+      "name_es": "Telaraña"
+    },
+    {
+      "slug": "constrict",
+      "name_es": "Restricción"
+    },
+    {
+      "slug": "psywave",
+      "name_es": "Psicoonda"
+    },
+    {
+      "slug": "sharpen",
+      "name_es": "Afilar"
+    },
+    {
+      "slug": "synchronoise",
+      "name_es": "Sincrorruido"
+    },
+    {
+      "slug": "pursuit",
+      "name_es": "Persecución"
+    },
+    {
+      "slug": "assist",
+      "name_es": "Ayuda"
+    },
+    {
+      "slug": "dragon-rage",
+      "name_es": "Furia Dragón"
+    },
+    {
+      "slug": "sonic-boom",
+      "name_es": "Bomba Sónica"
+    },
+    {
+      "slug": "frustration",
+      "name_es": "Frustración"
+    },
+    {
+      "slug": "return",
+      "name_es": "Retribución"
+    },
+    {
+      "slug": "ominous-wind",
+      "name_es": "Viento Aciago"
+    },
+    {
+      "slug": "silver-wind",
+      "name_es": "Viento Plata"
+    },
+    {
+      "slug": "sky-drop",
+      "name_es": "Caída Libre"
+    },
+    {
+      "slug": "snatch",
+      "name_es": "Robo"
+    },
+    {
+      "slug": "barrage",
+      "name_es": "Bombardeo"
+    }
+  ],
+  "removed_to_passive": [
+    {
+      "slug": "camouflage",
+      "name_es": "Camuflaje",
+      "plan": "pasiva tipo Bicho"
+    },
+    {
+      "slug": "captivate",
+      "name_es": "Seducción",
+      "plan": "pasiva de ciertos Pokémon (p.ej. Skitty)"
+    },
+    {
+      "slug": "power-up-punch",
+      "name_es": "Puño Incremento",
+      "plan": "pasiva tipo Lucha"
+    },
+    {
+      "slug": "grudge",
+      "name_es": "Rabia",
+      "plan": "pasiva tipo Fantasma (con rebalanceo)"
+    },
+    {
+      "slug": "trump-card",
+      "name_es": "As Oculto",
+      "plan": "pasiva Multi-hit: +1 potencia por cada PP faltante"
+    }
+  ],
+  "fused": [
+    {
+      "slug": "secret-power",
+      "name_es": "Daño Secreto",
+      "plan": "fusionado en Nature Power"
+    },
+    {
+      "slug": "nature-power",
+      "name_es": "Adaptación",
+      "plan": "superviviente de la fusión Secret+Nature (efecto fusionado PENDIENTE)"
+    }
+  ],
+  "kept_with_changes": [
+    {
+      "slug": "natural-gift",
+      "name_es": "Don Natural",
+      "change": "CONSERVADO. +efecto: si el usuario ingiere la baya que llevaba, el cambio de tipo del ataque persiste hasta fin de combate o hasta ser debilitado"
+    },
+    {
+      "slug": "double-slap",
+      "name_es": "Doble Bofetón",
+      "change": "CONSERVADO en Multi-hit. Cambiado a 2 golpes fijos + potencia 25"
+    }
+  ],
+  "buffs_multihit": [
+    {
+      "slug": "fury-swipes",
+      "name_es": "Golpes Furia",
+      "change": "potencia 18→25"
+    },
+    {
+      "slug": "triple-kick",
+      "name_es": "Triple Patada",
+      "change": "potencia 10→15"
+    },
+    {
+      "slug": "water-shuriken",
+      "name_es": "Shuriken de Agua",
+      "change": "potencia 15→20"
+    },
+    {
+      "slug": "twineedle",
+      "name_es": "Doble Ataque",
+      "change": "potencia 25→40, envenenamiento 20%→15%/golpe (30%/uso)"
+    },
+    {
+      "slug": "double-slap",
+      "name_es": "Doble Bofetón",
+      "change": "2 golpes fijos, potencia 15→25"
+    }
+  ],
+  "special": {
+    "beat-up": {
+      "name_es": "Paliza",
+      "formula": "potencia = 5 + ataque_base/10; golpea 1-6 veces, 1 por cada Pokémon aliado NO debilitado/dormido/envenenado/paralizado/quemado/congelado, excepto el propio usuario"
+    }
+  }
+}

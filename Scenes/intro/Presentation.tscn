@@ -42,12 +42,12 @@ theme_override_constants/margin_bottom = 24
 
 [node name="VBoxContainer" type="VBoxContainer" parent="InitialNotesPanel/MarginContainer" unique_id=457450084]
 layout_mode = 2
-theme_override_constants/separation = 80
+theme_override_constants/separation = 24
 
 [node name="TitleLabel" type="Label" parent="InitialNotesPanel/MarginContainer/VBoxContainer" unique_id=746555808]
 layout_mode = 2
-theme_override_font_sizes/font_size = 64
-text = "NOTAS DEL DESARROLLADOR"
+theme_override_font_sizes/font_size = 48
+text = "DEV_NOTES_TITLE"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -55,14 +55,9 @@ vertical_alignment = 1
 custom_minimum_size = Vector2(600, 0)
 layout_mode = 2
 theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/normal_font_size = 56
-bbcode_enabled = true
-text = "WELCOME TO POKEMON-MUNDI, YOU'RE ABOUT TO ENTER A WORLD FULL OF CHALLENGES, LOTS OF REGIONS TO EXPLORE AND DIFFERENT GOALS TO ACHIEVE. WHICH ONE WILL YOU CHOOSE? 
-WILL YOU BE THE GREATEST OF TRAINERS, EARN ALL BADGES
-AND WIN ALL COMPETITIONS??
-WILL YOU BE A PROFESSOR RESEARCHING INSTEAD OF FIGHTING??
-OR WILL YOU BECOME A RANGER AND LOOK FOR A MORE 
-PROFOUND CONNECTION WITH YOUR FELLOW POKEMONS??"
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = false
+text = "DEV_NOTES_BODY"
 fit_content = true
 scroll_active = false
 horizontal_alignment = 1

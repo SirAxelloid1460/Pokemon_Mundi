@@ -1,0 +1,281 @@
+{
+  "family": "Multi-hit",
+  "cost_system": "PENDIENTE (sistema aparte)",
+  "subfamilies": [
+    {
+      "subfamily": "Furia",
+      "members": [
+        {
+          "slug": "fury-attack",
+          "name_es": "Ataque Furia",
+          "power": 15,
+          "type": "normal",
+          "min_hits": 2,
+          "max_hits": 5,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "fury-swipes",
+          "name_es": "Golpes Furia",
+          "power": 25,
+          "type": "normal",
+          "min_hits": 2,
+          "max_hits": 5,
+          "ailment_chance": 0
+        }
+      ]
+    },
+    {
+      "subfamily": "Golpe de mano",
+      "members": [
+        {
+          "slug": "double-slap",
+          "name_es": "Doble Bofetón",
+          "power": 25,
+          "type": "normal",
+          "min_hits": 2,
+          "max_hits": 2,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "comet-punch",
+          "name_es": "Puño Cometa",
+          "power": 18,
+          "type": "normal",
+          "min_hits": 2,
+          "max_hits": 5,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "arm-thrust",
+          "name_es": "Empujón",
+          "power": 15,
+          "type": "fighting",
+          "min_hits": 2,
+          "max_hits": 5,
+          "ailment_chance": 0
+        }
+      ]
+    },
+    {
+      "subfamily": "Patada",
+      "members": [
+        {
+          "slug": "triple-kick",
+          "name_es": "Triple Patada",
+          "power": 15,
+          "type": "fighting",
+          "min_hits": 3,
+          "max_hits": 3,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "double-kick",
+          "name_es": "Doble Patada",
+          "power": 30,
+          "type": "fighting",
+          "min_hits": 2,
+          "max_hits": 2,
+          "ailment_chance": 0
+        }
+      ]
+    },
+    {
+      "subfamily": "Púas/Agujas",
+      "members": [
+        {
+          "slug": "spike-cannon",
+          "name_es": "Clavo Cañón",
+          "power": 20,
+          "type": "normal",
+          "min_hits": 2,
+          "max_hits": 5,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "pin-missile",
+          "name_es": "Pin Misil",
+          "power": 25,
+          "type": "bug",
+          "min_hits": 2,
+          "max_hits": 5,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "twineedle",
+          "name_es": "Doble Ataque",
+          "power": 40,
+          "type": "bug",
+          "min_hits": 2,
+          "max_hits": 2,
+          "ailment_chance": 15
+        }
+      ]
+    },
+    {
+      "subfamily": "Munición arrojada",
+      "members": [
+        {
+          "slug": "bullet-seed",
+          "name_es": "Semilladora",
+          "power": 25,
+          "type": "grass",
+          "min_hits": 2,
+          "max_hits": 5,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "rock-blast",
+          "name_es": "Pedrada",
+          "power": 25,
+          "type": "rock",
+          "min_hits": 2,
+          "max_hits": 5,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "scale-shot",
+          "name_es": "Ráfaga Escamas",
+          "power": 25,
+          "type": "dragon",
+          "min_hits": 2,
+          "max_hits": 5,
+          "ailment_chance": 0
+        }
+      ]
+    },
+    {
+      "subfamily": "Hielo punzante",
+      "members": [
+        {
+          "slug": "triple-axel",
+          "name_es": "Triple Axel",
+          "power": 20,
+          "type": "ice",
+          "min_hits": 3,
+          "max_hits": 3,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "icicle-spear",
+          "name_es": "Carámbano",
+          "power": 25,
+          "type": "ice",
+          "min_hits": 2,
+          "max_hits": 5,
+          "ailment_chance": 0
+        }
+      ]
+    },
+    {
+      "subfamily": "Hueso",
+      "members": [
+        {
+          "slug": "bone-rush",
+          "name_es": "Ataque Óseo",
+          "power": 25,
+          "type": "ground",
+          "min_hits": 2,
+          "max_hits": 5,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "bonemerang",
+          "name_es": "Huesomerang",
+          "power": 50,
+          "type": "ground",
+          "min_hits": 2,
+          "max_hits": 2,
+          "ailment_chance": 0
+        }
+      ]
+    },
+    {
+      "subfamily": "Acero/Engranaje",
+      "members": [
+        {
+          "slug": "gear-grind",
+          "name_es": "Rueda Doble",
+          "power": 50,
+          "type": "steel",
+          "min_hits": 2,
+          "max_hits": 2,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "double-iron-bash",
+          "name_es": "Ferropuño Doble",
+          "power": 60,
+          "type": "steel",
+          "min_hits": 2,
+          "max_hits": 2,
+          "ailment_chance": 0
+        }
+      ]
+    },
+    {
+      "subfamily": "Agua",
+      "members": [
+        {
+          "slug": "water-shuriken",
+          "name_es": "Shuriken de Agua",
+          "power": 20,
+          "type": "water",
+          "min_hits": 2,
+          "max_hits": 5,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "surging-strikes",
+          "name_es": "Azote Torrencial",
+          "power": 25,
+          "type": "water",
+          "min_hits": 3,
+          "max_hits": 3,
+          "ailment_chance": 0
+        }
+      ]
+    },
+    {
+      "subfamily": "(standalone)",
+      "members": [
+        {
+          "slug": "tail-slap",
+          "name_es": "Plumerazo",
+          "power": 25,
+          "type": "normal",
+          "min_hits": 2,
+          "max_hits": 5,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "dual-wingbeat",
+          "name_es": "Ala Bis",
+          "power": 40,
+          "type": "flying",
+          "min_hits": 2,
+          "max_hits": 2,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "dragon-darts",
+          "name_es": "Dracoflechas",
+          "power": 50,
+          "type": "dragon",
+          "min_hits": 2,
+          "max_hits": 2,
+          "ailment_chance": 0
+        },
+        {
+          "slug": "beat-up",
+          "name_es": "Paliza",
+          "power": null,
+          "type": "dark",
+          "min_hits": 6,
+          "max_hits": 6,
+          "ailment_chance": 0
+        }
+      ]
+    }
+  ]
+}
