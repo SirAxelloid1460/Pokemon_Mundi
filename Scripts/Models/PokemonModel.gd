@@ -24,6 +24,8 @@ func from_dict(d: Dictionary) -> void:
 	growthType = str(d.get("GrowthType", ""))
 	gender_rate = int(d.get("GenderRate", -1))
 	gender = gender_rate != -1
+	gender_diff = bool(d.get("GenderDiff", false))
+	gender_diff_desc = str(d.get("GenderDiffDesc", ""))
 	isBaby = bool(d.get("IsBaby", false))
 	isLegendary = bool(d.get("IsLegendary", false))
 	isMythical = bool(d.get("IsMythical", false))
@@ -100,6 +102,8 @@ var alolan: bool
 var galarian: bool
 var gender: bool
 var gender_rate: int
+var gender_diff: bool          # macho/hembra con diferencia visual
+var gender_diff_desc: String   # descripción corta de la diferencia
 var paldean: bool
 var ultraBeast: bool
 var isBaby: bool

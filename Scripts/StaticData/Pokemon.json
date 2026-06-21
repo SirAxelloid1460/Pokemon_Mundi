@@ -216,7 +216,9 @@
       100,
       100,
       80
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Hembras tienen bulbo en la flor"
   },
   "4": {
     "pokeID": 4,
@@ -891,7 +893,9 @@
       90,
       80,
       70
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Machos carecen de manchas negras"
   },
   "13": {
     "pokeID": 13,
@@ -1411,7 +1415,9 @@
       25,
       35,
       72
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Bigotes más cortos en hembras"
   },
   "20": {
     "pokeID": 20,
@@ -1506,7 +1512,9 @@
       50,
       70,
       97
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Bigotes más cortos en hembras"
   },
   "21": {
     "pokeID": 21,
@@ -2019,7 +2027,9 @@
       50,
       50,
       90
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Cola curva en forma corazón"
   },
   "26": {
     "pokeID": 26,
@@ -2098,7 +2108,9 @@
       90,
       80,
       110
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Hembras carecen punta de cola"
   },
   "27": {
     "pokeID": 27,
@@ -3174,7 +3186,9 @@
       30,
       40,
       55
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Colmillos más anchos en machos"
   },
   "42": {
     "pokeID": 42,
@@ -3245,7 +3259,9 @@
       65,
       75,
       90
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Colmillos más largos en machos"
   },
   "43": {
     "pokeID": 43,
@@ -3394,7 +3410,9 @@
       85,
       75,
       40
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Hembras tienen flor más grande"
   },
   "45": {
     "pokeID": 45,
@@ -3471,7 +3489,9 @@
       110,
       90,
       50
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Hembras tienen puntos más grandes"
   },
   "46": {
     "pokeID": 46,
@@ -4884,7 +4904,9 @@
       120,
       70,
       105
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Bigotes más largos en machos"
   },
   "65": {
     "pokeID": 65,
@@ -4961,7 +4983,9 @@
       135,
       95,
       120
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Bigotes más largos en machos"
   },
   "66": {
     "pokeID": 66,
@@ -6387,7 +6411,9 @@
       35,
       35,
       75
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Cuello negro en machos, crema en hembras"
   },
   "85": {
     "pokeID": 85,
@@ -6464,7 +6490,9 @@
       60,
       60,
       110
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Cuello negro en machos, crema en hembras"
   },
   "86": {
     "pokeID": 86,
@@ -7306,7 +7334,9 @@
       73,
       115,
       67
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Collar con más pelo en hembras"
   },
   "98": {
     "pokeID": 98,
@@ -8332,7 +8362,9 @@
       30,
       30,
       25
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Cuerno más pequeño en hembras"
   },
   "112": {
     "pokeID": 112,
@@ -8412,7 +8444,9 @@
       45,
       45,
       40
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Cuerno más pequeño en hembras"
   },
   "113": {
     "pokeID": 113,
@@ -8831,7 +8865,9 @@
       35,
       50,
       63
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Cuerno más pequeño en hembras"
   },
   "119": {
     "pokeID": 119,
@@ -8898,7 +8934,9 @@
       65,
       80,
       68
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Cuerno más pequeño en hembras"
   },
   "120": {
     "pokeID": 120,
@@ -9197,7 +9235,9 @@
       55,
       80,
       105
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Abdomen más largo en hembras"
   },
   "124": {
     "pokeID": 124,
@@ -9657,7 +9697,9 @@
       15,
       20,
       80
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Bigotes amarillos en machos, blancos en hembras"
   },
   "130": {
     "pokeID": 130,
@@ -9734,7 +9776,9 @@
       60,
       100,
       81
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Bigotes azules en machos, blancos en hembras"
   },
   "131": {
     "pokeID": 131,
@@ -9976,7 +10020,9 @@
       45,
       65,
       55
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Hembras tienen mancha de cola en flor"
   },
   "134": {
     "pokeID": 134,
@@ -11414,7 +11460,9 @@
       83,
       100,
       80
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Estambres más cortos en hembras"
   },
   "155": {
     "pokeID": 155,
@@ -12120,7 +12168,9 @@
       40,
       80,
       55
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Antenas más pequeñas en hembras"
   },
   "166": {
     "pokeID": 166,
@@ -12182,7 +12232,9 @@
       55,
       110,
       85
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Antenas más grandes en machos"
   },
   "167": {
     "pokeID": 167,
@@ -12572,6 +12624,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "electric",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 172,
+        "slug": "pichu-spiky-eared",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Pichu Orejas de Pico",
         "type1": "electric",
         "type2": "",
         "battle_only": false
@@ -12975,7 +13037,9 @@
       95,
       70,
       95
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Una raya amarilla menos en hembras"
   },
   "179": {
     "pokeID": 179,
@@ -13445,7 +13509,9 @@
       30,
       65,
       30
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Ramita más grande en machos"
   },
   "186": {
     "pokeID": 186,
@@ -13510,7 +13576,9 @@
       90,
       100,
       70
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Colorete más grande en machos"
   },
   "187": {
     "pokeID": 187,
@@ -13767,7 +13835,9 @@
       40,
       55,
       85
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Pelo de la cabeza más largo en hembras"
   },
   "191": {
     "pokeID": 191,
@@ -14037,7 +14107,9 @@
       25,
       25,
       15
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Branquia externa menor en hembras"
   },
   "195": {
     "pokeID": 195,
@@ -14101,7 +14173,9 @@
       65,
       65,
       35
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Membranas de la espalda más grandes en machos"
   },
   "196": {
     "pokeID": 196,
@@ -14303,7 +14377,9 @@
       85,
       42,
       91
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Plumaje de la cabeza menor en hembras"
   },
   "199": {
     "pokeID": 199,
@@ -14490,6 +14566,286 @@
         "type1": "psychic",
         "type2": "",
         "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-a",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown A",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-b",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown B",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-c",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown C",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-d",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown D",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-e",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown E",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-f",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown F",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-g",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown G",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-h",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown H",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-i",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown I",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-j",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown J",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-k",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown K",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-l",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown L",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-m",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown M",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-n",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown N",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-o",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown O",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-p",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown P",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-q",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown Q",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-r",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown R",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-s",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown S",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-t",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown T",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-u",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown U",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-v",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown V",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-w",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown W",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-x",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown X",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-y",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown Y",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-z",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown Z",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-exclamation",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown !",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 201,
+        "slug": "unown-question",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Unown ?",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -14562,7 +14918,9 @@
       33,
       58,
       33
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Labios rojos pintados en hembras"
   },
   "203": {
     "pokeID": 203,
@@ -14628,7 +14986,9 @@
       90,
       65,
       85
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Área amarilla del lomo menor en machos"
   },
   "204": {
     "pokeID": 204,
@@ -14890,7 +15250,9 @@
       35,
       65,
       85
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Aguijón más grande en machos"
   },
   "208": {
     "pokeID": 208,
@@ -14964,7 +15326,9 @@
       55,
       65,
       30
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Colmillo inferior más grande en machos"
   },
   "209": {
     "pokeID": 209,
@@ -15246,7 +15610,9 @@
       55,
       80,
       65
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Abdomen mayor en hembras"
   },
   "213": {
     "pokeID": 213,
@@ -15387,7 +15753,9 @@
       40,
       95,
       85
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Cuerno puntiagudo en machos, redondeado en hembras"
   },
   "215": {
     "pokeID": 215,
@@ -15468,7 +15836,9 @@
       35,
       75,
       115
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Oreja roja mayor en machos"
   },
   "216": {
     "pokeID": 216,
@@ -15597,7 +15967,9 @@
       75,
       75,
       55
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Pelo de los hombros más largo en hembras"
   },
   "218": {
     "pokeID": 218,
@@ -15865,7 +16237,9 @@
       60,
       60,
       50
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Colmillos más pequeños en hembras"
   },
   "222": {
     "pokeID": 222,
@@ -16077,7 +16451,9 @@
       105,
       75,
       45
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Ventosas más pequeñas en hembras"
   },
   "225": {
     "pokeID": 225,
@@ -16421,7 +16797,9 @@
       110,
       80,
       95
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Cuernos más cortos en hembras"
   },
   "230": {
     "pokeID": 230,
@@ -16613,7 +16991,9 @@
       60,
       60,
       50
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Colmillos más pequeños en hembras"
   },
   "233": {
     "pokeID": 233,
@@ -18090,7 +18470,9 @@
       70,
       50,
       45
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Punto oscuro en la espalda en machos"
   },
   "256": {
     "pokeID": 256,
@@ -18153,7 +18535,9 @@
       85,
       60,
       55
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Plumas de la cabeza más largas en machos"
   },
   "257": {
     "pokeID": 257,
@@ -18225,7 +18609,9 @@
       110,
       70,
       80
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Plumas-antena más largas en machos"
   },
   "258": {
     "pokeID": 258,
@@ -18880,7 +19266,9 @@
       100,
       50,
       65
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Puntos rojos de las alas más pequeños en hembras"
   },
   "268": {
     "pokeID": 268,
@@ -18999,7 +19387,9 @@
       50,
       90,
       65
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Antenas más grandes en machos"
   },
   "270": {
     "pokeID": 270,
@@ -19195,7 +19585,9 @@
       90,
       100,
       70
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Franjas más delgadas en hembras"
   },
   "273": {
     "pokeID": 273,
@@ -19325,7 +19717,9 @@
       60,
       40,
       60
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Hoja más grande en machos"
   },
   "275": {
     "pokeID": 275,
@@ -19389,7 +19783,9 @@
       90,
       60,
       80
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Hojas de las manos más pequeñas en hembras"
   },
   "276": {
     "pokeID": 276,
@@ -21477,7 +21873,9 @@
       40,
       55,
       60
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Orejas en posición distinta según sexo"
   },
   "308": {
     "pokeID": 308,
@@ -21549,7 +21947,9 @@
       60,
       75,
       80
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Saliente de la cabeza más grande en machos"
   },
   "309": {
     "pokeID": 309,
@@ -22000,7 +22400,9 @@
       100,
       80,
       65
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Hoja central más larga en hembras"
   },
   "316": {
     "pokeID": 316,
@@ -22063,7 +22465,9 @@
       43,
       53,
       40
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Pluma de la cabeza más larga en machos"
   },
   "317": {
     "pokeID": 317,
@@ -22125,7 +22529,9 @@
       73,
       83,
       55
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Bigotes más largos en machos"
   },
   "318": {
     "pokeID": 318,
@@ -22461,7 +22867,9 @@
       65,
       45,
       35
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Volcán más pronunciado en hembras"
   },
   "323": {
     "pokeID": 323,
@@ -22535,7 +22943,9 @@
       105,
       75,
       40
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Volcán más pronunciado en hembras"
   },
   "324": {
     "pokeID": 324,
@@ -23104,7 +23514,9 @@
       115,
       60,
       55
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Cuatro rombos en machos, tres en hembras"
   },
   "333": {
     "pokeID": 333,
@@ -24249,7 +24661,9 @@
       100,
       125,
       81
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Tiras rojas más largas en hembras"
   },
   "351": {
     "pokeID": 351,
@@ -25521,7 +25935,9 @@
       45,
       65,
       55
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Mandíbula más larga y puntiaguda en machos"
   },
   "370": {
     "pokeID": 370,
@@ -27293,7 +27709,9 @@
       30,
       30,
       60
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Plumaje blanco más extendido en machos"
   },
   "397": {
     "pokeID": 397,
@@ -27357,7 +27775,9 @@
       40,
       40,
       80
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Mancha gris de la frente mayor en machos"
   },
   "398": {
     "pokeID": 398,
@@ -27419,7 +27839,9 @@
       50,
       60,
       100
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Superficie blanca de la cara mayor en machos"
   },
   "399": {
     "pokeID": 399,
@@ -27483,7 +27905,9 @@
       35,
       40,
       31
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Tres rizos en hembras, cinco en machos"
   },
   "400": {
     "pokeID": 400,
@@ -27545,7 +27969,9 @@
       55,
       60,
       71
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Zona clara de la cara más extendida en machos"
   },
   "401": {
     "pokeID": 401,
@@ -27608,7 +28034,9 @@
       25,
       41,
       25
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Collar de la espalda más grande en hembras"
   },
   "402": {
     "pokeID": 402,
@@ -27669,7 +28097,9 @@
       55,
       51,
       65
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Bigote más largo en machos"
   },
   "403": {
     "pokeID": 403,
@@ -27734,7 +28164,9 @@
       40,
       34,
       45
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Pelaje azul más largo en machos"
   },
   "404": {
     "pokeID": 404,
@@ -27799,7 +28231,9 @@
       60,
       49,
       60
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Más pelo azul en la cara en machos"
   },
   "405": {
     "pokeID": 405,
@@ -27862,7 +28296,9 @@
       95,
       79,
       70
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Pelo alrededor de la cara mayor en machos"
   },
   "406": {
     "pokeID": 406,
@@ -27994,7 +28430,9 @@
       125,
       105,
       90
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Capa de la espalda más larga en hembras"
   },
   "408": {
     "pokeID": 408,
@@ -28299,6 +28737,36 @@
         "type1": "bug",
         "type2": "",
         "battle_only": false
+      },
+      {
+        "id": 412,
+        "slug": "burmy-plant",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Manto Planta",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 412,
+        "slug": "burmy-sandy",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Manto Arena",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 412,
+        "slug": "burmy-trash",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Manto Basura",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -28439,6 +28907,36 @@
         "type1": "bug",
         "type2": "flying",
         "battle_only": false
+      },
+      {
+        "id": 414,
+        "slug": "mothim-plant",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Manto Planta",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 414,
+        "slug": "mothim-sandy",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Manto Arena",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 414,
+        "slug": "mothim-trash",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Manto Basura",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -28514,7 +29012,9 @@
       30,
       42,
       70
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Hembras tienen un punto rojo"
   },
   "416": {
     "pokeID": 416,
@@ -28641,7 +29141,9 @@
       45,
       90,
       95
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Franja azul de las orejas más corta en hembras"
   },
   "418": {
     "pokeID": 418,
@@ -28706,7 +29208,9 @@
       60,
       30,
       85
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Dos manchas blancas en machos, una en hembras"
   },
   "419": {
     "pokeID": 419,
@@ -28769,7 +29273,9 @@
       85,
       50,
       115
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Manchas blancas de la espalda distintas según sexo"
   },
   "420": {
     "pokeID": 420,
@@ -28882,6 +29388,26 @@
         "type1": "grass",
         "type2": "",
         "battle_only": false
+      },
+      {
+        "id": 421,
+        "slug": "cherrim-overcast",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Tiempo Nublado",
+        "type1": "grass",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 421,
+        "slug": "cherrim-sunshine",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Tiempo Soleado",
+        "type1": "grass",
+        "type2": "",
+        "battle_only": true
       }
     ],
     "BaseStats": [
@@ -28948,6 +29474,26 @@
         "type1": "water",
         "type2": "",
         "battle_only": false
+      },
+      {
+        "id": 422,
+        "slug": "shellos-west",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Mar Occidental",
+        "type1": "water",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 422,
+        "slug": "shellos-east",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Mar Oriental",
+        "type1": "water",
+        "type2": "",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -29009,6 +29555,26 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "water",
+        "type2": "ground",
+        "battle_only": false
+      },
+      {
+        "id": 423,
+        "slug": "gastrodon-west",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Mar Occidental",
+        "type1": "water",
+        "type2": "ground",
+        "battle_only": false
+      },
+      {
+        "id": 423,
+        "slug": "gastrodon-east",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Mar Oriental",
         "type1": "water",
         "type2": "ground",
         "battle_only": false
@@ -29085,7 +29651,9 @@
       60,
       66,
       115
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Mechones de la cabeza más largos en hembras"
   },
   "425": {
     "pokeID": 425,
@@ -30322,7 +30890,9 @@
       40,
       45,
       42
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Corte triangular de la aleta en machos"
   },
   "444": {
     "pokeID": 444,
@@ -30388,7 +30958,9 @@
       50,
       55,
       82
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Corte triangular de la aleta en machos"
   },
   "445": {
     "pokeID": 445,
@@ -30462,7 +31034,9 @@
       80,
       85,
       102
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Corte triangular de la aleta en machos"
   },
   "446": {
     "pokeID": 446,
@@ -30738,7 +31312,9 @@
       38,
       42,
       32
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Colores invertidos según sexo"
   },
   "450": {
     "pokeID": 450,
@@ -30801,7 +31377,9 @@
       68,
       72,
       47
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Marrón claro en machos, negro en hembras"
   },
   "451": {
     "pokeID": 451,
@@ -30998,7 +31576,9 @@
       61,
       40,
       50
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Estómago desplazado abajo en machos"
   },
   "454": {
     "pokeID": 454,
@@ -31063,7 +31643,9 @@
       86,
       65,
       85
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Bolsa de la garganta más grande en machos"
   },
   "455": {
     "pokeID": 455,
@@ -31189,7 +31771,9 @@
       49,
       61,
       66
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Aletas traseras más grandes en hembras"
   },
   "457": {
     "pokeID": 457,
@@ -31252,7 +31836,9 @@
       69,
       86,
       91
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Aletas laterales más cortas en machos"
   },
   "458": {
     "pokeID": 458,
@@ -31384,7 +31970,9 @@
       62,
       60,
       40
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Área blanca del estómago mayor en hembras"
   },
   "460": {
     "pokeID": 460,
@@ -31457,7 +32045,9 @@
       92,
       85,
       60
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Pelos del pecho más cortos en machos"
   },
   "461": {
     "pokeID": 461,
@@ -31522,7 +32112,9 @@
       45,
       85,
       125
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Plumas de las orejas más largas en machos"
   },
   "462": {
     "pokeID": 462,
@@ -31720,7 +32312,9 @@
       55,
       55,
       40
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Cuerno de la frente más pequeño en hembras"
   },
   "465": {
     "pokeID": 465,
@@ -31784,7 +32378,9 @@
       110,
       50,
       50
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Área rosa de los brazos mayor en hembras"
   },
   "466": {
     "pokeID": 466,
@@ -32299,7 +32895,9 @@
       70,
       60,
       80
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Colmillos más grandes y caídos en machos"
   },
   "474": {
     "pokeID": 474,
@@ -33582,6 +34180,196 @@
         "region": "",
         "label": "",
         "type1": "normal",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-normal",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Normal",
+        "type1": "normal",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-bug",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Bicho",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-dark",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Siniestro",
+        "type1": "dark",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-dragon",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Dragón",
+        "type1": "dragon",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-electric",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Eléctrico",
+        "type1": "electric",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-fighting",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Lucha",
+        "type1": "fighting",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-fire",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Fuego",
+        "type1": "fire",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-flying",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Volador",
+        "type1": "flying",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-ghost",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Fantasma",
+        "type1": "ghost",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-grass",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Planta",
+        "type1": "grass",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-ground",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Tierra",
+        "type1": "ground",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-ice",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Hielo",
+        "type1": "ice",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-poison",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Veneno",
+        "type1": "poison",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-psychic",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Psíquico",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-rock",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Roca",
+        "type1": "rock",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-steel",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Acero",
+        "type1": "steel",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-water",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Agua",
+        "type1": "water",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-unknown",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Unknown",
+        "type1": "unknown",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 493,
+        "slug": "arceus-fairy",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Hada",
+        "type1": "fairy",
         "type2": "",
         "battle_only": false
       }
@@ -35302,7 +36090,9 @@
       65,
       55,
       93
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Cintas verdes en machos, marrones en hembras"
   },
   "522": {
     "pokeID": 522,
@@ -39400,6 +40190,46 @@
         "type1": "normal",
         "type2": "grass",
         "battle_only": false
+      },
+      {
+        "id": 585,
+        "slug": "deerling-spring",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Forma Primavera",
+        "type1": "normal",
+        "type2": "grass",
+        "battle_only": false
+      },
+      {
+        "id": 585,
+        "slug": "deerling-summer",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Forma Verano",
+        "type1": "normal",
+        "type2": "grass",
+        "battle_only": false
+      },
+      {
+        "id": 585,
+        "slug": "deerling-autumn",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Forma Otoño",
+        "type1": "normal",
+        "type2": "grass",
+        "battle_only": false
+      },
+      {
+        "id": 585,
+        "slug": "deerling-winter",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Forma Invierno",
+        "type1": "normal",
+        "type2": "grass",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -39457,6 +40287,46 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "normal",
+        "type2": "grass",
+        "battle_only": false
+      },
+      {
+        "id": 586,
+        "slug": "sawsbuck-spring",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Forma Primavera",
+        "type1": "normal",
+        "type2": "grass",
+        "battle_only": false
+      },
+      {
+        "id": 586,
+        "slug": "sawsbuck-summer",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Forma Verano",
+        "type1": "normal",
+        "type2": "grass",
+        "battle_only": false
+      },
+      {
+        "id": 586,
+        "slug": "sawsbuck-autumn",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Forma Otoño",
+        "type1": "normal",
+        "type2": "grass",
+        "battle_only": false
+      },
+      {
+        "id": 586,
+        "slug": "sawsbuck-winter",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Forma Invierno",
         "type1": "normal",
         "type2": "grass",
         "battle_only": false
@@ -39841,7 +40711,9 @@
       65,
       85,
       40
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Rosa en hembras, gris en machos"
   },
   "593": {
     "pokeID": 593,
@@ -39902,7 +40774,9 @@
       85,
       105,
       60
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Rosa en hembras, gris en machos"
   },
   "594": {
     "pokeID": 594,
@@ -43408,6 +44282,46 @@
         "type1": "bug",
         "type2": "steel",
         "battle_only": false
+      },
+      {
+        "id": 649,
+        "slug": "genesect-douse",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Cassette Aqua",
+        "type1": "bug",
+        "type2": "steel",
+        "battle_only": false
+      },
+      {
+        "id": 649,
+        "slug": "genesect-shock",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Cassette Plasma",
+        "type1": "bug",
+        "type2": "steel",
+        "battle_only": false
+      },
+      {
+        "id": 649,
+        "slug": "genesect-burn",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Cassette Pyro",
+        "type1": "bug",
+        "type2": "steel",
+        "battle_only": false
+      },
+      {
+        "id": 649,
+        "slug": "genesect-chill",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Cassette Crio",
+        "type1": "bug",
+        "type2": "steel",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -44342,6 +45256,206 @@
         "type1": "bug",
         "type2": "",
         "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-icy-snow",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Polar",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-polar",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Taiga",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-tundra",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Tundra",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-continental",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Continental",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-garden",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Vergel",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-elegant",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Oriental",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-meadow",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Floral",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-modern",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Moderno",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-marine",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Marino",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-archipelago",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Isleño",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-high-plains",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Estepa",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-sandstorm",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Desierto",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-river",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Oasis",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-monsoon",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Monzón",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-savanna",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Pantano",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-sun",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Solar",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-ocean",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Océano",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-jungle",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Jungla",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-fancy",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Fantasía",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 664,
+        "slug": "scatterbug-poke-ball",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Poké Ball",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -44403,6 +45517,206 @@
         "type1": "bug",
         "type2": "",
         "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-icy-snow",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Polar",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-polar",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Taiga",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-tundra",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Tundra",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-continental",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Continental",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-garden",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Vergel",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-elegant",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Oriental",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-meadow",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Floral",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-modern",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Moderno",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-marine",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Marino",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-archipelago",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Isleño",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-high-plains",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Estepa",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-sandstorm",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Desierto",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-river",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Oasis",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-monsoon",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Monzón",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-savanna",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Pantano",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-sun",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Solar",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-ocean",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Océano",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-jungle",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Jungla",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-fancy",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Fantasía",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 665,
+        "slug": "spewpa-poke-ball",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Poké Ball",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -44460,6 +45774,206 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-meadow",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Floral",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-icy-snow",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Polar",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-polar",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Taiga",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-tundra",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Tundra",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-continental",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Continental",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-garden",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Vergel",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-elegant",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Oriental",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-modern",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Moderno",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-marine",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Marino",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-archipelago",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Isleño",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-high-plains",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Estepa",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-sandstorm",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Desierto",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-river",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Oasis",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-monsoon",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Monzón",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-savanna",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Pantano",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-sun",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Solar",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-ocean",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Océano",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-jungle",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Jungla",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-fancy",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Fantasía",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 666,
+        "slug": "vivillon-poke-ball",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Patrón Poké Ball",
         "type1": "bug",
         "type2": "flying",
         "battle_only": false
@@ -44596,7 +46110,9 @@
       109,
       66,
       106
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Melena poblada en machos, coleta en hembras"
   },
   "669": {
     "pokeID": 669,
@@ -44646,6 +46162,56 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 669,
+        "slug": "flabebe-red",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Rojo",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 669,
+        "slug": "flabebe-yellow",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Amarillo",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 669,
+        "slug": "flabebe-orange",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Naranja",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 669,
+        "slug": "flabebe-blue",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Azul",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 669,
+        "slug": "flabebe-white",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Blanco",
         "type1": "fairy",
         "type2": "",
         "battle_only": false
@@ -44721,6 +46287,56 @@
         "type1": "fairy",
         "type2": "",
         "battle_only": false
+      },
+      {
+        "id": 670,
+        "slug": "floette-red",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Rojo",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 670,
+        "slug": "floette-yellow",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Amarillo",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 670,
+        "slug": "floette-orange",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Naranja",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 670,
+        "slug": "floette-blue",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Azul",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 670,
+        "slug": "floette-white",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Blanco",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -44778,6 +46394,56 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 671,
+        "slug": "florges-red",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Rojo",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 671,
+        "slug": "florges-yellow",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Amarillo",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 671,
+        "slug": "florges-orange",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Naranja",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 671,
+        "slug": "florges-blue",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Azul",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 671,
+        "slug": "florges-white",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Flor Blanco",
         "type1": "fairy",
         "type2": "",
         "battle_only": false
@@ -45083,6 +46749,106 @@
         "type1": "normal",
         "type2": "",
         "battle_only": false
+      },
+      {
+        "id": 676,
+        "slug": "furfrou-natural",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Corte Natural",
+        "type1": "normal",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 676,
+        "slug": "furfrou-heart",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Corte Corazón",
+        "type1": "normal",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 676,
+        "slug": "furfrou-star",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Corte Estrella",
+        "type1": "normal",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 676,
+        "slug": "furfrou-diamond",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Corte Diamante",
+        "type1": "normal",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 676,
+        "slug": "furfrou-debutante",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Corte Señorita",
+        "type1": "normal",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 676,
+        "slug": "furfrou-matron",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Corte Dama",
+        "type1": "normal",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 676,
+        "slug": "furfrou-dandy",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Corte Caballero",
+        "type1": "normal",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 676,
+        "slug": "furfrou-la-reine",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Corte Reina",
+        "type1": "normal",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 676,
+        "slug": "furfrou-kabuki",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Corte Kabuki",
+        "type1": "normal",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 676,
+        "slug": "furfrou-pharaoh",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Corte Faraón",
+        "type1": "normal",
+        "type2": "",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -45226,7 +46992,9 @@
       83,
       81,
       104
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Azul en machos, blanco en hembras"
   },
   "679": {
     "pokeID": 679,
@@ -47649,6 +49417,26 @@
         "type1": "fairy",
         "type2": "",
         "battle_only": true
+      },
+      {
+        "id": 716,
+        "slug": "xerneas-active",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Modo Activo",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 716,
+        "slug": "xerneas-neutral",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Modo Neutral",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -51287,6 +53075,186 @@
         "region": "",
         "label": "",
         "type1": "normal",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-normal",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Normal",
+        "type1": "normal",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-fighting",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Lucha",
+        "type1": "fighting",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-flying",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Volador",
+        "type1": "flying",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-poison",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Veneno",
+        "type1": "poison",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-ground",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Tierra",
+        "type1": "ground",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-rock",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Roca",
+        "type1": "rock",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-bug",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Bicho",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-ghost",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Fantasma",
+        "type1": "ghost",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-steel",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Acero",
+        "type1": "steel",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-fire",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Fuego",
+        "type1": "fire",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-water",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Agua",
+        "type1": "water",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-grass",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Planta",
+        "type1": "grass",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-electric",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Eléctrico",
+        "type1": "electric",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-psychic",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Psíquico",
+        "type1": "psychic",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-ice",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Hielo",
+        "type1": "ice",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-dragon",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Dragón",
+        "type1": "dragon",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-dark",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Siniestro",
+        "type1": "dark",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 773,
+        "slug": "silvally-fairy",
+        "category": "alternate",
+        "region": "",
+        "label": "Tipo Hada",
+        "type1": "fairy",
         "type2": "",
         "battle_only": false
       }
@@ -56488,6 +58456,26 @@
         "type1": "ghost",
         "type2": "",
         "battle_only": false
+      },
+      {
+        "id": 854,
+        "slug": "sinistea-phony",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Falsificada",
+        "type1": "ghost",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 854,
+        "slug": "sinistea-antique",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Auténtica",
+        "type1": "ghost",
+        "type2": "",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -56544,6 +58532,26 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "ghost",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 855,
+        "slug": "polteageist-phony",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Falsificada",
+        "type1": "ghost",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 855,
+        "slug": "polteageist-antique",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Auténtica",
         "type1": "ghost",
         "type2": "",
         "battle_only": false
@@ -57415,6 +59423,636 @@
         "type1": "fairy",
         "type2": "",
         "battle_only": true
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-vanilla-cream-strawberry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Vainilla / Fresa",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-cream-strawberry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Rubí / Fresa",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-matcha-cream-strawberry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Matcha / Fresa",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-mint-cream-strawberry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Menta / Fresa",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-lemon-cream-strawberry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Limón / Fresa",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-salted-cream-strawberry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Sal / Fresa",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-swirl-strawberry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Ruby-Swirl-Strawberry-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-caramel-swirl-strawberry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Caramel-Swirl-Strawberry-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-rainbow-swirl-strawberry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Rainbow-Swirl-Strawberry-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-vanilla-cream-berry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Vainilla / Baya",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-cream-berry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Rubí / Baya",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-matcha-cream-berry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Matcha / Baya",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-mint-cream-berry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Menta / Baya",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-lemon-cream-berry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Limón / Baya",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-salted-cream-berry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Sal / Baya",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-swirl-berry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Ruby-Swirl-Berry-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-caramel-swirl-berry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Caramel-Swirl-Berry-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-rainbow-swirl-berry-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Rainbow-Swirl-Berry-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-vanilla-cream-love-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Vainilla / Corazón",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-cream-love-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Rubí / Corazón",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-matcha-cream-love-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Matcha / Corazón",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-mint-cream-love-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Menta / Corazón",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-lemon-cream-love-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Limón / Corazón",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-salted-cream-love-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Sal / Corazón",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-swirl-love-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Ruby-Swirl-Love-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-caramel-swirl-love-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Caramel-Swirl-Love-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-rainbow-swirl-love-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Rainbow-Swirl-Love-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-vanilla-cream-star-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Vainilla / Estrella",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-cream-star-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Rubí / Estrella",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-matcha-cream-star-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Matcha / Estrella",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-mint-cream-star-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Menta / Estrella",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-lemon-cream-star-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Limón / Estrella",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-salted-cream-star-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Sal / Estrella",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-swirl-star-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Ruby-Swirl-Star-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-caramel-swirl-star-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Caramel-Swirl-Star-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-rainbow-swirl-star-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Rainbow-Swirl-Star-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-vanilla-cream-clover-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Vainilla / Trébol",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-cream-clover-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Rubí / Trébol",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-matcha-cream-clover-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Matcha / Trébol",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-mint-cream-clover-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Menta / Trébol",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-lemon-cream-clover-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Limón / Trébol",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-salted-cream-clover-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Sal / Trébol",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-swirl-clover-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Ruby-Swirl-Clover-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-caramel-swirl-clover-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Caramel-Swirl-Clover-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-rainbow-swirl-clover-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Rainbow-Swirl-Clover-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-vanilla-cream-flower-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Vainilla / Flor",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-cream-flower-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Rubí / Flor",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-matcha-cream-flower-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Matcha / Flor",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-mint-cream-flower-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Menta / Flor",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-lemon-cream-flower-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Limón / Flor",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-salted-cream-flower-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Sal / Flor",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-swirl-flower-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Ruby-Swirl-Flower-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-caramel-swirl-flower-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Caramel-Swirl-Flower-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-rainbow-swirl-flower-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Rainbow-Swirl-Flower-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-vanilla-cream-ribbon-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Vainilla / Lazo",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-cream-ribbon-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Rubí / Lazo",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-matcha-cream-ribbon-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Matcha / Lazo",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-mint-cream-ribbon-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Menta / Lazo",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-lemon-cream-ribbon-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Limón / Lazo",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-salted-cream-ribbon-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Nata Sal / Lazo",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-ruby-swirl-ribbon-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Ruby-Swirl-Ribbon-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-caramel-swirl-ribbon-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Caramel-Swirl-Ribbon-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 869,
+        "slug": "alcremie-rainbow-swirl-ribbon-sweet",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Rainbow-Swirl-Ribbon-Sweet",
+        "type1": "fairy",
+        "type2": "",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -57858,7 +60496,9 @@
       105,
       95,
       95
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Cuernos erguidos en machos, caídos en hembras"
   },
   "877": {
     "pokeID": 877,
@@ -59521,7 +62161,9 @@
       80,
       75,
       78
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Rojo en machos, azul en hembras"
   },
   "903": {
     "pokeID": 903,
@@ -60367,7 +63009,9 @@
       59,
       80,
       65
-    ]
+    ],
+    "GenderDiff": true,
+    "GenderDiffDesc": "Gris oscuro en machos, marrón en hembras"
   },
   "917": {
     "pokeID": 917,
@@ -65349,6 +67993,16 @@
         "type1": "ghost",
         "type2": "",
         "battle_only": false
+      },
+      {
+        "id": 999,
+        "slug": "gimmighoul-chest",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Forma Cofre",
+        "type1": "ghost",
+        "type2": "",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -66177,6 +68831,26 @@
         "type1": "grass",
         "type2": "ghost",
         "battle_only": false
+      },
+      {
+        "id": 1012,
+        "slug": "poltchageist-counterfeit",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Falsificación",
+        "type1": "grass",
+        "type2": "ghost",
+        "battle_only": false
+      },
+      {
+        "id": 1012,
+        "slug": "poltchageist-artisan",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Artesanía",
+        "type1": "grass",
+        "type2": "ghost",
+        "battle_only": false
       }
     ],
     "BaseStats": [
@@ -66232,6 +68906,26 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "grass",
+        "type2": "ghost",
+        "battle_only": false
+      },
+      {
+        "id": 1013,
+        "slug": "sinistcha-unremarkable",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Corriente",
+        "type1": "grass",
+        "type2": "ghost",
+        "battle_only": false
+      },
+      {
+        "id": 1013,
+        "slug": "sinistcha-masterpiece",
+        "category": "cosmetic",
+        "region": "",
+        "label": "Obra Maestra",
         "type1": "grass",
         "type2": "ghost",
         "battle_only": false
