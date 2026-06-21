@@ -1,58 +1,82 @@
 class_name Pokemon
 
-func _init(_pokeID:int, _pokedexNr:int, _name:String, _description:String, _species:String, _type1:String, _type2:String, _height:float, _weight:float, _innateAbilities:Array, _baseFriendship:int, _XPYield:int, _flatcatchRate:int, _catchRateFullHP, _locations:Array, _learnableMoves:Array, _learnableTM:Array, _learnableHM:Array, _shiny:bool, _alolan:bool, _galarian:bool, _gender:bool, _paldean:bool, _ultraBeast:bool, _moves:Array, _HP_max:int, _Attack_max:int, _Defense_max:int, _SpAttack_max:int, _SpDefense_max:int, _Speed_max:int, _growthType:String, _evolve_from:int, _evolve_to:Array):
-	pokeID = _pokeID
-	pokedexNr = _pokedexNr
-	name = _name
-	description = _description
-	species = _species
-	type1 = _type1
-	type2 = _type2
-	height = _height
-	weight = _weight
-	innateAbilities = _innateAbilities
-	baseFriendship = _baseFriendship
-	XPYield = _XPYield
-	flatcatchRate = _flatcatchRate
-	catchRateFullHP = _catchRateFullHP
-	locations = _locations
-	learnableMoves = _learnableMoves
-	learnableTM = _learnableTM
-	learnableHM = _learnableHM
-	shiny = _shiny
-	alolan = _alolan
-	galarian = _galarian
-	gender = _gender
-	paldean = _paldean
-	ultraBeast = _ultraBeast
+# Construcción flexible: Pokemon.new() vacío o Pokemon.new(dict) desde Pokemon.json.
+func _init(data: Dictionary = {}) -> void:
+	if not data.is_empty():
+		from_dict(data)
 
-	moves = _moves
+func from_dict(d: Dictionary) -> void:
+	pokeID = int(d.get("pokeID", 0))
+	pokedexNr = int(d.get("pokedexNr", pokeID))
+	name = str(d.get("Name", ""))
+	name_en = str(d.get("NameEN", name))
+	description = str(d.get("Description", ""))
+	species = str(d.get("Species", ""))
+	type1 = str(d.get("Type1", ""))
+	type2 = str(d.get("Type2", ""))
+	height = float(d.get("Height", 0.0))
+	weight = float(d.get("Weight", 0.0))
+	innateAbilities = d.get("Abilities", [])
+	baseFriendship = int(d.get("BaseFriendship", 0))
+	XPYield = int(d.get("XPYield", 0))
+	flatcatchRate = int(d.get("CatchRate", 0))
+	catchRateFullHP = int(d.get("CatchRate", 0))
+	growthType = str(d.get("GrowthType", ""))
+	gender_rate = int(d.get("GenderRate", -1))
+	gender = gender_rate != -1
+	isBaby = bool(d.get("IsBaby", false))
+	isLegendary = bool(d.get("IsLegendary", false))
+	isMythical = bool(d.get("IsMythical", false))
+	evolution_chain = int(d.get("EvolutionChain", 0))
+	evolve_from = int(d.get("EvolveFrom", 0))
+	evolve_to = d.get("EvolveTo", [])
 
-	HP_max = _HP_max
-	Attack_max = _Attack_max
-	Defense_max = _Defense_max
-	SpAttack_max = _SpAttack_max
-	SpDefense_max = _SpDefense_max
-	Speed_max = _Speed_max
+	# Específicos de Mundi (placeholder hasta definir reglas de tier/stats)
+	tier = str(d.get("Tier", ""))
+	level_cap = int(d.get("LevelCap", 0))
+	HP_max = int(d.get("HP_max", 0))
+	Attack_max = int(d.get("Attack_max", 0))
+	Defense_max = int(d.get("Defense_max", 0))
+	SpAttack_max = int(d.get("SpAttack_max", 0))
+	SpDefense_max = int(d.get("SpDefense_max", 0))
+	Speed_max = int(d.get("Speed_max", 0))
 
-	growthType = _growthType
-	
-	avatar_front = str(_pokeID) + "_front"
-	avatar_back = str(_pokeID) + "_back"
-	avatar_system = str(_pokeID) + "_system"
-	avatar_overworld = str(_pokeID) + "_overworld"
-	
-	roar = str(_pokeID) + "_roar"
-	evolve_from = _evolve_from
-	evolve_to = _evolve_to
+	# Datos aún no poblados (learnsets, localizaciones, formas regionales)
+	locations = d.get("Locations", [])
+	learnableMoves = d.get("LearnableMoves", [])
+	learnableTM = d.get("LearnableTM", [])
+	learnableHM = d.get("LearnableHM", [])
+	shiny = bool(d.get("Shiny", false))
+	alolan = bool(d.get("Alolan", false))
+	galarian = bool(d.get("Galarian", false))
+	paldean = bool(d.get("Paldean", false))
+	ultraBeast = bool(d.get("UltraBeast", false))
+	moves = d.get("Moves", [])
+
+	_derive_assets()
+
+func _derive_assets() -> void:
+	avatar_front = str(pokeID) + "_front"
+	avatar_back = str(pokeID) + "_back"
+	avatar_system = str(pokeID) + "_system"
+	avatar_overworld = str(pokeID) + "_overworld"
+	roar = str(pokeID) + "_roar"
 	caught = false
 	terastellarized = false
+
+# Nombre mostrable: usa el nickname si existe, si no el nombre de especie.
+func display_name() -> String:
+	return nickname if nickname != "" else name
+
+func has_two_types() -> bool:
+	return type2 != ""
 
 
 #variables
 var pokeID: int
 var pokedexNr: int
 var name: String
+var name_en: String
 var description: String
 var species: String
 var type1: String
@@ -72,13 +96,21 @@ var shiny: bool
 var alolan: bool
 var galarian: bool
 var gender: bool
+var gender_rate: int
 var paldean: bool
 var ultraBeast: bool
+var isBaby: bool
+var isLegendary: bool
+var isMythical: bool
 
 var moves: Array
 
 var currentFriendship: int
 var currentStatus: String
+
+# Específicos de Pokémon Mundi
+var tier: String
+var level_cap: int
 
 var HP_max: int
 var Attack_max: int
@@ -105,6 +137,7 @@ var avatar_system: String
 var avatar_overworld: String
 
 var roar: String
+var evolution_chain: int
 var evolve_from: int
 var evolve_to: Array
 

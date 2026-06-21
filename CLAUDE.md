@@ -50,8 +50,8 @@ Workbook `pokemon_mundi_localization.xlsx`, 8 idiomas (EN, ES, ES-LA, JA, DE, FR
 - ⚠️ `Move.gd` llama `tr()` sobre strings inglesas crudas en vez de claves UPPER_SNAKE_CASE → **decisión de migración pendiente**.
 
 ## Pendientes (TODO)
-1. Añadir campos `level_cap` y `tier` a `PokemonModel.gd`.
-2. Completar `PokemonList.gd` (hoy es stub: devuelve `[Pokemon.new()]`).
+1. ✅ Campos `level_cap` y `tier` añadidos a `PokemonModel.gd` (placeholder hasta definir reglas).
+2. ✅ `PokemonList.gd` completo (autoload; carga `Pokemon.json` vía StaticDataManagement).
 3. Expandir `Moves.json` de 24 → 902 entradas.
 4. Migrar `Move.gd` a claves de traducción estructuradas.
 5. Completar hojas Status y tr() Keys de localización.
@@ -93,6 +93,12 @@ Proyecto movido a `Documents\GitHub\Pokemon_Mundi` (versionado en git). Flujo co
 - Carga: `Scripts/Util/PokemonSprite.gd` (`class_name PokemonSprite`; arma AnimatedSprite2D+SpriteFrames, resuelve archivo con fallbacks de género/región). Ya hay `Assets/Sprites/pokemon/0001_U.png` (Bulbasaur, 160×560). Preview: `Scenes/debug/PokemonPreview.tscn` (F6).
 - **Shiny / recolores**: `Assets/Shaders/palette_swap.gdshader` + `Scripts/Util/PaletteSwap.gd` (color-key, filtro nearest). El normal sale del PNG; el shader **solo** para shiny y ciertos recolores. La paleta normal se auto-extrae del sprite (colores únicos por luminancia); la shiny = mismos N colores en el mismo orden, recoloreados. **PENDIENTE**: herramienta `@tool` para definir shinies a JSON.
 
+### Pokédex (biblioteca + interfaz)
+- **Datos**: `Scripts/StaticData/Pokemon.json` con las **1025 especies** de la Pokédex Nacional, generadas desde PokeAPI (script `/tmp/gen_pokemon.py`, GraphQL beta host con User-Agent). Por entrada: nombre ES (fallback EN), genus/especie, descripción (flavor ES), tipos, altura/peso, habilidades, catch rate, curva XP, género, cadena evolutiva (`EvolveFrom`/`EvolveTo`), flags baby/legendary/mythical.
+- ⚠️ **Placeholder**: `tier`, `level_cap` y los `_max` acumulados están en 0 — pendiente definir reglas de tier/stats y rellenarlos.
+- **Carga**: `PokemonList.gd` (autoload nuevo, patrón estándar: caché + `get_by_id`/`get_by_name`/`get_evolutions`). `PokemonModel.gd` ahora se construye desde diccionario (`Pokemon.new(dict)`).
+- **Interfaz**: `Scripts/UI/PokedexScreen.gd` (CanvasLayer por código). Lista **virtualizada** (14 filas visibles sobre 1025) + panel de detalle (sprite, nº, nombre, chips de tipo coloreados desde TypesList, especie, altura/peso, descripción). Respeta visto/capturado de `Game`; no-vistos salen como "----------"/silueta. Nav ↑↓ (1) y ←→ (página). **D** revela todo (debug, útil con save vacío). Se abre desde `GameMenu` (estado `POKEDEX`).
+
 ### Gotchas importantes
 - **Editar `.gd` por fuera de Godot** puede dejar la caché vieja ejecutándose (errores `@onready` de nodos inexistentes) → **Proyecto → Recargar Proyecto Actual**.
 - Cada escena llama `ScreenFade.fade_in()` en su `_ready` (el que cambia de escena hace `fade_out` y deja la pantalla en negro).
@@ -102,5 +108,7 @@ Proyecto movido a `Documents\GitHub\Pokemon_Mundi` (versionado en git). Flujo co
 ### Próximos pasos sugeridos
 1. Definir las cajas de regiones con `RegionMapper` (deja visual la presentación).
 2. Herramienta `@tool` para shinies + meter más sprites de Pokémon.
-3. **Sistema Pokémon / party** (clase `Pokemon` sigue comentada en `Game.gd`/`GameModel.gd`) → desbloquea Equipo, Pokédex real y combate.
+3. **Sistema Pokémon / party** (clase `Pokemon` sigue comentada en `Game.gd`/`GameModel.gd`) → desbloquea Equipo y combate. (La Pokédex ya consume `PokemonList`.)
+   - Definir reglas de tier/level_cap/`_max` y rellenarlos en `Pokemon.json` (hoy placeholder).
+   - Sprites: solo existe `0001_U.png`; la Pokédex muestra silueta "?" donde falten.
 4. Mundo real (PlayerRoom es placeholder); restaurar `last_position` al cargar partida.

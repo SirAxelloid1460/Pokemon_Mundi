@@ -3,7 +3,7 @@ extends CanvasLayer
 # Menú de campo: barra horizontal de iconos (Mapa, Mochila, Pokédex, Equipo, Personaje, Otros).
 # Se abre con ui_cancel (Esc) en el overworld; pausa el árbol. Navega izq/der, ui_accept abre.
 
-enum State { CLOSED, BAR, DETAIL, OTHERS, OPTIONS }
+enum State { CLOSED, BAR, DETAIL, OTHERS, OPTIONS, POKEDEX }
 
 const OPTIONS_MENU_SCENE := "res://Scenes/menus/OptionsMenu.tscn"
 const TITLE_SCENE := "res://Scenes/TitleScreen.tscn"
@@ -212,6 +212,8 @@ func _input(event: InputEvent):
 			_input_others(event)
 		State.OPTIONS:
 			pass
+		State.POKEDEX:
+			pass
 
 func _input_bar(event: InputEvent):
 	if event.is_action_pressed("ui_right"):
@@ -263,7 +265,7 @@ func _select(key: String):
 	match key:
 		"mapa":      _show_detail(_map_text())
 		"bag":       _show_detail(_bag_text())
-		"pokedex":   _show_detail(_pokedex_text())
+		"pokedex":   _open_pokedex()
 		"equipo":    _show_detail(_party_text())
 		"personaje": _show_detail(_trainer_text())
 		"otros":     _open_others()
@@ -282,6 +284,25 @@ func _back_to_bar():
 	_others_panel.visible = false
 	_update_bar()
 	AudioManager.play_sfx("menu_back")
+
+# ============================================
+# POKÉDEX (pantalla completa)
+# ============================================
+
+func _open_pokedex():
+	state = State.POKEDEX
+	_bar.visible = false
+	_detail_panel.visible = false
+	_others_panel.visible = false
+	var screen := PokedexScreen.new()
+	screen.closed.connect(_on_pokedex_closed.bind(screen))
+	add_child(screen)
+
+func _on_pokedex_closed(screen: Node):
+	if is_instance_valid(screen):
+		screen.queue_free()
+	_bar.visible = true
+	_back_to_bar()
 
 # ============================================
 # OTROS (submenú vertical)
@@ -359,12 +380,6 @@ func _trainer_text() -> String:
 		"Medallas: %d\n" % Game.badges + \
 		"Pokédex: %d capturados\n" % Game.pokedex_caught.size() + \
 		"Tiempo: %s" % Game.get_play_time_formatted()
-
-func _pokedex_text() -> String:
-	return "[b]POKÉDEX[/b]\n\n" + \
-		"Vistos: %d\n" % Game.pokedex_seen.size() + \
-		"Capturados: %d\n" % Game.pokedex_caught.size() + \
-		"Progreso: %.1f%%" % Game.get_pokedex_completion()
 
 func _party_text() -> String:
 	return "[b]EQUIPO[/b]\n\nAún no tienes Pokémon en tu equipo.\n(El sistema de Pokémon llegará pronto.)"
