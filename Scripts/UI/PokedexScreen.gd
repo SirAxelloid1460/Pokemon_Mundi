@@ -369,16 +369,20 @@ func _move_selection(delta: int):
 	_refresh_list_view()
 
 # Lista de formas a mostrar en la categoría actual para una especie.
-# Nacional: todas. Región con formas regionales (alola/galar/paldea): solo la regional
-# si existe (si no, la base). Resto de regiones: solo la base.
+# Nacional: todas. Región con formas regionales (alola/galar/paldea): TODAS las
+# de esa región (ciclables con Z/X, p.ej. las 3 razas de Tauros de Paldea); si
+# no hay, solo la base. Resto de regiones: solo la base.
 func _display_forms(p: Pokemon) -> Array:
 	if p.forms.is_empty():
 		return []
 	if _category_key == "national":
 		return p.forms
-	var rf := p.regional_form(_category_key)
-	if not rf.is_empty():
-		return [rf]
+	var regs: Array = []
+	for f in p.forms:
+		if f.get("region", "") == _category_key:
+			regs.append(f)
+	if not regs.is_empty():
+		return regs
 	return [p.base_form()]
 
 func _cycle_form(delta: int):
@@ -491,11 +495,11 @@ func _form_caption(form: Dictionary, total: int) -> String:
 	if form.is_empty():
 		return ""
 	var label: String = form.get("label", "")
-	# En la Nacional, si hay varias formas, mostrar el selector "Forma i/N"
-	if _category_key == "national" and total > 1:
+	# Si hay varias formas a recorrer (Nacional o región con varias), mostrar el selector
+	if total > 1:
 		var form_name := label if label != "" else "Base"
 		return "Forma %d/%d  ·  %s" % [_form_index + 1, total, form_name]
-	# En secciones regionales, solo la etiqueta de la forma (si no es base)
+	# Forma única: solo la etiqueta (si no es base)
 	if form.get("category", "") != "base" and label != "":
 		return label
 	return ""
