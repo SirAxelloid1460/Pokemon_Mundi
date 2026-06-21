@@ -41,7 +41,9 @@
       "kalos": 80,
       "galar": 431,
       "paldea": 585,
-      "naranja": 1
+      "naranja": 1,
+      "fiore": 1,
+      "oblivia": 14
     },
     "Forms": [
       {
@@ -106,7 +108,9 @@
       "kalos": 81,
       "galar": 432,
       "paldea": 586,
-      "naranja": 2
+      "naranja": 2,
+      "fiore": 2,
+      "oblivia": 15
     },
     "Forms": [
       {
@@ -169,7 +173,9 @@
       "kalos": 82,
       "galar": 433,
       "paldea": 587,
-      "naranja": 3
+      "naranja": 3,
+      "fiore": 3,
+      "oblivia": 16
     },
     "Forms": [
       {
@@ -254,7 +260,10 @@
       "kalos": 83,
       "galar": 378,
       "paldea": 588,
-      "naranja": 4
+      "naranja": 4,
+      "fiore": 140,
+      "almia": 137,
+      "oblivia": 206
     },
     "Forms": [
       {
@@ -319,7 +328,10 @@
       "kalos": 84,
       "galar": 379,
       "paldea": 589,
-      "naranja": 5
+      "naranja": 5,
+      "fiore": 141,
+      "almia": 138,
+      "oblivia": 207
     },
     "Forms": [
       {
@@ -382,7 +394,10 @@
       "kalos": 85,
       "galar": 380,
       "paldea": 590,
-      "naranja": 6
+      "naranja": 6,
+      "fiore": 142,
+      "almia": 139,
+      "oblivia": 208
     },
     "Forms": [
       {
@@ -477,7 +492,9 @@
       "kalos": 86,
       "galar": 434,
       "paldea": 591,
-      "naranja": 7
+      "naranja": 7,
+      "fiore": 76,
+      "almia": 11
     },
     "Forms": [
       {
@@ -542,7 +559,9 @@
       "kalos": 87,
       "galar": 435,
       "paldea": 592,
-      "naranja": 8
+      "naranja": 8,
+      "fiore": 77,
+      "almia": 12
     },
     "Forms": [
       {
@@ -605,7 +624,10 @@
       "kalos": 88,
       "galar": 436,
       "paldea": 593,
-      "naranja": 9
+      "naranja": 9,
+      "fiore": 78,
+      "almia": 13,
+      "oblivia": 294
     },
     "Forms": [
       {
@@ -827,7 +849,8 @@
       "kalos": 25,
       "alola": 19,
       "galar": 15,
-      "naranja": 12
+      "naranja": 12,
+      "decolore": 1
     },
     "Forms": [
       {
@@ -910,7 +933,8 @@
       "kanto": 13,
       "johto": 27,
       "kalos": 26,
-      "naranja": 13
+      "naranja": 13,
+      "almia": 57
     },
     "Forms": [
       {
@@ -1043,7 +1067,10 @@
       "kanto": 15,
       "johto": 29,
       "kalos": 28,
-      "naranja": 15
+      "naranja": 15,
+      "fiore": 25,
+      "almia": 58,
+      "decolore": 2
     },
     "Forms": [
       {
@@ -1117,7 +1144,8 @@
       "kanto": 16,
       "johto": 10,
       "kalos": 17,
-      "naranja": 16
+      "naranja": 16,
+      "oblivia": 1
     },
     "Forms": [
       {
@@ -1191,7 +1219,8 @@
       "kanto": 17,
       "johto": 11,
       "kalos": 18,
-      "naranja": 17
+      "naranja": 17,
+      "oblivia": 2
     },
     "Forms": [
       {
@@ -1263,7 +1292,8 @@
       "kanto": 18,
       "johto": 12,
       "kalos": 19,
-      "naranja": 18
+      "naranja": 18,
+      "oblivia": 3
     },
     "Forms": [
       {
@@ -1338,7 +1368,9 @@
       "johto": 17,
       "unova": 60,
       "alola": 15,
-      "naranja": 19
+      "naranja": 19,
+      "fiore": 101,
+      "almia": 67
     },
     "Forms": [
       {
@@ -1421,7 +1453,9 @@
       "johto": 18,
       "unova": 61,
       "alola": 16,
-      "naranja": 20
+      "naranja": 20,
+      "fiore": 102,
+      "almia": 68
     },
     "Forms": [
       {
@@ -1515,7 +1549,9 @@
       "johto": 13,
       "kalos": 412,
       "alola": 87,
-      "naranja": 21
+      "naranja": 21,
+      "fiore": 39,
+      "almia": 112
     },
     "Forms": [
       {
@@ -1577,7 +1613,9 @@
       "johto": 14,
       "kalos": 413,
       "alola": 88,
-      "naranja": 22
+      "naranja": 22,
+      "fiore": 40,
+      "almia": 113
     },
     "Forms": [
       {
@@ -1643,7 +1681,8 @@
       "kalos": 340,
       "alola": 61,
       "paldea": 417,
-      "naranja": 23
+      "naranja": 23,
+      "fiore": 151
     },
     "Forms": [
       {
@@ -1707,7 +1746,8 @@
       "kalos": 341,
       "alola": 62,
       "paldea": 418,
-      "naranja": 24
+      "naranja": 24,
+      "fiore": 152
     },
     "Forms": [
       {
@@ -1785,7 +1825,10 @@
       "alola": 32,
       "galar": 194,
       "paldea": 74,
-      "naranja": 25
+      "naranja": 25,
+      "fiore": 23,
+      "almia": 2,
+      "oblivia": 5
     },
     "Forms": [
       {
@@ -2021,7 +2064,10 @@
       "alola": 33,
       "galar": 195,
       "paldea": 75,
-      "naranja": 26
+      "naranja": 26,
+      "fiore": 24,
+      "almia": 3,
+      "oblivia": 6
     },
     "Forms": [
       {
@@ -2099,7 +2145,9 @@
       "alola": 328,
       "galar": 486,
       "paldea": 462,
-      "naranja": 27
+      "naranja": 27,
+      "almia": 194,
+      "oblivia": 180
     },
     "Forms": [
       {
@@ -2175,7 +2223,9 @@
       "alola": 329,
       "galar": 487,
       "paldea": 463,
-      "naranja": 28
+      "naranja": 28,
+      "almia": 195,
+      "oblivia": 181
     },
     "Forms": [
       {
@@ -2591,7 +2641,8 @@
       "johto": 100,
       "kalos": 259,
       "galar": 529,
-      "naranja": 34
+      "naranja": 34,
+      "decolore": 3
     },
     "Forms": [
       {
@@ -2802,7 +2853,9 @@
       "alola": 330,
       "galar": 68,
       "paldea": 425,
-      "naranja": 37
+      "naranja": 37,
+      "almia": 171,
+      "oblivia": 167
     },
     "Forms": [
       {
@@ -2877,7 +2930,10 @@
       "alola": 331,
       "galar": 69,
       "paldea": 426,
-      "naranja": 38
+      "naranja": 38,
+      "almia": 172,
+      "oblivia": 168,
+      "decolore": 4
     },
     "Forms": [
       {
@@ -2956,7 +3012,9 @@
       "alola": 168,
       "galar": 410,
       "paldea": 60,
-      "naranja": 39
+      "naranja": 39,
+      "fiore": 100,
+      "almia": 203
     },
     "Forms": [
       {
@@ -3023,7 +3081,8 @@
       "alola": 169,
       "galar": 411,
       "paldea": 61,
-      "naranja": 40
+      "naranja": 40,
+      "almia": 204
     },
     "Forms": [
       {
@@ -3091,7 +3150,10 @@
       "kalos": 145,
       "alola": 80,
       "galar": 550,
-      "naranja": 41
+      "naranja": 41,
+      "fiore": 58,
+      "almia": 14,
+      "oblivia": 42
     },
     "Forms": [
       {
@@ -3159,7 +3221,10 @@
       "kalos": 146,
       "alola": 81,
       "galar": 551,
-      "naranja": 42
+      "naranja": 42,
+      "fiore": 59,
+      "almia": 15,
+      "oblivia": 43
     },
     "Forms": [
       {
@@ -3225,7 +3290,10 @@
       "kalos": 105,
       "galar": 55,
       "paldea": 533,
-      "naranja": 43
+      "naranja": 43,
+      "fiore": 126,
+      "almia": 114,
+      "oblivia": 127
     },
     "Forms": [
       {
@@ -3302,7 +3370,10 @@
       "kalos": 106,
       "galar": 56,
       "paldea": 534,
-      "naranja": 44
+      "naranja": 44,
+      "fiore": 127,
+      "almia": 115,
+      "oblivia": 128
     },
     "Forms": [
       {
@@ -3366,7 +3437,10 @@
       "kalos": 107,
       "galar": 57,
       "paldea": 535,
-      "naranja": 45
+      "naranja": 45,
+      "fiore": 128,
+      "almia": 116,
+      "oblivia": 129
     },
     "Forms": [
       {
@@ -3440,7 +3514,8 @@
       "kanto": 46,
       "johto": 70,
       "alola": 180,
-      "naranja": 46
+      "naranja": 46,
+      "fiore": 50
     },
     "Forms": [
       {
@@ -3512,7 +3587,8 @@
       "kanto": 47,
       "johto": 71,
       "alola": 181,
-      "naranja": 47
+      "naranja": 47,
+      "fiore": 51
     },
     "Forms": [
       {
@@ -3576,7 +3652,8 @@
       "kanto": 48,
       "johto": 109,
       "paldea": 256,
-      "naranja": 48
+      "naranja": 48,
+      "fiore": 153
     },
     "Forms": [
       {
@@ -3715,7 +3792,8 @@
       "alola": 85,
       "galar": 164,
       "paldea": 148,
-      "naranja": 50
+      "naranja": 50,
+      "fiore": 61
     },
     "Forms": [
       {
@@ -3800,7 +3878,8 @@
       "alola": 86,
       "galar": 165,
       "paldea": 149,
-      "naranja": 51
+      "naranja": 51,
+      "fiore": 62
     },
     "Forms": [
       {
@@ -3877,7 +3956,8 @@
       "alola": 52,
       "galar": 182,
       "paldea": 141,
-      "naranja": 52
+      "naranja": 52,
+      "fiore": 99
     },
     "Forms": [
       {
@@ -4051,7 +4131,8 @@
       "alola": 107,
       "galar": 476,
       "paldea": 55,
-      "naranja": 54
+      "naranja": 54,
+      "fiore": 121
     },
     "Forms": [
       {
@@ -4184,7 +4265,10 @@
       "johto": 136,
       "alola": 93,
       "paldea": 158,
-      "naranja": 56
+      "naranja": 56,
+      "fiore": 149,
+      "almia": 126,
+      "oblivia": 182
     },
     "Forms": [
       {
@@ -4259,7 +4343,10 @@
       "johto": 137,
       "alola": 94,
       "paldea": 159,
-      "naranja": 57
+      "naranja": 57,
+      "fiore": 150,
+      "almia": 127,
+      "oblivia": 183
     },
     "Forms": [
       {
@@ -4336,7 +4423,9 @@
       "alola": 64,
       "galar": 70,
       "paldea": 213,
-      "naranja": 58
+      "naranja": 58,
+      "fiore": 144,
+      "almia": 65
     },
     "Forms": [
       {
@@ -4411,7 +4500,9 @@
       "alola": 65,
       "galar": 71,
       "paldea": 214,
-      "naranja": 59
+      "naranja": 59,
+      "fiore": 145,
+      "almia": 66
     },
     "Forms": [
       {
@@ -4488,7 +4579,8 @@
       "alola": 182,
       "galar": 472,
       "paldea": 427,
-      "naranja": 60
+      "naranja": 60,
+      "fiore": 52
     },
     "Forms": [
       {
@@ -4556,7 +4648,8 @@
       "alola": 183,
       "galar": 473,
       "paldea": 428,
-      "naranja": 61
+      "naranja": 61,
+      "fiore": 53
     },
     "Forms": [
       {
@@ -4631,7 +4724,8 @@
       "alola": 184,
       "galar": 474,
       "paldea": 429,
-      "naranja": 62
+      "naranja": 62,
+      "fiore": 54
     },
     "Forms": [
       {
@@ -4699,7 +4793,9 @@
       "kalos": 102,
       "alola": 49,
       "galar": 421,
-      "naranja": 63
+      "naranja": 63,
+      "fiore": 29,
+      "almia": 183
     },
     "Forms": [
       {
@@ -4833,7 +4929,8 @@
       "kalos": 104,
       "alola": 51,
       "galar": 423,
-      "naranja": 65
+      "naranja": 65,
+      "almia": 184
     },
     "Forms": [
       {
@@ -4911,7 +5008,9 @@
       "kalos": 207,
       "alola": 117,
       "galar": 138,
-      "naranja": 66
+      "naranja": 66,
+      "fiore": 80,
+      "almia": 161
     },
     "Forms": [
       {
@@ -4979,7 +5078,9 @@
       "kalos": 208,
       "alola": 118,
       "galar": 139,
-      "naranja": 67
+      "naranja": 67,
+      "fiore": 81,
+      "almia": 162
     },
     "Forms": [
       {
@@ -5045,7 +5146,9 @@
       "kalos": 209,
       "alola": 119,
       "galar": 140,
-      "naranja": 68
+      "naranja": 68,
+      "fiore": 82,
+      "almia": 163
     },
     "Forms": [
       {
@@ -5119,7 +5222,8 @@
       "johto": 64,
       "kalos": 329,
       "paldea": 419,
-      "naranja": 69
+      "naranja": 69,
+      "fiore": 4
     },
     "Forms": [
       {
@@ -5193,7 +5297,8 @@
       "johto": 65,
       "kalos": 330,
       "paldea": 420,
-      "naranja": 70
+      "naranja": 70,
+      "fiore": 5
     },
     "Forms": [
       {
@@ -5265,7 +5370,9 @@
       "johto": 66,
       "kalos": 331,
       "paldea": 421,
-      "naranja": 71
+      "naranja": 71,
+      "fiore": 6,
+      "almia": 242
     },
     "Forms": [
       {
@@ -5334,7 +5441,8 @@
       "alola": 129,
       "galar": 424,
       "paldea": 525,
-      "naranja": 72
+      "naranja": 72,
+      "oblivia": 276
     },
     "Forms": [
       {
@@ -5401,7 +5509,9 @@
       "alola": 130,
       "galar": 425,
       "paldea": 526,
-      "naranja": 73
+      "naranja": 73,
+      "almia": 234,
+      "oblivia": 277
     },
     "Forms": [
       {
@@ -5469,7 +5579,10 @@
       "kalos": 312,
       "alola": 298,
       "paldea": 445,
-      "naranja": 74
+      "naranja": 74,
+      "fiore": 64,
+      "almia": 41,
+      "oblivia": 47
     },
     "Forms": [
       {
@@ -5557,7 +5670,10 @@
       "kalos": 313,
       "alola": 299,
       "paldea": 446,
-      "naranja": 75
+      "naranja": 75,
+      "fiore": 65,
+      "almia": 42,
+      "oblivia": 48
     },
     "Forms": [
       {
@@ -5633,7 +5749,10 @@
       "kalos": 314,
       "alola": 300,
       "paldea": 447,
-      "naranja": 76
+      "naranja": 76,
+      "fiore": 66,
+      "almia": 43,
+      "oblivia": 49
     },
     "Forms": [
       {
@@ -5708,7 +5827,8 @@
       "johto": 206,
       "sinnoh": 90,
       "galar": 333,
-      "naranja": 77
+      "naranja": 77,
+      "almia": 176
     },
     "Forms": [
       {
@@ -5781,7 +5901,9 @@
       "johto": 207,
       "sinnoh": 91,
       "galar": 334,
-      "naranja": 78
+      "naranja": 78,
+      "fiore": 18,
+      "almia": 177
     },
     "Forms": [
       {
@@ -5859,7 +5981,8 @@
       "alola": 44,
       "galar": 401,
       "paldea": 324,
-      "naranja": 79
+      "naranja": 79,
+      "fiore": 14
     },
     "Forms": [
       {
@@ -6024,7 +6147,10 @@
       "alola": 54,
       "galar": 453,
       "paldea": 209,
-      "naranja": 81
+      "naranja": 81,
+      "fiore": 56,
+      "almia": 62,
+      "oblivia": 110
     },
     "Forms": [
       {
@@ -6094,7 +6220,10 @@
       "alola": 55,
       "galar": 454,
       "paldea": 210,
-      "naranja": 82
+      "naranja": 82,
+      "fiore": 57,
+      "almia": 63,
+      "oblivia": 111
     },
     "Forms": [
       {
@@ -6235,7 +6364,9 @@
       "hoenn": 95,
       "kalos": 94,
       "paldea": 500,
-      "naranja": 84
+      "naranja": 84,
+      "fiore": 41,
+      "almia": 134
     },
     "Forms": [
       {
@@ -6299,7 +6430,10 @@
       "hoenn": 96,
       "kalos": 95,
       "paldea": 501,
-      "naranja": 85
+      "naranja": 85,
+      "fiore": 42,
+      "almia": 135,
+      "oblivia": 242
     },
     "Forms": [
       {
@@ -6506,7 +6640,8 @@
       "unova": 65,
       "alola": 57,
       "paldea": 194,
-      "naranja": 88
+      "naranja": 88,
+      "fiore": 87
     },
     "Forms": [
       {
@@ -6581,7 +6716,9 @@
       "unova": 66,
       "alola": 58,
       "paldea": 195,
-      "naranja": 89
+      "naranja": 89,
+      "fiore": 88,
+      "almia": 152
     },
     "Forms": [
       {
@@ -6789,7 +6926,10 @@
       "alola": 73,
       "galar": 141,
       "paldea": 68,
-      "naranja": 92
+      "naranja": 92,
+      "fiore": 94,
+      "almia": 17,
+      "oblivia": 164
     },
     "Forms": [
       {
@@ -6855,7 +6995,10 @@
       "alola": 74,
       "galar": 142,
       "paldea": 69,
-      "naranja": 93
+      "naranja": 93,
+      "fiore": 95,
+      "almia": 18,
+      "oblivia": 165
     },
     "Forms": [
       {
@@ -6919,7 +7062,11 @@
       "alola": 75,
       "galar": 143,
       "paldea": 70,
-      "naranja": 94
+      "naranja": 94,
+      "fiore": 96,
+      "almia": 19,
+      "oblivia": 166,
+      "decolore": 5
     },
     "Forms": [
       {
@@ -7071,7 +7218,9 @@
       "johto": 87,
       "alola": 66,
       "paldea": 66,
-      "naranja": 96
+      "naranja": 96,
+      "fiore": 90,
+      "almia": 166
     },
     "Forms": [
       {
@@ -7134,7 +7283,9 @@
       "johto": 88,
       "alola": 67,
       "paldea": 67,
-      "naranja": 97
+      "naranja": 97,
+      "fiore": 91,
+      "almia": 167
     },
     "Forms": [
       {
@@ -7198,7 +7349,9 @@
       "kanto": 98,
       "johto": 166,
       "galar": 98,
-      "naranja": 98
+      "naranja": 98,
+      "fiore": 70,
+      "oblivia": 21
     },
     "Forms": [
       {
@@ -7260,7 +7413,8 @@
       "kanto": 99,
       "johto": 167,
       "galar": 99,
-      "naranja": 99
+      "naranja": 99,
+      "oblivia": 22
     },
     "Forms": [
       {
@@ -7336,7 +7490,10 @@
       "hoenn": 87,
       "kalos": 375,
       "paldea": 207,
-      "naranja": 100
+      "naranja": 100,
+      "fiore": 79,
+      "almia": 76,
+      "oblivia": 113
     },
     "Forms": [
       {
@@ -7410,7 +7567,9 @@
       "hoenn": 88,
       "kalos": 376,
       "paldea": 208,
-      "naranja": 101
+      "naranja": 101,
+      "almia": 77,
+      "oblivia": 114
     },
     "Forms": [
       {
@@ -7783,7 +7942,8 @@
       "johto": 146,
       "galar": 108,
       "paldea": 544,
-      "naranja": 106
+      "naranja": 106,
+      "oblivia": 101
     },
     "Forms": [
       {
@@ -7846,7 +8006,8 @@
       "johto": 147,
       "galar": 109,
       "paldea": 545,
-      "naranja": 107
+      "naranja": 107,
+      "oblivia": 102
     },
     "Forms": [
       {
@@ -7981,7 +8142,10 @@
       "unova": 47,
       "galar": 250,
       "paldea": 471,
-      "naranja": 109
+      "naranja": 109,
+      "fiore": 89,
+      "almia": 187,
+      "oblivia": 45
     },
     "Forms": [
       {
@@ -8046,7 +8210,9 @@
       "unova": 48,
       "galar": 251,
       "paldea": 472,
-      "naranja": 110
+      "naranja": 110,
+      "almia": 188,
+      "oblivia": 46
     },
     "Forms": [
       {
@@ -8134,7 +8300,8 @@
       "kalos": 200,
       "galar": 264,
       "paldea": 504,
-      "naranja": 111
+      "naranja": 111,
+      "almia": 149
     },
     "Forms": [
       {
@@ -8212,7 +8379,9 @@
       "kalos": 201,
       "galar": 265,
       "paldea": 505,
-      "naranja": 112
+      "naranja": 112,
+      "fiore": 63,
+      "almia": 150
     },
     "Forms": [
       {
@@ -8355,7 +8524,8 @@
       "sinnoh": 181,
       "unova": 218,
       "galar": 443,
-      "naranja": 114
+      "naranja": 114,
+      "fiore": 69
     },
     "Forms": [
       {
@@ -8419,7 +8589,9 @@
       "kalos": 212,
       "alola": 199,
       "galar": 490,
-      "naranja": 115
+      "naranja": 115,
+      "fiore": 201,
+      "almia": 146
     },
     "Forms": [
       {
@@ -8496,7 +8668,10 @@
       "kalos": 189,
       "galar": 500,
       "paldea": 527,
-      "naranja": 116
+      "naranja": 116,
+      "fiore": 107,
+      "almia": 229,
+      "oblivia": 68
     },
     "Forms": [
       {
@@ -8563,7 +8738,10 @@
       "kalos": 190,
       "galar": 501,
       "paldea": 528,
-      "naranja": 117
+      "naranja": 117,
+      "fiore": 108,
+      "almia": 230,
+      "oblivia": 69
     },
     "Forms": [
       {
@@ -8631,7 +8809,8 @@
       "kalos": 53,
       "alola": 186,
       "galar": 146,
-      "naranja": 118
+      "naranja": 118,
+      "fiore": 110
     },
     "Forms": [
       {
@@ -8697,7 +8876,8 @@
       "kalos": 54,
       "alola": 187,
       "galar": 147,
-      "naranja": 119
+      "naranja": 119,
+      "fiore": 111
     },
     "Forms": [
       {
@@ -8765,7 +8945,9 @@
       "kalos": 184,
       "alola": 223,
       "galar": 447,
-      "naranja": 120
+      "naranja": 120,
+      "fiore": 112,
+      "almia": 94
     },
     "Forms": [
       {
@@ -8831,7 +9013,9 @@
       "kalos": 185,
       "alola": 224,
       "galar": 448,
-      "naranja": 121
+      "naranja": 121,
+      "fiore": 113,
+      "almia": 95
     },
     "Forms": [
       {
@@ -8898,7 +9082,9 @@
       "kalos": 264,
       "alola": 60,
       "galar": 365,
-      "naranja": 122
+      "naranja": 122,
+      "fiore": 92,
+      "almia": 165
     },
     "Forms": [
       {
@@ -8977,7 +9163,10 @@
       "alola": 365,
       "galar": 463,
       "paldea": 260,
-      "naranja": 123
+      "naranja": 123,
+      "fiore": 43,
+      "almia": 216,
+      "oblivia": 222
     },
     "Forms": [
       {
@@ -9051,7 +9240,9 @@
       "kalos": 387,
       "alola": 110,
       "galar": 512,
-      "naranja": 124
+      "naranja": 124,
+      "fiore": 168,
+      "almia": 210
     },
     "Forms": [
       {
@@ -9118,7 +9309,10 @@
       "alola": 296,
       "galar": 514,
       "paldea": 508,
-      "naranja": 125
+      "naranja": 125,
+      "fiore": 188,
+      "almia": 71,
+      "oblivia": 116
     },
     "Forms": [
       {
@@ -9195,7 +9389,10 @@
       "alola": 201,
       "galar": 517,
       "paldea": 511,
-      "naranja": 126
+      "naranja": 126,
+      "fiore": 137,
+      "almia": 74,
+      "oblivia": 188
     },
     "Forms": [
       {
@@ -9261,7 +9458,9 @@
       "kalos": 280,
       "alola": 211,
       "galar": 465,
-      "naranja": 127
+      "naranja": 127,
+      "fiore": 93,
+      "almia": 123
     },
     "Forms": [
       {
@@ -9336,7 +9535,9 @@
       "alola": 170,
       "galar": 461,
       "paldea": 223,
-      "naranja": 128
+      "naranja": 128,
+      "fiore": 49,
+      "almia": 179
     },
     "Forms": [
       {
@@ -9434,7 +9635,8 @@
       "alola": 111,
       "galar": 144,
       "paldea": 134,
-      "naranja": 129
+      "naranja": 129,
+      "fiore": 124
     },
     "Forms": [
       {
@@ -9500,7 +9702,8 @@
       "alola": 112,
       "galar": 145,
       "paldea": 135,
-      "naranja": 130
+      "naranja": 130,
+      "fiore": 125
     },
     "Forms": [
       {
@@ -9576,7 +9779,9 @@
       "alola": 353,
       "galar": 361,
       "paldea": 575,
-      "naranja": 131
+      "naranja": 131,
+      "fiore": 106,
+      "oblivia": 58
     },
     "Forms": [
       {
@@ -9651,7 +9856,8 @@
       "alola": 271,
       "galar": 373,
       "paldea": 212,
-      "naranja": 132
+      "naranja": 132,
+      "oblivia": 291
     },
     "Forms": [
       {
@@ -9727,7 +9933,9 @@
       "alola": 153,
       "galar": 196,
       "paldea": 179,
-      "naranja": 133
+      "naranja": 133,
+      "almia": 97,
+      "oblivia": 75
     },
     "Forms": [
       {
@@ -9813,7 +10021,11 @@
       "alola": 154,
       "galar": 197,
       "paldea": 180,
-      "naranja": 134
+      "naranja": 134,
+      "fiore": 183,
+      "almia": 98,
+      "oblivia": 76,
+      "decolore": 6
     },
     "Forms": [
       {
@@ -9879,7 +10091,11 @@
       "alola": 155,
       "galar": 198,
       "paldea": 181,
-      "naranja": 135
+      "naranja": 135,
+      "fiore": 185,
+      "almia": 99,
+      "oblivia": 77,
+      "decolore": 7
     },
     "Forms": [
       {
@@ -9945,7 +10161,11 @@
       "alola": 156,
       "galar": 199,
       "paldea": 182,
-      "naranja": 136
+      "naranja": 136,
+      "fiore": 184,
+      "almia": 100,
+      "oblivia": 78,
+      "decolore": 8
     },
     "Forms": [
       {
@@ -10012,7 +10232,8 @@
       "alola": 281,
       "galar": 507,
       "paldea": 565,
-      "naranja": 137
+      "naranja": 137,
+      "fiore": 103
     },
     "Forms": [
       {
@@ -10077,7 +10298,8 @@
       "johto": 225,
       "alola": 227,
       "galar": 541,
-      "naranja": 138
+      "naranja": 138,
+      "almia": 235
     },
     "Forms": [
       {
@@ -10140,7 +10362,8 @@
       "johto": 226,
       "alola": 228,
       "galar": 542,
-      "naranja": 139
+      "naranja": 139,
+      "almia": 236
     },
     "Forms": [
       {
@@ -10205,7 +10428,8 @@
       "johto": 227,
       "alola": 229,
       "galar": 543,
-      "naranja": 140
+      "naranja": 140,
+      "oblivia": 271
     },
     "Forms": [
       {
@@ -10268,7 +10492,8 @@
       "johto": 228,
       "alola": 230,
       "galar": 544,
-      "naranja": 141
+      "naranja": 141,
+      "oblivia": 272
     },
     "Forms": [
       {
@@ -10332,7 +10557,9 @@
       "kalos": 218,
       "alola": 382,
       "galar": 545,
-      "naranja": 142
+      "naranja": 142,
+      "fiore": 198,
+      "almia": 258
     },
     "Forms": [
       {
@@ -10408,7 +10635,8 @@
       "alola": 43,
       "galar": 261,
       "paldea": 453,
-      "naranja": 143
+      "naranja": 143,
+      "fiore": 105
     },
     "Forms": [
       {
@@ -10480,7 +10708,8 @@
       "johto": 240,
       "kalos": 301,
       "galar": 576,
-      "naranja": 144
+      "naranja": 144,
+      "oblivia": 298
     },
     "Forms": [
       {
@@ -10552,7 +10781,8 @@
       "johto": 241,
       "kalos": 302,
       "galar": 577,
-      "naranja": 145
+      "naranja": 145,
+      "oblivia": 299
     },
     "Forms": [
       {
@@ -10624,7 +10854,8 @@
       "johto": 242,
       "kalos": 303,
       "galar": 578,
-      "naranja": 146
+      "naranja": 146,
+      "oblivia": 300
     },
     "Forms": [
       {
@@ -10700,7 +10931,8 @@
       "alola": 379,
       "galar": 568,
       "paldea": 347,
-      "naranja": 147
+      "naranja": 147,
+      "almia": 218
     },
     "Forms": [
       {
@@ -10766,7 +10998,8 @@
       "alola": 380,
       "galar": 569,
       "paldea": 348,
-      "naranja": 148
+      "naranja": 148,
+      "almia": 219
     },
     "Forms": [
       {
@@ -10830,7 +11063,8 @@
       "alola": 381,
       "galar": 570,
       "paldea": 349,
-      "naranja": 149
+      "naranja": 149,
+      "fiore": 38
     },
     "Forms": [
       {
@@ -10891,7 +11125,8 @@
       "kanto": 150,
       "johto": 254,
       "kalos": 454,
-      "naranja": 150
+      "naranja": 150,
+      "oblivia": 293
     },
     "Forms": [
       {
@@ -10970,7 +11205,8 @@
     "Dex": {
       "kanto": 151,
       "johto": 255,
-      "naranja": 151
+      "naranja": 151,
+      "fiore": 213
     },
     "Forms": [
       {
@@ -11031,7 +11267,9 @@
     "Speed_max": 59,
     "Dex": {
       "johto": 1,
-      "paldea": 594
+      "paldea": 594,
+      "fiore": 7,
+      "oblivia": 170
     },
     "Forms": [
       {
@@ -11092,7 +11330,9 @@
     "Speed_max": 114,
     "Dex": {
       "johto": 2,
-      "paldea": 595
+      "paldea": 595,
+      "fiore": 8,
+      "oblivia": 171
     },
     "Forms": [
       {
@@ -11151,7 +11391,9 @@
     "Speed_max": 208,
     "Dex": {
       "johto": 3,
-      "paldea": 596
+      "paldea": 596,
+      "fiore": 9,
+      "oblivia": 172
     },
     "Forms": [
       {
@@ -11212,7 +11454,9 @@
     "Speed_max": 83,
     "Dex": {
       "johto": 4,
-      "paldea": 597
+      "paldea": 597,
+      "fiore": 19,
+      "oblivia": 157
     },
     "Forms": [
       {
@@ -11273,7 +11517,9 @@
     "Speed_max": 170,
     "Dex": {
       "johto": 5,
-      "paldea": 598
+      "paldea": 598,
+      "fiore": 20,
+      "oblivia": 158
     },
     "Forms": [
       {
@@ -11332,7 +11578,9 @@
     "Speed_max": 286,
     "Dex": {
       "johto": 6,
-      "paldea": 599
+      "paldea": 599,
+      "fiore": 21,
+      "oblivia": 159
     },
     "Forms": [
       {
@@ -11403,7 +11651,9 @@
     "Speed_max": 56,
     "Dex": {
       "johto": 7,
-      "paldea": 600
+      "paldea": 600,
+      "fiore": 73,
+      "oblivia": 90
     },
     "Forms": [
       {
@@ -11464,7 +11714,9 @@
     "Speed_max": 107,
     "Dex": {
       "johto": 8,
-      "paldea": 601
+      "paldea": 601,
+      "fiore": 74,
+      "oblivia": 91
     },
     "Forms": [
       {
@@ -11523,7 +11775,9 @@
     "Speed_max": 197,
     "Dex": {
       "johto": 9,
-      "paldea": 602
+      "paldea": 602,
+      "fiore": 75,
+      "oblivia": 92
     },
     "Forms": [
       {
@@ -11586,7 +11840,8 @@
     "Dex": {
       "johto": 19,
       "kalos": 109,
-      "paldea": 422
+      "paldea": 422,
+      "oblivia": 12
     },
     "Forms": [
       {
@@ -11647,7 +11902,8 @@
     "Dex": {
       "johto": 20,
       "kalos": 110,
-      "paldea": 423
+      "paldea": 423,
+      "oblivia": 13
     },
     "Forms": [
       {
@@ -11713,7 +11969,8 @@
       "kalos": 420,
       "alola": 212,
       "galar": 19,
-      "paldea": 431
+      "paldea": 431,
+      "oblivia": 31
     },
     "Forms": [
       {
@@ -11777,7 +12034,8 @@
       "kalos": 421,
       "alola": 213,
       "galar": 20,
-      "paldea": 432
+      "paldea": 432,
+      "oblivia": 32
     },
     "Forms": [
       {
@@ -11840,7 +12098,8 @@
     "Dex": {
       "johto": 30,
       "kalos": 74,
-      "alola": 20
+      "alola": 20,
+      "oblivia": 93
     },
     "Forms": [
       {
@@ -11901,7 +12160,8 @@
     "Dex": {
       "johto": 31,
       "kalos": 75,
-      "alola": 21
+      "alola": 21,
+      "oblivia": 94
     },
     "Forms": [
       {
@@ -11965,7 +12225,10 @@
       "johto": 32,
       "kalos": 410,
       "alola": 22,
-      "paldea": 401
+      "paldea": 401,
+      "fiore": 157,
+      "almia": 155,
+      "oblivia": 34
     },
     "Forms": [
       {
@@ -12027,7 +12290,10 @@
       "johto": 33,
       "kalos": 411,
       "alola": 23,
-      "paldea": 402
+      "paldea": 402,
+      "fiore": 158,
+      "almia": 156,
+      "oblivia": 35
     },
     "Forms": [
       {
@@ -12091,7 +12357,10 @@
       "unova": 64,
       "kalos": 147,
       "alola": 82,
-      "galar": 552
+      "galar": 552,
+      "fiore": 60,
+      "almia": 16,
+      "oblivia": 44
     },
     "Forms": [
       {
@@ -12157,7 +12426,9 @@
       "kalos": 297,
       "alola": 257,
       "galar": 220,
-      "paldea": 537
+      "paldea": 537,
+      "almia": 88,
+      "oblivia": 60
     },
     "Forms": [
       {
@@ -12221,7 +12492,9 @@
       "kalos": 298,
       "alola": 258,
       "galar": 221,
-      "paldea": 538
+      "paldea": 538,
+      "almia": 89,
+      "oblivia": 61
     },
     "Forms": [
       {
@@ -12287,7 +12560,10 @@
       "kalos": 35,
       "alola": 31,
       "galar": 193,
-      "paldea": 73
+      "paldea": 73,
+      "fiore": 22,
+      "almia": 1,
+      "oblivia": 4
     },
     "Forms": [
       {
@@ -12353,7 +12629,8 @@
       "unova": 89,
       "alola": 272,
       "galar": 254,
-      "paldea": 485
+      "paldea": 485,
+      "oblivia": 240
     },
     "Forms": [
       {
@@ -12420,7 +12697,8 @@
       "kalos": 422,
       "alola": 167,
       "galar": 409,
-      "paldea": 59
+      "paldea": 59,
+      "oblivia": 73
     },
     "Forms": [
       {
@@ -12483,7 +12761,8 @@
     "Dex": {
       "johto": 46,
       "sinnoh": 173,
-      "galar": 257
+      "galar": 257,
+      "oblivia": 153
     },
     "Forms": [
       {
@@ -12546,7 +12825,8 @@
     "Dex": {
       "johto": 47,
       "sinnoh": 174,
-      "galar": 258
+      "galar": 258,
+      "oblivia": 154
     },
     "Forms": [
       {
@@ -12610,7 +12890,8 @@
       "johto": 161,
       "hoenn": 169,
       "alola": 252,
-      "galar": 92
+      "galar": 92,
+      "oblivia": 175
     },
     "Forms": [
       {
@@ -12672,7 +12953,8 @@
       "johto": 162,
       "hoenn": 170,
       "alola": 253,
-      "galar": 93
+      "galar": 93,
+      "oblivia": 176
     },
     "Forms": [
       {
@@ -12736,7 +13018,9 @@
       "unova": 26,
       "kalos": 277,
       "alola": 162,
-      "paldea": 101
+      "paldea": 101,
+      "almia": 105,
+      "oblivia": 7
     },
     "Forms": [
       {
@@ -12800,7 +13084,9 @@
       "unova": 27,
       "kalos": 278,
       "alola": 163,
-      "paldea": 102
+      "paldea": 102,
+      "almia": 106,
+      "oblivia": 8
     },
     "Forms": [
       {
@@ -12862,7 +13148,9 @@
       "unova": 28,
       "kalos": 279,
       "alola": 164,
-      "paldea": 103
+      "paldea": 103,
+      "almia": 107,
+      "oblivia": 9
     },
     "Forms": [
       {
@@ -12934,7 +13222,9 @@
       "hoenn": 94,
       "kalos": 108,
       "galar": 58,
-      "paldea": 536
+      "paldea": 536,
+      "almia": 117,
+      "oblivia": 130
     },
     "Forms": [
       {
@@ -13001,7 +13291,8 @@
       "unova": 32,
       "kalos": 42,
       "galar": 470,
-      "paldea": 47
+      "paldea": 47,
+      "oblivia": 19
     },
     "Forms": [
       {
@@ -13066,7 +13357,8 @@
       "unova": 33,
       "kalos": 43,
       "galar": 471,
-      "paldea": 48
+      "paldea": 48,
+      "oblivia": 20
     },
     "Forms": [
       {
@@ -13130,7 +13422,9 @@
       "kalos": 433,
       "alola": 38,
       "galar": 253,
-      "paldea": 88
+      "paldea": 88,
+      "almia": 31,
+      "oblivia": 99
     },
     "Forms": [
       {
@@ -13193,7 +13487,9 @@
       "kalos": 339,
       "alola": 185,
       "galar": 475,
-      "paldea": 430
+      "paldea": 430,
+      "fiore": 55,
+      "oblivia": 239
     },
     "Forms": [
       {
@@ -13256,7 +13552,9 @@
     "Dex": {
       "johto": 67,
       "kalos": 135,
-      "paldea": 16
+      "paldea": 16,
+      "fiore": 10,
+      "oblivia": 26
     },
     "Forms": [
       {
@@ -13319,7 +13617,8 @@
     "Dex": {
       "johto": 68,
       "kalos": 136,
-      "paldea": 17
+      "paldea": 17,
+      "oblivia": 27
     },
     "Forms": [
       {
@@ -13380,7 +13679,8 @@
     "Dex": {
       "johto": 69,
       "kalos": 137,
-      "paldea": 18
+      "paldea": 18,
+      "oblivia": 28
     },
     "Forms": [
       {
@@ -13444,7 +13744,9 @@
       "johto": 123,
       "sinnoh": 63,
       "alola": 368,
-      "paldea": 433
+      "paldea": 433,
+      "almia": 108,
+      "oblivia": 88
     },
     "Forms": [
       {
@@ -13507,7 +13809,8 @@
     "Dex": {
       "johto": 103,
       "unova": 21,
-      "paldea": 31
+      "paldea": 31,
+      "oblivia": 10
     },
     "Forms": [
       {
@@ -13568,7 +13871,8 @@
     "Dex": {
       "johto": 104,
       "unova": 22,
-      "paldea": 32
+      "paldea": 32,
+      "oblivia": 11
     },
     "Forms": [
       {
@@ -13633,7 +13937,9 @@
       "sinnoh": 183,
       "unova": 287,
       "kalos": 237,
-      "paldea": 403
+      "paldea": 403,
+      "almia": 118,
+      "oblivia": 204
     },
     "Forms": [
       {
@@ -13699,7 +14005,8 @@
       "sinnoh": 117,
       "kalos": 320,
       "galar": 100,
-      "paldea": 53
+      "paldea": 53,
+      "oblivia": 151
     },
     "Forms": [
       {
@@ -13772,7 +14079,8 @@
       "sinnoh": 118,
       "kalos": 321,
       "galar": 101,
-      "paldea": 405
+      "paldea": 405,
+      "oblivia": 152
     },
     "Forms": [
       {
@@ -13836,7 +14144,10 @@
       "kalos": 231,
       "alola": 157,
       "galar": 200,
-      "paldea": 183
+      "paldea": 183,
+      "fiore": 186,
+      "almia": 101,
+      "oblivia": 79
     },
     "Forms": [
       {
@@ -13900,7 +14211,10 @@
       "kalos": 232,
       "alola": 158,
       "galar": 201,
-      "paldea": 184
+      "paldea": 184,
+      "fiore": 187,
+      "almia": 102,
+      "oblivia": 80
     },
     "Forms": [
       {
@@ -13965,7 +14279,10 @@
       "sinnoh": 74,
       "kalos": 354,
       "alola": 78,
-      "paldea": 232
+      "paldea": 232,
+      "fiore": 46,
+      "almia": 185,
+      "oblivia": 55
     },
     "Forms": [
       {
@@ -14028,7 +14345,8 @@
       "kalos": 285,
       "alola": 46,
       "galar": 403,
-      "paldea": 326
+      "paldea": 326,
+      "oblivia": 268
     },
     "Forms": [
       {
@@ -14100,7 +14418,9 @@
       "johto": 219,
       "sinnoh": 72,
       "alola": 372,
-      "paldea": 114
+      "paldea": 114,
+      "almia": 220,
+      "oblivia": 160
     },
     "Forms": [
       {
@@ -14219,7 +14539,9 @@
       "johto": 108,
       "hoenn": 168,
       "kalos": 269,
-      "galar": 217
+      "galar": 217,
+      "fiore": 170,
+      "oblivia": 104
     },
     "Forms": [
       {
@@ -14283,7 +14605,9 @@
       "johto": 149,
       "hoenn": 171,
       "sinnoh": 121,
-      "paldea": 192
+      "paldea": 192,
+      "almia": 178,
+      "oblivia": 241
     },
     "Forms": [
       {
@@ -14345,7 +14669,9 @@
     "Dex": {
       "johto": 93,
       "alola": 268,
-      "paldea": 258
+      "paldea": 258,
+      "almia": 110,
+      "oblivia": 190
     },
     "Forms": [
       {
@@ -14405,7 +14731,9 @@
     "Dex": {
       "johto": 94,
       "alola": 269,
-      "paldea": 259
+      "paldea": 259,
+      "almia": 111,
+      "oblivia": 191
     },
     "Forms": [
       {
@@ -14471,7 +14799,9 @@
       "kalos": 40,
       "alola": 63,
       "galar": 426,
-      "paldea": 188
+      "paldea": 188,
+      "oblivia": 52,
+      "decolore": 9
     },
     "Forms": [
       {
@@ -14536,7 +14866,10 @@
       "sinnoh": 153,
       "unova": 222,
       "kalos": 418,
-      "paldea": 464
+      "paldea": 464,
+      "fiore": 160,
+      "almia": 128,
+      "oblivia": 107
     },
     "Forms": [
       {
@@ -14599,7 +14932,8 @@
       "sinnoh": 35,
       "unova": 73,
       "kalos": 204,
-      "galar": 179
+      "galar": 179,
+      "fiore": 179
     },
     "Forms": [
       {
@@ -14673,7 +15007,9 @@
       "johto": 125,
       "kalos": 221,
       "alola": 339,
-      "paldea": 580
+      "paldea": 580,
+      "fiore": 97,
+      "oblivia": 236
     },
     "Forms": [
       {
@@ -14735,7 +15071,8 @@
       "johto": 126,
       "kalos": 222,
       "alola": 340,
-      "paldea": 581
+      "paldea": 581,
+      "oblivia": 237
     },
     "Forms": [
       {
@@ -14799,7 +15136,9 @@
       "johto": 163,
       "kalos": 188,
       "galar": 304,
-      "paldea": 331
+      "paldea": 331,
+      "almia": 92,
+      "oblivia": 273
     },
     "Forms": [
       {
@@ -14873,7 +15212,10 @@
       "kalos": 440,
       "alola": 366,
       "galar": 464,
-      "paldea": 261
+      "paldea": 261,
+      "fiore": 44,
+      "almia": 217,
+      "oblivia": 223
     },
     "Forms": [
       {
@@ -14945,7 +15287,8 @@
       "johto": 168,
       "unova": 233,
       "kalos": 317,
-      "galar": 227
+      "galar": 227,
+      "oblivia": 109
     },
     "Forms": [
       {
@@ -15011,7 +15354,9 @@
       "kalos": 281,
       "alola": 367,
       "galar": 466,
-      "paldea": 262
+      "paldea": 262,
+      "fiore": 148,
+      "oblivia": 295
     },
     "Forms": [
       {
@@ -15089,7 +15434,10 @@
       "kalos": 394,
       "alola": 326,
       "galar": 292,
-      "paldea": 230
+      "paldea": 230,
+      "fiore": 199,
+      "almia": 244,
+      "oblivia": 202
     },
     "Forms": [
       {
@@ -15162,7 +15510,8 @@
     "Dex": {
       "johto": 198,
       "kalos": 435,
-      "paldea": 215
+      "paldea": 215,
+      "oblivia": 17
     },
     "Forms": [
       {
@@ -15225,7 +15574,9 @@
     "Dex": {
       "johto": 199,
       "kalos": 436,
-      "paldea": 216
+      "paldea": 216,
+      "oblivia": 18,
+      "decolore": 10
     },
     "Forms": [
       {
@@ -15289,7 +15640,9 @@
       "johto": 216,
       "hoenn": 108,
       "kalos": 315,
-      "paldea": 480
+      "paldea": 480,
+      "fiore": 138,
+      "almia": 140
     },
     "Forms": [
       {
@@ -15351,7 +15704,9 @@
       "johto": 217,
       "hoenn": 109,
       "kalos": 316,
-      "paldea": 481
+      "paldea": 481,
+      "fiore": 139,
+      "almia": 141
     },
     "Forms": [
       {
@@ -15417,7 +15772,10 @@
       "unova": 259,
       "kalos": 379,
       "galar": 75,
-      "paldea": 435
+      "paldea": 435,
+      "fiore": 172,
+      "almia": 200,
+      "oblivia": 280
     },
     "Forms": [
       {
@@ -15483,7 +15841,10 @@
       "unova": 260,
       "kalos": 380,
       "galar": 76,
-      "paldea": 436
+      "paldea": 436,
+      "fiore": 173,
+      "almia": 201,
+      "oblivia": 281
     },
     "Forms": [
       {
@@ -15549,7 +15910,9 @@
       "unova": 238,
       "kalos": 296,
       "alola": 135,
-      "galar": 236
+      "galar": 236,
+      "almia": 93,
+      "oblivia": 67
     },
     "Forms": [
       {
@@ -15625,7 +15988,9 @@
       "unova": 236,
       "kalos": 294,
       "alola": 143,
-      "galar": 148
+      "galar": 148,
+      "fiore": 114,
+      "oblivia": 274
     },
     "Forms": [
       {
@@ -15689,7 +16054,9 @@
       "unova": 237,
       "kalos": 295,
       "alola": 144,
-      "galar": 149
+      "galar": 149,
+      "fiore": 115,
+      "oblivia": 275
     },
     "Forms": [
       {
@@ -15753,7 +16120,9 @@
       "kalos": 393,
       "alola": 95,
       "galar": 78,
-      "paldea": 354
+      "paldea": 354,
+      "almia": 209,
+      "oblivia": 256
     },
     "Forms": [
       {
@@ -15817,7 +16186,10 @@
       "unova": 235,
       "kalos": 290,
       "alola": 146,
-      "galar": 355
+      "galar": 355,
+      "fiore": 116,
+      "almia": 91,
+      "oblivia": 63
     },
     "Forms": [
       {
@@ -15882,7 +16254,10 @@
       "kalos": 415,
       "alola": 270,
       "galar": 481,
-      "paldea": 558
+      "paldea": 558,
+      "fiore": 45,
+      "almia": 189,
+      "oblivia": 231
     },
     "Forms": [
       {
@@ -15947,7 +16322,9 @@
       "sinnoh": 176,
       "kalos": 225,
       "alola": 289,
-      "paldea": 25
+      "paldea": 25,
+      "almia": 153,
+      "oblivia": 266
     },
     "Forms": [
       {
@@ -16010,7 +16387,10 @@
       "sinnoh": 177,
       "kalos": 226,
       "alola": 290,
-      "paldea": 26
+      "paldea": 26,
+      "fiore": 161,
+      "almia": 154,
+      "oblivia": 267
     },
     "Forms": [
       {
@@ -16083,7 +16463,10 @@
       "hoenn": 195,
       "kalos": 191,
       "galar": 502,
-      "paldea": 529
+      "paldea": 529,
+      "fiore": 109,
+      "almia": 231,
+      "oblivia": 70
     },
     "Forms": [
       {
@@ -16145,7 +16528,9 @@
     "Dex": {
       "johto": 200,
       "hoenn": 172,
-      "paldea": 122
+      "paldea": 122,
+      "fiore": 34,
+      "oblivia": 209
     },
     "Forms": [
       {
@@ -16205,7 +16590,9 @@
     "Dex": {
       "johto": 201,
       "hoenn": 173,
-      "paldea": 123
+      "paldea": 123,
+      "fiore": 35,
+      "oblivia": 210
     },
     "Forms": [
       {
@@ -16270,7 +16657,8 @@
       "sinnoh": 193,
       "alola": 282,
       "galar": 508,
-      "paldea": 566
+      "paldea": 566,
+      "oblivia": 118
     },
     "Forms": [
       {
@@ -16332,7 +16720,8 @@
     "Speed_max": 107,
     "Dex": {
       "johto": 131,
-      "paldea": 204
+      "paldea": 204,
+      "oblivia": 33
     },
     "Forms": [
       {
@@ -16394,7 +16783,8 @@
       "johto": 159,
       "kalos": 124,
       "alola": 70,
-      "paldea": 516
+      "paldea": 516,
+      "oblivia": 235
     },
     "Forms": [
       {
@@ -16459,7 +16849,9 @@
     "Dex": {
       "johto": 145,
       "galar": 107,
-      "paldea": 543
+      "paldea": 543,
+      "almia": 61,
+      "oblivia": 100
     },
     "Forms": [
       {
@@ -16520,7 +16912,8 @@
     "Dex": {
       "johto": 148,
       "galar": 110,
-      "paldea": 546
+      "paldea": 546,
+      "oblivia": 103
     },
     "Forms": [
       {
@@ -16584,7 +16977,8 @@
       "johto": 154,
       "kalos": 386,
       "alola": 109,
-      "galar": 511
+      "galar": 511,
+      "oblivia": 259
     },
     "Forms": [
       {
@@ -16649,7 +17043,9 @@
       "unova": 57,
       "alola": 295,
       "galar": 513,
-      "paldea": 507
+      "paldea": 507,
+      "almia": 70,
+      "oblivia": 115
     },
     "Forms": [
       {
@@ -16714,7 +17110,9 @@
       "unova": 54,
       "alola": 200,
       "galar": 516,
-      "paldea": 510
+      "paldea": 510,
+      "almia": 73,
+      "oblivia": 187
     },
     "Forms": [
       {
@@ -16776,7 +17174,8 @@
       "johto": 151,
       "kalos": 276,
       "alola": 171,
-      "galar": 462
+      "galar": 462,
+      "almia": 46
     },
     "Forms": [
       {
@@ -16839,7 +17238,8 @@
       "sinnoh": 98,
       "alola": 41,
       "galar": 408,
-      "paldea": 45
+      "paldea": 45,
+      "oblivia": 296
     },
     "Forms": [
       {
@@ -16897,7 +17297,9 @@
     "SpDefense_max": 703,
     "Speed_max": 823,
     "Dex": {
-      "johto": 243
+      "johto": 243,
+      "fiore": 203,
+      "oblivia": 126
     },
     "Forms": [
       {
@@ -16955,7 +17357,9 @@
     "SpDefense_max": 504,
     "Speed_max": 703,
     "Dex": {
-      "johto": 244
+      "johto": 244,
+      "fiore": 202,
+      "oblivia": 186
     },
     "Forms": [
       {
@@ -17013,7 +17417,9 @@
     "SpDefense_max": 823,
     "Speed_max": 584,
     "Dex": {
-      "johto": 245
+      "johto": 245,
+      "fiore": 204,
+      "oblivia": 249
     },
     "Forms": [
       {
@@ -17078,7 +17484,10 @@
       "kalos": 405,
       "alola": 247,
       "galar": 383,
-      "paldea": 316
+      "paldea": 316,
+      "fiore": 193,
+      "almia": 120,
+      "oblivia": 216
     },
     "Forms": [
       {
@@ -17142,7 +17551,10 @@
       "kalos": 406,
       "alola": 248,
       "galar": 384,
-      "paldea": 317
+      "paldea": 317,
+      "fiore": 194,
+      "almia": 121,
+      "oblivia": 217
     },
     "Forms": [
       {
@@ -17205,7 +17617,10 @@
       "kalos": 407,
       "alola": 249,
       "galar": 385,
-      "paldea": 318
+      "paldea": 318,
+      "fiore": 195,
+      "almia": 122,
+      "oblivia": 218
     },
     "Forms": [
       {
@@ -17273,7 +17688,8 @@
     "SpDefense_max": 1134,
     "Speed_max": 783,
     "Dex": {
-      "johto": 252
+      "johto": 252,
+      "oblivia": 301
     },
     "Forms": [
       {
@@ -17331,7 +17747,8 @@
     "SpDefense_max": 1134,
     "Speed_max": 624,
     "Dex": {
-      "johto": 253
+      "johto": 253,
+      "oblivia": 286
     },
     "Forms": [
       {
@@ -17388,7 +17805,10 @@
     "SpDefense_max": 853,
     "Speed_max": 853,
     "Dex": {
-      "johto": 256
+      "johto": 256,
+      "fiore": 212,
+      "almia": 263,
+      "oblivia": 57
     },
     "Forms": [
       {
@@ -17449,7 +17869,9 @@
     "Speed_max": 89,
     "Dex": {
       "hoenn": 1,
-      "paldea": 603
+      "paldea": 603,
+      "fiore": 129,
+      "oblivia": 142
     },
     "Forms": [
       {
@@ -17510,7 +17932,9 @@
     "Speed_max": 200,
     "Dex": {
       "hoenn": 2,
-      "paldea": 604
+      "paldea": 604,
+      "fiore": 130,
+      "oblivia": 143
     },
     "Forms": [
       {
@@ -17569,7 +17993,10 @@
     "Speed_max": 340,
     "Dex": {
       "hoenn": 3,
-      "paldea": 605
+      "paldea": 605,
+      "fiore": 131,
+      "almia": 243,
+      "oblivia": 144
     },
     "Forms": [
       {
@@ -17640,7 +18067,9 @@
     "Speed_max": 59,
     "Dex": {
       "hoenn": 4,
-      "paldea": 606
+      "paldea": 606,
+      "fiore": 15,
+      "oblivia": 211
     },
     "Forms": [
       {
@@ -17701,7 +18130,9 @@
     "Speed_max": 106,
     "Dex": {
       "hoenn": 5,
-      "paldea": 607
+      "paldea": 607,
+      "fiore": 16,
+      "oblivia": 212
     },
     "Forms": [
       {
@@ -17760,7 +18191,10 @@
     "Speed_max": 200,
     "Dex": {
       "hoenn": 6,
-      "paldea": 608
+      "paldea": 608,
+      "fiore": 17,
+      "almia": 255,
+      "oblivia": 213
     },
     "Forms": [
       {
@@ -17831,7 +18265,9 @@
     "Speed_max": 53,
     "Dex": {
       "hoenn": 7,
-      "paldea": 609
+      "paldea": 609,
+      "fiore": 11,
+      "oblivia": 95
     },
     "Forms": [
       {
@@ -17892,7 +18328,9 @@
     "Speed_max": 92,
     "Dex": {
       "hoenn": 8,
-      "paldea": 610
+      "paldea": 610,
+      "fiore": 12,
+      "oblivia": 96
     },
     "Forms": [
       {
@@ -17951,7 +18389,9 @@
     "Speed_max": 162,
     "Dex": {
       "hoenn": 9,
-      "paldea": 611
+      "paldea": 611,
+      "fiore": 13,
+      "oblivia": 97
     },
     "Forms": [
       {
@@ -18024,7 +18464,8 @@
     "Dex": {
       "hoenn": 10,
       "kalos": 347,
-      "paldea": 406
+      "paldea": 406,
+      "oblivia": 40
     },
     "Forms": [
       {
@@ -18085,7 +18526,8 @@
     "Dex": {
       "hoenn": 11,
       "kalos": 348,
-      "paldea": 407
+      "paldea": 407,
+      "oblivia": 41
     },
     "Forms": [
       {
@@ -18148,7 +18590,8 @@
     "Dex": {
       "hoenn": 12,
       "kalos": 12,
-      "galar": 31
+      "galar": 31,
+      "fiore": 47
     },
     "Forms": [
       {
@@ -18221,7 +18664,8 @@
     "Dex": {
       "hoenn": 13,
       "kalos": 13,
-      "galar": 32
+      "galar": 32,
+      "fiore": 48
     },
     "Forms": [
       {
@@ -18293,7 +18737,8 @@
     "Speed_max": 29,
     "Dex": {
       "hoenn": 14,
-      "sinnoh": 48
+      "sinnoh": 48,
+      "fiore": 154
     },
     "Forms": [
       {
@@ -18353,7 +18798,8 @@
     "Speed_max": 41,
     "Dex": {
       "hoenn": 15,
-      "sinnoh": 49
+      "sinnoh": 49,
+      "fiore": 155
     },
     "Forms": [
       {
@@ -18412,7 +18858,8 @@
     "Speed_max": 117,
     "Dex": {
       "hoenn": 16,
-      "sinnoh": 50
+      "sinnoh": 50,
+      "fiore": 156
     },
     "Forms": [
       {
@@ -18595,7 +19042,9 @@
       "hoenn": 19,
       "kalos": 358,
       "galar": 36,
-      "paldea": 454
+      "paldea": 454,
+      "fiore": 132,
+      "oblivia": 243
     },
     "Forms": [
       {
@@ -18659,7 +19108,9 @@
       "hoenn": 20,
       "kalos": 359,
       "galar": 37,
-      "paldea": 455
+      "paldea": 455,
+      "fiore": 133,
+      "oblivia": 244
     },
     "Forms": [
       {
@@ -18721,7 +19172,9 @@
       "hoenn": 21,
       "kalos": 360,
       "galar": 38,
-      "paldea": 456
+      "paldea": 456,
+      "fiore": 134,
+      "oblivia": 245
     },
     "Forms": [
       {
@@ -18784,7 +19237,9 @@
     "Dex": {
       "hoenn": 22,
       "galar": 39,
-      "paldea": 438
+      "paldea": 438,
+      "fiore": 180,
+      "almia": 33
     },
     "Forms": [
       {
@@ -18847,7 +19302,9 @@
     "Dex": {
       "hoenn": 23,
       "galar": 40,
-      "paldea": 439
+      "paldea": 439,
+      "fiore": 181,
+      "almia": 34
     },
     "Forms": [
       {
@@ -18908,7 +19365,10 @@
     "Dex": {
       "hoenn": 24,
       "galar": 41,
-      "paldea": 440
+      "paldea": 440,
+      "fiore": 182,
+      "almia": 35,
+      "decolore": 11
     },
     "Forms": [
       {
@@ -18969,7 +19429,9 @@
     "Speed_max": 107,
     "Dex": {
       "hoenn": 25,
-      "kalos": 169
+      "kalos": 169,
+      "fiore": 36,
+      "almia": 6
     },
     "Forms": [
       {
@@ -19028,7 +19490,9 @@
     "Speed_max": 244,
     "Dex": {
       "hoenn": 26,
-      "kalos": 170
+      "kalos": 170,
+      "fiore": 37,
+      "almia": 7
     },
     "Forms": [
       {
@@ -19095,7 +19559,10 @@
       "kalos": 167,
       "alola": 47,
       "galar": 62,
-      "paldea": 132
+      "paldea": 132,
+      "fiore": 122,
+      "almia": 78,
+      "oblivia": 23
     },
     "Forms": [
       {
@@ -19160,7 +19627,10 @@
       "kalos": 168,
       "alola": 48,
       "galar": 63,
-      "paldea": 133
+      "paldea": 133,
+      "fiore": 123,
+      "almia": 79,
+      "oblivia": 24
     },
     "Forms": [
       {
@@ -19225,7 +19695,10 @@
       "sinnoh": 157,
       "kalos": 64,
       "galar": 120,
-      "paldea": 62
+      "paldea": 62,
+      "fiore": 26,
+      "almia": 157,
+      "oblivia": 133
     },
     "Forms": [
       {
@@ -19291,7 +19764,10 @@
       "sinnoh": 158,
       "kalos": 65,
       "galar": 121,
-      "paldea": 63
+      "paldea": 63,
+      "fiore": 27,
+      "almia": 158,
+      "oblivia": 134
     },
     "Forms": [
       {
@@ -19354,7 +19830,10 @@
       "sinnoh": 159,
       "kalos": 66,
       "galar": 122,
-      "paldea": 64
+      "paldea": 64,
+      "fiore": 28,
+      "almia": 159,
+      "oblivia": 135
     },
     "Forms": [
       {
@@ -19671,7 +20150,9 @@
     "Dex": {
       "hoenn": 37,
       "unova": 277,
-      "paldea": 78
+      "paldea": 78,
+      "fiore": 162,
+      "almia": 32
     },
     "Forms": [
       {
@@ -19732,7 +20213,8 @@
     "Dex": {
       "hoenn": 38,
       "unova": 278,
-      "paldea": 79
+      "paldea": 79,
+      "fiore": 163
     },
     "Forms": [
       {
@@ -19791,7 +20273,8 @@
     "Dex": {
       "hoenn": 39,
       "unova": 279,
-      "paldea": 80
+      "paldea": 80,
+      "fiore": 164
     },
     "Forms": [
       {
@@ -19854,7 +20337,8 @@
     "Dex": {
       "hoenn": 43,
       "kalos": 111,
-      "galar": 104
+      "galar": 104,
+      "fiore": 31
     },
     "Forms": [
       {
@@ -19914,7 +20398,9 @@
     "Dex": {
       "hoenn": 44,
       "kalos": 112,
-      "galar": 105
+      "galar": 105,
+      "fiore": 32,
+      "almia": 180
     },
     "Forms": [
       {
@@ -19973,7 +20459,8 @@
     "Dex": {
       "hoenn": 45,
       "kalos": 113,
-      "galar": 106
+      "galar": 106,
+      "fiore": 33
     },
     "Forms": [
       {
@@ -20035,7 +20522,8 @@
     "Dex": {
       "hoenn": 46,
       "kalos": 140,
-      "galar": 478
+      "galar": 478,
+      "fiore": 176
     },
     "Forms": [
       {
@@ -20097,7 +20585,8 @@
     "Dex": {
       "hoenn": 47,
       "kalos": 141,
-      "galar": 479
+      "galar": 479,
+      "fiore": 177
     },
     "Forms": [
       {
@@ -20157,7 +20646,9 @@
     "Dex": {
       "hoenn": 48,
       "kalos": 142,
-      "galar": 480
+      "galar": 480,
+      "fiore": 178,
+      "decolore": 12
     },
     "Forms": [
       {
@@ -20221,7 +20712,10 @@
       "hoenn": 49,
       "kalos": 245,
       "alola": 68,
-      "paldea": 116
+      "paldea": 116,
+      "fiore": 83,
+      "almia": 28,
+      "oblivia": 197
     },
     "Forms": [
       {
@@ -20283,7 +20777,10 @@
       "hoenn": 50,
       "kalos": 246,
       "alola": 69,
-      "paldea": 117
+      "paldea": 117,
+      "fiore": 84,
+      "almia": 29,
+      "oblivia": 198
     },
     "Forms": [
       {
@@ -20415,7 +20912,8 @@
       "unova": 165,
       "kalos": 243,
       "alola": 254,
-      "paldea": 457
+      "paldea": 457,
+      "almia": 44
     },
     "Forms": [
       {
@@ -20478,7 +20976,8 @@
     "Dex": {
       "hoenn": 63,
       "unova": 79,
-      "kalos": 78
+      "kalos": 78,
+      "fiore": 98
     },
     "Forms": [
       {
@@ -20602,7 +21101,9 @@
       "kalos": 273,
       "alola": 124,
       "galar": 294,
-      "paldea": 297
+      "paldea": 297,
+      "almia": 193,
+      "oblivia": 177
     },
     "Forms": [
       {
@@ -20674,7 +21175,8 @@
       "hoenn": 71,
       "kalos": 213,
       "alola": 125,
-      "galar": 295
+      "galar": 295,
+      "almia": 130
     },
     "Forms": [
       {
@@ -20748,7 +21250,9 @@
       "hoenn": 72,
       "unova": 167,
       "kalos": 402,
-      "galar": 565
+      "galar": 565,
+      "almia": 131,
+      "oblivia": 120
     },
     "Forms": [
       {
@@ -20812,7 +21316,9 @@
       "hoenn": 73,
       "unova": 168,
       "kalos": 403,
-      "galar": 566
+      "galar": 566,
+      "almia": 132,
+      "oblivia": 121
     },
     "Forms": [
       {
@@ -20874,7 +21380,9 @@
       "hoenn": 74,
       "unova": 169,
       "kalos": 404,
-      "galar": 567
+      "galar": 567,
+      "almia": 133,
+      "oblivia": 122
     },
     "Forms": [
       {
@@ -20947,7 +21455,8 @@
       "hoenn": 78,
       "sinnoh": 86,
       "kalos": 143,
-      "paldea": 161
+      "paldea": 161,
+      "fiore": 85
     },
     "Forms": [
       {
@@ -21008,7 +21517,8 @@
       "hoenn": 79,
       "sinnoh": 87,
       "kalos": 144,
-      "paldea": 162
+      "paldea": 162,
+      "fiore": 86
     },
     "Forms": [
       {
@@ -21082,7 +21592,9 @@
       "hoenn": 80,
       "kalos": 223,
       "alola": 293,
-      "galar": 66
+      "galar": 66,
+      "fiore": 146,
+      "oblivia": 105
     },
     "Forms": [
       {
@@ -21144,7 +21656,9 @@
       "hoenn": 81,
       "kalos": 224,
       "alola": 294,
-      "galar": 67
+      "galar": 67,
+      "fiore": 147,
+      "oblivia": 106
     },
     "Forms": [
       {
@@ -21214,7 +21728,8 @@
     "Dex": {
       "hoenn": 82,
       "kalos": 96,
-      "paldea": 559
+      "paldea": 559,
+      "fiore": 67
     },
     "Forms": [
       {
@@ -21274,7 +21789,8 @@
     "Dex": {
       "hoenn": 83,
       "kalos": 97,
-      "paldea": 560
+      "paldea": 560,
+      "fiore": 68
     },
     "Forms": [
       {
@@ -21461,7 +21977,9 @@
       "sinnoh": 26,
       "unova": 135,
       "kalos": 72,
-      "galar": 60
+      "galar": 60,
+      "almia": 9,
+      "oblivia": 146
     },
     "Forms": [
       {
@@ -21585,7 +22103,8 @@
     "Dex": {
       "hoenn": 101,
       "kalos": 99,
-      "paldea": 140
+      "paldea": 140,
+      "fiore": 189
     },
     "Forms": [
       {
@@ -21648,7 +22167,9 @@
       "hoenn": 102,
       "kalos": 55,
       "alola": 345,
-      "galar": 456
+      "galar": 456,
+      "fiore": 117,
+      "oblivia": 71
     },
     "Forms": [
       {
@@ -21709,7 +22230,10 @@
       "hoenn": 103,
       "kalos": 56,
       "alola": 346,
-      "galar": 457
+      "galar": 457,
+      "fiore": 118,
+      "almia": 96,
+      "oblivia": 72
     },
     "Forms": [
       {
@@ -21784,7 +22308,9 @@
       "unova": 241,
       "kalos": 177,
       "alola": 351,
-      "galar": 356
+      "galar": 356,
+      "fiore": 119,
+      "almia": 237
     },
     "Forms": [
       {
@@ -21847,7 +22373,8 @@
       "unova": 242,
       "kalos": 178,
       "alola": 352,
-      "galar": 357
+      "galar": 357,
+      "almia": 238
     },
     "Forms": [
       {
@@ -21910,7 +22437,10 @@
     "Dex": {
       "hoenn": 106,
       "unova": 205,
-      "paldea": 151
+      "paldea": 151,
+      "fiore": 135,
+      "almia": 124,
+      "oblivia": 214
     },
     "Forms": [
       {
@@ -21971,7 +22501,10 @@
     "Dex": {
       "hoenn": 107,
       "unova": 206,
-      "paldea": 152
+      "paldea": 152,
+      "fiore": 136,
+      "almia": 125,
+      "oblivia": 215
     },
     "Forms": [
       {
@@ -22044,7 +22577,9 @@
       "kalos": 399,
       "alola": 287,
       "galar": 300,
-      "paldea": 150
+      "paldea": 150,
+      "fiore": 143,
+      "almia": 224
     },
     "Forms": [
       {
@@ -22108,7 +22643,8 @@
       "hoenn": 115,
       "unova": 207,
       "kalos": 157,
-      "paldea": 111
+      "paldea": 111,
+      "fiore": 30
     },
     "Forms": [
       {
@@ -22423,7 +22959,9 @@
       "kalos": 308,
       "alola": 306,
       "galar": 323,
-      "paldea": 521
+      "paldea": 521,
+      "fiore": 159,
+      "almia": 259
     },
     "Forms": [
       {
@@ -22484,7 +23022,8 @@
     "Speed_max": 47,
     "Dex": {
       "hoenn": 124,
-      "paldea": 252
+      "paldea": 252,
+      "almia": 239
     },
     "Forms": [
       {
@@ -22543,7 +23082,8 @@
     "Speed_max": 94,
     "Dex": {
       "hoenn": 125,
-      "paldea": 253
+      "paldea": 253,
+      "almia": 240
     },
     "Forms": [
       {
@@ -22608,7 +23148,8 @@
       "unova": 247,
       "kalos": 442,
       "galar": 521,
-      "paldea": 219
+      "paldea": 219,
+      "fiore": 196
     },
     "Forms": [
       {
@@ -22671,7 +23212,9 @@
       "unova": 248,
       "kalos": 443,
       "galar": 522,
-      "paldea": 220
+      "paldea": 220,
+      "fiore": 197,
+      "almia": 260
     },
     "Forms": [
       {
@@ -22923,7 +23466,8 @@
       "hoenn": 131,
       "unova": 216,
       "kalos": 163,
-      "galar": 363
+      "galar": 363,
+      "fiore": 169
     },
     "Forms": [
       {
@@ -23119,7 +23663,8 @@
       "kalos": 51,
       "alola": 357,
       "galar": 102,
-      "paldea": 410
+      "paldea": 410,
+      "fiore": 71
     },
     "Forms": [
       {
@@ -23183,7 +23728,8 @@
       "kalos": 52,
       "alola": 358,
       "galar": 103,
-      "paldea": 411
+      "paldea": 411,
+      "fiore": 72
     },
     "Forms": [
       {
@@ -23245,7 +23791,8 @@
       "hoenn": 136,
       "unova": 170,
       "alola": 310,
-      "galar": 82
+      "galar": 82,
+      "oblivia": 173
     },
     "Forms": [
       {
@@ -23305,7 +23852,9 @@
       "hoenn": 137,
       "unova": 171,
       "alola": 311,
-      "galar": 83
+      "galar": 83,
+      "almia": 250,
+      "oblivia": 174
     },
     "Forms": [
       {
@@ -23489,7 +24038,8 @@
     "Dex": {
       "hoenn": 140,
       "alola": 233,
-      "galar": 562
+      "galar": 562,
+      "oblivia": 269
     },
     "Forms": [
       {
@@ -23549,7 +24099,8 @@
     "Dex": {
       "hoenn": 141,
       "alola": 234,
-      "galar": 563
+      "galar": 563,
+      "oblivia": 270
     },
     "Forms": [
       {
@@ -23826,7 +24377,8 @@
     "Dex": {
       "hoenn": 150,
       "kalos": 116,
-      "alola": 214
+      "alola": 214,
+      "fiore": 104
     },
     "Forms": [
       {
@@ -23891,7 +24443,8 @@
       "unova": 211,
       "kalos": 425,
       "alola": 316,
-      "paldea": 298
+      "paldea": 298,
+      "almia": 147
     },
     "Forms": [
       {
@@ -23954,7 +24507,9 @@
       "unova": 212,
       "kalos": 426,
       "alola": 317,
-      "paldea": 299
+      "paldea": 299,
+      "almia": 148,
+      "decolore": 13
     },
     "Forms": [
       {
@@ -24027,7 +24582,9 @@
       "hoenn": 153,
       "sinnoh": 189,
       "galar": 135,
-      "paldea": 475
+      "paldea": 475,
+      "almia": 190,
+      "oblivia": 148
     },
     "Forms": [
       {
@@ -24090,7 +24647,10 @@
       "hoenn": 154,
       "sinnoh": 190,
       "galar": 136,
-      "paldea": 476
+      "paldea": 476,
+      "fiore": 171,
+      "almia": 191,
+      "oblivia": 149
     },
     "Forms": [
       {
@@ -24213,7 +24773,8 @@
       "hoenn": 158,
       "sinnoh": 83,
       "kalos": 262,
-      "paldea": 479
+      "paldea": 479,
+      "oblivia": 261
     },
     "Forms": [
       {
@@ -24277,7 +24838,10 @@
       "unova": 217,
       "kalos": 159,
       "alola": 322,
-      "galar": 534
+      "galar": 534,
+      "fiore": 200,
+      "almia": 256,
+      "oblivia": 285
     },
     "Forms": [
       {
@@ -24415,7 +24979,9 @@
       "sinnoh": 206,
       "alola": 323,
       "galar": 79,
-      "paldea": 357
+      "paldea": 357,
+      "fiore": 174,
+      "almia": 213
     },
     "Forms": [
       {
@@ -24478,7 +25044,9 @@
       "sinnoh": 207,
       "alola": 324,
       "galar": 80,
-      "paldea": 358
+      "paldea": 358,
+      "fiore": 175,
+      "almia": 214
     },
     "Forms": [
       {
@@ -24551,7 +25119,9 @@
     "Dex": {
       "hoenn": 182,
       "unova": 244,
-      "galar": 557
+      "galar": 557,
+      "almia": 197,
+      "oblivia": 253
     },
     "Forms": [
       {
@@ -24614,7 +25184,9 @@
     "Dex": {
       "hoenn": 183,
       "unova": 245,
-      "galar": 558
+      "galar": 558,
+      "almia": 198,
+      "oblivia": 254
     },
     "Forms": [
       {
@@ -24675,7 +25247,9 @@
     "Dex": {
       "hoenn": 184,
       "unova": 246,
-      "galar": 559
+      "galar": 559,
+      "almia": 199,
+      "oblivia": 255
     },
     "Forms": [
       {
@@ -24738,7 +25312,8 @@
     "Dex": {
       "hoenn": 185,
       "kalos": 291,
-      "alola": 140
+      "alola": 140,
+      "oblivia": 64
     },
     "Forms": [
       {
@@ -24798,7 +25373,9 @@
     "Dex": {
       "hoenn": 186,
       "kalos": 292,
-      "alola": 141
+      "alola": 141,
+      "almia": 232,
+      "oblivia": 65
     },
     "Forms": [
       {
@@ -24858,7 +25435,9 @@
     "Dex": {
       "hoenn": 187,
       "kalos": 293,
-      "alola": 142
+      "alola": 142,
+      "almia": 233,
+      "oblivia": 66
     },
     "Forms": [
       {
@@ -24920,7 +25499,8 @@
       "hoenn": 188,
       "kalos": 192,
       "alola": 343,
-      "galar": 564
+      "galar": 564,
+      "oblivia": 248
     },
     "Forms": [
       {
@@ -24981,7 +25561,9 @@
       "hoenn": 192,
       "kalos": 179,
       "alola": 134,
-      "paldea": 332
+      "paldea": 332,
+      "fiore": 120,
+      "oblivia": 59
     },
     "Forms": [
       {
@@ -25045,7 +25627,10 @@
       "kalos": 164,
       "alola": 147,
       "galar": 535,
-      "paldea": 276
+      "paldea": 276,
+      "fiore": 165,
+      "almia": 225,
+      "oblivia": 219
     },
     "Forms": [
       {
@@ -25109,7 +25694,10 @@
       "kalos": 165,
       "alola": 148,
       "galar": 536,
-      "paldea": 277
+      "paldea": 277,
+      "fiore": 166,
+      "almia": 226,
+      "oblivia": 220
     },
     "Forms": [
       {
@@ -25171,7 +25759,10 @@
       "kalos": 166,
       "alola": 149,
       "galar": 537,
-      "paldea": 278
+      "paldea": 278,
+      "fiore": 167,
+      "almia": 227,
+      "oblivia": 221
     },
     "Forms": [
       {
@@ -25245,7 +25836,9 @@
       "unova": 263,
       "alola": 278,
       "galar": 547,
-      "paldea": 570
+      "paldea": 570,
+      "fiore": 190,
+      "oblivia": 224
     },
     "Forms": [
       {
@@ -25309,7 +25902,9 @@
       "unova": 264,
       "alola": 279,
       "galar": 548,
-      "paldea": 571
+      "paldea": 571,
+      "fiore": 191,
+      "oblivia": 225
     },
     "Forms": [
       {
@@ -25371,7 +25966,9 @@
       "unova": 265,
       "alola": 280,
       "galar": 549,
-      "paldea": 572
+      "paldea": 572,
+      "fiore": 192,
+      "oblivia": 226
     },
     "Forms": [
       {
@@ -25440,7 +26037,9 @@
     "Speed_max": 304,
     "Dex": {
       "hoenn": 202,
-      "galar": 571
+      "galar": 571,
+      "fiore": 205,
+      "almia": 264
     },
     "Forms": [
       {
@@ -25499,7 +26098,9 @@
     "Speed_max": 304,
     "Dex": {
       "hoenn": 203,
-      "galar": 572
+      "galar": 572,
+      "fiore": 206,
+      "almia": 265
     },
     "Forms": [
       {
@@ -25558,7 +26159,9 @@
     "Speed_max": 304,
     "Dex": {
       "hoenn": 204,
-      "galar": 573
+      "galar": 573,
+      "fiore": 207,
+      "almia": 266
     },
     "Forms": [
       {
@@ -25615,7 +26218,8 @@
     "SpDefense_max": 943,
     "Speed_max": 783,
     "Dex": {
-      "hoenn": 205
+      "hoenn": 205,
+      "oblivia": 278
     },
     "Forms": [
       {
@@ -25682,7 +26286,8 @@
     "SpDefense_max": 783,
     "Speed_max": 783,
     "Dex": {
-      "hoenn": 206
+      "hoenn": 206,
+      "oblivia": 279
     },
     "Forms": [
       {
@@ -25749,7 +26354,8 @@
     "SpDefense_max": 1023,
     "Speed_max": 624,
     "Dex": {
-      "hoenn": 207
+      "hoenn": 207,
+      "fiore": 208
     },
     "Forms": [
       {
@@ -25816,7 +26422,8 @@
     "SpDefense_max": 624,
     "Speed_max": 624,
     "Dex": {
-      "hoenn": 208
+      "hoenn": 208,
+      "fiore": 209
     },
     "Forms": [
       {
@@ -25883,7 +26490,8 @@
     "SpDefense_max": 624,
     "Speed_max": 664,
     "Dex": {
-      "hoenn": 209
+      "hoenn": 209,
+      "fiore": 210
     },
     "Forms": [
       {
@@ -25950,7 +26558,8 @@
     "SpDefense_max": 853,
     "Speed_max": 853,
     "Dex": {
-      "hoenn": 210
+      "hoenn": 210,
+      "decolore": 14
     },
     "Forms": [
       {
@@ -26007,7 +26616,8 @@
     "SpDefense_max": 354,
     "Speed_max": 1302,
     "Dex": {
-      "hoenn": 211
+      "hoenn": 211,
+      "fiore": 211
     },
     "Forms": [
       {
@@ -26098,7 +26708,9 @@
     "Speed_max": 42,
     "Dex": {
       "sinnoh": 1,
-      "paldea": 612
+      "paldea": 612,
+      "almia": 52,
+      "oblivia": 139
     },
     "Forms": [
       {
@@ -26159,7 +26771,9 @@
     "Speed_max": 70,
     "Dex": {
       "sinnoh": 2,
-      "paldea": 613
+      "paldea": 613,
+      "almia": 53,
+      "oblivia": 140
     },
     "Forms": [
       {
@@ -26218,7 +26832,9 @@
     "Speed_max": 134,
     "Dex": {
       "sinnoh": 3,
-      "paldea": 614
+      "paldea": 614,
+      "almia": 54,
+      "oblivia": 141
     },
     "Forms": [
       {
@@ -26279,7 +26895,9 @@
     "Speed_max": 78,
     "Dex": {
       "sinnoh": 4,
-      "paldea": 615
+      "paldea": 615,
+      "almia": 168,
+      "oblivia": 194
     },
     "Forms": [
       {
@@ -26340,7 +26958,9 @@
     "Speed_max": 165,
     "Dex": {
       "sinnoh": 5,
-      "paldea": 616
+      "paldea": 616,
+      "almia": 169,
+      "oblivia": 195
     },
     "Forms": [
       {
@@ -26399,7 +27019,9 @@
     "Speed_max": 289,
     "Dex": {
       "sinnoh": 6,
-      "paldea": 617
+      "paldea": 617,
+      "almia": 170,
+      "oblivia": 196
     },
     "Forms": [
       {
@@ -26460,7 +27082,9 @@
     "Speed_max": 53,
     "Dex": {
       "sinnoh": 7,
-      "paldea": 618
+      "paldea": 618,
+      "almia": 206,
+      "oblivia": 83
     },
     "Forms": [
       {
@@ -26521,7 +27145,9 @@
     "Speed_max": 92,
     "Dex": {
       "sinnoh": 8,
-      "paldea": 619
+      "paldea": 619,
+      "almia": 207,
+      "oblivia": 84
     },
     "Forms": [
       {
@@ -26580,7 +27206,9 @@
     "Speed_max": 162,
     "Dex": {
       "sinnoh": 9,
-      "paldea": 620
+      "paldea": 620,
+      "almia": 208,
+      "oblivia": 85
     },
     "Forms": [
       {
@@ -26642,7 +27270,9 @@
     "Dex": {
       "sinnoh": 10,
       "kalos": 249,
-      "paldea": 97
+      "paldea": 97,
+      "almia": 23,
+      "oblivia": 228
     },
     "Forms": [
       {
@@ -26704,7 +27334,9 @@
     "Dex": {
       "sinnoh": 11,
       "kalos": 250,
-      "paldea": 98
+      "paldea": 98,
+      "almia": 24,
+      "oblivia": 229
     },
     "Forms": [
       {
@@ -26764,7 +27396,9 @@
     "Dex": {
       "sinnoh": 12,
       "kalos": 251,
-      "paldea": 99
+      "paldea": 99,
+      "almia": 25,
+      "oblivia": 230
     },
     "Forms": [
       {
@@ -26826,7 +27460,9 @@
     "Speed_max": 42,
     "Dex": {
       "sinnoh": 13,
-      "kalos": 38
+      "kalos": 38,
+      "almia": 4,
+      "oblivia": 137
     },
     "Forms": [
       {
@@ -26886,7 +27522,9 @@
     "Speed_max": 113,
     "Dex": {
       "sinnoh": 14,
-      "kalos": 39
+      "kalos": 39,
+      "almia": 5,
+      "oblivia": 138
     },
     "Forms": [
       {
@@ -26947,7 +27585,9 @@
     "Speed_max": 35,
     "Dex": {
       "sinnoh": 15,
-      "paldea": 33
+      "paldea": 33,
+      "almia": 82,
+      "oblivia": 29
     },
     "Forms": [
       {
@@ -27006,7 +27646,9 @@
     "Speed_max": 98,
     "Dex": {
       "sinnoh": 16,
-      "paldea": 34
+      "paldea": 34,
+      "almia": 83,
+      "oblivia": 30
     },
     "Forms": [
       {
@@ -27069,7 +27711,9 @@
     "Dex": {
       "sinnoh": 17,
       "galar": 417,
-      "paldea": 94
+      "paldea": 94,
+      "almia": 49,
+      "oblivia": 123
     },
     "Forms": [
       {
@@ -27132,7 +27776,9 @@
     "Dex": {
       "sinnoh": 18,
       "galar": 418,
-      "paldea": 95
+      "paldea": 95,
+      "almia": 50,
+      "oblivia": 124
     },
     "Forms": [
       {
@@ -27193,7 +27839,9 @@
     "Dex": {
       "sinnoh": 19,
       "galar": 419,
-      "paldea": 96
+      "paldea": 96,
+      "almia": 51,
+      "oblivia": 125
     },
     "Forms": [
       {
@@ -27258,7 +27906,9 @@
       "sinnoh": 25,
       "unova": 134,
       "kalos": 71,
-      "galar": 59
+      "galar": 59,
+      "almia": 8,
+      "oblivia": 145
     },
     "Forms": [
       {
@@ -27321,7 +27971,9 @@
       "sinnoh": 27,
       "unova": 136,
       "kalos": 73,
-      "galar": 61
+      "galar": 61,
+      "almia": 10,
+      "oblivia": 147
     },
     "Forms": [
       {
@@ -27383,7 +28035,9 @@
     "Dex": {
       "sinnoh": 36,
       "alola": 235,
-      "paldea": 552
+      "paldea": 552,
+      "almia": 84,
+      "oblivia": 50
     },
     "Forms": [
       {
@@ -27443,7 +28097,9 @@
     "Dex": {
       "sinnoh": 37,
       "alola": 236,
-      "paldea": 553
+      "paldea": 553,
+      "almia": 85,
+      "oblivia": 51
     },
     "Forms": [
       {
@@ -27505,7 +28161,9 @@
     "Dex": {
       "sinnoh": 38,
       "alola": 237,
-      "paldea": 554
+      "paldea": 554,
+      "almia": 181,
+      "oblivia": 178
     },
     "Forms": [
       {
@@ -27565,7 +28223,9 @@
     "Dex": {
       "sinnoh": 39,
       "alola": 238,
-      "paldea": 555
+      "paldea": 555,
+      "almia": 182,
+      "oblivia": 179
     },
     "Forms": [
       {
@@ -27765,7 +28425,9 @@
     "Speed_max": 111,
     "Dex": {
       "sinnoh": 47,
-      "kalos": 46
+      "kalos": 46,
+      "almia": 241,
+      "oblivia": 156
     },
     "Forms": [
       {
@@ -27829,7 +28491,9 @@
       "unova": 143,
       "kalos": 76,
       "galar": 116,
-      "paldea": 38
+      "paldea": 38,
+      "almia": 59,
+      "oblivia": 192
     },
     "Forms": [
       {
@@ -27891,7 +28555,9 @@
       "unova": 144,
       "kalos": 77,
       "galar": 117,
-      "paldea": 39
+      "paldea": 39,
+      "almia": 60,
+      "oblivia": 193
     },
     "Forms": [
       {
@@ -27952,7 +28618,9 @@
     "Dex": {
       "sinnoh": 55,
       "kalos": 282,
-      "paldea": 201
+      "paldea": 201,
+      "almia": 26,
+      "oblivia": 25
     },
     "Forms": [
       {
@@ -28015,7 +28683,9 @@
       "sinnoh": 56,
       "unova": 150,
       "kalos": 361,
-      "paldea": 51
+      "paldea": 51,
+      "almia": 55,
+      "oblivia": 36
     },
     "Forms": [
       {
@@ -28076,7 +28746,9 @@
       "sinnoh": 57,
       "unova": 151,
       "kalos": 362,
-      "paldea": 52
+      "paldea": 52,
+      "almia": 56,
+      "oblivia": 37
     },
     "Forms": [
       {
@@ -28136,7 +28808,9 @@
     "Speed_max": 47,
     "Dex": {
       "sinnoh": 58,
-      "galar": 128
+      "galar": 128,
+      "almia": 47,
+      "oblivia": 131
     },
     "Forms": [
       {
@@ -28194,7 +28868,9 @@
     "Speed_max": 142,
     "Dex": {
       "sinnoh": 59,
-      "galar": 129
+      "galar": 129,
+      "almia": 48,
+      "oblivia": 132
     },
     "Forms": [
       {
@@ -28258,7 +28934,9 @@
       "sinnoh": 60,
       "alola": 341,
       "galar": 230,
-      "paldea": 327
+      "paldea": 327,
+      "almia": 37,
+      "oblivia": 86
     },
     "Forms": [
       {
@@ -28320,7 +28998,9 @@
       "sinnoh": 61,
       "alola": 342,
       "galar": 231,
-      "paldea": 328
+      "paldea": 328,
+      "almia": 38,
+      "oblivia": 87
     },
     "Forms": [
       {
@@ -28382,7 +29062,9 @@
       "johto": 124,
       "sinnoh": 64,
       "alola": 369,
-      "paldea": 434
+      "paldea": 434,
+      "almia": 109,
+      "oblivia": 89
     },
     "Forms": [
       {
@@ -28448,7 +29130,9 @@
       "kalos": 151,
       "alola": 76,
       "galar": 124,
-      "paldea": 143
+      "paldea": 143,
+      "almia": 142,
+      "oblivia": 232
     },
     "Forms": [
       {
@@ -28512,7 +29196,9 @@
       "kalos": 152,
       "alola": 77,
       "galar": 125,
-      "paldea": 144
+      "paldea": 144,
+      "almia": 143,
+      "oblivia": 233
     },
     "Forms": [
       {
@@ -28576,7 +29262,9 @@
       "sinnoh": 67,
       "unova": 81,
       "alola": 24,
-      "galar": 404
+      "galar": 404,
+      "almia": 20,
+      "oblivia": 251
     },
     "Forms": [
       {
@@ -28638,7 +29326,9 @@
       "sinnoh": 68,
       "unova": 82,
       "alola": 25,
-      "galar": 405
+      "galar": 405,
+      "almia": 21,
+      "oblivia": 252
     },
     "Forms": [
       {
@@ -28707,7 +29397,10 @@
     "Dex": {
       "sinnoh": 73,
       "alola": 373,
-      "paldea": 115
+      "paldea": 115,
+      "almia": 221,
+      "oblivia": 161,
+      "decolore": 15
     },
     "Forms": [
       {
@@ -28769,7 +29462,10 @@
       "sinnoh": 75,
       "kalos": 355,
       "alola": 79,
-      "paldea": 233
+      "paldea": 233,
+      "almia": 186,
+      "oblivia": 56,
+      "decolore": 16
     },
     "Forms": [
       {
@@ -28830,7 +29526,9 @@
     "SpDefense_max": 49,
     "Speed_max": 107,
     "Dex": {
-      "sinnoh": 76
+      "sinnoh": 76,
+      "almia": 39,
+      "oblivia": 162
     },
     "Forms": [
       {
@@ -28889,7 +29587,9 @@
     "SpDefense_max": 102,
     "Speed_max": 233,
     "Dex": {
-      "sinnoh": 77
+      "sinnoh": 77,
+      "almia": 40,
+      "oblivia": 163
     },
     "Forms": [
       {
@@ -28951,7 +29651,9 @@
       "hoenn": 157,
       "sinnoh": 82,
       "kalos": 261,
-      "paldea": 478
+      "paldea": 478,
+      "almia": 205,
+      "oblivia": 260
     },
     "Forms": [
       {
@@ -29015,7 +29717,9 @@
       "sinnoh": 84,
       "kalos": 252,
       "galar": 130,
-      "paldea": 226
+      "paldea": 226,
+      "almia": 144,
+      "oblivia": 53
     },
     "Forms": [
       {
@@ -29077,7 +29781,9 @@
       "sinnoh": 85,
       "kalos": 253,
       "galar": 131,
-      "paldea": 227
+      "paldea": 227,
+      "almia": 145,
+      "oblivia": 54
     },
     "Forms": [
       {
@@ -29141,7 +29847,9 @@
       "sinnoh": 88,
       "unova": 251,
       "galar": 118,
-      "paldea": 153
+      "paldea": 153,
+      "almia": 248,
+      "oblivia": 184
     },
     "Forms": [
       {
@@ -29203,7 +29911,9 @@
       "sinnoh": 89,
       "unova": 252,
       "galar": 119,
-      "paldea": 154
+      "paldea": 154,
+      "almia": 249,
+      "oblivia": 185
     },
     "Forms": [
       {
@@ -29268,7 +29978,9 @@
       "kalos": 432,
       "alola": 37,
       "galar": 252,
-      "paldea": 87
+      "paldea": 87,
+      "almia": 30,
+      "oblivia": 98
     },
     "Forms": [
       {
@@ -29332,7 +30044,9 @@
       "sinnoh": 94,
       "kalos": 263,
       "alola": 59,
-      "galar": 364
+      "galar": 364,
+      "almia": 164,
+      "oblivia": 169
     },
     "Forms": [
       {
@@ -29396,7 +30110,9 @@
       "sinnoh": 96,
       "alola": 39,
       "galar": 406,
-      "paldea": 43
+      "paldea": 43,
+      "almia": 22,
+      "oblivia": 227
     },
     "Forms": [
       {
@@ -29456,7 +30172,9 @@
     "Speed_max": 401,
     "Dex": {
       "sinnoh": 102,
-      "kalos": 288
+      "kalos": 288,
+      "almia": 69,
+      "oblivia": 234
     },
     "Forms": [
       {
@@ -29516,7 +30234,8 @@
     "Dex": {
       "sinnoh": 108,
       "galar": 523,
-      "paldea": 302
+      "paldea": 302,
+      "almia": 196
     },
     "Forms": [
       {
@@ -29580,7 +30299,9 @@
       "kalos": 309,
       "alola": 307,
       "galar": 538,
-      "paldea": 126
+      "paldea": 126,
+      "almia": 251,
+      "oblivia": 199
     },
     "Forms": [
       {
@@ -29644,7 +30365,9 @@
       "kalos": 310,
       "alola": 308,
       "galar": 539,
-      "paldea": 127
+      "paldea": 127,
+      "almia": 252,
+      "oblivia": 200
     },
     "Forms": [
       {
@@ -29706,7 +30429,9 @@
       "kalos": 311,
       "alola": 309,
       "galar": 540,
-      "paldea": 128
+      "paldea": 128,
+      "almia": 253,
+      "oblivia": 201
     },
     "Forms": [
       {
@@ -29781,7 +30506,9 @@
       "kalos": 138,
       "alola": 42,
       "galar": 260,
-      "paldea": 452
+      "paldea": 452,
+      "almia": 27,
+      "oblivia": 74
     },
     "Forms": [
       {
@@ -29847,7 +30574,9 @@
       "kalos": 62,
       "alola": 377,
       "galar": 298,
-      "paldea": 163
+      "paldea": 163,
+      "almia": 222,
+      "oblivia": 264
     },
     "Forms": [
       {
@@ -29911,7 +30640,9 @@
       "kalos": 63,
       "alola": 378,
       "galar": 299,
-      "paldea": 164
+      "paldea": 164,
+      "almia": 223,
+      "oblivia": 265
     },
     "Forms": [
       {
@@ -29984,7 +30715,9 @@
       "sinnoh": 122,
       "kalos": 198,
       "galar": 314,
-      "paldea": 265
+      "paldea": 265,
+      "almia": 246,
+      "oblivia": 283
     },
     "Forms": [
       {
@@ -30045,7 +30778,9 @@
       "sinnoh": 123,
       "kalos": 199,
       "galar": 315,
-      "paldea": 266
+      "paldea": 266,
+      "almia": 247,
+      "oblivia": 284
     },
     "Forms": [
       {
@@ -30109,7 +30844,9 @@
       "sinnoh": 127,
       "unova": 202,
       "kalos": 318,
-      "galar": 285
+      "galar": 285,
+      "almia": 173,
+      "oblivia": 262
     },
     "Forms": [
       {
@@ -30171,7 +30908,9 @@
       "sinnoh": 128,
       "unova": 203,
       "kalos": 319,
-      "galar": 286
+      "galar": 286,
+      "almia": 174,
+      "oblivia": 263
     },
     "Forms": [
       {
@@ -30236,7 +30975,9 @@
       "unova": 291,
       "kalos": 125,
       "galar": 222,
-      "paldea": 175
+      "paldea": 175,
+      "almia": 80,
+      "oblivia": 38
     },
     "Forms": [
       {
@@ -30299,7 +31040,9 @@
       "unova": 292,
       "kalos": 126,
       "galar": 223,
-      "paldea": 176
+      "paldea": 176,
+      "almia": 81,
+      "oblivia": 39
     },
     "Forms": [
       {
@@ -30358,7 +31101,9 @@
     "Dex": {
       "sinnoh": 131,
       "unova": 290,
-      "kalos": 332
+      "kalos": 332,
+      "almia": 136,
+      "oblivia": 238
     },
     "Forms": [
       {
@@ -30421,7 +31166,9 @@
     "Dex": {
       "sinnoh": 134,
       "alola": 131,
-      "paldea": 333
+      "paldea": 333,
+      "almia": 86,
+      "oblivia": 246
     },
     "Forms": [
       {
@@ -30482,7 +31229,9 @@
     "Dex": {
       "sinnoh": 135,
       "alola": 132,
-      "paldea": 334
+      "paldea": 334,
+      "almia": 87,
+      "oblivia": 247
     },
     "Forms": [
       {
@@ -30547,7 +31296,9 @@
       "unova": 234,
       "kalos": 289,
       "alola": 145,
-      "galar": 354
+      "galar": 354,
+      "almia": 90,
+      "oblivia": 62
     },
     "Forms": [
       {
@@ -30610,7 +31361,9 @@
       "sinnoh": 142,
       "kalos": 391,
       "galar": 96,
-      "paldea": 352
+      "paldea": 352,
+      "almia": 211,
+      "oblivia": 257
     },
     "Forms": [
       {
@@ -30671,7 +31424,9 @@
       "sinnoh": 143,
       "kalos": 392,
       "galar": 97,
-      "paldea": 353
+      "paldea": 353,
+      "almia": 212,
+      "oblivia": 258
     },
     "Forms": [
       {
@@ -30744,7 +31499,9 @@
       "kalos": 395,
       "alola": 327,
       "galar": 293,
-      "paldea": 231
+      "paldea": 231,
+      "almia": 245,
+      "oblivia": 203
     },
     "Forms": [
       {
@@ -30809,7 +31566,9 @@
       "kalos": 374,
       "alola": 56,
       "galar": 455,
-      "paldea": 211
+      "paldea": 211,
+      "almia": 64,
+      "oblivia": 112
     },
     "Forms": [
       {
@@ -30873,7 +31632,9 @@
       "unova": 286,
       "kalos": 438,
       "alola": 376,
-      "galar": 429
+      "galar": 429,
+      "almia": 175,
+      "oblivia": 250
     },
     "Forms": [
       {
@@ -30936,7 +31697,9 @@
       "sinnoh": 188,
       "kalos": 202,
       "galar": 266,
-      "paldea": 506
+      "paldea": 506,
+      "almia": 151,
+      "oblivia": 287
     },
     "Forms": [
       {
@@ -30998,7 +31761,9 @@
       "johto": 183,
       "sinnoh": 182,
       "unova": 219,
-      "galar": 444
+      "galar": 444,
+      "almia": 36,
+      "oblivia": 289
     },
     "Forms": [
       {
@@ -31060,7 +31825,9 @@
       "unova": 59,
       "alola": 297,
       "galar": 515,
-      "paldea": 509
+      "paldea": 509,
+      "almia": 72,
+      "oblivia": 117
     },
     "Forms": [
       {
@@ -31122,7 +31889,9 @@
       "unova": 56,
       "alola": 202,
       "galar": 518,
-      "paldea": 512
+      "paldea": 512,
+      "almia": 75,
+      "oblivia": 189
     },
     "Forms": [
       {
@@ -31182,7 +31951,9 @@
     "Speed_max": 140,
     "Dex": {
       "sinnoh": 175,
-      "galar": 259
+      "galar": 259,
+      "almia": 261,
+      "oblivia": 155
     },
     "Forms": [
       {
@@ -31245,7 +32016,9 @@
       "sinnoh": 184,
       "unova": 288,
       "kalos": 238,
-      "paldea": 404
+      "paldea": 404,
+      "almia": 119,
+      "oblivia": 205
     },
     "Forms": [
       {
@@ -31308,7 +32081,9 @@
       "kalos": 233,
       "alola": 159,
       "galar": 202,
-      "paldea": 185
+      "paldea": 185,
+      "almia": 103,
+      "oblivia": 81
     },
     "Forms": [
       {
@@ -31371,7 +32146,9 @@
       "kalos": 234,
       "alola": 160,
       "galar": 203,
-      "paldea": 186
+      "paldea": 186,
+      "almia": 104,
+      "oblivia": 82
     },
     "Forms": [
       {
@@ -31433,7 +32210,9 @@
       "sinnoh": 154,
       "unova": 223,
       "kalos": 419,
-      "paldea": 465
+      "paldea": 465,
+      "almia": 129,
+      "oblivia": 108
     },
     "Forms": [
       {
@@ -31497,7 +32276,9 @@
       "unova": 261,
       "kalos": 381,
       "galar": 77,
-      "paldea": 437
+      "paldea": 437,
+      "almia": 202,
+      "oblivia": 282
     },
     "Forms": [
       {
@@ -31559,7 +32340,9 @@
       "sinnoh": 194,
       "alola": 283,
       "galar": 509,
-      "paldea": 567
+      "paldea": 567,
+      "almia": 262,
+      "oblivia": 119
     },
     "Forms": [
       {
@@ -31622,7 +32405,9 @@
       "sinnoh": 160,
       "kalos": 67,
       "galar": 123,
-      "paldea": 65
+      "paldea": 65,
+      "almia": 160,
+      "oblivia": 136
     },
     "Forms": [
       {
@@ -31696,7 +32481,9 @@
       "unova": 166,
       "kalos": 244,
       "alola": 255,
-      "paldea": 458
+      "paldea": 458,
+      "almia": 45,
+      "oblivia": 290
     },
     "Forms": [
       {
@@ -31757,7 +32544,10 @@
       "hoenn": 155,
       "sinnoh": 191,
       "galar": 137,
-      "paldea": 477
+      "paldea": 477,
+      "almia": 192,
+      "oblivia": 150,
+      "decolore": 17
     },
     "Forms": [
       {
@@ -31819,7 +32609,9 @@
       "sinnoh": 208,
       "alola": 325,
       "galar": 81,
-      "paldea": 359
+      "paldea": 359,
+      "almia": 215,
+      "oblivia": 288
     },
     "Forms": [
       {
@@ -31879,7 +32671,8 @@
       "sinnoh": 152,
       "kalos": 371,
       "galar": 372,
-      "paldea": 310
+      "paldea": 310,
+      "decolore": 18
     },
     "Forms": [
       {
@@ -32158,7 +32951,9 @@
     "SpDefense_max": 703,
     "Speed_max": 624,
     "Dex": {
-      "sinnoh": 149
+      "sinnoh": 149,
+      "almia": 268,
+      "oblivia": 305
     },
     "Forms": [
       {
@@ -32226,7 +33021,9 @@
     "SpDefense_max": 863,
     "Speed_max": 703,
     "Dex": {
-      "sinnoh": 150
+      "sinnoh": 150,
+      "almia": 269,
+      "oblivia": 306
     },
     "Forms": [
       {
@@ -32293,7 +33090,10 @@
     "SpAttack_max": 943,
     "SpDefense_max": 751,
     "Speed_max": 520,
-    "Dex": {},
+    "Dex": {
+      "almia": 228,
+      "oblivia": 302
+    },
     "Forms": [
       {
         "id": 485,
@@ -32348,7 +33148,10 @@
     "SpAttack_max": 544,
     "SpDefense_max": 783,
     "Speed_max": 703,
-    "Dex": {},
+    "Dex": {
+      "almia": 267,
+      "oblivia": 292
+    },
     "Forms": [
       {
         "id": 486,
@@ -32405,7 +33208,8 @@
     "SpDefense_max": 863,
     "Speed_max": 624,
     "Dex": {
-      "sinnoh": 210
+      "sinnoh": 210,
+      "oblivia": 304
     },
     "Forms": [
       {
@@ -32471,7 +33275,9 @@
     "SpAttack_max": 504,
     "SpDefense_max": 863,
     "Speed_max": 584,
-    "Dex": {},
+    "Dex": {
+      "almia": 254
+    },
     "Forms": [
       {
         "id": 488,
@@ -32526,7 +33332,9 @@
     "SpAttack_max": 654,
     "SpDefense_max": 654,
     "Speed_max": 654,
-    "Dex": {},
+    "Dex": {
+      "oblivia": 297
+    },
     "Forms": [
       {
         "id": 489,
@@ -32638,7 +33446,9 @@
     "SpAttack_max": 1168,
     "SpDefense_max": 754,
     "Speed_max": 1078,
-    "Dex": {},
+    "Dex": {
+      "almia": 257
+    },
     "Forms": [
       {
         "id": 491,
@@ -32693,7 +33503,10 @@
     "SpAttack_max": 853,
     "SpDefense_max": 853,
     "Speed_max": 853,
-    "Dex": {},
+    "Dex": {
+      "almia": 270,
+      "oblivia": 303
+    },
     "Forms": [
       {
         "id": 492,
@@ -32758,7 +33571,9 @@
     "SpAttack_max": 1033,
     "SpDefense_max": 1033,
     "Speed_max": 1033,
-    "Dex": {},
+    "Dex": {
+      "oblivia": 307
+    },
     "Forms": [
       {
         "id": 493,
@@ -37680,7 +38495,8 @@
       "kalos": 428,
       "alola": 29,
       "galar": 446,
-      "paldea": 229
+      "paldea": 229,
+      "decolore": 19
     },
     "Forms": [
       {
@@ -39858,7 +40674,8 @@
     "Dex": {
       "unova": 190,
       "alola": 276,
-      "galar": 278
+      "galar": 278,
+      "decolore": 20
     },
     "Forms": [
       {

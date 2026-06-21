@@ -27,7 +27,7 @@ const REPEAT_RATE := 0.05    # intervalo entre pasos mientras se mantiene
 const LIST_RECT := Rect2(62, 120, 508, 504)    # área de la lista (VISIBLE_ROWS*ROW_H)
 const CAT_RECT := Rect2(74, 148, 560, 476)     # área del menú de categorías
 
-# Categorías: Nacional + las 12 regiones del juego (las 3 Ranger sin datos aún)
+# Categorías: Nacional + las regiones del juego (Ranger Fiore/Almia/Oblivia ya con datos + Decolore)
 const CATEGORIES := [
 	{"key": "national", "name": "Nacional"},
 	{"key": "kanto",    "name": "Kanto"},
@@ -43,6 +43,7 @@ const CATEGORIES := [
 	{"key": "almia",    "name": "Almia"},
 	{"key": "oblivia",  "name": "Oblivia"},
 	{"key": "fiore",    "name": "Fiore"},
+	{"key": "decolore", "name": "Decolore"},
 ]
 
 enum View { CATEGORIES, LIST }
@@ -153,7 +154,7 @@ func _build_categories():
 
 	_cat_cursor = ColorRect.new()
 	_cat_cursor.color = Color(ACCENT.r, ACCENT.g, ACCENT.b, 0.18)
-	_cat_cursor.size = Vector2(560, 34)
+	_cat_cursor.size = Vector2(560, 32)
 	_cat_root.add_child(_cat_cursor)
 
 	# Precomputar conteos por categoría
@@ -166,7 +167,7 @@ func _build_categories():
 	var y := 148.0
 	for i in range(CATEGORIES.size()):
 		var row := Label.new()
-		row.position = Vector2(80, y + i * 34)
+		row.position = Vector2(80, y + i * 32)
 		row.size = Vector2(540, 32)
 		row.add_theme_font_size_override("font_size", 24)
 		_cat_root.add_child(row)
@@ -199,7 +200,7 @@ func _refresh_categories():
 		else:
 			lbl.text = "%-12s — próximamente" % c.name
 			lbl.add_theme_color_override("font_color", ACCENT if is_sel else DIM_INK)
-	_cat_cursor.position = Vector2(74, 148 + _cat_index * 34 - 1)
+	_cat_cursor.position = Vector2(74, 148 + _cat_index * 32 - 1)
 
 func _input_categories(event: InputEvent):
 	# ↑/↓ se gestionan en _process (auto-repetición al mantener pulsado)
