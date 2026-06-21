@@ -40,7 +40,8 @@
       "johto": 231,
       "kalos": 80,
       "galar": 431,
-      "paldea": 585
+      "paldea": 585,
+      "naranja": 1
     },
     "Forms": [
       {
@@ -96,7 +97,8 @@
       "johto": 232,
       "kalos": 81,
       "galar": 432,
-      "paldea": 586
+      "paldea": 586,
+      "naranja": 2
     },
     "Forms": [
       {
@@ -150,7 +152,8 @@
       "johto": 233,
       "kalos": 82,
       "galar": 433,
-      "paldea": 587
+      "paldea": 587,
+      "naranja": 3
     },
     "Forms": [
       {
@@ -226,7 +229,8 @@
       "johto": 234,
       "kalos": 83,
       "galar": 378,
-      "paldea": 588
+      "paldea": 588,
+      "naranja": 4
     },
     "Forms": [
       {
@@ -282,7 +286,8 @@
       "johto": 235,
       "kalos": 84,
       "galar": 379,
-      "paldea": 589
+      "paldea": 589,
+      "naranja": 5
     },
     "Forms": [
       {
@@ -336,7 +341,8 @@
       "johto": 236,
       "kalos": 85,
       "galar": 380,
-      "paldea": 590
+      "paldea": 590,
+      "naranja": 6
     },
     "Forms": [
       {
@@ -422,7 +428,8 @@
       "johto": 237,
       "kalos": 86,
       "galar": 434,
-      "paldea": 591
+      "paldea": 591,
+      "naranja": 7
     },
     "Forms": [
       {
@@ -478,7 +485,8 @@
       "johto": 238,
       "kalos": 87,
       "galar": 435,
-      "paldea": 592
+      "paldea": 592,
+      "naranja": 8
     },
     "Forms": [
       {
@@ -532,7 +540,8 @@
       "johto": 239,
       "kalos": 88,
       "galar": 436,
-      "paldea": 593
+      "paldea": 593,
+      "naranja": 9
     },
     "Forms": [
       {
@@ -608,7 +617,8 @@
       "johto": 24,
       "kalos": 23,
       "alola": 17,
-      "galar": 13
+      "galar": 13,
+      "naranja": 10
     },
     "Forms": [
       {
@@ -617,6 +627,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "bug",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 9000010,
+        "slug": "10-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "bug",
         "type2": "",
         "battle_only": false
@@ -663,7 +683,8 @@
       "johto": 25,
       "kalos": 24,
       "alola": 18,
-      "galar": 14
+      "galar": 14,
+      "naranja": 11
     },
     "Forms": [
       {
@@ -717,7 +738,8 @@
       "johto": 26,
       "kalos": 25,
       "alola": 19,
-      "galar": 15
+      "galar": 15,
+      "naranja": 12
     },
     "Forms": [
       {
@@ -739,6 +761,16 @@
         "type1": "bug",
         "type2": "flying",
         "battle_only": true
+      },
+      {
+        "id": 9000012,
+        "slug": "12-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
       }
     ]
   },
@@ -781,7 +813,8 @@
     "Dex": {
       "kanto": 13,
       "johto": 27,
-      "kalos": 26
+      "kalos": 26,
+      "naranja": 13
     },
     "Forms": [
       {
@@ -790,6 +823,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "bug",
+        "type2": "poison",
+        "battle_only": false
+      },
+      {
+        "id": 9000013,
+        "slug": "13-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "bug",
         "type2": "poison",
         "battle_only": false
@@ -834,7 +877,8 @@
     "Dex": {
       "kanto": 14,
       "johto": 28,
-      "kalos": 27
+      "kalos": 27,
+      "naranja": 14
     },
     "Forms": [
       {
@@ -886,7 +930,8 @@
     "Dex": {
       "kanto": 15,
       "johto": 29,
-      "kalos": 28
+      "kalos": 28,
+      "naranja": 15
     },
     "Forms": [
       {
@@ -951,7 +996,8 @@
     "Dex": {
       "kanto": 16,
       "johto": 10,
-      "kalos": 17
+      "kalos": 17,
+      "naranja": 16
     },
     "Forms": [
       {
@@ -960,6 +1006,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "normal",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 9000016,
+        "slug": "16-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "normal",
         "type2": "flying",
         "battle_only": false
@@ -1006,7 +1062,8 @@
     "Dex": {
       "kanto": 17,
       "johto": 11,
-      "kalos": 18
+      "kalos": 18,
+      "naranja": 17
     },
     "Forms": [
       {
@@ -1015,6 +1072,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "normal",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 9000017,
+        "slug": "17-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "normal",
         "type2": "flying",
         "battle_only": false
@@ -1059,7 +1126,8 @@
     "Dex": {
       "kanto": 18,
       "johto": 12,
-      "kalos": 19
+      "kalos": 19,
+      "naranja": 18
     },
     "Forms": [
       {
@@ -1125,7 +1193,8 @@
       "kanto": 19,
       "johto": 17,
       "unova": 60,
-      "alola": 15
+      "alola": 15,
+      "naranja": 19
     },
     "Forms": [
       {
@@ -1146,6 +1215,16 @@
         "label": "Forma de Alola",
         "type1": "dark",
         "type2": "normal",
+        "battle_only": false
+      },
+      {
+        "id": 9000019,
+        "slug": "19-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
+        "type1": "normal",
+        "type2": "",
         "battle_only": false
       }
     ]
@@ -1189,7 +1268,8 @@
       "kanto": 20,
       "johto": 18,
       "unova": 61,
-      "alola": 16
+      "alola": 16,
+      "naranja": 20
     },
     "Forms": [
       {
@@ -1220,6 +1300,16 @@
         "label": "Totem Alolan Raticate",
         "type1": "dark",
         "type2": "normal",
+        "battle_only": false
+      },
+      {
+        "id": 9000020,
+        "slug": "20-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
+        "type1": "normal",
+        "type2": "",
         "battle_only": false
       }
     ]
@@ -1264,7 +1354,8 @@
       "kanto": 21,
       "johto": 13,
       "kalos": 412,
-      "alola": 87
+      "alola": 87,
+      "naranja": 21
     },
     "Forms": [
       {
@@ -1317,7 +1408,8 @@
       "kanto": 22,
       "johto": 14,
       "kalos": 413,
-      "alola": 88
+      "alola": 88,
+      "naranja": 22
     },
     "Forms": [
       {
@@ -1374,7 +1466,8 @@
       "johto": 50,
       "kalos": 340,
       "alola": 61,
-      "paldea": 417
+      "paldea": 417,
+      "naranja": 23
     },
     "Forms": [
       {
@@ -1429,7 +1522,8 @@
       "johto": 51,
       "kalos": 341,
       "alola": 62,
-      "paldea": 418
+      "paldea": 418,
+      "naranja": 24
     },
     "Forms": [
       {
@@ -1438,6 +1532,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "poison",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 9000024,
+        "slug": "24-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "poison",
         "type2": "",
         "battle_only": false
@@ -1488,7 +1592,8 @@
       "kalos": 36,
       "alola": 32,
       "galar": 194,
-      "paldea": 74
+      "paldea": 74,
+      "naranja": 25
     },
     "Forms": [
       {
@@ -1660,6 +1765,16 @@
         "type1": "electric",
         "type2": "",
         "battle_only": true
+      },
+      {
+        "id": 9000025,
+        "slug": "25-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
+        "type1": "electric",
+        "type2": "",
+        "battle_only": false
       }
     ]
   },
@@ -1705,7 +1820,8 @@
       "kalos": 37,
       "alola": 33,
       "galar": 195,
-      "paldea": 75
+      "paldea": 75,
+      "naranja": 26
     },
     "Forms": [
       {
@@ -1774,7 +1890,8 @@
       "kalos": 400,
       "alola": 328,
       "galar": 486,
-      "paldea": 462
+      "paldea": 462,
+      "naranja": 27
     },
     "Forms": [
       {
@@ -1841,7 +1958,8 @@
       "kalos": 401,
       "alola": 329,
       "galar": 487,
-      "paldea": 463
+      "paldea": 463,
+      "naranja": 28
     },
     "Forms": [
       {
@@ -1907,7 +2025,8 @@
       "kanto": 29,
       "johto": 95,
       "kalos": 254,
-      "galar": 524
+      "galar": 524,
+      "naranja": 29
     },
     "Forms": [
       {
@@ -1916,6 +2035,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "poison",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 9000029,
+        "slug": "29-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "poison",
         "type2": "",
         "battle_only": false
@@ -1963,7 +2092,8 @@
       "kanto": 30,
       "johto": 96,
       "kalos": 255,
-      "galar": 525
+      "galar": 525,
+      "naranja": 30
     },
     "Forms": [
       {
@@ -2017,7 +2147,8 @@
       "kanto": 31,
       "johto": 97,
       "kalos": 256,
-      "galar": 526
+      "galar": 526,
+      "naranja": 31
     },
     "Forms": [
       {
@@ -2073,7 +2204,8 @@
       "kanto": 32,
       "johto": 98,
       "kalos": 257,
-      "galar": 527
+      "galar": 527,
+      "naranja": 32
     },
     "Forms": [
       {
@@ -2082,6 +2214,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "poison",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 9000032,
+        "slug": "32-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "poison",
         "type2": "",
         "battle_only": false
@@ -2129,7 +2271,8 @@
       "kanto": 33,
       "johto": 99,
       "kalos": 258,
-      "galar": 528
+      "galar": 528,
+      "naranja": 33
     },
     "Forms": [
       {
@@ -2183,7 +2326,8 @@
       "kanto": 34,
       "johto": 100,
       "kalos": 259,
-      "galar": 529
+      "galar": 529,
+      "naranja": 34
     },
     "Forms": [
       {
@@ -2192,6 +2336,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "poison",
+        "type2": "ground",
+        "battle_only": false
+      },
+      {
+        "id": 9000034,
+        "slug": "34-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "poison",
         "type2": "ground",
         "battle_only": false
@@ -2242,7 +2396,8 @@
       "unova": 90,
       "alola": 273,
       "galar": 255,
-      "paldea": 486
+      "paldea": 486,
+      "naranja": 35
     },
     "Forms": [
       {
@@ -2299,7 +2454,8 @@
       "unova": 91,
       "alola": 274,
       "galar": 256,
-      "paldea": 487
+      "paldea": 487,
+      "naranja": 36
     },
     "Forms": [
       {
@@ -2357,7 +2513,8 @@
       "unova": 249,
       "alola": 330,
       "galar": 68,
-      "paldea": 425
+      "paldea": 425,
+      "naranja": 37
     },
     "Forms": [
       {
@@ -2423,7 +2580,8 @@
       "unova": 250,
       "alola": 331,
       "galar": 69,
-      "paldea": 426
+      "paldea": 426,
+      "naranja": 38
     },
     "Forms": [
       {
@@ -2493,7 +2651,8 @@
       "kalos": 423,
       "alola": 168,
       "galar": 410,
-      "paldea": 60
+      "paldea": 60,
+      "naranja": 39
     },
     "Forms": [
       {
@@ -2551,7 +2710,8 @@
       "kalos": 424,
       "alola": 169,
       "galar": 411,
-      "paldea": 61
+      "paldea": 61,
+      "naranja": 40
     },
     "Forms": [
       {
@@ -2610,7 +2770,8 @@
       "unova": 62,
       "kalos": 145,
       "alola": 80,
-      "galar": 550
+      "galar": 550,
+      "naranja": 41
     },
     "Forms": [
       {
@@ -2669,7 +2830,8 @@
       "unova": 63,
       "kalos": 146,
       "alola": 81,
-      "galar": 551
+      "galar": 551,
+      "naranja": 42
     },
     "Forms": [
       {
@@ -2726,7 +2888,8 @@
       "hoenn": 91,
       "kalos": 105,
       "galar": 55,
-      "paldea": 533
+      "paldea": 533,
+      "naranja": 43
     },
     "Forms": [
       {
@@ -2735,6 +2898,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "grass",
+        "type2": "poison",
+        "battle_only": false
+      },
+      {
+        "id": 9000043,
+        "slug": "43-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "grass",
         "type2": "poison",
         "battle_only": false
@@ -2784,7 +2957,8 @@
       "hoenn": 92,
       "kalos": 106,
       "galar": 56,
-      "paldea": 534
+      "paldea": 534,
+      "naranja": 44
     },
     "Forms": [
       {
@@ -2839,7 +3013,8 @@
       "hoenn": 93,
       "kalos": 107,
       "galar": 57,
-      "paldea": 535
+      "paldea": 535,
+      "naranja": 45
     },
     "Forms": [
       {
@@ -2848,6 +3023,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "grass",
+        "type2": "poison",
+        "battle_only": false
+      },
+      {
+        "id": 9000045,
+        "slug": "45-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "grass",
         "type2": "poison",
         "battle_only": false
@@ -2894,7 +3079,8 @@
     "Dex": {
       "kanto": 46,
       "johto": 70,
-      "alola": 180
+      "alola": 180,
+      "naranja": 46
     },
     "Forms": [
       {
@@ -2903,6 +3089,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "bug",
+        "type2": "grass",
+        "battle_only": false
+      },
+      {
+        "id": 9000046,
+        "slug": "46-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "bug",
         "type2": "grass",
         "battle_only": false
@@ -2947,7 +3143,8 @@
     "Dex": {
       "kanto": 47,
       "johto": 71,
-      "alola": 181
+      "alola": 181,
+      "naranja": 47
     },
     "Forms": [
       {
@@ -3002,7 +3199,8 @@
     "Dex": {
       "kanto": 48,
       "johto": 109,
-      "paldea": 256
+      "paldea": 256,
+      "naranja": 48
     },
     "Forms": [
       {
@@ -3011,6 +3209,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "bug",
+        "type2": "poison",
+        "battle_only": false
+      },
+      {
+        "id": 9000048,
+        "slug": "48-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "bug",
         "type2": "poison",
         "battle_only": false
@@ -3055,7 +3263,8 @@
     "Dex": {
       "kanto": 49,
       "johto": 110,
-      "paldea": 257
+      "paldea": 257,
+      "naranja": 49
     },
     "Forms": [
       {
@@ -3113,7 +3322,8 @@
       "kalos": 304,
       "alola": 85,
       "galar": 164,
-      "paldea": 148
+      "paldea": 148,
+      "naranja": 50
     },
     "Forms": [
       {
@@ -3134,6 +3344,16 @@
         "label": "Forma de Alola",
         "type1": "ground",
         "type2": "steel",
+        "battle_only": false
+      },
+      {
+        "id": 9000050,
+        "slug": "50-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
+        "type1": "ground",
+        "type2": "",
         "battle_only": false
       }
     ]
@@ -3179,7 +3399,8 @@
       "kalos": 305,
       "alola": 86,
       "galar": 165,
-      "paldea": 149
+      "paldea": 149,
+      "naranja": 51
     },
     "Forms": [
       {
@@ -3247,7 +3468,8 @@
       "johto": 138,
       "alola": 52,
       "galar": 182,
-      "paldea": 141
+      "paldea": 141,
+      "naranja": 52
     },
     "Forms": [
       {
@@ -3332,7 +3554,8 @@
       "johto": 139,
       "alola": 53,
       "galar": 184,
-      "paldea": 142
+      "paldea": 142,
+      "naranja": 53
     },
     "Forms": [
       {
@@ -3403,7 +3626,8 @@
       "kalos": 59,
       "alola": 107,
       "galar": 476,
-      "paldea": 55
+      "paldea": 55,
+      "naranja": 54
     },
     "Forms": [
       {
@@ -3462,7 +3686,8 @@
       "kalos": 60,
       "alola": 108,
       "galar": 477,
-      "paldea": 56
+      "paldea": 56,
+      "naranja": 55
     },
     "Forms": [
       {
@@ -3518,7 +3743,8 @@
       "kanto": 56,
       "johto": 136,
       "alola": 93,
-      "paldea": 158
+      "paldea": 158,
+      "naranja": 56
     },
     "Forms": [
       {
@@ -3527,6 +3753,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "fighting",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 9000056,
+        "slug": "56-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "fighting",
         "type2": "",
         "battle_only": false
@@ -3574,7 +3810,8 @@
       "kanto": 57,
       "johto": 137,
       "alola": 94,
-      "paldea": 159
+      "paldea": 159,
+      "naranja": 57
     },
     "Forms": [
       {
@@ -3583,6 +3820,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "fighting",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 9000057,
+        "slug": "57-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "fighting",
         "type2": "",
         "battle_only": false
@@ -3632,7 +3879,8 @@
       "unova": 52,
       "alola": 64,
       "galar": 70,
-      "paldea": 213
+      "paldea": 213,
+      "naranja": 58
     },
     "Forms": [
       {
@@ -3698,7 +3946,8 @@
       "unova": 53,
       "alola": 65,
       "galar": 71,
-      "paldea": 214
+      "paldea": 214,
+      "naranja": 59
     },
     "Forms": [
       {
@@ -3766,7 +4015,8 @@
       "kalos": 336,
       "alola": 182,
       "galar": 472,
-      "paldea": 427
+      "paldea": 427,
+      "naranja": 60
     },
     "Forms": [
       {
@@ -3825,7 +4075,8 @@
       "kalos": 337,
       "alola": 183,
       "galar": 473,
-      "paldea": 428
+      "paldea": 428,
+      "naranja": 61
     },
     "Forms": [
       {
@@ -3834,6 +4085,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "water",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 9000061,
+        "slug": "61-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "water",
         "type2": "",
         "battle_only": false
@@ -3881,7 +4142,8 @@
       "kalos": 338,
       "alola": 184,
       "galar": 474,
-      "paldea": 429
+      "paldea": 429,
+      "naranja": 62
     },
     "Forms": [
       {
@@ -3940,7 +4202,8 @@
       "sinnoh": 20,
       "kalos": 102,
       "alola": 49,
-      "galar": 421
+      "galar": 421,
+      "naranja": 63
     },
     "Forms": [
       {
@@ -3999,7 +4262,8 @@
       "sinnoh": 21,
       "kalos": 103,
       "alola": 50,
-      "galar": 422
+      "galar": 422,
+      "naranja": 64
     },
     "Forms": [
       {
@@ -4056,7 +4320,8 @@
       "sinnoh": 22,
       "kalos": 104,
       "alola": 51,
-      "galar": 423
+      "galar": 423,
+      "naranja": 65
     },
     "Forms": [
       {
@@ -4125,7 +4390,8 @@
       "sinnoh": 40,
       "kalos": 207,
       "alola": 117,
-      "galar": 138
+      "galar": 138,
+      "naranja": 66
     },
     "Forms": [
       {
@@ -4184,7 +4450,8 @@
       "sinnoh": 41,
       "kalos": 208,
       "alola": 118,
-      "galar": 139
+      "galar": 139,
+      "naranja": 67
     },
     "Forms": [
       {
@@ -4241,7 +4508,8 @@
       "sinnoh": 42,
       "kalos": 209,
       "alola": 119,
-      "galar": 140
+      "galar": 140,
+      "naranja": 68
     },
     "Forms": [
       {
@@ -4306,7 +4574,8 @@
       "kanto": 69,
       "johto": 64,
       "kalos": 329,
-      "paldea": 419
+      "paldea": 419,
+      "naranja": 69
     },
     "Forms": [
       {
@@ -4315,6 +4584,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "grass",
+        "type2": "poison",
+        "battle_only": false
+      },
+      {
+        "id": 9000069,
+        "slug": "69-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "grass",
         "type2": "poison",
         "battle_only": false
@@ -4361,7 +4640,8 @@
       "kanto": 70,
       "johto": 65,
       "kalos": 330,
-      "paldea": 420
+      "paldea": 420,
+      "naranja": 70
     },
     "Forms": [
       {
@@ -4370,6 +4650,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "grass",
+        "type2": "poison",
+        "battle_only": false
+      },
+      {
+        "id": 9000070,
+        "slug": "70-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "grass",
         "type2": "poison",
         "battle_only": false
@@ -4414,7 +4704,8 @@
       "kanto": 71,
       "johto": 66,
       "kalos": 331,
-      "paldea": 421
+      "paldea": 421,
+      "naranja": 71
     },
     "Forms": [
       {
@@ -4474,7 +4765,8 @@
       "kalos": 175,
       "alola": 129,
       "galar": 424,
-      "paldea": 525
+      "paldea": 525,
+      "naranja": 72
     },
     "Forms": [
       {
@@ -4532,7 +4824,8 @@
       "kalos": 176,
       "alola": 130,
       "galar": 425,
-      "paldea": 526
+      "paldea": 526,
+      "naranja": 73
     },
     "Forms": [
       {
@@ -4591,7 +4884,8 @@
       "sinnoh": 31,
       "kalos": 312,
       "alola": 298,
-      "paldea": 445
+      "paldea": 445,
+      "naranja": 74
     },
     "Forms": [
       {
@@ -4612,6 +4906,16 @@
         "label": "Forma de Alola",
         "type1": "rock",
         "type2": "electric",
+        "battle_only": false
+      },
+      {
+        "id": 9000074,
+        "slug": "74-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
+        "type1": "rock",
+        "type2": "ground",
         "battle_only": false
       }
     ]
@@ -4660,7 +4964,8 @@
       "sinnoh": 32,
       "kalos": 313,
       "alola": 299,
-      "paldea": 446
+      "paldea": 446,
+      "naranja": 75
     },
     "Forms": [
       {
@@ -4727,7 +5032,8 @@
       "sinnoh": 33,
       "kalos": 314,
       "alola": 300,
-      "paldea": 447
+      "paldea": 447,
+      "naranja": 76
     },
     "Forms": [
       {
@@ -4793,7 +5099,8 @@
       "kanto": 77,
       "johto": 206,
       "sinnoh": 90,
-      "galar": 333
+      "galar": 333,
+      "naranja": 77
     },
     "Forms": [
       {
@@ -4857,7 +5164,8 @@
       "kanto": 78,
       "johto": 207,
       "sinnoh": 91,
-      "galar": 334
+      "galar": 334,
+      "naranja": 78
     },
     "Forms": [
       {
@@ -4926,7 +5234,8 @@
       "kalos": 283,
       "alola": 44,
       "galar": 401,
-      "paldea": 324
+      "paldea": 324,
+      "naranja": 79
     },
     "Forms": [
       {
@@ -4992,7 +5301,8 @@
       "kalos": 284,
       "alola": 45,
       "galar": 402,
-      "paldea": 325
+      "paldea": 325,
+      "naranja": 80
     },
     "Forms": [
       {
@@ -5073,7 +5383,8 @@
       "kalos": 372,
       "alola": 54,
       "galar": 453,
-      "paldea": 209
+      "paldea": 209,
+      "naranja": 81
     },
     "Forms": [
       {
@@ -5134,7 +5445,8 @@
       "kalos": 373,
       "alola": 55,
       "galar": 454,
-      "paldea": 210
+      "paldea": 210,
+      "naranja": 82
     },
     "Forms": [
       {
@@ -5190,7 +5502,8 @@
       "kanto": 83,
       "johto": 160,
       "kalos": 61,
-      "galar": 218
+      "galar": 218,
+      "naranja": 83
     },
     "Forms": [
       {
@@ -5257,7 +5570,8 @@
       "johto": 204,
       "hoenn": 95,
       "kalos": 94,
-      "paldea": 500
+      "paldea": 500,
+      "naranja": 84
     },
     "Forms": [
       {
@@ -5312,7 +5626,8 @@
       "johto": 205,
       "hoenn": 96,
       "kalos": 95,
-      "paldea": 501
+      "paldea": 501,
+      "naranja": 85
     },
     "Forms": [
       {
@@ -5321,6 +5636,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "normal",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 9000085,
+        "slug": "85-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "normal",
         "type2": "flying",
         "battle_only": false
@@ -5369,7 +5694,8 @@
       "johto": 178,
       "unova": 266,
       "alola": 115,
-      "paldea": 573
+      "paldea": 573,
+      "naranja": 86
     },
     "Forms": [
       {
@@ -5424,7 +5750,8 @@
       "johto": 179,
       "unova": 267,
       "alola": 116,
-      "paldea": 574
+      "paldea": 574,
+      "naranja": 87
     },
     "Forms": [
       {
@@ -5482,7 +5809,8 @@
       "hoenn": 111,
       "unova": 65,
       "alola": 57,
-      "paldea": 194
+      "paldea": 194,
+      "naranja": 88
     },
     "Forms": [
       {
@@ -5548,7 +5876,8 @@
       "hoenn": 112,
       "unova": 66,
       "alola": 58,
-      "paldea": 195
+      "paldea": 195,
+      "naranja": 89
     },
     "Forms": [
       {
@@ -5616,7 +5945,8 @@
       "kalos": 186,
       "alola": 138,
       "galar": 150,
-      "paldea": 329
+      "paldea": 329,
+      "naranja": 90
     },
     "Forms": [
       {
@@ -5672,7 +6002,8 @@
       "kalos": 187,
       "alola": 139,
       "galar": 151,
-      "paldea": 330
+      "paldea": 330,
+      "naranja": 91
     },
     "Forms": [
       {
@@ -5729,7 +6060,8 @@
       "kalos": 333,
       "alola": 73,
       "galar": 141,
-      "paldea": 68
+      "paldea": 68,
+      "naranja": 92
     },
     "Forms": [
       {
@@ -5786,7 +6118,8 @@
       "kalos": 334,
       "alola": 74,
       "galar": 142,
-      "paldea": 69
+      "paldea": 69,
+      "naranja": 93
     },
     "Forms": [
       {
@@ -5841,7 +6174,8 @@
       "kalos": 335,
       "alola": 75,
       "galar": 143,
-      "paldea": 70
+      "paldea": 70,
+      "naranja": 94
     },
     "Forms": [
       {
@@ -5919,7 +6253,8 @@
       "sinnoh": 34,
       "unova": 72,
       "kalos": 203,
-      "galar": 178
+      "galar": 178,
+      "naranja": 95
     },
     "Forms": [
       {
@@ -5975,7 +6310,8 @@
       "kanto": 96,
       "johto": 87,
       "alola": 66,
-      "paldea": 66
+      "paldea": 66,
+      "naranja": 96
     },
     "Forms": [
       {
@@ -6029,7 +6365,8 @@
       "kanto": 97,
       "johto": 88,
       "alola": 67,
-      "paldea": 67
+      "paldea": 67,
+      "naranja": 97
     },
     "Forms": [
       {
@@ -6084,7 +6421,8 @@
     "Dex": {
       "kanto": 98,
       "johto": 166,
-      "galar": 98
+      "galar": 98,
+      "naranja": 98
     },
     "Forms": [
       {
@@ -6137,7 +6475,8 @@
     "Dex": {
       "kanto": 99,
       "johto": 167,
-      "galar": 99
+      "galar": 99,
+      "naranja": 99
     },
     "Forms": [
       {
@@ -6204,7 +6543,8 @@
       "johto": 121,
       "hoenn": 87,
       "kalos": 375,
-      "paldea": 207
+      "paldea": 207,
+      "naranja": 100
     },
     "Forms": [
       {
@@ -6269,7 +6609,8 @@
       "johto": 122,
       "hoenn": 88,
       "kalos": 376,
-      "paldea": 208
+      "paldea": 208,
+      "naranja": 101
     },
     "Forms": [
       {
@@ -6336,7 +6677,8 @@
       "kalos": 286,
       "alola": 355,
       "galar": 505,
-      "paldea": 502
+      "paldea": 502,
+      "naranja": 102
     },
     "Forms": [
       {
@@ -6391,7 +6733,8 @@
       "kalos": 287,
       "alola": 356,
       "galar": 506,
-      "paldea": 503
+      "paldea": 503,
+      "naranja": 103
     },
     "Forms": [
       {
@@ -6412,6 +6755,16 @@
         "label": "Forma de Alola",
         "type1": "grass",
         "type2": "dragon",
+        "battle_only": false
+      },
+      {
+        "id": 9000103,
+        "slug": "103-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
+        "type1": "grass",
+        "type2": "psychic",
         "battle_only": false
       }
     ]
@@ -6458,7 +6811,8 @@
       "johto": 208,
       "kalos": 210,
       "alola": 197,
-      "galar": 488
+      "galar": 488,
+      "naranja": 104
     },
     "Forms": [
       {
@@ -6513,7 +6867,8 @@
       "johto": 209,
       "kalos": 211,
       "alola": 198,
-      "galar": 489
+      "galar": 489,
+      "naranja": 105
     },
     "Forms": [
       {
@@ -6587,7 +6942,8 @@
       "kanto": 106,
       "johto": 146,
       "galar": 108,
-      "paldea": 544
+      "paldea": 544,
+      "naranja": 106
     },
     "Forms": [
       {
@@ -6641,7 +6997,8 @@
       "kanto": 107,
       "johto": 147,
       "galar": 109,
-      "paldea": 545
+      "paldea": 545,
+      "naranja": 107
     },
     "Forms": [
       {
@@ -6700,7 +7057,8 @@
       "unova": 285,
       "kalos": 437,
       "alola": 375,
-      "galar": 428
+      "galar": 428,
+      "naranja": 108
     },
     "Forms": [
       {
@@ -6758,7 +7116,8 @@
       "hoenn": 113,
       "unova": 47,
       "galar": 250,
-      "paldea": 471
+      "paldea": 471,
+      "naranja": 109
     },
     "Forms": [
       {
@@ -6814,7 +7173,8 @@
       "hoenn": 114,
       "unova": 48,
       "galar": 251,
-      "paldea": 472
+      "paldea": 472,
+      "naranja": 110
     },
     "Forms": [
       {
@@ -6835,6 +7195,16 @@
         "label": "Forma de Galar",
         "type1": "poison",
         "type2": "fairy",
+        "battle_only": false
+      },
+      {
+        "id": 9000110,
+        "slug": "110-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
+        "type1": "poison",
+        "type2": "",
         "battle_only": false
       }
     ]
@@ -6883,7 +7253,8 @@
       "sinnoh": 186,
       "kalos": 200,
       "galar": 264,
-      "paldea": 504
+      "paldea": 504,
+      "naranja": 111
     },
     "Forms": [
       {
@@ -6892,6 +7263,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "ground",
+        "type2": "rock",
+        "battle_only": false
+      },
+      {
+        "id": 9000111,
+        "slug": "111-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "ground",
         "type2": "rock",
         "battle_only": false
@@ -6942,7 +7323,8 @@
       "sinnoh": 187,
       "kalos": 201,
       "galar": 265,
-      "paldea": 505
+      "paldea": 505,
+      "naranja": 112
     },
     "Forms": [
       {
@@ -6951,6 +7333,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "ground",
+        "type2": "rock",
+        "battle_only": false
+      },
+      {
+        "id": 9000112,
+        "slug": "112-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "ground",
         "type2": "rock",
         "battle_only": false
@@ -7000,7 +7392,8 @@
       "sinnoh": 97,
       "alola": 40,
       "galar": 407,
-      "paldea": 44
+      "paldea": 44,
+      "naranja": 113
     },
     "Forms": [
       {
@@ -7057,7 +7450,8 @@
       "johto": 182,
       "sinnoh": 181,
       "unova": 218,
-      "galar": 443
+      "galar": 443,
+      "naranja": 114
     },
     "Forms": [
       {
@@ -7112,7 +7506,8 @@
       "johto": 210,
       "kalos": 212,
       "alola": 199,
-      "galar": 490
+      "galar": 490,
+      "naranja": 115
     },
     "Forms": [
       {
@@ -7180,7 +7575,8 @@
       "hoenn": 193,
       "kalos": 189,
       "galar": 500,
-      "paldea": 527
+      "paldea": 527,
+      "naranja": 116
     },
     "Forms": [
       {
@@ -7238,7 +7634,8 @@
       "hoenn": 194,
       "kalos": 190,
       "galar": 501,
-      "paldea": 528
+      "paldea": 528,
+      "naranja": 117
     },
     "Forms": [
       {
@@ -7297,7 +7694,8 @@
       "sinnoh": 78,
       "kalos": 53,
       "alola": 186,
-      "galar": 146
+      "galar": 146,
+      "naranja": 118
     },
     "Forms": [
       {
@@ -7354,7 +7752,8 @@
       "sinnoh": 79,
       "kalos": 54,
       "alola": 187,
-      "galar": 147
+      "galar": 147,
+      "naranja": 119
     },
     "Forms": [
       {
@@ -7413,7 +7812,8 @@
       "unova": 239,
       "kalos": 184,
       "alola": 223,
-      "galar": 447
+      "galar": 447,
+      "naranja": 120
     },
     "Forms": [
       {
@@ -7470,7 +7870,8 @@
       "unova": 240,
       "kalos": 185,
       "alola": 224,
-      "galar": 448
+      "galar": 448,
+      "naranja": 121
     },
     "Forms": [
       {
@@ -7528,7 +7929,8 @@
       "sinnoh": 95,
       "kalos": 264,
       "alola": 60,
-      "galar": 365
+      "galar": 365,
+      "naranja": 122
     },
     "Forms": [
       {
@@ -7598,7 +8000,8 @@
       "kalos": 439,
       "alola": 365,
       "galar": 463,
-      "paldea": 260
+      "paldea": 260,
+      "naranja": 123
     },
     "Forms": [
       {
@@ -7607,6 +8010,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "bug",
+        "type2": "flying",
+        "battle_only": false
+      },
+      {
+        "id": 9000123,
+        "slug": "123-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "bug",
         "type2": "flying",
         "battle_only": false
@@ -7653,7 +8066,8 @@
       "johto": 155,
       "kalos": 387,
       "alola": 110,
-      "galar": 512
+      "galar": 512,
+      "naranja": 124
     },
     "Forms": [
       {
@@ -7711,7 +8125,8 @@
       "unova": 58,
       "alola": 296,
       "galar": 514,
-      "paldea": 508
+      "paldea": 508,
+      "naranja": 125
     },
     "Forms": [
       {
@@ -7720,6 +8135,16 @@
         "category": "base",
         "region": "",
         "label": "",
+        "type1": "electric",
+        "type2": "",
+        "battle_only": false
+      },
+      {
+        "id": 9000125,
+        "slug": "125-naranja",
+        "category": "regional",
+        "region": "naranja",
+        "label": "Forma del Archipiélago Naranja",
         "type1": "electric",
         "type2": "",
         "battle_only": false
@@ -7769,7 +8194,8 @@
       "unova": 55,
       "alola": 201,
       "galar": 517,
-      "paldea": 511
+      "paldea": 511,
+      "naranja": 126
     },
     "Forms": [
       {
@@ -7826,7 +8252,8 @@
       "unova": 147,
       "kalos": 280,
       "alola": 211,
-      "galar": 465
+      "galar": 465,
+      "naranja": 127
     },
     "Forms": [
       {
@@ -7892,7 +8319,8 @@
       "kalos": 275,
       "alola": 170,
       "galar": 461,
-      "paldea": 223
+      "paldea": 223,
+      "naranja": 128
     },
     "Forms": [
       {
@@ -7981,7 +8409,8 @@
       "kalos": 49,
       "alola": 111,
       "galar": 144,
-      "paldea": 134
+      "paldea": 134,
+      "naranja": 129
     },
     "Forms": [
       {
@@ -8038,7 +8467,8 @@
       "kalos": 50,
       "alola": 112,
       "galar": 145,
-      "paldea": 135
+      "paldea": 135,
+      "naranja": 130
     },
     "Forms": [
       {
@@ -8105,7 +8535,8 @@
       "kalos": 300,
       "alola": 353,
       "galar": 361,
-      "paldea": 575
+      "paldea": 575,
+      "naranja": 131
     },
     "Forms": [
       {
@@ -8171,7 +8602,8 @@
       "kalos": 441,
       "alola": 271,
       "galar": 373,
-      "paldea": 212
+      "paldea": 212,
+      "naranja": 132
     },
     "Forms": [
       {
@@ -8238,7 +8670,8 @@
       "kalos": 227,
       "alola": 153,
       "galar": 196,
-      "paldea": 179
+      "paldea": 179,
+      "naranja": 133
     },
     "Forms": [
       {
@@ -8315,7 +8748,8 @@
       "kalos": 228,
       "alola": 154,
       "galar": 197,
-      "paldea": 180
+      "paldea": 180,
+      "naranja": 134
     },
     "Forms": [
       {
@@ -8372,7 +8806,8 @@
       "kalos": 229,
       "alola": 155,
       "galar": 198,
-      "paldea": 181
+      "paldea": 181,
+      "naranja": 135
     },
     "Forms": [
       {
@@ -8429,7 +8864,8 @@
       "kalos": 230,
       "alola": 156,
       "galar": 199,
-      "paldea": 182
+      "paldea": 182,
+      "naranja": 136
     },
     "Forms": [
       {
@@ -8487,7 +8923,8 @@
       "sinnoh": 192,
       "alola": 281,
       "galar": 507,
-      "paldea": 565
+      "paldea": 565,
+      "naranja": 137
     },
     "Forms": [
       {
@@ -8543,7 +8980,8 @@
       "kanto": 138,
       "johto": 225,
       "alola": 227,
-      "galar": 541
+      "galar": 541,
+      "naranja": 138
     },
     "Forms": [
       {
@@ -8597,7 +9035,8 @@
       "kanto": 139,
       "johto": 226,
       "alola": 228,
-      "galar": 542
+      "galar": 542,
+      "naranja": 139
     },
     "Forms": [
       {
@@ -8653,7 +9092,8 @@
       "kanto": 140,
       "johto": 227,
       "alola": 229,
-      "galar": 543
+      "galar": 543,
+      "naranja": 140
     },
     "Forms": [
       {
@@ -8707,7 +9147,8 @@
       "kanto": 141,
       "johto": 228,
       "alola": 230,
-      "galar": 544
+      "galar": 544,
+      "naranja": 141
     },
     "Forms": [
       {
@@ -8762,7 +9203,8 @@
       "johto": 229,
       "kalos": 218,
       "alola": 382,
-      "galar": 545
+      "galar": 545,
+      "naranja": 142
     },
     "Forms": [
       {
@@ -8829,7 +9271,8 @@
       "kalos": 139,
       "alola": 43,
       "galar": 261,
-      "paldea": 453
+      "paldea": 453,
+      "naranja": 143
     },
     "Forms": [
       {
@@ -8892,7 +9335,8 @@
       "kanto": 144,
       "johto": 240,
       "kalos": 301,
-      "galar": 576
+      "galar": 576,
+      "naranja": 144
     },
     "Forms": [
       {
@@ -8955,7 +9399,8 @@
       "kanto": 145,
       "johto": 241,
       "kalos": 302,
-      "galar": 577
+      "galar": 577,
+      "naranja": 145
     },
     "Forms": [
       {
@@ -9018,7 +9463,8 @@
       "kanto": 146,
       "johto": 242,
       "kalos": 303,
-      "galar": 578
+      "galar": 578,
+      "naranja": 146
     },
     "Forms": [
       {
@@ -9085,7 +9531,8 @@
       "kalos": 448,
       "alola": 379,
       "galar": 568,
-      "paldea": 347
+      "paldea": 347,
+      "naranja": 147
     },
     "Forms": [
       {
@@ -9142,7 +9589,8 @@
       "kalos": 449,
       "alola": 380,
       "galar": 569,
-      "paldea": 348
+      "paldea": 348,
+      "naranja": 148
     },
     "Forms": [
       {
@@ -9197,7 +9645,8 @@
       "kalos": 450,
       "alola": 381,
       "galar": 570,
-      "paldea": 349
+      "paldea": 349,
+      "naranja": 149
     },
     "Forms": [
       {
@@ -9249,7 +9698,8 @@
     "Dex": {
       "kanto": 150,
       "johto": 254,
-      "kalos": 454
+      "kalos": 454,
+      "naranja": 150
     },
     "Forms": [
       {
@@ -9319,7 +9769,8 @@
     "Speed_max": 0,
     "Dex": {
       "kanto": 151,
-      "johto": 255
+      "johto": 255,
+      "naranja": 151
     },
     "Forms": [
       {
