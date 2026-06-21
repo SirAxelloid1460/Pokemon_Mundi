@@ -21,6 +21,12 @@ const LIST_Y := 120.0
 const DETAIL_X := 620.0
 const SPRITE_POS := Vector2(1080, 250)
 
+# Auto-repetición al mantener pulsada ↑/↓ y zonas de hover para la rueda del ratón
+const REPEAT_DELAY := 0.32   # retardo antes de empezar a repetir
+const REPEAT_RATE := 0.05    # intervalo entre pasos mientras se mantiene
+const LIST_RECT := Rect2(62, 120, 508, 504)    # área de la lista (VISIBLE_ROWS*ROW_H)
+const CAT_RECT := Rect2(74, 148, 560, 476)     # área del menú de categorías
+
 # Categorías: Nacional + las 12 regiones del juego (las 3 Ranger sin datos aún)
 const CATEGORIES := [
 	{"key": "national", "name": "Nacional"},
@@ -51,6 +57,8 @@ var _selected: int = 0
 var _top: int = 0
 var _reveal_all: bool = false
 var _form_index: int = 0   # forma mostrada en el detalle (selector de la Nacional)
+var _repeat_dir: int = 0   # dirección mantenida (↑/↓) para el auto-scroll
+var _repeat_timer: float = 0.0
 
 # Vista CATEGORÍAS
 var _cat_index: int = 0
@@ -194,16 +202,9 @@ func _refresh_categories():
 	_cat_cursor.position = Vector2(74, 148 + _cat_index * 34 - 1)
 
 func _input_categories(event: InputEvent):
+	# ↑/↓ se gestionan en _process (auto-repetición al mantener pulsado)
 	if event.is_action_pressed("ui_cancel"):
 		_close()
-	elif event.is_action_pressed("ui_down"):
-		_cat_index = (_cat_index + 1) % CATEGORIES.size()
-		AudioManager.play_sfx("menu_move")
-		_refresh_categories()
-	elif event.is_action_pressed("ui_up"):
-		_cat_index = (_cat_index - 1 + CATEGORIES.size()) % CATEGORIES.size()
-		AudioManager.play_sfx("menu_move")
-		_refresh_categories()
 	elif event.is_action_pressed("ui_accept"):
 		_open_category(CATEGORIES[_cat_index])
 
@@ -332,13 +333,10 @@ func _open_category(cat: Dictionary):
 	_refresh_list_view()
 
 func _input_list(event: InputEvent):
+	# ↑/↓ se gestionan en _process (auto-repetición al mantener pulsado)
 	if event.is_action_pressed("ui_cancel"):
 		_show_categories()
 		AudioManager.play_sfx("menu_back")
-	elif event.is_action_pressed("ui_down"):
-		_move_selection(1)
-	elif event.is_action_pressed("ui_up"):
-		_move_selection(-1)
 	elif event.is_action_pressed("ui_right"):
 		_move_selection(VISIBLE_ROWS)
 	elif event.is_action_pressed("ui_left"):
@@ -351,7 +349,7 @@ func _input_list(event: InputEvent):
 	elif event is InputEventKey and event.pressed and event.keycode == KEY_Z:
 		_cycle_form(-1)
 
-func _move_selection(delta: int):
+func _move_selection(delta: int, play_sound := true):
 	var n := _list.size()
 	if n == 0:
 		return
@@ -365,7 +363,8 @@ func _move_selection(delta: int):
 		_top = _selected - VISIBLE_ROWS + 1
 	_top = clampi(_top, 0, maxi(0, n - VISIBLE_ROWS))
 	_form_index = 0
-	AudioManager.play_sfx("menu_move")
+	if play_sound:
+		AudioManager.play_sfx("menu_move")
 	_refresh_list_view()
 
 # Lista de formas a mostrar en la categoría actual para una especie.
@@ -520,12 +519,69 @@ func _clear_detail():
 # INPUT (dispatcher)
 # ============================================
 
+# Auto-scroll continuo: mientras se mantenga ↑/↓, repetir el paso tras un retardo inicial.
+func _process(delta: float):
+	var dir := 0
+	if Input.is_action_pressed("ui_down"):
+		dir += 1
+	if Input.is_action_pressed("ui_up"):
+		dir -= 1
+	if dir == 0:
+		_repeat_dir = 0
+		return
+	if dir != _repeat_dir:
+		_repeat_dir = dir
+		_repeat_timer = REPEAT_DELAY
+		_step(dir, true)
+	else:
+		_repeat_timer -= delta
+		if _repeat_timer <= 0.0:
+			_repeat_timer = REPEAT_RATE
+			_step(dir, false)   # pasos repetidos: sin sonido para no saturar
+
+func _step(dir: int, play_sound: bool):
+	if _view == View.LIST:
+		_move_selection(dir, play_sound)
+	else:
+		_move_cat(dir, play_sound)
+
+func _move_cat(delta: int, play_sound := true):
+	var prev := _cat_index
+	_cat_index = clampi(_cat_index + delta, 0, CATEGORIES.size() - 1)
+	if _cat_index == prev:
+		return
+	if play_sound:
+		AudioManager.play_sfx("menu_move")
+	_refresh_categories()
+
 func _input(event: InputEvent):
+	if _handle_wheel(event):
+		get_viewport().set_input_as_handled()
+		return
 	if _view == View.CATEGORIES:
 		_input_categories(event)
 	else:
 		_input_list(event)
 	get_viewport().set_input_as_handled()
+
+# Rueda del ratón: desplaza la lista/categorías si el cursor está sobre su área.
+func _handle_wheel(event: InputEvent) -> bool:
+	if not (event is InputEventMouseButton and event.pressed):
+		return false
+	var step := 0
+	if event.button_index == MOUSE_BUTTON_WHEEL_UP:
+		step = -1
+	elif event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
+		step = 1
+	else:
+		return false
+	if _view == View.LIST and LIST_RECT.has_point(event.position):
+		_move_selection(step)
+		return true
+	if _view == View.CATEGORIES and CAT_RECT.has_point(event.position):
+		_move_cat(step)
+		return true
+	return false
 
 func _close():
 	AudioManager.play_sfx("menu_back")
