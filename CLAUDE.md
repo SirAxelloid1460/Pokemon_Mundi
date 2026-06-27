@@ -82,7 +82,7 @@ Proyecto movido a `Documents\GitHub\Pokemon_Mundi` (versionado en git). Flujo co
 
 ### Resaltado de regiones (mapa de la presentación)
 - `WorldMapDisplay.gd` resalta cada región (caja pulsante `RegionHighlight.gd`) leyendo `data/region_areas.json`; `Presentation.gd` reubica el textbox para no taparla.
-- **PENDIENTE**: definir las cajas de las 13 regiones con `Scenes/debug/RegionMapper.tscn` (F6: arrastrar cajas, **S** guarda JSON → copiar a `data/region_areas.json`). Hoy están en cero. Regiones: Kanto, Naranja (Archipiélago Naranja), Johto, Hoenn, Sinnoh, Unova, Kalos, Alola, Galar, Paldea, Almia, Oblivia, Fiore.
+- Cajas de región **ya definidas** en `data/region_areas.json` (14, incl. Decolore) leyendo el mapa con rejilla de coordenadas; afinar con `Scenes/debug/RegionMapper.tscn` (F6: arrastrar, **S** guarda JSON) si hace falta. Regiones: Kanto, Naranja (Archipiélago Naranja), Johto, Hoenn, Sinnoh, Unova, Kalos, Alola, Galar, Paldea, Almia, Oblivia, Fiore, Decolore.
 
 ### Mundo (`Scripts/Scenes/world/PlayerRoom.gd`)
 - Cuarto **placeholder** por código (suelo, paredes con colisión, cámara que sigue al jugador con zoom 3, cartel interactuable). Falta el mundo/mapas reales.

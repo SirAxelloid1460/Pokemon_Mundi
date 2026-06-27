@@ -50,7 +50,7 @@ const KEY_TO_AREA := {
 	"kanto": "Kanto", "naranja": "Naranja", "johto": "Johto", "hoenn": "Hoenn",
 	"sinnoh": "Sinnoh", "unova": "Unova", "kalos": "Kalos", "alola": "Alola",
 	"galar": "Galar", "paldea": "Paldea", "almia": "Almia", "oblivia": "Oblivia",
-	"fiore": "Fiore",
+	"fiore": "Fiore", "decolore": "Decolore",
 }
 
 enum View { CATEGORIES, LIST }
