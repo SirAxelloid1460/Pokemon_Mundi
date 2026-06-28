@@ -299,7 +299,7 @@ func _refresh_categories():
 			continue
 		var lbl: Label = _col_rows[c.key]
 		var count: int = _cat_counts.get(c.key, 0)
-		var on := c.key == sel_key
+		var on: bool = c.key == sel_key
 		lbl.text = ("%-10s %d" % [c.name, count]) if count > 0 else ("%-10s —" % c.name)
 		lbl.add_theme_color_override("font_color", ACCENT if on else (INK if count > 0 else DIM_INK))
 	# Cursor de columna (solo si el seleccionado vive en la columna)
