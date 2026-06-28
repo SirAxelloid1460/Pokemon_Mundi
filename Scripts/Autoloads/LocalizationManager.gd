@@ -20,6 +20,10 @@
 # ============================================
 extends Node
 
+# Emitida cada vez que cambia el idioma. Las pantallas que arman texto por
+# código (no via clave tr()) deben reconstruirse al recibirla.
+signal language_changed(lang_code)
+
 # ============================================
 # IDIOMAS DISPONIBLES
 #
@@ -162,6 +166,9 @@ func set_language(lang_code: String):
 	print("LocalizationManager: Idioma → %s (locale: %s)" % [
 		languages[lang_code].name, locale
 	])
+
+	# Avisar a las pantallas con texto armado por código para que se reconstruyan.
+	language_changed.emit(lang_code)
 
 func get_current_language() -> String:
 	#Retorna el código completo del idioma actual (ej: "es_ES", "es_LA", "en").
