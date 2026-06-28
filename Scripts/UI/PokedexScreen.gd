@@ -78,10 +78,9 @@ var _map_hi: Dictionary = {}        # key -> ColorRect (zona clicable sobre el m
 var _map_lbl: Dictionary = {}       # key -> Label (nombre sobre el mapa)
 var _area_screen: Dictionary = {}   # key -> Rect2 en coordenadas de pantalla
 var _cat_pulse: float = 0.0
-var _nat_rect: Rect2                 # botón NACIONAL flotante
+var _nat_rect: Rect2                 # botón NACIONAL flotante (con contador)
 var _nat_panel: ColorRect
 var _nat_lbl: Label
-var _cat_stats: Label
 
 var _list_root: Control
 var _rows: Array = []
@@ -215,19 +214,19 @@ func _build_categories():
 		_cat_root.add_child(ml)
 		_map_lbl[c.key] = ml
 
-	# Único botón: NACIONAL, flotando sobre el mapa (esquina inferior izquierda)
-	_nat_rect = Rect2(40, 626, 250, 58)
+	# Único botón: NACIONAL (con el contador incorporado), flotando arriba a la derecha
+	_nat_rect = Rect2(936, 12, 324, 52)
 	_nat_panel = ColorRect.new()
 	_nat_panel.position = _nat_rect.position
 	_nat_panel.size = _nat_rect.size
 	_cat_root.add_child(_nat_panel)
 	_nat_lbl = Label.new()
-	_nat_lbl.position = _nat_rect.position + Vector2(16, 13)
-	_nat_lbl.add_theme_font_size_override("font_size", 28)
+	_nat_lbl.position = _nat_rect.position + Vector2(18, 11)
+	_nat_lbl.add_theme_font_size_override("font_size", 26)
 	_nat_lbl.add_theme_color_override("font_color", Color(1, 1, 1))
 	_cat_root.add_child(_nat_lbl)
 
-	# Título y capturados, superpuestos al mapa
+	# Título superpuesto al mapa
 	var titl := Label.new()
 	titl.text = "POKÉDEX"
 	titl.position = Vector2(40, 14)
@@ -236,16 +235,6 @@ func _build_categories():
 	titl.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.85))
 	titl.add_theme_constant_override("outline_size", 6)
 	_cat_root.add_child(titl)
-
-	_cat_stats = Label.new()
-	_cat_stats.position = Vector2(700, 22)
-	_cat_stats.size = Vector2(540, 30)
-	_cat_stats.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
-	_cat_stats.add_theme_font_size_override("font_size", 24)
-	_cat_stats.add_theme_color_override("font_color", Color(1, 0.96, 0.9))
-	_cat_stats.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.85))
-	_cat_stats.add_theme_constant_override("outline_size", 5)
-	_cat_root.add_child(_cat_stats)
 
 	var hint := Label.new()
 	hint.text = "↑↓←→ / ratón elegir    Enter / clic abrir    ESC salir"
@@ -310,8 +299,7 @@ func _refresh_categories():
 	# Botón Nacional (resalta si está seleccionado)
 	var nat_on: bool = sel_key == "national"
 	_nat_panel.color = Color(ACCENT.r, ACCENT.g, ACCENT.b, 0.9 if nat_on else 0.5)
-	_nat_lbl.text = "NACIONAL  %d" % int(_cat_counts.get("national", 0))
-	_cat_stats.text = "Capturados %d / %d" % [Game.pokedex_caught.size(), PokemonList.get_total_count()]
+	_nat_lbl.text = "NACIONAL  %d/%d" % [Game.pokedex_caught.size(), PokemonList.get_total_count()]
 	# Hotspots: el seleccionado resalta su nombre (y pulsa en _process); el resto, alfa base
 	for k in _map_hi:
 		var on: bool = k == sel_key

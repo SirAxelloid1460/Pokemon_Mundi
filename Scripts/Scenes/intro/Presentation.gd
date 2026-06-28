@@ -73,9 +73,9 @@ var world_dialogue_sequence = [
 	{"text": "ALMIA, donde los Rangers protegen a los Pokémon.", "region": "Almia"},
 	{"text": "UNOVA, una región moderna y vibrante.", "region": "Unova"},
 	{"text": "KALOS, conocida por su elegancia.", "region": "Kalos"},
+	{"text": "FIORE, otra tierra de Rangers.", "region": "Fiore"},
 	{"text": "JOHTO, tierra de tradiciones antiguas.", "region": "Johto"},
 	{"text": "KANTO, donde todo comenzó.", "region": "Kanto"},
-	{"text": "FIORE, otra tierra de Rangers.", "region": "Fiore"},
 	{"text": "PALDEA, con sus climas únicos.", "region": "Paldea"},
 	{"text": "El ARCHIPIÉLAGO NARANJA, islas tropicales de mar abierto.", "region": "Naranja"},
 	{"text": "OBLIVIA, un remoto archipiélago de Rangers.", "region": "Oblivia"},
@@ -280,9 +280,10 @@ func _move_textbox_for_region(region_name: String) -> void:
 	var to_y := 521.0
 	if region_name != "":
 		var rrect: Rect2 = current_module.get_region_screen_rect(region_name)
+		# Sólo sube el cuadro arriba cuando la región queda tan abajo que el cuadro inferior la taparía.
 		if rrect.size.x > 0.0:
-			var center_y: float = rrect.position.y + rrect.size.y * 0.5
-			to_y = 20.0 if center_y >= 360.0 else 521.0
+			var bottom_y: float = rrect.position.y + rrect.size.y
+			to_y = 20.0 if bottom_y > 500.0 else 521.0
 	if absf(textbox.position.y - to_y) > 1.0:
 		var t := create_tween()
 		t.tween_property(textbox, "position:y", to_y, 0.3)
@@ -316,10 +317,10 @@ func finish_world_presentation():
 		"En este mundo, cada persona elige libremente su propio camino.",
 		"Algunos luchan junto a ellos como entrenadores y retan a los gimnasios.",
 		"Otros los cuidan y se conectan como Rangers, en misiones y rescates.",
-		"Hay quienes brillan en los concursos, o se dedican a rellenar la Pokédex.",
+		"Hay quienes brillan en los concursos, y quienes se entregan a completar la Pokédex.",
 		"Incluso podrías fundar tu propio gimnasio... o tomar el mando de uno ya existente.",
-		"Y, aunque no debería decirlo... algunos eligen la senda del crimen, como el Team Rocket.",
-		"Pero esa decisión no me corresponde a mí.",
+		"Y, sobre todo... jamás se te ocurra unirte a villanos como el Team Rocket.",
+		"Tú nunca harías algo así... ¿a que no te atreverías?",
 		"Serás tú, " + player_data.name + ", quien decida en qué dedicarse.",
 	])
 	await textbox.dialogue_finished

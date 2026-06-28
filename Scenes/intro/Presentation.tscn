@@ -46,7 +46,7 @@ theme_override_constants/separation = 40
 
 [node name="TitleLabel" type="Label" parent="InitialNotesPanel/MarginContainer/VBoxContainer" unique_id=746555808]
 layout_mode = 2
-theme_override_font_sizes/font_size = 60
+theme_override_font_sizes/font_size = 64
 text = "DEV_NOTES_TITLE"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -55,7 +55,7 @@ vertical_alignment = 1
 custom_minimum_size = Vector2(600, 0)
 layout_mode = 2
 theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/normal_font_size = 42
+theme_override_font_sizes/normal_font_size = 50
 bbcode_enabled = false
 text = "DEV_NOTES_BODY"
 fit_content = true
