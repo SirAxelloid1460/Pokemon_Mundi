@@ -3,19 +3,18 @@ extends CanvasLayer
 # Menú de campo: barra horizontal de iconos (Mapa, Mochila, Pokédex, Equipo, Personaje, Otros).
 # Se abre con ui_cancel (Esc) en el overworld; pausa el árbol. Navega izq/der, ui_accept abre.
 
-enum State { CLOSED, BAR, DETAIL, OTHERS, OPTIONS, POKEDEX }
+enum State { CLOSED, BAR, DETAIL, OTHERS, OPTIONS, POKEDEX, BAG }
 
 const OPTIONS_MENU_SCENE := "res://Scenes/menus/OptionsMenu.tscn"
 const TITLE_SCENE := "res://Scenes/TitleScreen.tscn"
 const VIEWPORT := Vector2(1280, 720)
 
 const ENTRIES := [
-	{"key": "mapa",      "name": "Mapa"},
-	{"key": "bag",       "name": "Mochila"},
 	{"key": "pokedex",   "name": "Pokédex"},
 	{"key": "equipo",    "name": "Equipo"},
 	{"key": "personaje", "name": "Personaje"},
-	{"key": "otros",     "name": "Otros"},
+	{"key": "mapa",      "name": "Mapa"},
+	{"key": "home",      "name": "Home"},
 ]
 const OTHERS_ITEMS := ["Guardar", "Opciones", "Salir al título"]
 
@@ -202,6 +201,14 @@ func _input(event: InputEvent):
 			if event.is_action_pressed("ui_cancel"):
 				open()
 				get_viewport().set_input_as_handled()
+			elif event.is_action_pressed("abrir_mochila"):
+				open_bag()
+				get_viewport().set_input_as_handled()
+		State.BAG:
+			var bag_click: bool = event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT
+			if event.is_action_pressed("ui_cancel") or event.is_action_pressed("abrir_mochila") or bag_click:
+				close()
+				get_viewport().set_input_as_handled()
 		State.BAR:
 			_input_bar(event)
 		State.DETAIL:
@@ -312,12 +319,27 @@ func _update_bar():
 
 func _select(key: String):
 	match key:
-		"mapa":      _show_detail(_map_text())
-		"bag":       _show_detail(_bag_text())
 		"pokedex":   _open_pokedex()
 		"equipo":    _show_detail(_party_text())
 		"personaje": _show_detail(_trainer_text())
-		"otros":     _open_others()
+		"mapa":      _show_detail(_map_text())
+		"home":      _open_others()
+
+# Mochila: pantalla propia abierta con atajo (tecla I por defecto), fuera del menú del dispositivo.
+func open_bag():
+	if state != State.CLOSED:
+		return
+	if not _can_open():
+		return
+	state = State.BAG
+	_dim.visible = true
+	_bar.visible = false
+	_others_panel.visible = false
+	_detail_label.text = _bag_text() + "\n\n[i](ESC / I para cerrar)[/i]"
+	_detail_panel.visible = true
+	get_tree().paused = true
+	AudioManager.play_sfx("menu_select")
+	_center_panel(_detail_panel)
 
 func _show_detail(text: String):
 	state = State.DETAIL
