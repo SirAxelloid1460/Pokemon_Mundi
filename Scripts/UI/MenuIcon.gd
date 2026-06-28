@@ -45,7 +45,11 @@ func _draw() -> void:
 			draw_arc(c + Vector2(-u * 0.4, -u * 0.1), u * 0.32, 0.0, TAU, 16, col, w)
 			draw_line(c + Vector2(0, -u * 0.3), c + Vector2(u * 0.75, -u * 0.3), col, w)
 			draw_line(c + Vector2(0, u * 0.05), c + Vector2(u * 0.75, u * 0.05), col, w)
-		"otros":
-			draw_rect(Rect2(c.x - u, c.y - u, u * 2.0, u * 1.3), col, false, w)
-			draw_line(c + Vector2(0, u * 0.3), c + Vector2(0, u * 0.7), col, w)
-			draw_line(c + Vector2(-u * 0.5, u * 0.7), c + Vector2(u * 0.5, u * 0.7), col, w)
+		"home":
+			# tejado
+			draw_polyline(PackedVector2Array([
+				c + Vector2(-u, -u * 0.1), c + Vector2(0, -u), c + Vector2(u, -u * 0.1)]), col, w)
+			# cuerpo
+			draw_rect(Rect2(c.x - u * 0.7, c.y - u * 0.1, u * 1.4, u * 1.1), col, false, w)
+			# puerta
+			draw_rect(Rect2(c.x - u * 0.22, c.y + u * 0.35, u * 0.44, u * 0.65), col, false, w)
