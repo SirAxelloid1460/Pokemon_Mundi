@@ -50,7 +50,7 @@ const KEY_TO_AREA := {
 	"kanto": "Kanto", "naranja": "Naranja", "johto": "Johto", "hoenn": "Hoenn",
 	"sinnoh": "Sinnoh", "unova": "Unova", "kalos": "Kalos", "alola": "Alola",
 	"galar": "Galar", "paldea": "Paldea", "almia": "Almia", "oblivia": "Oblivia",
-	"fiore": "Fiore",
+	"fiore": "Fiore", "decolore": "Decolore",
 }
 
 enum View { CATEGORIES, LIST }
@@ -74,12 +74,14 @@ var _cat_counts: Dictionary = {}
 
 # --- Nodos ---
 var _cat_root: Control
-var _cat_cursor: ColorRect
-var _col_rows: Dictionary = {}      # key -> Label (fila de la columna lateral)
 var _map_hi: Dictionary = {}        # key -> ColorRect (zona clicable sobre el mapa)
 var _map_lbl: Dictionary = {}       # key -> Label (nombre sobre el mapa)
 var _area_screen: Dictionary = {}   # key -> Rect2 en coordenadas de pantalla
 var _cat_pulse: float = 0.0
+var _nat_rect: Rect2                 # botón NACIONAL flotante
+var _nat_panel: ColorRect
+var _nat_lbl: Label
+var _cat_stats: Label
 
 var _list_root: Control
 var _rows: Array = []
@@ -165,22 +167,20 @@ func _build_categories():
 
 	var areas := _load_region_areas()
 
-	# Fondo oscuro del área del mapa + mapa mundi con filtro de pantalla digital
-	var mrect := Rect2(64, 104, 928, 560)
+	# Mapa mundi a PANTALLA COMPLETA (toda la interfaz) con filtro de pantalla digital
 	var dark := ColorRect.new()
 	dark.color = Color(0.04, 0.05, 0.08)
-	dark.position = mrect.position
-	dark.size = mrect.size
+	dark.size = VIEWPORT
 	_cat_root.add_child(dark)
 
 	var tex: Texture2D = _load_map_texture()
-	var map_origin := mrect.position
+	var map_origin := Vector2.ZERO
 	var map_scale := 1.0
 	if tex:
 		var ts := tex.get_size()
-		map_scale = minf(mrect.size.x / ts.x, mrect.size.y / ts.y)
+		map_scale = minf(VIEWPORT.x / ts.x, VIEWPORT.y / ts.y)
 		var draw := ts * map_scale
-		map_origin = mrect.position + (mrect.size - draw) * 0.5
+		map_origin = (VIEWPORT - draw) * 0.5
 		var spr := Sprite2D.new()
 		spr.texture = tex
 		spr.centered = false
@@ -189,7 +189,7 @@ func _build_categories():
 		spr.material = _make_screen_material()
 		_cat_root.add_child(spr)
 
-	# Hotspots de las regiones que tengan caja definida (>0) en region_areas.json
+	# Hotspots de cada región (todas tienen caja) sobre el mapa
 	for c in CATEGORIES:
 		var ak: String = KEY_TO_AREA.get(c.key, "")
 		if ak == "" or not areas.has(ak):
@@ -200,42 +200,60 @@ func _build_categories():
 		var sr := Rect2(map_origin + box.position * map_scale, box.size * map_scale)
 		_area_screen[c.key] = sr
 		var hi := ColorRect.new()
-		hi.color = Color(ACCENT.r, ACCENT.g, ACCENT.b, 0.16)
+		hi.color = Color(ACCENT.r, ACCENT.g, ACCENT.b, 0.14)
 		hi.position = sr.position
 		hi.size = sr.size
 		_cat_root.add_child(hi)
 		_map_hi[c.key] = hi
 		var ml := Label.new()
 		ml.text = c.name
-		ml.position = sr.position + Vector2(4, 2)
-		ml.add_theme_font_size_override("font_size", 16)
-		ml.add_theme_color_override("font_color", PAPER)
+		ml.position = sr.position + Vector2(5, 3)
+		ml.add_theme_font_size_override("font_size", 18)
+		ml.add_theme_color_override("font_color", Color(1, 1, 1, 0.92))
+		ml.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.85))
+		ml.add_theme_constant_override("outline_size", 4)
 		_cat_root.add_child(ml)
 		_map_lbl[c.key] = ml
 
-	# Columna lateral: Nacional, Decolore y cualquier región aún sin caja en el mapa
-	_cat_cursor = ColorRect.new()
-	_cat_cursor.color = Color(ACCENT.r, ACCENT.g, ACCENT.b, 0.20)
-	_cat_cursor.size = Vector2(208, 28)
-	_cat_root.add_child(_cat_cursor)
+	# Único botón: NACIONAL, flotando sobre el mapa (esquina inferior izquierda)
+	_nat_rect = Rect2(40, 626, 250, 58)
+	_nat_panel = ColorRect.new()
+	_nat_panel.position = _nat_rect.position
+	_nat_panel.size = _nat_rect.size
+	_cat_root.add_child(_nat_panel)
+	_nat_lbl = Label.new()
+	_nat_lbl.position = _nat_rect.position + Vector2(16, 13)
+	_nat_lbl.add_theme_font_size_override("font_size", 28)
+	_nat_lbl.add_theme_color_override("font_color", Color(1, 1, 1))
+	_cat_root.add_child(_nat_lbl)
 
-	var y := 116.0
-	for c in CATEGORIES:
-		if _area_screen.has(c.key):
-			continue
-		var row := Label.new()
-		row.position = Vector2(1016, y)
-		row.size = Vector2(192, 28)
-		row.add_theme_font_size_override("font_size", 22)
-		_cat_root.add_child(row)
-		_col_rows[c.key] = row
-		y += 30.0
+	# Título y capturados, superpuestos al mapa
+	var titl := Label.new()
+	titl.text = "POKÉDEX"
+	titl.position = Vector2(40, 14)
+	titl.add_theme_font_size_override("font_size", 40)
+	titl.add_theme_color_override("font_color", Color(1, 0.93, 0.86))
+	titl.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.85))
+	titl.add_theme_constant_override("outline_size", 6)
+	_cat_root.add_child(titl)
+
+	_cat_stats = Label.new()
+	_cat_stats.position = Vector2(700, 22)
+	_cat_stats.size = Vector2(540, 30)
+	_cat_stats.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
+	_cat_stats.add_theme_font_size_override("font_size", 24)
+	_cat_stats.add_theme_color_override("font_color", Color(1, 0.96, 0.9))
+	_cat_stats.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.85))
+	_cat_stats.add_theme_constant_override("outline_size", 5)
+	_cat_root.add_child(_cat_stats)
 
 	var hint := Label.new()
-	hint.text = "↑↓ / ratón elegir   Enter / clic abrir   ESC salir"
-	hint.position = Vector2(70, 664)
+	hint.text = "↑↓←→ / ratón elegir    Enter / clic abrir    ESC salir"
+	hint.position = Vector2(330, 690)
 	hint.add_theme_font_size_override("font_size", 18)
-	hint.add_theme_color_override("font_color", DIM_INK)
+	hint.add_theme_color_override("font_color", Color(1, 1, 1, 0.75))
+	hint.add_theme_color_override("font_outline_color", Color(0, 0, 0, 0.8))
+	hint.add_theme_constant_override("outline_size", 3)
 	_cat_root.add_child(hint)
 
 func _load_region_areas() -> Dictionary:
@@ -268,12 +286,10 @@ func _make_screen_material() -> ShaderMaterial:
 	return m
 
 func _cat_at_point(p: Vector2) -> String:
+	if _nat_rect.has_point(p):
+		return "national"
 	for k in _area_screen:
 		if (_area_screen[k] as Rect2).has_point(p):
-			return k
-	for k in _col_rows:
-		var row: Label = _col_rows[k]
-		if Rect2(1008, row.position.y - 1, 208, 28).has_point(p):
 			return k
 	return ""
 
@@ -285,33 +301,23 @@ func _index_of_key(key: String) -> int:
 
 func _show_categories():
 	_view = View.CATEGORIES
-	_title_lbl.text = "POKÉDEX"
-	_stats_lbl.text = "Capturados %d / %d" % [Game.pokedex_caught.size(), PokemonList.get_total_count()]
 	_cat_root.visible = true
 	_list_root.visible = false
 	_refresh_categories()
 
 func _refresh_categories():
 	var sel_key: String = CATEGORIES[_cat_index].key
-	# Filas de la columna lateral
-	for c in CATEGORIES:
-		if not _col_rows.has(c.key):
-			continue
-		var lbl: Label = _col_rows[c.key]
-		var count: int = _cat_counts.get(c.key, 0)
-		var on: bool = c.key == sel_key
-		lbl.text = ("%-10s %d" % [c.name, count]) if count > 0 else ("%-10s —" % c.name)
-		lbl.add_theme_color_override("font_color", ACCENT if on else (INK if count > 0 else DIM_INK))
-	# Cursor de columna (solo si el seleccionado vive en la columna)
-	if _col_rows.has(sel_key):
-		_cat_cursor.visible = true
-		_cat_cursor.position = Vector2(1008, (_col_rows[sel_key] as Label).position.y - 1)
-	else:
-		_cat_cursor.visible = false
-	# Resaltado base de los hotspots no seleccionados (el seleccionado pulsa en _process)
+	# Botón Nacional (resalta si está seleccionado)
+	var nat_on: bool = sel_key == "national"
+	_nat_panel.color = Color(ACCENT.r, ACCENT.g, ACCENT.b, 0.9 if nat_on else 0.5)
+	_nat_lbl.text = "NACIONAL  %d" % int(_cat_counts.get("national", 0))
+	_cat_stats.text = "Capturados %d / %d" % [Game.pokedex_caught.size(), PokemonList.get_total_count()]
+	# Hotspots: el seleccionado resalta su nombre (y pulsa en _process); el resto, alfa base
 	for k in _map_hi:
-		if k != sel_key:
-			(_map_hi[k] as ColorRect).color = Color(ACCENT.r, ACCENT.g, ACCENT.b, 0.16)
+		var on: bool = k == sel_key
+		(_map_lbl[k] as Label).add_theme_color_override("font_color", Color(1, 0.95, 0.4) if on else Color(1, 1, 1, 0.92))
+		if not on:
+			(_map_hi[k] as ColorRect).color = Color(ACCENT.r, ACCENT.g, ACCENT.b, 0.14)
 
 func _input_categories(event: InputEvent):
 	# ↑/↓ se gestionan en _process (auto-repetición al mantener pulsado)
@@ -332,6 +338,10 @@ func _input_categories(event: InputEvent):
 		_close()
 	elif event.is_action_pressed("ui_accept"):
 		_open_category(CATEGORIES[_cat_index])
+	elif event.is_action_pressed("ui_left"):
+		_move_cat(-1)
+	elif event.is_action_pressed("ui_right"):
+		_move_cat(1)
 
 # ============================================
 # VISTA LISTA
