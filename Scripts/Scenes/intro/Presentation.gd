@@ -323,7 +323,7 @@ func finish_world_presentation():
 		"Hay quienes brillan en los concursos, y quienes se entregan a completar la Pokédex.",
 		"Incluso podrías fundar tu propio gimnasio... o tomar el mando de uno ya existente.",
 		"Pero, hagas lo que hagas... jamás se te ocurra unirte a villanos como el Team Rocket.",
-		"Tú nunca harías algo así... ¿a que no te atreverías?",
+		"Tú no harías algo como eso... ¿verdad?",
 		"Serás tú, " + player_data.name + ", quien decida en qué dedicarse.",
 	])
 	await textbox.dialogue_finished
