@@ -99,6 +99,9 @@ var _remap_action: String = ""
 var _remap_device: String = ""  # "keyboard" o "gamepad"
 var _remap_button: Button = null
 
+# Si se abre anidado dentro del dispositivo (PokéNavi) en vez de a pantalla completa.
+var _embedded: bool = false
+
 # Acciones a mapear
 const ACTIONS = [
 	{"name": "ui_up",      "display": "Arriba"},
@@ -136,8 +139,35 @@ func _ready():
 	_setup_controls_tab()
 	_connect_signals()
 
+	# Reconstruir todos los textos del menú al vuelo cuando cambia el idioma.
+	if not LocalizationManager.language_changed.is_connected(_on_language_changed):
+		LocalizationManager.language_changed.connect(_on_language_changed)
+
+	if _embedded:
+		_apply_embedded_style()
+
 	var tween = create_tween()
 	tween.tween_property(self, "modulate:a", 1.0, 0.2)
+
+func _apply_embedded_style():
+	# Estilo para encajar en la pantalla del dispositivo (panel oscuro + acento teal).
+	var sb := StyleBoxFlat.new()
+	sb.bg_color = Color(0.07, 0.12, 0.13, 0.97)
+	sb.set_border_width_all(3)
+	sb.border_color = Color(0.05, 0.42, 0.42)
+	sb.set_corner_radius_all(12)
+	sb.set_content_margin_all(14)
+	$PanelContainer.add_theme_stylebox_override("panel", sb)
+
+func _on_language_changed(_lang_code):
+	# Re-traducir todo el texto del menú generado por código.
+	_setup_texts()
+	_setup_video_tab()
+	_update_text_speed_label()
+	_update_battle_style_label()
+	_update_language_label()
+	_update_theme_label()
+	_setup_controls_tab()
 
 func _setup_texts():
 	apply_button.text  = tr("OPT_APPLY")

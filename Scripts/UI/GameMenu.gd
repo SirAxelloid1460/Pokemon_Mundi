@@ -345,19 +345,27 @@ func _open_options():
 		_show_info("[b]OPCIONES[/b]\n\nMenú de opciones no disponible.")
 		return
 	state = State.OPTIONS
-	_root.visible = false
+	# Las opciones se renderizan DENTRO de la pantalla del dispositivo (dock visible).
+	_clear_content()
 	var opts = load(OPTIONS_MENU_SCENE).instantiate()
 	opts.process_mode = Node.PROCESS_MODE_ALWAYS
-	add_child(opts)
+	opts._embedded = true
 	if opts.has_signal("menu_closed"):
-		opts.menu_closed.connect(func():
-			if is_instance_valid(opts):
-				opts.queue_free()
-			state = State.DEVICE
-			_root.visible = true
-			home_focused = false
-			_refresh_dock()
-		)
+		opts.menu_closed.connect(_on_options_closed.bind(opts))
+	_content.add_child(opts)
+	opts.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	AudioManager.play_sfx("menu_select")
+
+func _on_options_closed(opts):
+	if is_instance_valid(opts):
+		opts.queue_free()
+	state = State.DEVICE
+	# Restaurar Home con el foco en "Opciones" para que reaccione de inmediato.
+	_show_home()
+	home_focused = true
+	home_index = 1
+	_refresh_home()
+	_refresh_dock()
 
 func _exit_to_title():
 	state = State.CLOSED
