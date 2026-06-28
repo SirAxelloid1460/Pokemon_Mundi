@@ -285,8 +285,19 @@ func _move_textbox_for_region(region_name: String) -> void:
 			var bottom_y: float = rrect.position.y + rrect.size.y
 			to_y = 20.0 if bottom_y > 500.0 else 521.0
 	if absf(textbox.position.y - to_y) > 1.0:
+		# Transición vistosa: el cuadro (ya vaciado por hide_textbox) aparece, ENCOGE bastante,
+		# se desplaza pequeño y vuelve a AGRANDARSE en la nueva posición.
+		var sz: Vector2 = textbox.size
+		if sz.x <= 0.0:
+			sz = Vector2(720, 120)
+		textbox.pivot_offset = sz * 0.5     # escalar desde el centro
+		textbox.visible = true
 		var t := create_tween()
-		t.tween_property(textbox, "position:y", to_y, 0.3)
+		t.set_trans(Tween.TRANS_CUBIC)
+		t.set_ease(Tween.EASE_IN_OUT)
+		t.tween_property(textbox, "scale", Vector2(0.12, 0.12), 0.22)   # encoger
+		t.tween_property(textbox, "position:y", to_y, 0.34)             # desplazar pequeño
+		t.tween_property(textbox, "scale", Vector2.ONE, 0.22)           # agrandar
 		await t.finished
 
 func finish_world_presentation():
@@ -319,8 +330,8 @@ func finish_world_presentation():
 		"Otros los cuidan y se conectan como Rangers, en misiones y rescates.",
 		"Hay quienes brillan en los concursos, y quienes se entregan a completar la Pokédex.",
 		"Incluso podrías fundar tu propio gimnasio... o tomar el mando de uno ya existente.",
-		"Y, sobre todo... jamás se te ocurra unirte a villanos como el Team Rocket.",
-		"Tú nunca harías algo así... ¿a que no te atreverías?",
+		"Pero, hagas lo que hagas... jamás se te ocurra unirte a villanos como el Team Rocket.",
+		"Tú no harías algo como eso... ¿verdad?",
 		"Serás tú, " + player_data.name + ", quien decida en qué dedicarse.",
 	])
 	await textbox.dialogue_finished
