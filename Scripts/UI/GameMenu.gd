@@ -87,7 +87,7 @@ func _build_ui():
 		lbl.add_theme_constant_override("outline_size", 4)
 		cell.add_child(lbl)
 		hbox.add_child(cell)
-		_cells.append({"icon": icon, "label": lbl})
+		_cells.append({"cell": cell, "icon": icon, "label": lbl})
 
 	# --- Panel de detalle (centrado) ---
 	_detail_panel = PanelContainer.new()
@@ -205,7 +205,8 @@ func _input(event: InputEvent):
 		State.BAR:
 			_input_bar(event)
 		State.DETAIL:
-			if event.is_action_pressed("ui_cancel") or event.is_action_pressed("ui_accept"):
+			var click := event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT
+			if event.is_action_pressed("ui_cancel") or event.is_action_pressed("ui_accept") or click:
 				_back_to_bar()
 				get_viewport().set_input_as_handled()
 		State.OTHERS:
@@ -216,6 +217,22 @@ func _input(event: InputEvent):
 			pass
 
 func _input_bar(event: InputEvent):
+	# Ratón: hover resalta, clic abre
+	if event is InputEventMouseMotion:
+		var hov := _bar_cell_at(event.position)
+		if hov >= 0 and hov != current_index:
+			current_index = hov
+			AudioManager.play_sfx("menu_move")
+			_update_bar()
+		return
+	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
+		var clk := _bar_cell_at(event.position)
+		if clk >= 0:
+			current_index = clk
+			_update_bar()
+			get_viewport().set_input_as_handled()
+			_select(ENTRIES[current_index].key)
+		return
 	if event.is_action_pressed("ui_right"):
 		current_index = (current_index + 1) % ENTRIES.size()
 		AudioManager.play_sfx("menu_move")
@@ -234,6 +251,22 @@ func _input_bar(event: InputEvent):
 		get_viewport().set_input_as_handled()
 
 func _input_others(event: InputEvent):
+	# Ratón: hover resalta, clic selecciona
+	if event is InputEventMouseMotion:
+		var hov := _others_item_at(event.position)
+		if hov >= 0 and hov != others_index:
+			others_index = hov
+			AudioManager.play_sfx("menu_move")
+			_update_others()
+		return
+	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
+		var clk := _others_item_at(event.position)
+		if clk >= 0:
+			others_index = clk
+			_update_others()
+			get_viewport().set_input_as_handled()
+			_others_select(others_index)
+		return
 	if event.is_action_pressed("ui_down"):
 		others_index = (others_index + 1) % OTHERS_ITEMS.size()
 		AudioManager.play_sfx("menu_move")
@@ -250,6 +283,22 @@ func _input_others(event: InputEvent):
 	elif event.is_action_pressed("ui_cancel"):
 		_back_to_bar()
 		get_viewport().set_input_as_handled()
+
+# Índice de la celda de la barra bajo el punto de pantalla (o -1).
+func _bar_cell_at(p: Vector2) -> int:
+	for i in range(_cells.size()):
+		var c: Control = _cells[i].cell
+		if c and c.get_global_rect().has_point(p):
+			return i
+	return -1
+
+# Índice del ítem de "Otros" bajo el punto (o -1).
+func _others_item_at(p: Vector2) -> int:
+	for i in range(_others_labels.size()):
+		var l: Label = _others_labels[i]
+		if l and l.get_global_rect().has_point(p):
+			return i
+	return -1
 
 # ============================================
 # BARRA
