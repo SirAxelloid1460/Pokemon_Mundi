@@ -205,7 +205,7 @@ func _input(event: InputEvent):
 		State.BAR:
 			_input_bar(event)
 		State.DETAIL:
-			var click := event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT
+			var click: bool = event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT
 			if event.is_action_pressed("ui_cancel") or event.is_action_pressed("ui_accept") or click:
 				_back_to_bar()
 				get_viewport().set_input_as_handled()
