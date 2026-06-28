@@ -12,7 +12,6 @@ const HighlightScript := preload("res://Scripts/Scenes/intro/presentation_module
 var map_sprite: Sprite2D
 var region_overlays: Node2D
 var animation_player: AnimationPlayer
-var region_label: Label
 var _highlight
 
 var regions: Dictionary = {}
@@ -69,14 +68,6 @@ func _build():
 	animation_player = AnimationPlayer.new()
 	add_child(animation_player)
 
-	region_label = Label.new()
-	region_label.add_theme_font_size_override("font_size", 44)
-	region_label.add_theme_color_override("font_color", Color(1.0, 0.92, 0.4))
-	region_label.add_theme_color_override("font_outline_color", Color.BLACK)
-	region_label.add_theme_constant_override("outline_size", 8)
-	region_label.modulate.a = 0.0
-	add_child(region_label)
-
 func _load_first_existing(paths: Array):
 	for p in paths:
 		if ResourceLoader.exists(p):
@@ -95,30 +86,20 @@ func get_region_screen_rect(region_name: String) -> Rect2:
 		return _map_to_screen(_areas[region_name])
 	return Rect2()
 
-func highlight_region(region_name: String, duration: float = 0.5):
+func highlight_region(region_name: String, _duration: float = 0.5):
+	# Sólo parpadea la caja de la región; el nombre va en el diálogo, no sobre el mapa.
 	current_highlighted_region = region_name
 	var srect := get_region_screen_rect(region_name)
-	if region_label:
-		region_label.text = region_name.to_upper()
-		if srect.size.x > 0.0:
-			region_label.position = Vector2(srect.position.x, maxf(8.0, srect.position.y - 54.0))
-		else:
-			region_label.position = Vector2(80.0, 40.0)
-		var tween := create_tween()
-		tween.tween_property(region_label, "modulate:a", 1.0, duration * 0.6)
 	if _highlight:
 		if srect.size.x > 0.0:
 			_highlight.show_rect(srect)
 		else:
 			_highlight.hide_rect()
 
-func clear_all_highlights(duration: float = 0.5):
+func clear_all_highlights(_duration: float = 0.5):
 	current_highlighted_region = ""
 	if _highlight:
 		_highlight.hide_rect()
-	if region_label:
-		var tween := create_tween()
-		tween.tween_property(region_label, "modulate:a", 0.0, duration)
 
 # ============================================
 # COMPATIBILIDAD
