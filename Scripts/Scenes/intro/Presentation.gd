@@ -68,19 +68,19 @@ var player_data = {
 
 var world_dialogue_sequence = [
 	{"text": "Este vasto mundo está dividido en múltiples regiones.", "region": ""},
-	{"text": "La región de KANTO, donde todo comenzó.", "region": "Kanto"},
-	{"text": "El ARCHIPIÉLAGO NARANJA, islas tropicales de mar abierto.", "region": "Naranja"},
-	{"text": "JOHTO, tierra de tradiciones antiguas.", "region": "Johto"},
-	{"text": "HOENN, con sus vastos océanos y volcanes.", "region": "Hoenn"},
-	{"text": "SINNOH, hogar de leyendas ancestrales.", "region": "Sinnoh"},
+	{"text": "Al norte se alza SINNOH, hogar de leyendas ancestrales.", "region": "Sinnoh"},
+	{"text": "GALAR, tierra de grandes batallas.", "region": "Galar"},
+	{"text": "ALMIA, donde los Rangers protegen a los Pokémon.", "region": "Almia"},
 	{"text": "UNOVA, una región moderna y vibrante.", "region": "Unova"},
 	{"text": "KALOS, conocida por su elegancia.", "region": "Kalos"},
-	{"text": "ALOLA, un paraíso tropical.", "region": "Alola"},
-	{"text": "GALAR, tierra de grandes batallas.", "region": "Galar"},
-	{"text": "PALDEA, con sus climas unicos.", "region": "Paldea"},
-	{"text": "Y las tierras de los rangers: ALMIA,", "region": "Almia"},
-	{"text": "OBLIVIA", "region": "Oblivia"},
-	{"text": "Y FIORE.", "region": "Fiore"}
+	{"text": "JOHTO, tierra de tradiciones antiguas.", "region": "Johto"},
+	{"text": "KANTO, donde todo comenzó.", "region": "Kanto"},
+	{"text": "FIORE, otra tierra de Rangers.", "region": "Fiore"},
+	{"text": "PALDEA, con sus climas únicos.", "region": "Paldea"},
+	{"text": "El ARCHIPIÉLAGO NARANJA, islas tropicales de mar abierto.", "region": "Naranja"},
+	{"text": "OBLIVIA, un remoto archipiélago de Rangers.", "region": "Oblivia"},
+	{"text": "HOENN, con sus vastos océanos y volcanes.", "region": "Hoenn"},
+	{"text": "Y al sur, ALOLA, un paraíso tropical.", "region": "Alola"},
 ]
 
 var world_dialogue_index = 0
@@ -255,34 +255,38 @@ func transition_to_world_presentation():
 	tween2.tween_property(current_module, "modulate:a", 1.0, 1.0)
 	await tween2.finished
 	
-	# Iniciar diálogos del mundo
-	world_dialogue_index = 0
-	var dialogue_texts = []
-	for dialogue in world_dialogue_sequence:
-		dialogue_texts.append(dialogue["text"])
-	textbox.show_dialogue(dialogue_texts)
+	# Narrar las regiones de arriba abajo (el textbox se mueve antes de cada mención)
+	textbox.visible = true
+	await _narrate_world()
 
 func _on_text_displayed():
-	#Resalta la región correspondiente a cada línea del diálogo del mapa.
-	if current_state != PresentationState.WORLD_PRESENTATION:
-		return
-	if world_dialogue_index < world_dialogue_sequence.size():
-		var current_dialogue = world_dialogue_sequence[world_dialogue_index]
-		if current_dialogue["region"] != "":
-			current_module.highlight_region(current_dialogue["region"])
-			_reposition_textbox_for_region(current_dialogue["region"])
-		world_dialogue_index += 1
+	# El resaltado se gestiona en _narrate_world (no aquí).
+	pass
 
-func _reposition_textbox_for_region(region_name: String):
-	#Mueve el textbox arriba o abajo para no tapar la región resaltada.
-	var rrect = current_module.get_region_screen_rect(region_name)
+# Narra cada región: mueve el textbox ANTES, luego resalta y menciona. Orden de arriba abajo
+# (definido en world_dialogue_sequence) para que el textbox no salte cada dos por tres.
+func _narrate_world() -> void:
+	for entry in world_dialogue_sequence:
+		var region: String = entry["region"]
+		await _move_textbox_for_region(region)        # 1) mover preventivamente
+		if region != "":
+			current_module.highlight_region(region)   # 2) resaltar
+		textbox.show_single_text(entry["text"])       # 3) mencionar
+		await textbox.dialogue_finished
+	await finish_world_presentation()
+
+# Coloca el textbox arriba o abajo para no tapar la región y espera a que termine de moverse.
+func _move_textbox_for_region(region_name: String) -> void:
 	var to_y := 521.0
-	if rrect.size.x > 0.0:
-		var center_y: float = rrect.position.y + rrect.size.y * 0.5
-		to_y = 20.0 if center_y >= 360.0 else 521.0
+	if region_name != "":
+		var rrect: Rect2 = current_module.get_region_screen_rect(region_name)
+		if rrect.size.x > 0.0:
+			var center_y: float = rrect.position.y + rrect.size.y * 0.5
+			to_y = 20.0 if center_y >= 360.0 else 521.0
 	if absf(textbox.position.y - to_y) > 1.0:
-		var t = create_tween()
+		var t := create_tween()
 		t.tween_property(textbox, "position:y", to_y, 0.3)
+		await t.finished
 
 func finish_world_presentation():
 	current_state = PresentationState.WORLD_OUTRO
@@ -425,13 +429,11 @@ func finish_presentation():
 # ============================================
 
 func _on_dialogue_finished():
+	# WORLD_PRESENTATION se gestiona en _narrate_world (espera cada línea por su cuenta).
 	match current_state:
 		PresentationState.GREETING:
 			show_player_creation()
- 
-		PresentationState.WORLD_PRESENTATION:
-			await finish_world_presentation()
- 
+
 		PresentationState.FAREWELL:
 			finish_presentation()
  
