@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1gx3vmjkx02c"
-path="res://.godot/imported/1.png-fe67100955cf7d60d8a80538069ace14.ctex"
+path="res://.godot/imported/1.png-3aca47ffa32996b82104c9e437826aa4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/MainCharacter/atlas/idle/sideways/Brazos y manos/1.png"
-dest_files=["res://.godot/imported/1.png-fe67100955cf7d60d8a80538069ace14.ctex"]
+source_file="res://Assets/Sprites/MainCharacter/atlas/idle/sideways/arms/1.png"
+dest_files=["res://.godot/imported/1.png-3aca47ffa32996b82104c9e437826aa4.ctex"]
 
 [params]
 

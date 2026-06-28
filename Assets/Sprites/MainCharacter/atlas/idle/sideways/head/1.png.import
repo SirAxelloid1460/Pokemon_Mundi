@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://h7734tu1ou4e"
-path="res://.godot/imported/1.png-6eeb0f2fcb5fe1af7b65ddba011967ed.ctex"
+path="res://.godot/imported/1.png-14eae172a4815d6ee59259872ae84e8f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/MainCharacter/atlas/idle/sideways/Cabeza/1.png"
-dest_files=["res://.godot/imported/1.png-6eeb0f2fcb5fe1af7b65ddba011967ed.ctex"]
+source_file="res://Assets/Sprites/MainCharacter/atlas/idle/sideways/head/1.png"
+dest_files=["res://.godot/imported/1.png-14eae172a4815d6ee59259872ae84e8f.ctex"]
 
 [params]
 
